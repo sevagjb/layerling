@@ -31,6 +31,9 @@ export const GUIDE_LANGUAGES = Object.fromEntries(
   }),
 );
 
+/** Languages written right to left; their guide pages get dir="rtl". */
+const RTL_LANGUAGES = new Set(["ar", "fa", "he", "ur"]);
+
 /** KEY=VALUE lines of an env file; comments and empty lines are skipped. */
 export function parseEnv(text) {
   const values = {};
@@ -182,8 +185,13 @@ export function renderInline(text, context) {
     return new Intl.NumberFormat(GUIDE_LANGUAGES[context.language].htmlLang, { maximumFractionDigits: 6, useGrouping: false }).format(value);
   });
   // "+" joins keys, so [[Ctrl+K]] is two; on its own, [[+]] is the plus key.
-  work = work.replace(/\[\[([^\]]+)\]\]/g, (_, keys) =>
-    keys.trim() === "+" ? "<kbd>+</kbd>" : keys.split("+").map((key) => `<kbd>${key.trim()}</kbd>`).join("+"));
+  // A combination such as [[Ctrl]]+[[S]] keeps its left-to-right order on a right-to-left page too.
+  const kbd = (keys) => keys.trim() === "+" ? "<kbd>+</kbd>" : keys.split("+").map((key) => `<kbd>${key.trim()}</kbd>`).join("+");
+  work = work.replace(/\[\[([^\]]+)\]\](?:\+\[\[([^\]]+)\]\])*/g, (combo) => {
+    const parts = [...combo.matchAll(/\[\[([^\]]+)\]\]/g)].map((match) => kbd(match[1]));
+    const html = parts.join("+");
+    return parts.length > 1 || /<\/kbd>\+<kbd>/.test(html) ? `<span dir="ltr">${html}</span>` : html;
+  });
   work = work.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, label, target) => {
     const chapter = /^chapter:([\w-]+)$/.exec(target);
     if (chapter) {
@@ -322,7 +330,7 @@ export async function readShortcutGroups() {
 export function renderShortcuts(groups, messages, language) {
   const names = LANGUAGE_INFO[language]?.keyNames ?? {};
   const key = (name) => `<kbd>${escapeHtml(names[name] ?? name)}</kbd>`;
-  const combo = (text) => (text === "+" || text === "−" ? key(text) : text.split("+").map((part) => key(part.trim())).join("+"));
+  const combo = (text) => (text === "+" || text === "−" ? key(text) : text.includes("+") ? `<span dir="ltr">${text.split("+").map((part) => key(part.trim())).join("+")}</span>` : key(text.trim()));
   const or = messages["shortcuts.or"] ?? "or";
   return groups
     .map((group) => {
@@ -410,7 +418,7 @@ li { margin-bottom: 4px; }
 strong.ui { font-weight: 700; white-space: nowrap; }
 kbd { padding: 1px 6px; border: 1px solid var(--edge); border-bottom-width: 2px; border-radius: 5px; background: var(--card); font: 600 0.86em/1.5 ui-monospace, Consolas, monospace; }
 code { padding: 1px 5px; border-radius: 5px; background: var(--code); font: 0.9em ui-monospace, Consolas, monospace; }
-pre { overflow-x: auto; padding: 14px 16px; border-radius: 8px; background: var(--code); }
+pre { overflow-x: auto; padding: 14px 16px; border-radius: 8px; background: var(--code); direction: ltr; text-align: left; }
 pre code { padding: 0; background: none; }
 figure { margin: 22px 0; }
 figure img { display: block; width: 100%; height: auto; border: 1px solid var(--edge); border-radius: 8px; background: var(--card); }
@@ -421,18 +429,18 @@ aside.tip > :last-child { margin-bottom: 0; }
 table { border-collapse: collapse; font-size: 15px; min-width: 100%; }
 table.keys { table-layout: fixed; }
 table.keys td:first-child { width: 42%; }
-th, td { padding: 7px 12px; border-bottom: 1px solid var(--edge); text-align: left; vertical-align: top; }
+th, td { padding: 7px 12px; border-bottom: 1px solid var(--edge); text-align: start; vertical-align: top; }
 th { color: var(--muted); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
 /* Where a link from the program lands, the section is outlined from its heading to its end. */
 .guide-part:has(> :is(h2, h3):target) { outline: 3px solid var(--accent); outline-offset: 10px; border-radius: 6px; }
 :is(h2, h3):target { scroll-margin-top: 24px; }
 .toc { margin: 0 0 24px; padding: 12px 16px; border: 1px solid var(--edge); border-radius: 8px; background: var(--card); font-size: 14.5px; }
 .toc b { display: block; margin-bottom: 4px; color: var(--muted); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
-.toc ul { margin: 0; padding-left: 18px; }
+.toc ul { margin: 0; padding-inline-start: 18px; }
 .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--edge); }
 .pager a { display: block; max-width: 48%; padding: 10px 14px; border: 1px solid var(--edge); border-radius: 8px; background: var(--card); text-decoration: none; color: var(--ink); }
 .pager a small { display: block; color: var(--muted); font-size: 12px; }
-.pager a.next { margin-left: auto; text-align: right; }
+.pager a.next { margin-inline-start: auto; text-align: end; }
 .cards { list-style: none; margin: 24px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
 .cards a { display: block; height: 100%; padding: 14px 16px; border: 1px solid var(--edge); border-radius: 8px; background: var(--card); text-decoration: none; color: var(--ink); }
 .cards a:hover { border-color: var(--accent); }
@@ -464,7 +472,7 @@ footer.note { max-width: 1100px; margin: 0 auto; padding: 0 16px 12px; color: va
 .print-actions button { padding: 8px 16px; border: 0; border-radius: 8px; background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 700; cursor: pointer; }
 .print-chapter { margin-top: 56px; padding-top: 8px; border-top: 1px solid var(--edge); }
 .print-chapter > h2 { margin-top: 20px; font-size: 28px; }
-.print-contents { margin: 0 0 24px; padding-left: 22px; columns: 2; column-gap: 32px; }
+.print-contents { margin: 0 0 24px; padding-inline-start: 22px; columns: 2; column-gap: 32px; }
 .print-contents li { break-inside: avoid; }
 @media (max-width: 560px) { .print-contents { columns: 1; } }
 @media print {
@@ -634,7 +642,7 @@ function pageShell({ language, title, description, path, alternates, chapters, c
     .map(([code, href]) => `<link rel="alternate" hreflang="${code}" href="${SITE}${href}">`)
     .join("\n    ");
   return `<!doctype html>
-<html lang="${strings.htmlLang}">
+<html lang="${strings.htmlLang}"${RTL_LANGUAGES.has(strings.htmlLang.split("-")[0]) ? ' dir="rtl"' : ""}>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
