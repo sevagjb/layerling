@@ -25,6 +25,12 @@ Upstream: https://github.com/henmedia/layerling (maintainer Stefan). Fork: https
 - Modern Standard Arabic, Western digits, "مم" for millimetre. Error messages that the program shows in English stay in English, quoted.
 - Known open fix: the interface has «شطب مستدير» for Chamfillet (edge.chamfillet and related keys); it must be «شطف مستدير» / «شطف وتدوير». Fix it in the first batch.
 
+## Arabic written by others (check every evening)
+Stefan and other contributors sometimes add Arabic themselves (first drafts, often machine-made), e.g. a new field in messages.ar.ts or a paragraph in docs/guide/ar. These do not show up as "missing".
+- Look at `git log <guide_synced_at>..origin/main` for commits that touch `apps/web/src/lib/messages.ar.ts`, `docs/guide/ar/` or `ar` fields in whatsNew.json, whose author is not Sevag Barsoumian.
+- Review those Arabic texts against the glossary and the interface names; fix them in the batch, and list each one in the Word file with the old text, the new text and why (e.g. "شطب → شطف").
+- If they are fine, list them as "checked, no change".
+
 ## Guide pictures (check every evening)
 The guide uses one picture per `(shot:name)`. Arabic pictures live in `docs/guide/images/ar/<name>.webp`; English ones in `docs/guide/images/en/`. Without an Arabic picture the English one is shown.
 Check:
