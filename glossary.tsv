@@ -1,0 +1,90 @@
+English	العربية	Not this	Note
+workplane	سطح العمل	مستوى العمل	"مستوى" is kept for a geometric plane (cut plane, section plane, split plane), so the two never clash. Sevag's own correction in batch 1.
+plane (cut/section/split)	مستوى	سطح
+plate (base plate in the editor)	اللوحة	المنصة
+print bed / build plate	سرير الطباعة	لوحة البناء
+shape	شكل / أشكال
+object / body	جسم / أجسام	كائن، أوبجكت	One word for both. "Object list" = قائمة الأجسام.
+part (printed piece)	قطعة
+part (of a group)	جزء / أجزاء
+solid	جسم صلب (button: صلب)
+hole	ثقب	ثقب/قطع
+group (noun) / Group (action)	مجموعة / تجميع
+ungroup	فك التجميع
+bundle	حزمة (action: حزم)
+intersection	تقاطع
+face	وجه / أوجه
+edge	حافة / حواف
+corner	زاوية
+chamfer	شطف (يشطف، مشطوف)	شطب	شطب means "cross out / delete".
+fillet	تنعيم (ينعّم، منعّم)		Sevag's term, kept. "Smooth curve" stays منحنى سلس so they don't clash.
+hollow (tool)	تفريغ (مفرّغ)
+cavity	تجويف / تجاويف	تجافيف
+bore / through hole	ثقب نافذ
+slot	شق
+pocket	جيب
+thread	سن لولبي / أسنان لولبية (short: سن)	قلاووظ	قلاووظ is Egyptian workshop slang; the UI already uses سن.
+threaded rod	قضيب ملولب	قضيب مسنن
+tapped hole	ثقب ملولب	ثقب مقلاووظ، ثقب مسنن
+screw / bolt	برغي
+nut	صامولة	صاج
+pitch (thread)	الخطوة
+clearance	الخلوص
+play (axial play, backlash)	اللعب / الخلوص
+thread profile	شكل السن	ملمح
+gear	ترس / تروس
+rack (gear)	جريدة مسننة	تراك مسنن، جرّادة
+module (gear)	الموديول
+spring	نابض	زنبرك
+dovetail	ذيل الحمامة	ذيل السنونو، ذيل الحمام
+teardrop hole	ثقب دمعي	ثقب قطرة الدم	Teardrop = دمعة, not blood.
+counterbore	ثقب متدرج	خزق، تخويش اسطواني
+countersink	ثقب غاطس	تخويش مخروطي
+knurl	تخريش	تسنن، تخويش
+hinge	مفصلة
+loft	انتقال (Loft)	تجسير
+sketch	رسم تخطيطي	مخطط
+outline / contour	حد خارجي	مخطط، خطوط عريضة
+profile (sketch cross-section)	مقطع
+extrude	بثق
+revolve	دوران (جسم دوراني)	تدوير	تدوير is kept for rotate.
+rotate	تدوير
+sweep	سحب على مسار	اكتساح، سويپ
+stroke (sketch / text line)	خط بعرض
+construction line	خط إنشاء
+snap / snapping	التقاط (يلتقط)	انجذاب	As in Arabic AutoCAD.
+snap to grid	التقاط إلى الشبكة
+grid	شبكة
+pivot	محور الدوران
+origin	نقطة الأصل	المبدأ
+align	محاذاة
+mirror	انعكاس
+pattern / array	نمط
+scale	تكبير/تصغير
+taper	استدقاق
+twist	التواء
+view cube	مكعب العرض	مكعب الرؤية
+ribbon	الشريط
+toolbar	شريط الأدوات
+settings	الإعدادات
+properties	الخصائص
+section view	عرض المقطع	عرض القطاع، عرض القطع العرضي
+tape measure	شريط القياس
+ruler	مسطرة
+framing square	زاوية النجار	زاوية القائم، زاوية التأطير، مربع تأطير	The carpenter's L-square.
+note	ملاحظة
+reference point	نقطة مرجعية	نقطة مرجع
+mesh	شبكة مثلثات / شبكة
+overhang	بروز / بروزات
+support (printing)	دعامات
+infill	حشوة
+filament	خيط الطباعة
+nozzle	فوهة
+slicer	برنامج التقطيع
+export / import	تصدير / استيراد
+design (the user's project)	تصميم / تصاميم
+custom shapes	الأشكال المخصصة
+undo / redo	تراجع / إعادة
+history	السجل
+millimetre	مم	ملم
+cylinder	أسطوانة	اسطوانة	With hamza.
