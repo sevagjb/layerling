@@ -25,6 +25,15 @@ Upstream: https://github.com/henmedia/layerling (maintainer Stefan). Fork: https
 - Modern Standard Arabic, Western digits, "مم" for millimetre. Error messages that the program shows in English stay in English, quoted.
 - Known open fix: the interface has «شطب مستدير» for Chamfillet (edge.chamfillet and related keys); it must be «شطف مستدير» / «شطف وتدوير». Fix it in the first batch.
 
+## Guide pictures (check every evening)
+The guide uses one picture per `(shot:name)`. Arabic pictures live in `docs/guide/images/ar/<name>.webp`; English ones in `docs/guide/images/en/`. Without an Arabic picture the English one is shown.
+Check:
+- English pictures with no Arabic version (`ls docs/guide/images/en` vs `ar`).
+- English pictures changed after the Arabic one (`git log -1 --format=%ct -- <file>` for en vs ar). That means the interface in that picture changed.
+- New `(shot:...)` in the English guide.
+If any: try to make the Arabic picture with the adapted screenshot tool in `pictures/` on this branch (copy `shots-ar.mjs` and `scenes-ar.mjs` into the repo's `scripts/` as `_shots-ar.mjs` and `_scenes-ar.mjs`, temporary, never commit them; start the dev server; run with `EDGE_PATH=/opt/pw-browsers/chromium` (or wherever Chromium is), `--lang ar`, `--only <name>`). New scenes come from upstream `scripts/guide-scenes.mjs`: copy the scene into scenes-ar.mjs with Arabic object names, and update scenes-ar.mjs on this branch. Only the `.webp` files under `docs/guide/images/ar/` go into the batch branch. Look at every picture you made (Read the image) before adding it.
+If a picture cannot be made, do not block the batch: list the picture names in the message to Sevag as "still English".
+
 ## Checks before finishing
 - `npm run i18n:status -- ar`, `npx vitest run --config tests/vitest.config.ts tests/unit/whatsNew.test.ts tests/unit/updatePreview.test.ts`, `npm run guide`, `python3 validate_guide.py <repo>`.
 
