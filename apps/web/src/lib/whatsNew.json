@@ -5,93 +5,109 @@
       {
         "title": {
           "de": "Eckenradius der abgerundeten Box auf 0,01 mm genau",
-          "en": "Rounded box corner radius to 0.01 mm"
+          "en": "Rounded box corner radius to 0.01 mm",
+          "ar": "نصف قطر زوايا الصندوق المدوّر حتى 0.01 مم"
         },
         "body": {
           "de": "Bei der abgerundeten Box rundete das Feld Eckenradius auf Zehntel: aus 0,25 mm wurde 0,3 mm. Jetzt bleiben zwei Nachkommastellen erhalten, auch beim Radius oben und unten.",
-          "en": "The corner radius field of the rounded box rounded to tenths, so 0.25 mm came back as 0.3 mm. Now two decimals are kept, for the radius at the top and bottom too."
+          "en": "The corner radius field of the rounded box rounded to tenths, so 0.25 mm came back as 0.3 mm. Now two decimals are kept, for the radius at the top and bottom too.",
+          "ar": "كان حقل نصف قطر الزوايا في الصندوق المدوّر يقرّب إلى الأعشار، فيعود 0.25 مم على شكل 0.3 مم. أما الآن فيُحتفظ بخانتين عشريتين، وكذلك لنصف القطر في الأعلى والأسفل."
         }
       },
       {
         "title": {
           "de": "Lücke in der Skizze schließen",
-          "en": "Close a gap in a sketch"
+          "en": "Close a gap in a sketch",
+          "ar": "سدّ فجوة في الرسم التخطيطي"
         },
         "body": {
           "de": "Hast du in der Skizze eine Seite einer Form gelöscht, ziehst du jetzt einfach das eine offene Ende auf das andere: Es rastet ein, beide werden zu einem Punkt, und der Umriss ist wieder geschlossen. Eine neue Linie dazwischen ist nicht mehr nötig.",
-          "en": "If you erased a side of a shape in the sketch, just drag one open end onto the other: it snaps there, the two become one point, and the outline is closed again. No need to draw a new line in between."
+          "en": "If you erased a side of a shape in the sketch, just drag one open end onto the other: it snaps there, the two become one point, and the outline is closed again. No need to draw a new line in between.",
+          "ar": "إذا مسحت جانبًا من شكل في الرسم التخطيطي، فاسحب أحد الطرفين المفتوحين إلى الطرف الآخر فقط: فيلتقط هناك، ويصبح الطرفان نقطة واحدة، ويُغلق الحد الخارجي من جديد. ولا حاجة إلى رسم خط جديد بينهما."
         }
       },
       {
         "title": {
           "de": "Schilder auf Seitenflächen",
           "en": "Tags on side faces",
-          "hu": "Címkék oldallapokon"
+          "hu": "Címkék oldallapokon",
+          "ar": "البطاقات على الأوجه الجانبية"
         },
         "body": {
           "de": "Ein Namens- oder Symbolschild auf einer stehenden oder schrägen Fläche baut seine Schichten jetzt aus der Fläche heraus auf. Bisher lag die Grundplatte vorn und die Buchstaben verschoben dahinter.",
           "en": "A name tag or icon tag on a standing or sloped face now builds its layers out of the face. Before, the base plate came out in front with the letters shifted behind it.",
-          "hu": "Egy álló vagy ferde lapon lévő név- vagy ikoncímke most a lapból kifelé építi fel a rétegeit. Korábban az alaplap került előre, a betűk pedig eltolva mögé."
+          "hu": "Egy álló vagy ferde lapon lévő név- vagy ikoncímke most a lapból kifelé építi fel a rétegeit. Korábban az alaplap került előre, a betűk pedig eltolva mögé.",
+          "ar": "بطاقة الاسم أو بطاقة الأيقونة على وجه قائم أو مائل تبني الآن طبقاتها إلى الخارج من الوجه. وسابقًا كانت اللوحة الأساسية تخرج في الأمام والحروف مزاحة خلفها."
         }
       },
       {
         "title": {
           "de": "layerling spricht Spanisch",
           "en": "layerling speaks Spanish",
-          "hu": "A layerling spanyolul is beszél"
+          "hu": "A layerling spanyolul is beszél",
+          "ar": "أصبح layerling يتحدث الإسبانية"
         },
         "body": {
           "de": "Die Oberfläche und die Anleitung gibt es jetzt auf Spanisch (Spanien). Du wählst sie im Sprachmenü; ein spanischer Browser bekommt sie von selbst. Was noch nicht übersetzt ist, erscheint auf Englisch.",
           "en": "The interface and the guide are now in Spanish (Spain). Choose it in the language menu; a Spanish browser gets it by itself. Whatever is not translated yet shows in English.",
-          "hu": "A felület és az útmutató mostantól spanyolul (Spanyolország) is elérhető. A nyelvmenüben választható, egy spanyol böngésző magától megkapja. Ami még nincs lefordítva, angolul jelenik meg."
+          "hu": "A felület és az útmutató mostantól spanyolul (Spanyolország) is elérhető. A nyelvmenüben választható, egy spanyol böngésző magától megkapja. Ami még nincs lefordítva, angolul jelenik meg.",
+          "ar": "الواجهة والدليل متوفران الآن بالإسبانية (إسبانيا). اخترها من قائمة اللغات؛ والمتصفح الإسباني يختارها تلقائيًا. وما لم يُترجم بعد يظهر بالإنجليزية."
         }
       },
       {
         "title": {
           "de": "Dünne importierte Teile haben die richtige Größe",
           "en": "Thin imported parts have the right size",
-          "hu": "A vékony importált alkatrészek mérete helyes"
+          "hu": "A vékony importált alkatrészek mérete helyes",
+          "ar": "القطع المستوردة الرقيقة بحجمها الصحيح"
         },
         "body": {
           "de": "Ein importiertes Teil, das dünner als 1 mm ist, zeigte 1 mm an und wurde bei einer eingegebenen Höhe zu klein. Jetzt stimmen die Maße, auch bei schon gespeicherten Formen.",
           "en": "An imported part thinner than 1 mm showed 1 mm and came out too small when you typed a height. The sizes are right now, saved shapes included.",
-          "hu": "Az 1 mm-nél vékonyabb importált alkatrész 1 mm-t mutatott, és beírt magasságnál túl kicsi lett. Most a méretek helyesek, a már elmentett formáké is."
+          "hu": "Az 1 mm-nél vékonyabb importált alkatrész 1 mm-t mutatott, és beírt magasságnál túl kicsi lett. Most a méretek helyesek, a már elmentett formáké is.",
+          "ar": "القطعة المستوردة التي يقل سمكها عن 1 مم كانت تظهر بسمك 1 مم، وتخرج أصغر مما يجب عند كتابة ارتفاع. أما الآن فالمقاسات صحيحة، ومن ذلك الأشكال المحفوظة."
         }
       },
       {
         "title": {
           "de": "Scharnier aufklappen",
           "en": "Fold the hinge open or shut",
-          "hu": "A csuklópánt nyitása és csukása"
+          "hu": "A csuklópánt nyitása és csukása",
+          "ar": "فتح المفصلة أو إغلاقها"
         },
         "body": {
           "de": "Beim Scharnier gibt es einen neuen Regler, den Öffnungswinkel. Er klappt das zweite Blatt um den Stift hoch, von flach (0°) bis zugeklappt (180°), damit sich das Scharnier so setzen lässt, wie es im Entwurf steht.",
           "en": "The hinge has a new slider, the opening angle. It folds the second leaf up about the pin, from flat (0°) to closed (180°), so you can set the hinge as it stands in your design.",
-          "hu": "A csuklópántnak új csúszkája van, a nyitási szög. A második szárnyat a csap körül felhajtja, laposról (0°) zárt állásig (180°), így a csuklópánt úgy állítható be, ahogy a tervben áll."
+          "hu": "A csuklópántnak új csúszkája van, a nyitási szög. A második szárnyat a csap körül felhajtja, laposról (0°) zárt állásig (180°), így a csuklópánt úgy állítható be, ahogy a tervben áll.",
+          "ar": "للمفصلة شريط تمرير جديد، «زاوية الفتح». وهو يطوي الجناح الثاني إلى الأعلى حول الدبوس، من مسطح (0°) إلى مغلق (180°)، فتضبط المفصلة كما تقف في تصميمك."
         }
       },
       {
         "title": {
           "de": "Einfacher Modus für Kinder",
           "en": "A simple mode for children",
-          "hu": "Egyszerű mód gyerekeknek"
+          "hu": "Egyszerű mód gyerekeknek",
+          "ar": "وضع مبسّط للأطفال"
         },
         "body": {
           "de": "In den Einstellungen schaltest Du einen einfachen Modus ein: weniger Werkzeuge, eine kurze Formenliste, größere Knöpfe und eine Startseite ohne Verweise nach außen. Ausschalten geht nur mit zwei Sekunden Halten. Ein Link mit ?mode=simple schaltet ihn auf dem Gerät ein, ein Server kann ihn vorgeben.",
           "en": "Switch on a simple mode in the settings: fewer tools, a short list of shapes, larger buttons and a start page without links out of layerling. Leaving it takes a two-second press. A link with ?mode=simple switches it on for that device, and a server can set it.",
-          "hu": "A beállításokban bekapcsolhat egy egyszerű módot: kevesebb eszköz, rövid alakzatlista, nagyobb gombok és kifelé mutató hivatkozások nélküli kezdőoldal. Kikapcsolni csak kétmásodperces nyomva tartással lehet. A ?mode=simple hivatkozás bekapcsolja az eszközön, a szerver pedig előírhatja."
+          "hu": "A beállításokban bekapcsolhat egy egyszerű módot: kevesebb eszköz, rövid alakzatlista, nagyobb gombok és kifelé mutató hivatkozások nélküli kezdőoldal. Kikapcsolni csak kétmásodperces nyomva tartással lehet. A ?mode=simple hivatkozás bekapcsolja az eszközön, a szerver pedig előírhatja.",
+          "ar": "فعّل «الوضع المبسّط» في الإعدادات: أدوات أقل، وقائمة قصيرة من الأشكال، وأزرار أكبر، وصفحة بداية دون روابط إلى خارج layerling. والخروج منه يحتاج إلى ضغطة مطولة لثانيتين. والرابط الذي فيه ?mode=simple يفعّله على ذلك الجهاز، ويمكن للخادم أن يضبطه أيضًا."
         }
       },
       {
         "title": {
           "de": "SVG aus CorelDRAW lässt sich importieren",
           "en": "SVG files from CorelDRAW import",
-          "hu": "A CorelDRAW-ból származó SVG-fájlok importálhatók"
+          "hu": "A CorelDRAW-ból származó SVG-fájlok importálhatók",
+          "ar": "ملفات SVG من CorelDRAW تُستورد"
         },
         "body": {
           "de": "Manche Programme, etwa CorelDRAW, speichern SVG-Dateien als UTF-16. Solche Dateien meldeten bisher \"SVG is not valid XML\". Jetzt werden sie gelesen.",
           "en": "Some programs, CorelDRAW for one, save SVG files as UTF-16. Such files used to fail with \"SVG is not valid XML\". Now they are read.",
-          "hu": "Egyes programok, például a CorelDRAW, UTF-16 kódolással mentik az SVG-fájlokat. Az ilyen fájlok eddig az „SVG is not valid XML” hibát adták. Most beolvashatók."
+          "hu": "Egyes programok, például a CorelDRAW, UTF-16 kódolással mentik az SVG-fájlokat. Az ilyen fájlok eddig az „SVG is not valid XML” hibát adták. Most beolvashatók.",
+          "ar": "بعض البرامج، ومنها CorelDRAW، تحفظ ملفات SVG بترميز UTF-16. وكانت هذه الملفات تفشل برسالة «SVG is not valid XML». أما الآن فتُقرأ."
         }
       }
     ]
@@ -103,132 +119,154 @@
         "title": {
           "de": "Innen hohl mit einem Klick",
           "en": "Hollow inside in one click",
-          "hu": "Belül üreges egy kattintással"
+          "hu": "Belül üreges egy kattintással",
+          "ar": "التفريغ من الداخل بنقرة واحدة"
         },
         "body": {
           "de": "Beim Aushöhlen steht unter den Seiten jetzt „Geschlossen (Hohlraum innen)“: ein Klick schließt alle Seiten, und der Hohlraum bleibt rundum zu.",
           "en": "When hollowing, \"Closed (cavity inside)\" now sits below the sides: one click closes every side, and the cavity stays sealed all round.",
-          "hu": "Üregesítéskor az oldalak alatt most ott a „Zárt (belső üreg)”: egy kattintás minden oldalt bezár, és az üreg körben zárva marad."
+          "hu": "Üregesítéskor az oldalak alatt most ott a „Zárt (belső üreg)”: egy kattintás minden oldalt bezár, és az üreg körben zárva marad.",
+          "ar": "عند التفريغ يوجد الآن «مغلق (تجويف داخلي)» تحت الجوانب: نقرة واحدة تغلق كل الجوانب، ويبقى التجويف محكم الإغلاق من كل الجهات."
         }
       },
       {
         "title": {
           "de": "Dünne Böden bleiben beim Schneiden stehen",
           "en": "Thin floors stay when you cut",
-          "hu": "A vékony alj megmarad vágáskor"
+          "hu": "A vékony alj megmarad vágáskor",
+          "ar": "الأرضيات الرقيقة تبقى عند القطع"
         },
         "body": {
           "de": "Liegt ein Loch knapp über dem Boden eines Körpers, bleibt genau so viel Boden stehen, wie darunter Platz ist. Bisher verschwand ein Boden bis 0,05 mm ganz, und ein dickerer wurde 0,05 mm zu dünn.",
           "en": "A hole a little above the bottom of a body now leaves just as much floor as there is below it. Before, a floor up to 0.05 mm vanished completely, and a thicker one came out 0.05 mm too thin.",
-          "hu": "Ha egy lyuk kicsivel egy test alja fölött van, most pontosan annyi alj marad meg, amennyi alatta van. Korábban a legfeljebb 0,05 mm-es alj teljesen eltűnt, a vastagabb pedig 0,05 mm-rel vékonyabb lett."
+          "hu": "Ha egy lyuk kicsivel egy test alja fölött van, most pontosan annyi alj marad meg, amennyi alatta van. Korábban a legfeljebb 0,05 mm-es alj teljesen eltűnt, a vastagabb pedig 0,05 mm-rel vékonyabb lett.",
+          "ar": "الثقب الواقع أعلى قاع الجسم بقليل يترك الآن من الأرضية بقدر ما يوجد تحته تمامًا. وسابقًا كانت الأرضية التي يصل سمكها إلى 0.05 مم تختفي كليًا، والأسمك منها تخرج أرق بـ0.05 مم."
         }
       },
       {
         "title": {
           "de": "Das Schlüsselring-Loch, wo du willst",
           "en": "The key ring hole wherever you want",
-          "hu": "Kulcstartólyuk oda, ahová szeretnéd"
+          "hu": "Kulcstartólyuk oda, ahová szeretnéd",
+          "ar": "ثقب حلقة المفاتيح حيث تريد"
         },
         "body": {
           "de": "Beim Namensschild und beim Symbolschild gibt es neben Links, Rechts und Oben jetzt Frei: Daneben liegt eine eigene Lasche mit dem Loch, die du wie jede Form verschiebst und drehst. „Am Schild befestigen“ macht sie genau dort zum Teil des Schilds, das Loch geht durch jede Schicht. Frei holt sie wieder heraus.",
           "en": "On the name tag and the icon tag there is now Free beside Left, Right and Top: a tab of its own with the hole lies beside the tag, to move and turn like any shape. \"Fix to the tag\" makes it part of the tag just where it is, the hole through every layer. Free brings it out again.",
-          "hu": "A névcímkén és az ikoncímkén a Bal, Jobb és Felül mellett most már Szabad is van: a címke mellé kerül egy külön fül a lyukkal, amelyet úgy mozgatsz és forgatsz, mint bármelyik alakzatot. A „Rögzítés a címkéhez” pontosan ott a címke részévé teszi, a lyuk minden rétegen átmegy. A Szabad újra kiveszi."
+          "hu": "A névcímkén és az ikoncímkén a Bal, Jobb és Felül mellett most már Szabad is van: a címke mellé kerül egy külön fül a lyukkal, amelyet úgy mozgatsz és forgatsz, mint bármelyik alakzatot. A „Rögzítés a címkéhez” pontosan ott a címke részévé teszi, a lyuk minden rétegen átmegy. A Szabad újra kiveszi.",
+          "ar": "في بطاقة الاسم وبطاقة الأيقونة يوجد الآن «حر» بجانب «اليسار» و«اليمين» و«الأعلى»: لسان مستقل فيه الثقب يقع بجانب البطاقة، تحرّكه وتدوّره كأي شكل. و«تثبيت في البطاقة» يجعله جزءًا من البطاقة حيث هو تمامًا، والثقب يمر عبر كل الطبقات. و«حر» يفصله مجددًا."
         }
       },
       {
         "title": {
           "de": "Gelöschte Entwürfe bleiben gelöscht",
           "en": "Deleted designs stay deleted",
-          "hu": "A törölt tervek törölve maradnak"
+          "hu": "A törölt tervek törölve maradnak",
+          "ar": "التصاميم المحذوفة تبقى محذوفة"
         },
         "body": {
           "de": "Wer nach dem Listenverlust eine Sicherung zurückgespielt hatte, sah gelöschte Entwürfe beim nächsten Start ohne Bild wiederkommen. Das Zurückholen läuft jetzt nur noch einmal, und beim Löschen gehen die versteckten Kopien mit.",
           "en": "If you had restored a backup after the list was lost, deleted designs came back without a picture at the next start. The rescue now runs only once, and deleting a design removes its hidden copies too.",
-          "hu": "Ha a lista elvesztése után visszaállítottál egy biztonsági mentést, a törölt tervek a következő indításkor kép nélkül visszatértek. A visszaállítás most csak egyszer fut le, és a törlés a rejtett másolatokat is eltávolítja."
+          "hu": "Ha a lista elvesztése után visszaállítottál egy biztonsági mentést, a törölt tervek a következő indításkor kép nélkül visszatértek. A visszaállítás most csak egyszer fut le, és a törlés a rejtett másolatokat is eltávolítja.",
+          "ar": "إذا كنت قد استعدت نسخة احتياطية بعد ضياع القائمة، كانت التصاميم المحذوفة تعود دون صورة عند البدء التالي. أما الآن فلا يعمل الإنقاذ إلا مرة واحدة، وحذف تصميم يزيل نسخه المخفية أيضًا."
         }
       },
       {
         "title": {
           "de": "Browser-Übersetzung wieder möglich",
           "en": "Browser translation works again",
-          "hu": "A böngésző fordítása újra működik"
+          "hu": "A böngésző fordítása újra működik",
+          "ar": "ترجمة المتصفح تعمل مجددًا"
         },
         "body": {
           "de": "Spricht layerling deine Sprache noch nicht, darf der Browser die Seite wieder übersetzen. Deine eigenen Entwurfs-, Ordner- und Formnamen bleiben dabei, wie sie sind.",
           "en": "If layerling does not speak your language yet, the browser may translate the page again. Your own names for designs, folders and shapes stay as they are.",
-          "hu": "Ha a layerling még nem beszéli a nyelvedet, a böngésző újra lefordíthatja az oldalt. A tervek, mappák és alakzatok saját neveid változatlanok maradnak."
+          "hu": "Ha a layerling még nem beszéli a nyelvedet, a böngésző újra lefordíthatja az oldalt. A tervek, mappák és alakzatok saját neveid változatlanok maradnak.",
+          "ar": "إذا لم يكن layerling يتحدث لغتك بعد، فيمكن للمتصفح ترجمة الصفحة مجددًا. وتبقى الأسماء التي أعطيتها أنت للتصاميم والمجلدات والأشكال كما هي."
         }
       },
       {
         "title": {
           "de": "Zahnräder mit bis zu 150 Zähnen",
           "en": "Gears with up to 150 teeth",
-          "hu": "Fogaskerekek legfeljebb 150 foggal"
+          "hu": "Fogaskerekek legfeljebb 150 foggal",
+          "ar": "تروس حتى 150 سنًا"
         },
         "body": {
           "de": "Zahnräder, Hohlräder und Zahnstangen haben jetzt bis zu 150 statt 64 Zähne, etwa für große Räder mit kleinem Modul.",
           "en": "Gears, ring gears and racks now take up to 150 teeth instead of 64, for large wheels with a small module, say.",
-          "hu": "A fogaskerekek, belső fogazatú kerekek és fogaslécek most 64 helyett legfeljebb 150 fogat kaphatnak, például kis modulú nagy kerekekhez."
+          "hu": "A fogaskerekek, belső fogazatú kerekek és fogaslécek most 64 helyett legfeljebb 150 fogat kaphatnak, például kis modulú nagy kerekekhez.",
+          "ar": "أصبحت التروس والتروس الحلقية والجرائد المسننة تقبل الآن حتى 150 سنًا بدلًا من 64، للعجلات الكبيرة ذات الموديول الصغير مثلًا."
         }
       },
       {
         "title": {
           "de": "Mit dem Mausrad durch den Verlauf",
           "en": "Through the history with the mouse wheel",
-          "hu": "Az egérgörgővel az előzményekben"
+          "hu": "Az egérgörgővel az előzményekben",
+          "ar": "التنقل في السجل بعجلة الفأرة"
         },
         "body": {
           "de": "In der Verlaufsansicht geht das Mausrad über dem Schieber einen Stand je Raste weiter, nach oben zu einem früheren. Bild↑ und Bild↓ springen zehn Stände, Pos1 und Ende zum ältesten und zum aktuellen Stand.",
           "en": "In the history view the mouse wheel over the slider goes one state per notch, up to an earlier one. Page Up and Page Down jump ten states, Home and End go to the oldest and to the current state.",
-          "hu": "Az előzmények nézetben a csúszka fölötti egérgörgő kattanásonként egy állapotot lép, felfelé egy korábbira. A Page Up és a Page Down tíz állapotot ugrik, a Home és az End a legrégebbi és a jelenlegi állapotra visz."
+          "hu": "Az előzmények nézetben a csúszka fölötti egérgörgő kattanásonként egy állapotot lép, felfelé egy korábbira. A Page Up és a Page Down tíz állapotot ugrik, a Home és az End a legrégebbi és a jelenlegi állapotra visz.",
+          "ar": "في عرض «السجل» تنتقل عجلة الفأرة فوق شريط التمرير حالة واحدة لكل درجة، إلى حالة أقدم مثلًا. ويقفز Page Up وPage Down عشر حالات، ويذهب Home وEnd إلى أقدم حالة وإلى الحالة الحالية."
         }
       },
       {
         "title": {
           "de": "Verrundung mit wachsendem Radius",
           "en": "A fillet with a growing radius",
-          "hu": "Lekerekítés növekvő sugárral"
+          "hu": "Lekerekítés növekvő sugárral",
+          "ar": "تنعيم بنصف قطر متزايد"
         },
         "body": {
           "de": "Beim Verrunden gibt es jetzt „Variabler Radius“: Eine Kante wird an einem Ende klein und am anderen groß verrundet, gleichmäßig dazwischen. „Enden tauschen“ dreht die Richtung um.",
           "en": "Filleting now has \"Variable radius\": one edge is rounded small at one end and large at the other, evenly in between. \"Swap ends\" turns it round.",
-          "hu": "A lekerekítésnél most van „Változó sugár”: egy él az egyik végén kicsit, a másikon nagyot kap, közte egyenletesen. A „Végek felcserélése” megfordítja."
+          "hu": "A lekerekítésnél most van „Változó sugár”: egy él az egyik végén kicsit, a másikon nagyot kap, közte egyenletesen. A „Végek felcserélése” megfordítja.",
+          "ar": "أصبح في التنعيم الآن «نصف قطر متغير»: تُدوَّر حافة واحدة بنصف قطر صغير عند طرف وكبير عند الطرف الآخر، وبانتظام بينهما. و«تبديل الطرفين» يعكس ذلك."
         }
       },
       {
         "title": {
           "de": "SVG nur mit der Aufstandsfläche",
           "en": "SVG with only the footprint",
-          "hu": "SVG csak a felfekvési felülettel"
+          "hu": "SVG csak a felfekvési felülettel",
+          "ar": "SVG بمساحة الارتكاز فقط"
         },
         "body": {
           "de": "Beim Export als SVG gibt es jetzt die Ansicht „Aufstandsfläche auf der Arbeitsebene“: Sie schreibt nur die Umrisse, mit denen die Objekte auf der Arbeitsebene stehen, als Linien in Millimetern. Die Silhouette von oben bleibt die Voreinstellung.",
           "en": "The SVG export now has the view \"Footprint on the workplane\": it writes only the outlines where the objects stand on the workplane, as lines in millimetres. The silhouette from above stays the default.",
-          "hu": "Az SVG exportban most van „Felfekvési felület a munkasíkon” nézet: csak azokat a körvonalakat írja ki, amelyekkel a tárgyak a munkasíkon állnak, vonalakként milliméterben. A felülnézeti sziluett marad az alapértelmezés."
+          "hu": "Az SVG exportban most van „Felfekvési felület a munkasíkon” nézet: csak azokat a körvonalakat írja ki, amelyekkel a tárgyak a munkasíkon állnak, vonalakként milliméterben. A felülnézeti sziluett marad az alapértelmezés.",
+          "ar": "أصبح لتصدير SVG الآن العرض «مساحة الارتكاز على سطح العمل»: يكتب فقط الحدود التي تقف بها الأجسام على سطح العمل، كخطوط بالمليمتر. ويبقى «الظل من الأعلى» هو الافتراضي."
         }
       },
       {
         "title": {
           "de": "Umbenannt bleibt umbenannt",
           "en": "Renamed stays renamed",
-          "hu": "Az átnevezés megmarad"
+          "hu": "Az átnevezés megmarad",
+          "ar": "إعادة التسمية تبقى"
         },
         "body": {
           "de": "Ein auf der Startseite umbenannter Entwurf behält seinen neuen Namen jetzt auch in einer Sicherung und beim Verschieben in den Serverordner.",
           "en": "A design renamed on the start page now keeps its new name in a backup and when it is moved to the server folder.",
-          "hu": "A kezdőlapon átnevezett terv mostantól a mentésben és a szervermappába áthelyezéskor is megtartja az új nevét."
+          "hu": "A kezdőlapon átnevezett terv mostantól a mentésben és a szervermappába áthelyezéskor is megtartja az új nevét.",
+          "ar": "التصميم الذي تعيد تسميته في صفحة البداية يحتفظ الآن باسمه الجديد في النسخة الاحتياطية وعند نقله إلى مجلد الخادم."
         }
       },
       {
         "title": {
           "de": "Minuszeichen auf Handy und Tablet",
           "en": "A minus key on phone and tablet",
-          "hu": "Mínuszjel telefonon és táblagépen"
+          "hu": "Mínuszjel telefonon és táblagépen",
+          "ar": "مفتاح الناقص على الهاتف والجهاز اللوحي"
         },
         "body": {
           "de": "Felder, die auch negative Werte nehmen, etwa Position, Drehung oder Verschieben, zeigen auf Handy und Tablet jetzt eine Tastatur mit Minuszeichen.",
           "en": "Fields that also take negative values, such as position, rotation or a move, now show a keyboard with a minus key on phones and tablets.",
-          "hu": "A negatív értéket is elfogadó mezők, például a pozíció, az elforgatás vagy az eltolás, telefonon és táblagépen mostantól mínuszjeles billentyűzetet mutatnak."
+          "hu": "A negatív értéket is elfogadó mezők, például a pozíció, az elforgatás vagy az eltolás, telefonon és táblagépen mostantól mínuszjeles billentyűzetet mutatnak.",
+          "ar": "الحقول التي تقبل قيمًا سالبة أيضًا، مثل الموضع أو التدوير أو الإزاحة، تعرض الآن على الهواتف والأجهزة اللوحية لوحة مفاتيح فيها مفتاح الناقص."
         }
       }
     ]
@@ -530,51 +568,61 @@
       {
         "title": {
           "de": "Aus einer Skizze eine Drehung machen",
-          "en": "Turn a sketch into a revolve"
+          "en": "Turn a sketch into a revolve",
+          "ar": "تحويل رسم تخطيطي إلى دوران"
         },
         "body": {
           "de": "Das Schild oben in der Skizze ist jetzt eine Auswahl: Stell eine Skizze dort auf „Rotationsskizze“ um, auch die eines vorhandenen Körpers. So wird ein importiertes SVG zur Vase, ohne es nachzuzeichnen.",
-          "en": "The badge at the top of a sketch is now a choice: switch a sketch to \"Revolve sketch\" there, also the sketch of an existing body. An imported SVG becomes a vase this way, without tracing it."
+          "en": "The badge at the top of a sketch is now a choice: switch a sketch to \"Revolve sketch\" there, also the sketch of an existing body. An imported SVG becomes a vase this way, without tracing it.",
+          "ar": "أصبحت الشارة في أعلى الرسم التخطيطي الآن خيارًا: بدّل الرسم التخطيطي هناك إلى «رسم تخطيطي للدوران»، حتى رسم جسم موجود. وبهذا يصبح ملف SVG مستورد مزهرية، دون إعادة رسمه."
         }
       },
       {
         "title": {
           "de": "Eine Kopie als Loch hebt das Teil auf",
-          "en": "A copy set to hole cancels the part"
+          "en": "A copy set to hole cancels the part",
+          "ar": "نسخة مضبوطة كثقب تلغي القطعة"
         },
         "body": {
           "de": "Machst du eine Kopie eines importierten Teils zum Loch und gruppierst beide, verschwindet das Teil jetzt ganz. Bisher blieben bei großen SVGs dünne Wandstreifen stehen.",
-          "en": "Make a copy of an imported part a hole and group the two, and the part is now gone entirely. On large SVGs thin strips of wall used to stay standing."
+          "en": "Make a copy of an imported part a hole and group the two, and the part is now gone entirely. On large SVGs thin strips of wall used to stay standing.",
+          "ar": "اجعل نسخة من قطعة مستوردة ثقبًا واجمع الاثنتين، فتختفي القطعة الآن كليًا. ومع ملفات SVG الكبيرة كانت شرائح رفيعة من الجدار تبقى قائمة."
         }
       },
       {
         "title": {
           "de": "Auf eine Fläche setzen klappt auf dem Tablet",
-          "en": "Set down on a face works on a tablet"
+          "en": "Set down on a face works on a tablet",
+          "ar": "«وضع على وجه» يعمل على الجهاز اللوحي"
         },
         "body": {
           "de": "Nach einem langen Druck auf einen Körper blieb er beim Absetzen manchmal stehen, obwohl die Meldung kam, und erst Rückgängig zeigte ihn am Ziel. Jetzt landet er gleich auf der angetippten Fläche.",
-          "en": "After a long press on a body it sometimes stayed where it was when set down, although the message came, and only Undo showed it at its place. Now it lands on the face you tap straight away."
+          "en": "After a long press on a body it sometimes stayed where it was when set down, although the message came, and only Undo showed it at its place. Now it lands on the face you tap straight away.",
+          "ar": "بعد الضغط المطول على جسم كان يبقى أحيانًا في مكانه عند وضعه، رغم ظهور الرسالة، ولا يُظهره في مكانه إلا «تراجع». أما الآن فيقع على الوجه الذي تنقر عليه مباشرة."
         }
       },
       {
         "title": {
           "de": "Metrische Gewinde bis M24",
-          "en": "Metric threads up to M24"
+          "en": "Metric threads up to M24",
+          "ar": "أسنان لولبية مترية حتى M24"
         },
         "body": {
           "de": "Die Größenliste des Gewindes geht jetzt über M12 hinaus: M14, M16, M18, M20, M22 und M24, jeweils mit Regelsteigung und genormten Kopf- und Muttermaßen.",
-          "en": "The size list of the thread now goes past M12: M14, M16, M18, M20, M22 and M24, each with its standard pitch and standard head and nut sizes."
+          "en": "The size list of the thread now goes past M12: M14, M16, M18, M20, M22 and M24, each with its standard pitch and standard head and nut sizes.",
+          "ar": "قائمة مقاسات السن اللولبي تتجاوز الآن M12: إلى M14 وM16 وM18 وM20 وM22 وM24، لكل منها خطوته القياسية ومقاسات الرأس والصامولة القياسية."
         }
       },
       {
         "title": {
           "de": "Löcher deutlicher zeigen",
-          "en": "Show holes more clearly"
+          "en": "Show holes more clearly",
+          "ar": "إظهار الثقوب بوضوح أكبر"
         },
         "body": {
           "de": "Unter Einstellungen, Darstellung lassen sich Löcher jetzt dunkler, weniger durchsichtig und mit einer Linie drumherum zeigen. So findest du ein Loch auch zwischen vielen durchsichtigen Körpern.",
-          "en": "Under Settings, Appearance, holes can now be shown darker, less see-through and with a line round them. That way you find a hole even among many see-through bodies."
+          "en": "Under Settings, Appearance, holes can now be shown darker, less see-through and with a line round them. That way you find a hole even among many see-through bodies.",
+          "ar": "في الإعدادات، تحت «المظهر»، يمكن الآن إظهار الثقوب أغمق وأقل شفافية ومع خط حولها. وبهذا تجد الثقب حتى بين أجسام شفافة كثيرة."
         }
       }
     ]
@@ -585,61 +633,73 @@
       {
         "title": {
           "de": "Verschwundene Entwürfe kommen zurück",
-          "en": "Vanished designs come back"
+          "en": "Vanished designs come back",
+          "ar": "التصاميم المختفية تعود"
         },
         "body": {
           "de": "Bei vielen Entwürfen konnte der Speicher des Browsers volllaufen, und die Startseite zeigte danach nur noch leere Ordner. Die Entwürfe selbst waren nicht weg: Die Startseite holt sie jetzt von selbst zurück, und die Vorschaubilder brauchen keinen Platz mehr in der Liste.",
-          "en": "With many designs the browser's storage could fill up, and the start page then showed only empty folders. The designs themselves were not gone: the start page now brings them back by itself, and the card pictures no longer take room in the list."
+          "en": "With many designs the browser's storage could fill up, and the start page then showed only empty folders. The designs themselves were not gone: the start page now brings them back by itself, and the card pictures no longer take room in the list.",
+          "ar": "مع تصاميم كثيرة كان تخزين المتصفح قد يمتلئ، فلا تعرض صفحة البداية حينها إلا مجلدات فارغة. ولم تكن التصاميم نفسها قد ضاعت: فصفحة البداية تعيدها الآن تلقائيًا، ولم تعد صور البطاقات تشغل مساحة في القائمة."
         }
       },
       {
         "title": {
           "de": "Sicherungen mit Vorschaubildern",
-          "en": "Backups with card pictures"
+          "en": "Backups with card pictures",
+          "ar": "نسخ احتياطية مع صور البطاقات"
         },
         "body": {
           "de": "„Alle sichern“ nimmt jetzt die Vorschaubilder der Karten mit. Nach dem Einspielen einer Sicherung sind die Bilder gleich wieder da, ohne dass du jeden Entwurf öffnen musst.",
-          "en": "\"Back up all\" now takes the card pictures along. After restoring a backup the pictures are back at once, without opening every design."
+          "en": "\"Back up all\" now takes the card pictures along. After restoring a backup the pictures are back at once, without opening every design.",
+          "ar": "أصبح «نسخ احتياطي للكل» يأخذ صور البطاقات معه الآن. فبعد استعادة نسخة احتياطية تعود الصور فورًا، دون فتح كل تصميم."
         }
       },
       {
         "title": {
           "de": "Fächer in Gridfinity-Behältern",
-          "en": "Compartments in Gridfinity bins"
+          "en": "Compartments in Gridfinity bins",
+          "ar": "حجرات في علب Gridfinity"
         },
         "body": {
           "de": "Einen Gridfinity-Behälter kannst du jetzt in Fächer teilen: Stell unter „Fächer“ die „Spalten“ und „Reihen“ ein und schieb jede Trennwand dorthin, wo du sie brauchst. Griffmulden wiederholen sich in jedem Fach, und jedes Fach kann eine eigene Etikettenleiste bekommen.",
-          "en": "A Gridfinity bin can now be divided into compartments: set \"Columns\" and \"Rows\" under \"Compartments\", and move each divider to where you need it. Finger scoops repeat in every compartment, and each compartment can have a label shelf of its own."
+          "en": "A Gridfinity bin can now be divided into compartments: set \"Columns\" and \"Rows\" under \"Compartments\", and move each divider to where you need it. Finger scoops repeat in every compartment, and each compartment can have a label shelf of its own.",
+          "ar": "يمكن الآن تقسيم علبة Gridfinity إلى حجرات: اضبط «أعمدة» و«صفوف» تحت «الحجرات»، وانقل كل فاصل إلى حيث تحتاجه. وتتكرر مجاري الأصابع في كل حجرة، ويمكن أن يكون لكل حجرة رف ملصق خاص بها."
         }
       },
       {
         "title": {
           "de": "Strg oder Cmd + Ziehen verschiebt die Ansicht",
-          "en": "Ctrl or Cmd + drag moves the view"
+          "en": "Ctrl or Cmd + drag moves the view",
+          "ar": "Ctrl أو Cmd مع السحب يحرّك العرض"
         },
         "body": {
           "de": "Mit gedrückter Strg-Taste (am Mac Cmd) und linker Maustaste verschiebst du die Ansicht, statt sie zu drehen. Auf dem Trackpad eines MacBooks: Cmd halten, drücken und ziehen.",
-          "en": "Holding Ctrl (Cmd on a Mac) and dragging with the left button moves the view instead of turning it. On a MacBook trackpad: hold Cmd, press and drag."
+          "en": "Holding Ctrl (Cmd on a Mac) and dragging with the left button moves the view instead of turning it. On a MacBook trackpad: hold Cmd, press and drag.",
+          "ar": "الضغط على Ctrl (أو Cmd على Mac) والسحب بالزر الأيسر يحرّك العرض بدلًا من تدويره. وعلى لوحة اللمس في MacBook: اضغط Cmd، ثم اضغط واسحب."
         }
       },
       {
         "title": {
           "de": "Verrundungen lassen keine Lücken mehr",
-          "en": "Fillets no longer leave gaps"
+          "en": "Fillets no longer leave gaps",
+          "ar": "التنعيم لم يعد يترك فجوات"
         },
         "body": {
           "de": "Eine Verrundung konnte an einer Ecke ein Netz mit feinen Lücken hinterlassen. Der Körper sah im Schnitt hohl aus, und der nächste Schnitt oder das Teilen brach mit „Not manifold“ ab. Solche Netze werden jetzt gleich geschlossen.",
-          "en": "A fillet could leave a mesh with fine gaps at a corner. The body looked hollow in the section view, and the next cut or split stopped with \"Not manifold\". Such meshes are now closed right away."
+          "en": "A fillet could leave a mesh with fine gaps at a corner. The body looked hollow in the section view, and the next cut or split stopped with \"Not manifold\". Such meshes are now closed right away.",
+          "ar": "كان التنعيم قد يترك شبكة مثلثات فيها فجوات دقيقة عند زاوية. فيبدو الجسم مفرّغًا في «عرض المقطع»، ويتوقف القطع أو التقسيم التالي برسالة «Not manifold». أما الآن فتُغلق هذه الشبكات فورًا."
         }
       },
       {
         "title": {
           "de": "Umrisse in der Skizze sperren",
-          "en": "Lock outlines in the sketch"
+          "en": "Lock outlines in the sketch",
+          "ar": "قفل الحدود الخارجية في الرسم التخطيطي"
         },
         "body": {
           "de": "Wählst du in der Skizze einen Umriss aus, sperrt ihn „Sperren“ in der Leiste oder die Taste L: Er lässt sich dann nicht mehr verschieben, skalieren oder bearbeiten, bis du ihn wieder entsperrst. Daneben hält „Proportionen beibehalten“ das Seitenverhältnis beim Ziehen an den Griffen und beim Eintippen eines Maßes, auch ohne Umschalt.",
-          "en": "Select an outline in the sketch, and \"Lock\" in the bar or the key L locks it: it can then no longer be moved, resized or changed until you unlock it. Next to it, \"Keep proportions\" holds the aspect ratio when you drag the handles or type a size, without Shift."
+          "en": "Select an outline in the sketch, and \"Lock\" in the bar or the key L locks it: it can then no longer be moved, resized or changed until you unlock it. Next to it, \"Keep proportions\" holds the aspect ratio when you drag the handles or type a size, without Shift.",
+          "ar": "حدّد حدًا خارجيًا في الرسم التخطيطي، فيقفله «قفل» في الشريط أو المفتاح L: فلا يعود من الممكن نقله أو تغيير حجمه أو تعديله حتى تفتح قفله. وبجانبه يحافظ «الحفاظ على النسب» على نسبة الأبعاد عندما تسحب المقابض أو تكتب مقاسًا، دون Shift."
         }
       }
     ]
@@ -650,151 +710,181 @@
       {
         "title": {
           "de": "Zoomknöpfe und -tasten haben feste Schritte",
-          "en": "Zoom buttons and keys have fixed steps"
+          "en": "Zoom buttons and keys have fixed steps",
+          "ar": "أزرار التكبير ومفاتيحه بخطوات ثابتة"
         },
         "body": {
           "de": "Die Zoomgeschwindigkeit in den Einstellungen gilt jetzt nur noch für Mausrad und Trackpad. Die Knöpfe und die Tasten + und − zoomen immer im selben Schritt, auch in der Skizze, so wie bei der Standardstellung des Reglers. Wer den Regler nie angefasst hat, merkt nichts.",
-          "en": "The zoom speed in the settings now sets the mouse wheel and the trackpad only. The buttons and the keys + and − always zoom in the same step, in the sketch too, as at the default position of the slider. Anyone who never touched the slider notices no change."
+          "en": "The zoom speed in the settings now sets the mouse wheel and the trackpad only. The buttons and the keys + and − always zoom in the same step, in the sketch too, as at the default position of the slider. Anyone who never touched the slider notices no change.",
+          "ar": "أصبحت «سرعة التكبير/التصغير» في الإعدادات تضبط عجلة الفأرة ولوحة اللمس فقط. أما الأزرار والمفتاحان + و− فيكبّران دائمًا بالخطوة نفسها، في الرسم التخطيطي أيضًا، كما في الموضع الافتراضي لشريط التمرير. ومن لم يلمس شريط التمرير قط لا يلاحظ أي تغيير."
         }
       },
       {
         "title": {
           "de": "Entwürfe mit geleertem Namen öffnen wieder",
-          "en": "Designs with an emptied name open again"
+          "en": "Designs with an emptied name open again",
+          "ar": "التصاميم التي أُفرغ فيها اسم تُفتح مجددًا"
         },
         "body": {
           "de": "Hattest du den Namen eines Objekts gelöscht, ging der Entwurf beim nächsten Öffnen leer auf, auch die im Browser gesicherte Fassung. Solche Entwürfe öffnen jetzt wieder mit allen Objekten.",
-          "en": "If you had cleared the name of an object, the design opened empty the next time, the copy kept in the browser too. Such designs now open again with all their objects."
+          "en": "If you had cleared the name of an object, the design opened empty the next time, the copy kept in the browser too. Such designs now open again with all their objects.",
+          "ar": "إذا كنت قد مسحت اسم جسم، كان التصميم يُفتح فارغًا في المرة التالية، وكذلك النسخة المحفوظة في المتصفح. أما الآن فتُفتح هذه التصاميم مجددًا بكل أجسامها."
         }
       },
       {
         "title": {
           "de": "Das Kreismuster folgt dem Drehpunkt",
-          "en": "The circle pattern follows the pivot"
+          "en": "The circle pattern follows the pivot",
+          "ar": "النمط الدائري يتبع محور الدوران"
         },
         "body": {
           "de": "Ziehst du den Drehpunkt bei offenem Muster-Werkzeug an eine neue Stelle, wandert der Mittelpunkt des Kreises und die Vorschau mit. Ein von Hand getippter Mittelpunkt bleibt, bis du den Drehpunkt wieder bewegst.",
-          "en": "If you drag the pivot to a new place while the pattern tool is open, the centre of the circle and its preview move with it. A centre you typed stays until you move the pivot again."
+          "en": "If you drag the pivot to a new place while the pattern tool is open, the centre of the circle and its preview move with it. A centre you typed stays until you move the pivot again.",
+          "ar": "إذا سحبت محور الدوران إلى مكان جديد وأداة النمط مفتوحة، يتحرك مركز الدائرة ومعاينتها معه. والمركز الذي كتبته يبقى حتى تحرّك محور الدوران مجددًا."
         }
       },
       {
         "title": {
           "de": "Auf eine Fläche setzen, auch ohne Tastatur",
-          "en": "Set a body down on a face, no keyboard needed"
+          "en": "Set a body down on a face, no keyboard needed",
+          "ar": "وضع جسم على وجه دون لوحة مفاتيح"
         },
         "body": {
           "de": "Die Taste C legt die Auswahl auf die Fläche unter dem Zeiger. Auf dem iPad gab es dafür keinen Weg. Jetzt steht im Menü des langen Drucks auf einem Körper „Auf eine Fläche setzen“, und auch die Befehlssuche findet es. Ein Tipp setzt den Körper auf die angetippte Fläche.",
-          "en": "The key C lays the selection on the face under the pointer. On an iPad there was no way to do that. The menu of a long press on a body now has “Set down on a face”, and the command search finds it too. A tap sets the body down on the face you tap."
+          "en": "The key C lays the selection on the face under the pointer. On an iPad there was no way to do that. The menu of a long press on a body now has “Set down on a face”, and the command search finds it too. A tap sets the body down on the face you tap.",
+          "ar": "المفتاح C يضع التحديد على الوجه الذي تحت المؤشر. ولم تكن هناك طريقة لذلك على iPad. أما الآن ففي قائمة الضغط المطول على جسم «وضع على وجه»، ويجده البحث عن الأوامر أيضًا. ونقرة تضع الجسم على الوجه الذي تنقر عليه."
         }
       },
       {
         "title": {
           "de": "Bézier-Kurve: Griffe auch an vorhandenen Punkten",
-          "en": "Bezier curve: handles on existing points too"
+          "en": "Bezier curve: handles on existing points too",
+          "ar": "منحنى بيزيه: مقابض على النقاط الموجودة أيضًا"
         },
         "body": {
           "de": "Mit dem Bézier-Werkzeug kannst du jetzt auch an einem schon vorhandenen Punkt anfangen oder aufhören und dort die Griffe herausziehen. Die Seite wird dann immer eine Kurve, der Griff des zweiten Punkts wirkt also auch, wenn der erste schon da war.",
-          "en": "With the Bezier tool you can now start or end on a point that is already there and pull its handles out. The side then always becomes a curve, so the handle of the second point works even when the first one was already there."
+          "en": "With the Bezier tool you can now start or end on a point that is already there and pull its handles out. The side then always becomes a curve, so the handle of the second point works even when the first one was already there.",
+          "ar": "مع أداة «منحنى بيزيه» يمكنك الآن البدء أو الانتهاء عند نقطة موجودة أصلًا وسحب مقابضها. ويصبح الجانب عندها منحنى دائمًا، فيعمل مقبض النقطة الثانية حتى عندما تكون الأولى موجودة من قبل."
         }
       },
       {
         "title": {
           "de": "Bézier: Griffe an Punkten, die du nur anklickst",
-          "en": "Bezier: handles on points you only click"
+          "en": "Bezier: handles on points you only click",
+          "ar": "منحنى بيزيه: مقابض على النقاط التي تنقر عليها فقط"
         },
         "body": {
           "de": "Ein Punkt, den du mit dem Bézier-Werkzeug nur anklickst, hatte Griffe ohne Länge, die man nicht sehen oder greifen konnte. Jetzt liegen sie entlang der Seite, die zu ihm führt, und die Kurve ist gleich gebogen. In älteren Skizzen zeigt ein markierter Punkt solche Griffe an einer Stelle, an der du sie ziehen kannst.",
-          "en": "A point you only click with the Bezier tool had handles of no length that could not be seen or taken. They now run along the side that leads to the point, and the curve is bent at once. In older sketches a selected point shows such handles where you can drag them."
+          "en": "A point you only click with the Bezier tool had handles of no length that could not be seen or taken. They now run along the side that leads to the point, and the curve is bent at once. In older sketches a selected point shows such handles where you can drag them.",
+          "ar": "النقطة التي تنقر عليها فقط بأداة «منحنى بيزيه» كانت لها مقابض بلا طول، لا تُرى ولا يمكن الإمساك بها. أما الآن فتمتد على طول الجانب المؤدي إلى النقطة، وينحني المنحنى فورًا. وفي الرسوم التخطيطية الأقدم تُظهر النقطة المحددة هذه المقابض حيث يمكنك سحبها."
         }
       },
       {
         "title": {
           "de": "Zahnräder auf den Abstand bringen",
-          "en": "Fit gears to their distance"
+          "en": "Fit gears to their distance",
+          "ar": "ضبط التروس على المسافة بينها"
         },
         "body": {
           "de": "Wählst du zwei Zahnräder aus, nennt das Eigenschaftenfeld jetzt auch den Modul, mit dem sie dort ineinandergriffen, wo sie gerade stehen. Ein Knopf gibt beiden Rädern diesen Modul in einem Schritt; Zähne, Höhe und Bohrung bleiben.",
-          "en": "With two gears selected, the properties panel now also names the module at which they would mesh where they stand. A button gives both gears that module in one step; teeth, height and centre hole stay."
+          "en": "With two gears selected, the properties panel now also names the module at which they would mesh where they stand. A button gives both gears that module in one step; teeth, height and centre hole stay.",
+          "ar": "عند تحديد ترسين، تذكر لوحة الخصائص الآن أيضًا الموديول الذي يتعاشقان به حيث يقفان. وزر يعطي الترسين هذا الموديول بخطوة واحدة؛ وتبقى الأسنان والارتفاع والثقب المركزي."
         }
       },
       {
         "title": {
           "de": "Bauraum-Warnung wegklicken",
-          "en": "Click the build volume warning away"
+          "en": "Click the build volume warning away",
+          "ar": "إخفاء تحذير حجم البناء بنقرة"
         },
         "body": {
           "de": "Legst du Teile neben der Platte ab, schließt das kleine Kreuz in der Meldung die Warnung für genau diese Körper. Ragt später ein anderer Körper über oder schiebst du einen wieder hinaus, meldet sie sich erneut. Die Warnung liegt außerdem nicht mehr über Fenstern wie den Einstellungen.",
-          "en": "If you park parts beside the plate, the small cross in the message closes the warning for exactly these bodies. If another body sticks out later, or you move one out again, it comes back. The warning also no longer lies over windows such as the settings."
+          "en": "If you park parts beside the plate, the small cross in the message closes the warning for exactly these bodies. If another body sticks out later, or you move one out again, it comes back. The warning also no longer lies over windows such as the settings.",
+          "ar": "إذا وضعت قطعًا بجانب اللوحة، فإن علامة × الصغيرة في الرسالة تغلق التحذير لهذه الأجسام بالضبط. وإذا برز جسم آخر لاحقًا، أو أخرجت أحدها مجددًا، يعود التحذير. كما لم يعد التحذير يغطي نوافذ مثل الإعدادات."
         }
       },
       {
         "title": {
           "de": "Kopieren in einen anderen Entwurf behält alles",
-          "en": "Copying into another design keeps everything"
+          "en": "Copying into another design keeps everything",
+          "ar": "النسخ إلى تصميم آخر يحتفظ بكل شيء"
         },
         "body": {
           "de": "Fügtest du eine Kopie in einen anderen Entwurf ein, gingen unterwegs Einstellungen verloren: Durchsichtigkeit, verrundete und gefaste Kanten, Spiegelung, die Kontur eines Textes und mehr. Jetzt kommt die Form genau so an, wie du sie kopiert hast.",
-          "en": "When you pasted a copy into another design, settings got lost on the way: see-through, rounded and chamfered edges, mirroring, the outline of a text and more. The shape now arrives exactly as you copied it."
+          "en": "When you pasted a copy into another design, settings got lost on the way: see-through, rounded and chamfered edges, mirroring, the outline of a text and more. The shape now arrives exactly as you copied it.",
+          "ar": "عندما كنت تلصق نسخة في تصميم آخر، كانت بعض الإعدادات تضيع في الطريق: الشفافية، والحواف المنعّمة والمشطوفة، والانعكاس، والخط على الحد الخارجي للنص وغيرها. أما الآن فيصل الشكل تمامًا كما نسخته."
         }
       },
       {
         "title": {
           "de": "Skizze: Kreuzungspunkt löschen, Kreis bleibt",
-          "en": "Sketch: delete a crossing point, keep the circle"
+          "en": "Sketch: delete a crossing point, keep the circle",
+          "ar": "الرسم التخطيطي: حذف نقطة تقاطع مع بقاء الدائرة"
         },
         "body": {
           "de": "Löschst du einen Punkt, an dem eine Linie einen Kreis schneidet, verschwanden bisher alle vier Seiten daran. Jetzt werden Bogen mit Bogen und Linie mit Linie verbunden, und der Kreis bleibt rund. Nur ein Bogenstück entfernst du mit dem Radierer.",
-          "en": "Deleting a point where a line cuts a circle used to remove all four sides there. Now arc is joined with arc and line with line, and the circle stays round. To remove just one piece of arc, use the eraser on it."
+          "en": "Deleting a point where a line cuts a circle used to remove all four sides there. Now arc is joined with arc and line with line, and the circle stays round. To remove just one piece of arc, use the eraser on it.",
+          "ar": "كان حذف نقطة يقطع فيها خطٌ دائرةً يزيل الجوانب الأربعة كلها هناك. أما الآن فيُوصل القوس بالقوس والخط بالخط، وتبقى الدائرة مستديرة. ولإزالة قطعة واحدة من القوس فقط، استخدم «مسح» عليها."
         }
       },
       {
         "title": {
           "de": "Vorschaubilder kommen von selbst wieder",
-          "en": "Preview pictures come back by themselves"
+          "en": "Preview pictures come back by themselves",
+          "ar": "صور المعاينة تعود تلقائيًا"
         },
         "body": {
           "de": "Fehlt auf einer Karte der Startseite das Bild, entsteht es jetzt, sobald du den Entwurf öffnest, ohne dass du etwas ändern musst. Wer layerling mit Docker betreibt, behält die Bilder dank eines Volumes auch über ein Update hinweg.",
-          "en": "If a card on the start page has no picture, it is now taken as soon as you open the design, without changing anything. Running layerling with Docker, the pictures now also survive an update, kept in a volume."
+          "en": "If a card on the start page has no picture, it is now taken as soon as you open the design, without changing anything. Running layerling with Docker, the pictures now also survive an update, kept in a volume.",
+          "ar": "إذا لم تكن لبطاقة في صفحة البداية صورة، تُلتقط الآن بمجرد فتح التصميم، دون تغيير أي شيء. وعند تشغيل layerling بـDocker، تبقى الصور أيضًا بعد التحديث، محفوظة في وحدة تخزين (volume)."
         }
       },
       {
         "title": {
           "de": "Skizze: Bogen durch drei Punkte",
-          "en": "Sketch: arc through three points"
+          "en": "Sketch: arc through three points",
+          "ar": "الرسم التخطيطي: قوس عبر ثلاث نقاط"
         },
         "body": {
           "de": "Das neue Werkzeug Bogen zeichnet einen echten Kreisbogen: beide Enden anklicken, dann einen dritten Punkt, durch den er laufen soll. Eine Vorschau zeigt ihn vorher, die Meldung nennt den Radius, und an vorhandenen Punkten hängt er sich an.",
-          "en": "The new Arc tool draws a true circular arc: click both ends, then a third point it should run through. A preview shows it first, the message names the radius, and it joins existing points."
+          "en": "The new Arc tool draws a true circular arc: click both ends, then a third point it should run through. A preview shows it first, the message names the radius, and it joins existing points.",
+          "ar": "أداة «قوس» الجديدة ترسم قوسًا دائريًا حقيقيًا: انقر على الطرفين، ثم على نقطة ثالثة يجب أن يمر بها. وتعرضه معاينة أولًا، وتذكر الرسالة نصف القطر، ويتصل بالنقاط الموجودة."
         }
       },
       {
         "title": {
           "de": "Bündel mit Aussparung schneiden wie in Tinkercad",
-          "en": "Bundles with a hole cut as in Tinkercad"
+          "en": "Bundles with a hole cut as in Tinkercad",
+          "ar": "الحزم التي فيها ثقب تقطع كما في Tinkercad"
         },
         "body": {
           "de": "Gruppierst du ein Bündel aus Körper und Aussparung mit anderen Teilen, schneidet die Aussparung nur diese Teile. Die Körper des Bündels bleiben ganz, so lässt sich etwa ein Zapfen mit seiner Bohrung daneben immer wieder verwenden.",
-          "en": "When you group a bundle of a solid and a hole with other parts, the hole cuts only those parts. The bundle's own solids stay whole, so a peg with its hole beside it, say, can be used again and again."
+          "en": "When you group a bundle of a solid and a hole with other parts, the hole cuts only those parts. The bundle's own solids stay whole, so a peg with its hole beside it, say, can be used again and again.",
+          "ar": "عندما تجمع حزمة من جسم صلب وثقب مع أجزاء أخرى، يقطع الثقب تلك الأجزاء فقط. وتبقى الأجسام الصلبة في الحزمة نفسها كاملة، فيمكن مثلًا استخدام وتد مع ثقبه بجانبه مرة بعد مرة."
         }
       },
       {
         "title": {
           "de": "Schnitt und Teilen an der Arbeitsebene",
-          "en": "Section view and split follow the workplane"
+          "en": "Section view and split follow the workplane",
+          "ar": "عرض المقطع والتقسيم يتبعان سطح العمل"
         },
         "body": {
           "de": "Die Schnittansicht kann ihre Achsen jetzt von der Arbeitsebene nehmen: Z schneidet dann parallel zu ihr, auch auf einer schrägen Fläche. Mit „Blick“ steht der Schnitt zum Bildschirm und nimmt weg, was vorn liegt, so kommst du an verdeckte Teile. Beim Teilen beginnt die Ebene parallel zur Arbeitsebene, und drei Knöpfe legen sie darauf oder quer dazu.",
-          "en": "The section view can now take its axes from the workplane: Z then cuts parallel to it, on a sloped face too. With “View” the cut faces the screen and takes away what lies in front, so you can reach hidden parts. When splitting, the plane starts parallel to the workplane, and three buttons lay it on it or square to it."
+          "en": "The section view can now take its axes from the workplane: Z then cuts parallel to it, on a sloped face too. With “View” the cut faces the screen and takes away what lies in front, so you can reach hidden parts. When splitting, the plane starts parallel to the workplane, and three buttons lay it on it or square to it.",
+          "ar": "يمكن لـ«عرض المقطع» الآن أن يأخذ محاوره من سطح العمل: فيقطع Z عندها موازيًا له، على وجه مائل أيضًا. ومع «العرض» يواجه القطع الشاشة ويزيل ما يقع في الأمام، فتصل إلى الأجزاء المخفية. وعند التقسيم يبدأ المستوى موازيًا لسطح العمل، وثلاثة أزرار تضعه عليه أو عموديًا عليه."
         }
       },
       {
         "title": {
           "de": "Die Rasterliste liegt über der Formen-Tafel",
-          "en": "The snap grid list lies over the Shapes panel"
+          "en": "The snap grid list lies over the Shapes panel",
+          "ar": "قائمة شبكات الالتقاط تظهر فوق لوحة «الأشكال»"
         },
         "body": {
           "de": "Die Liste der Fangraster öffnet sich jetzt über allen Tafeln, auch über einer angehefteten Formen-Tafel daneben. Alle Einträge lassen sich anklicken, ohne die Tafel kleiner zu ziehen.",
-          "en": "The list of snap grids now opens above every panel, also above a pinned Shapes panel next to it. Every entry can be clicked without making the panel smaller."
+          "en": "The list of snap grids now opens above every panel, also above a pinned Shapes panel next to it. Every entry can be clicked without making the panel smaller.",
+          "ar": "أصبحت قائمة شبكات الالتقاط تُفتح الآن فوق كل لوحة، ومنها لوحة «الأشكال» المثبّتة بجانبها. ويمكن النقر على كل عنصر دون تصغير اللوحة."
         }
       }
     ]
@@ -805,21 +895,25 @@
       {
         "title": {
           "de": "Weitere nachgezeichnete Bilder kommen ganz herein",
-          "en": "More traced pictures come in whole"
+          "en": "More traced pictures come in whole",
+          "ar": "صور مستخرجة أكثر تُستورد كاملة"
         },
         "body": {
           "de": "Einige aus einem Bild nachgezeichnete SVGs kamen auch nach 1.93.0 nur als Bruchstücke herein. Der Import räumt jetzt die Umrisse auf, bevor der Körper gebaut wird, und die Bilder kommen vollständig mit allen Umrissen.",
-          "en": "Some SVGs traced from a picture still came in as pieces after 1.93.0. The import now tidies the outlines before the body is built, and the pictures come in whole with every outline."
+          "en": "Some SVGs traced from a picture still came in as pieces after 1.93.0. The import now tidies the outlines before the body is built, and the pictures come in whole with every outline.",
+          "ar": "بعض ملفات SVG المستخرجة من صورة كانت ما زالت تُستورد قطعًا بعد 1.93.0. أما الآن فيرتّب الاستيراد الحدود الخارجية قبل بناء الجسم، فتُستورد الصور كاملة بكل حدودها الخارجية."
         }
       },
       {
         "title": {
           "de": "Karten der Einstellungen bleiben offen",
-          "en": "Settings cards stay open"
+          "en": "Settings cards stay open",
+          "ar": "بطاقات الإعدادات تبقى مفتوحة"
         },
         "body": {
           "de": "Eigenschaften, Position, Rotation, Verjüngung und Verdrehung merken sich, ob du sie offen oder zu gelassen hast, für die nächste Form und den nächsten Besuch. Was du nicht anfasst, startet wie bisher.",
-          "en": "Properties, Position, Rotation, Taper and Twist remember whether you left them open or shut, for the next shape and the next visit. What you do not touch starts as before."
+          "en": "Properties, Position, Rotation, Taper and Twist remember whether you left them open or shut, for the next shape and the next visit. What you do not touch starts as before.",
+          "ar": "تتذكر «الخصائص» و«الموضع» و«الدوران» و«استدقاق» و«التواء» هل تركتها مفتوحة أم مغلقة، للشكل التالي وللزيارة التالية. وما لا تلمسه يبدأ كما كان."
         }
       }
     ]
@@ -830,101 +924,121 @@
       {
         "title": {
           "de": "Fase an einer verjüngten Rounded Box bleibt gerade",
-          "en": "A chamfer on a tapered rounded box stays straight"
+          "en": "A chamfer on a tapered rounded box stays straight",
+          "ar": "الشطف على صندوق مدوّر مستدق يبقى مستقيمًا"
         },
         "body": {
           "de": "Eine Rounded Box, die nach oben schmaler wird, hatte nach einer Fase an den unteren Kanten sichtbar gekrümmte Linien an den geraden Seiten. Die geraden Seiten sind jetzt echte Ebenen, die Ecken bleiben gerundet, und die Fase läuft gerade an ihnen entlang.",
-          "en": "A rounded box that gets narrower towards the top showed visibly curved lines along its straight sides after a chamfer on the bottom edges. The straight sides are now true planes, the corners stay rounded, and the chamfer runs straight along them."
+          "en": "A rounded box that gets narrower towards the top showed visibly curved lines along its straight sides after a chamfer on the bottom edges. The straight sides are now true planes, the corners stay rounded, and the chamfer runs straight along them.",
+          "ar": "الصندوق المدوّر الذي يضيق نحو الأعلى كان يُظهر خطوطًا منحنية بوضوح على امتداد جوانبه المستقيمة بعد شطف الحواف السفلى. أما الآن فالجوانب المستقيمة مستويات حقيقية، وتبقى الزوايا مدوّرة، ويمتد الشطف مستقيمًا على طولها."
         }
       },
       {
         "title": {
           "de": "SVG-Schablone mit vielen feinen Löchern lässt sich importieren",
-          "en": "An SVG stencil with many fine holes imports"
+          "en": "An SVG stencil with many fine holes imports",
+          "ar": "استيراد قالب SVG فيه ثقوب دقيقة كثيرة"
         },
         "body": {
           "de": "Eine SVG, die ein einzelnes Blatt mit vielen feinen Löchern ist (zum Beispiel eine Farbschablone mit Stegen), wurde mit \"SVG has no filled contours\" abgelehnt. Der Import prüft jetzt in diesem Fall einen zweiten Weg und baut das Blatt mit allen Löchern.",
-          "en": "An SVG that is a single sheet with many fine holes (a paint stencil with bridges, for example) was refused with \"SVG has no filled contours\". In that case the import now tries a second way and builds the sheet with all its holes."
+          "en": "An SVG that is a single sheet with many fine holes (a paint stencil with bridges, for example) was refused with \"SVG has no filled contours\". In that case the import now tries a second way and builds the sheet with all its holes.",
+          "ar": "ملف SVG عبارة عن لوح واحد فيه ثقوب دقيقة كثيرة (قالب طلاء بجسور مثلًا) كان يُرفض برسالة «SVG has no filled contours». أما الآن فيجرّب الاستيراد في هذه الحالة طريقة ثانية ويبني اللوح بكل ثقوبه."
         }
       },
       {
         "title": {
           "de": "Skizze: Einrasten auf Mitten und Mittelpunkte, Linie von der Mitte",
-          "en": "Sketch: snap to middles and centres, line from the middle"
+          "en": "Sketch: snap to middles and centres, line from the middle",
+          "ar": "الرسم التخطيطي: الالتقاط إلى المنتصفات والمراكز، وخط من المنتصف"
         },
         "body": {
           "de": "Ein Punkt in der Skizze rastet jetzt in der Mitte einer Linie, im Mittelpunkt eines Kreises und in den Mitten der Seiten eines Körpers darunter ein. Neu in der Gruppe Zeichnen: Linie von der Mitte. Erst die Mitte anklicken, dann das Ende, und die Linie ist zur anderen Seite gleich lang.",
-          "en": "A point in the sketch now snaps to the middle of a line, the centre of a circle and the middles of the sides of a body underneath. New in the Draw group: Line from the middle. Click the middle first, then the end, and the line runs the same length to the other side."
+          "en": "A point in the sketch now snaps to the middle of a line, the centre of a circle and the middles of the sides of a body underneath. New in the Draw group: Line from the middle. Click the middle first, then the end, and the line runs the same length to the other side.",
+          "ar": "أصبحت النقطة في الرسم التخطيطي تلتقط الآن منتصف الخط ومركز الدائرة ومنتصفات جوانب الجسم الذي تحتها. وجديد في مجموعة «رسم»: «خط من المنتصف». انقر على المنتصف أولًا، ثم على الطرف، فيمتد الخط بالطول نفسه إلى الجهة الأخرى."
         }
       },
       {
         "title": {
           "de": "Senkung und Doppelsenkung in einem Eintrag",
-          "en": "Countersink and double countersink in one entry"
+          "en": "Countersink and double countersink in one entry",
+          "ar": "الثقب الغاطس والثقب الغاطس المزدوج في عنصر واحد"
         },
         "body": {
           "de": "Die Formenbibliothek zeigt nur noch die Senkung. In ihren Eigenschaften macht der Schalter \"Beidseitig\" daraus eine Doppelsenkung und zurück, alle Maße bleiben. Körper, die schon eine Doppelsenkung sind, bleiben unverändert.",
-          "en": "The shape library now lists only the countersink. In its properties the switch \"Both sides\" makes it a double countersink and back, with all measures kept. Bodies that already are a double countersink stay as they are."
+          "en": "The shape library now lists only the countersink. In its properties the switch \"Both sides\" makes it a double countersink and back, with all measures kept. Bodies that already are a double countersink stay as they are.",
+          "ar": "أصبحت مكتبة الأشكال تعرض «ثقب غاطس» فقط. وفي خصائصه يجعله المفتاح «الجهتان» ثقبًا غاطسًا مزدوجًا والعكس، مع حفظ كل القياسات. والأجسام التي هي ثقب غاطس مزدوج أصلًا تبقى كما هي."
         }
       },
       {
         "title": {
           "de": "Interaktive Hilfe in den Eigenschaften einer Form",
-          "en": "Interactive Help in a shape's properties"
+          "en": "Interactive Help in a shape's properties",
+          "ar": "المساعدة التفاعلية في خصائص الشكل"
         },
         "body": {
           "de": "Ein Klick auf ein Feld, einen Regler oder einen Knopf in den Karten Eigenschaften, Rotation, Verjüngung und Verdrehung führt jetzt zum passenden Teil der Anleitung: zu \"Die Einstellungen der Form\", die Rotation zu \"Drehen und den Drehpunkt setzen\".",
-          "en": "A click on a field, a slider or a button in the cards Properties, Rotation, Taper and Twist now leads to the fitting part of the guide: \"The shape's settings\", and the rotation to \"Rotating and setting the pivot\"."
+          "en": "A click on a field, a slider or a button in the cards Properties, Rotation, Taper and Twist now leads to the fitting part of the guide: \"The shape's settings\", and the rotation to \"Rotating and setting the pivot\".",
+          "ar": "النقر على حقل أو شريط تمرير أو زر في بطاقات «الخصائص» و«الدوران» و«استدقاق» و«التواء» يقود الآن إلى الجزء المناسب من الدليل: «إعدادات الشكل»، والدوران إلى «التدوير وتعيين محور الدوران»."
         }
       },
       {
         "title": {
           "de": "Das Raster-Menü liegt über den Fenstern",
-          "en": "The snap grid menu lies over the panels"
+          "en": "The snap grid menu lies over the panels",
+          "ar": "قائمة شبكة الالتقاط تظهر فوق اللوحات"
         },
         "body": {
           "de": "Das Menü zur Wahl des Rasters war neben einem angehefteten Formen-Fenster teils verdeckt, die oberen Einträge ließen sich nicht anklicken. Es liegt jetzt über den Fenstern und lässt sich bei niedrigem Fenster scrollen.",
-          "en": "The menu for choosing the snap grid was partly hidden beside a pinned Shapes panel, so the upper entries could not be clicked. It now lies over the panels and scrolls on a low window."
+          "en": "The menu for choosing the snap grid was partly hidden beside a pinned Shapes panel, so the upper entries could not be clicked. It now lies over the panels and scrolls on a low window.",
+          "ar": "كانت قائمة اختيار شبكة الالتقاط مخفية جزئيًا بجانب لوحة «الأشكال» المثبّتة، فلم يكن يمكن النقر على العناصر العليا. أما الآن فتظهر فوق اللوحات، وتتمرر في النافذة المنخفضة."
         }
       },
       {
         "title": {
           "de": "Teilen zeigt eine Schnittlinie",
-          "en": "Split shows a cut line"
+          "en": "Split shows a cut line",
+          "ar": "التقسيم يُظهر خط القطع"
         },
         "body": {
           "de": "Beim Teilen läuft jetzt eine weiße Linie über die Körper, dort wo die Ebene sie trifft. So siehst du den Schnitt auf dem Körper, nicht nur an der durchscheinenden Ebene. Sie folgt der Ebene beim Verschieben und Drehen.",
-          "en": "When you split, a white line now runs over the bodies where the plane meets them. So you see the cut on the body, not only on the translucent plane. It follows the plane while you move or turn it."
+          "en": "When you split, a white line now runs over the bodies where the plane meets them. So you see the cut on the body, not only on the translucent plane. It follows the plane while you move or turn it.",
+          "ar": "عند التقسيم يمتد الآن خط أبيض على الأجسام حيث يلتقي بها المستوى. فترى القطع على الجسم نفسه، لا على المستوى الشفاف فقط. ويتبع الخط المستوى أثناء تحريكه أو تدويره."
         }
       },
       {
         "title": {
           "de": "Rändel: Verjüngen, Neigen und Verdrehen",
-          "en": "Knurl: taper, lean and twist"
+          "en": "Knurl: taper, lean and twist",
+          "ar": "التخريش: استدقاق وميل والتواء"
         },
         "body": {
           "de": "Beim Rändel gibt es jetzt auch Verjüngung und Verdrehen und Neigen, wie bei einem Würfel. Das gerade und das runde Muster bleiben dabei ein exakter Körper, die Fasen an den Enden gehen mit.",
-          "en": "The knurl now has Taper and Twist & Lean like a cube. The straight and the round pattern stay an exact body, and the chamfers at the ends go along."
+          "en": "The knurl now has Taper and Twist & Lean like a cube. The straight and the round pattern stay an exact body, and the chamfers at the ends go along.",
+          "ar": "أصبح لـ«تخريش» الآن «استدقاق» و«التواء وميل» مثل المكعب. ويبقى النمط المستقيم والدائري جسمًا دقيقًا، ويتبعهما الشطف عند الطرفين."
         }
       },
       {
         "title": {
           "de": "Fase + Rundung am Kegel mit Spitze",
-          "en": "Chamfer + Round on a cone with a pointed tip"
+          "en": "Chamfer + Round on a cone with a pointed tip",
+          "ar": "الشطف المستدير على مخروط برأس مدبب"
         },
         "body": {
           "de": "An einem Kegel, der in einer Spitze endet, wurde bei „Fase + Rundung“ die falsche Kante gerundet: Der Fuß lief mit einem Knick senkrecht herunter, und die Fase auf der Platte fehlte. Jetzt sitzt die Fase auf der Platte und die Rundung geht weich in die Wand über, wie bei einem Zylinder.",
-          "en": "On a cone that ends in a point, Chamfer + Round rounded the wrong edge: the foot ran straight down with a kink, and the chamfer on the plate was missing. Now the chamfer sits on the plate and the round blends smoothly into the wall, as on a cylinder."
+          "en": "On a cone that ends in a point, Chamfer + Round rounded the wrong edge: the foot ran straight down with a kink, and the chamfer on the plate was missing. Now the chamfer sits on the plate and the round blends smoothly into the wall, as on a cylinder.",
+          "ar": "على المخروط الذي ينتهي برأس مدبب، كان «شطف مستدير» يدوّر الحافة الخطأ: فتنزل القاعدة مستقيمة مع انكسار، ويغيب الشطف عند اللوحة. أما الآن فيقع الشطف عند اللوحة، وينتقل التدوير بانسيابية إلى الجدار، كما في الأسطوانة."
         }
       },
       {
         "title": {
           "de": "Gezeichnete Bilder mit vielen Berührungsstellen kommen ganz in layerling",
-          "en": "A traced picture with many touching outlines comes in whole"
+          "en": "A traced picture with many touching outlines comes in whole",
+          "ar": "صورة مستخرجة بحدود خارجية متلامسة كثيرة تُستورد كاملة"
         },
         "body": {
           "de": "Eine aus einem Bild nachgezeichnete SVG, bei der viele Umrisse an Ecken zusammenstoßen, kam nur als Bruchstücke herein, etwa ein Fünftel der Fläche. Der Import schließt solche Ecken jetzt so weit, dass der Körper sauber wird, und das Bild kommt vollständig mit allen Umrissen.",
-          "en": "An SVG traced from a picture, with many outlines meeting at corners, came in as a handful of pieces, about a fifth of its area. The import now closes such corners far enough for a clean body, and the picture comes in whole with all its outlines."
+          "en": "An SVG traced from a picture, with many outlines meeting at corners, came in as a handful of pieces, about a fifth of its area. The import now closes such corners far enough for a clean body, and the picture comes in whole with all its outlines.",
+          "ar": "ملف SVG مستخرج من صورة، فيه حدود خارجية كثيرة تلتقي عند زوايا، كان يُستورد كحفنة من القطع، نحو خمس مساحته. أما الآن فيغلق الاستيراد هذه الزوايا بما يكفي لجسم سليم، فتُستورد الصورة كاملة بكل حدودها الخارجية."
         }
       }
     ]
@@ -935,61 +1049,73 @@
       {
         "title": {
           "de": "OBJ aus Tinkercad liegt richtig herum",
-          "en": "An OBJ from Tinkercad comes in the right way up"
+          "en": "An OBJ from Tinkercad comes in the right way up",
+          "ar": "ملف OBJ من Tinkercad يُستورد بالاتجاه الصحيح"
         },
         "body": {
           "de": "Tinkercad schreibt seine OBJ-Dateien mit Z nach oben. layerling las sie bisher mit Y nach oben, sodass ein Teil auf der Kante stand. Jetzt erkennt layerling die Tinkercad-Datei und stellt sie richtig hin: ein flaches Teil liegt flach.",
-          "en": "Tinkercad writes its OBJ files with Z up. layerling used to read them with Y up, so a part stood on its edge. layerling now recognises a Tinkercad file and sets it down the right way: a flat part lies flat."
+          "en": "Tinkercad writes its OBJ files with Z up. layerling used to read them with Y up, so a part stood on its edge. layerling now recognises a Tinkercad file and sets it down the right way: a flat part lies flat.",
+          "ar": "يكتب Tinkercad ملفات OBJ والمحور Z إلى الأعلى. وكان layerling يقرؤها والمحور Y إلى الأعلى، فتقف القطعة على حافتها. أما الآن فيتعرف layerling على ملف Tinkercad ويضعه بالاتجاه الصحيح: فالقطعة المسطحة تستلقي مسطحة."
         }
       },
       {
         "title": {
           "de": ".lyl-Dateien öffnen sich per Doppelklick",
-          "en": "A .lyl file opens with a double click"
+          "en": "A .lyl file opens with a double click",
+          "ar": "ملف ‎.lyl يُفتح بنقرة مزدوجة"
         },
         "body": {
           "de": "Ist layerling als App auf einem Computer installiert (Chrome oder Edge), meldet es sich beim System als Programm für .lyl-Dateien an. Ein Doppelklick auf einen Entwurf im Dateimanager öffnet ihn gleich in layerling; Strg+S speichert wieder in diese Datei. Das System fragt beim ersten Mal, welches Programm es nehmen soll. Auf Android geht das nicht: dort öffnest du einen Entwurf mit \"Entwurf öffnen oder Geometrie importieren\".",
-          "en": "When layerling is installed as an app on a computer (Chrome or Edge), it registers itself with the system as a program for .lyl files. A double click on a design in the file manager opens it in layerling right away, and Ctrl+S saves back into that file. The system asks once which program to use. On Android this does not work: there, open a design with \"Open a design or import geometry\"."
+          "en": "When layerling is installed as an app on a computer (Chrome or Edge), it registers itself with the system as a program for .lyl files. A double click on a design in the file manager opens it in layerling right away, and Ctrl+S saves back into that file. The system asks once which program to use. On Android this does not work: there, open a design with \"Open a design or import geometry\".",
+          "ar": "عندما يكون layerling مثبّتًا كتطبيق على كمبيوتر (Chrome أو Edge)، يسجّل نفسه في النظام كبرنامج لملفات ‎.lyl. فالنقر المزدوج على تصميم في مدير الملفات يفتحه في layerling فورًا، وCtrl+S يحفظ في ذلك الملف نفسه. ويسأل النظام مرة واحدة عن البرنامج الذي يستخدمه. ولا يعمل ذلك على Android: افتح التصميم هناك بـ«فتح تصميم أو استيراد أشكال هندسية»."
         }
       },
       {
         "title": {
           "de": "Docker: die Vorschaubilder erscheinen",
-          "en": "Docker: the preview pictures appear"
+          "en": "Docker: the preview pictures appear",
+          "ar": "Docker: صور المعاينة تظهر"
         },
         "body": {
           "de": "Im fertigen Docker-Image blieben die Karten der Startseite bei \"Noch kein Vorschaubild\", weil der Server keinen Ordner für die Bilder anlegen durfte. Der Ordner gehört jetzt dem Server-Benutzer, die Bilder werden wieder gespeichert. Bei einem bestehenden Container das Image neu laden; die Bilder entstehen beim nächsten Öffnen eines Entwurfs.",
-          "en": "In the ready-made Docker image the cards on the start page stayed on \"No preview yet\", because the server was not allowed to create a folder for the pictures. The folder now belongs to the server's user, so the pictures are saved again. For an existing container, pull the image again; the pictures appear the next time a design is opened."
+          "en": "In the ready-made Docker image the cards on the start page stayed on \"No preview yet\", because the server was not allowed to create a folder for the pictures. The folder now belongs to the server's user, so the pictures are saved again. For an existing container, pull the image again; the pictures appear the next time a design is opened.",
+          "ar": "في صورة Docker الجاهزة كانت البطاقات في صفحة البداية تبقى على «No preview yet»، لأن الخادم لم يكن مسموحًا له بإنشاء مجلد للصور. أما الآن فالمجلد ملك لمستخدم الخادم، فتُحفظ الصور مجددًا. ومع حاوية موجودة، نزّل الصورة مجددًا؛ فتظهر الصور في المرة التالية التي يُفتح فيها تصميم."
         }
       },
       {
         "title": {
           "de": "Docker hinter einem Proxy: Speichern auf dem Server klappt",
-          "en": "Docker behind a proxy: saving to the server works"
+          "en": "Docker behind a proxy: saving to the server works",
+          "ar": "Docker خلف وكيل: الحفظ على الخادم يعمل"
         },
         "body": {
           "de": "Wer layerling hinter einem Reverse-Proxy mit Domain und HTTPS betreibt, bekam beim Speichern auf dem Server die Meldung \"Der Serverspeicher nimmt nur Anfragen von dieser Seite an\". Jetzt erkennt layerling den Fall, dass der Proxy HTTPS beendet, ohne es weiterzugeben. Verändert der Proxy den Host, trägt man die Domain in LAYERLING_ALLOWED_ORIGINS ein.",
-          "en": "If you run layerling behind a reverse proxy with a domain and HTTPS, saving to the server failed with \"Shared projects only accept requests from this site\". layerling now copes with a proxy that ends HTTPS without passing that on. If the proxy changes the host, list the domain in LAYERLING_ALLOWED_ORIGINS."
+          "en": "If you run layerling behind a reverse proxy with a domain and HTTPS, saving to the server failed with \"Shared projects only accept requests from this site\". layerling now copes with a proxy that ends HTTPS without passing that on. If the proxy changes the host, list the domain in LAYERLING_ALLOWED_ORIGINS.",
+          "ar": "إذا كنت تشغّل layerling خلف وكيل عكسي (reverse proxy) بنطاق وHTTPS، كان الحفظ على الخادم يفشل برسالة «Shared projects only accept requests from this site». أما الآن فيتعامل layerling مع وكيل ينهي HTTPS دون أن يمرّر ذلك. وإذا كان الوكيل يغيّر اسم المضيف، فاذكر النطاق في LAYERLING_ALLOWED_ORIGINS."
         }
       },
       {
         "title": {
           "de": "Alle Bezugspunkte löschen auch im Menü der leeren Fläche",
-          "en": "Delete all reference points in the menu of an empty spot too"
+          "en": "Delete all reference points in the menu of an empty spot too",
+          "ar": "حذف جميع النقاط المرجعية من قائمة المساحة الفارغة أيضًا"
         },
         "body": {
           "de": "Wer mit dem Maßband einen Bezugspunkt gesetzt hatte und daneben rechtsklickte, fand nur Einfügen, Alles auswählen und Mehrfachauswahl. „Alle Bezugspunkte löschen“ steht jetzt auch im Menü einer leeren Stelle der 3D-Ansicht, sobald der Entwurf einen Bezugspunkt enthält.",
-          "en": "If you had set a reference point with the tape measure and right-clicked next to it, you found only Paste, Select all and Select multiple. \"Delete all reference points\" is now in the menu of an empty spot of the 3D view too, whenever the design holds a reference point."
+          "en": "If you had set a reference point with the tape measure and right-clicked next to it, you found only Paste, Select all and Select multiple. \"Delete all reference points\" is now in the menu of an empty spot of the 3D view too, whenever the design holds a reference point.",
+          "ar": "إذا وضعت نقطة مرجعية بشريط القياس ثم نقرت بالزر الأيمن بجانبها، لم تكن تجد إلا «لصق» و«تحديد الكل» و«تحديد عدة أجسام». أما الآن فيوجد «حذف جميع النقاط المرجعية» في قائمة المساحة الفارغة من العرض ثلاثي الأبعاد أيضًا، ما دام في التصميم نقطة مرجعية."
         }
       },
       {
         "title": {
           "de": "Das Zahlenfeld des Winkellineals schließt sich bei Abwahl",
-          "en": "The number field of the corner ruler closes on deselect"
+          "en": "The number field of the corner ruler closes on deselect",
+          "ar": "حقل الرقم في زاوية النجار يُغلق عند إلغاء التحديد"
         },
         "body": {
           "de": "Ein Klick auf eine grüne Zahl des Winkellineals öffnet ein Feld zum Eintippen. Es blieb stehen, auch wenn der Körper nicht mehr ausgewählt war. Jetzt schließt es sich (ohne zu übernehmen), sobald die Körper, für die es geöffnet wurde, nicht mehr alle ausgewählt sind.",
-          "en": "A click on a green number of the corner ruler opens a field to type into. It stayed in the view even when the body was no longer selected. It now closes (without applying) as soon as the bodies it was opened for are no longer all selected."
+          "en": "A click on a green number of the corner ruler opens a field to type into. It stayed in the view even when the body was no longer selected. It now closes (without applying) as soon as the bodies it was opened for are no longer all selected.",
+          "ar": "النقر على رقم أخضر في «زاوية النجار» يفتح حقلًا للكتابة. وكان يبقى في العرض حتى بعد أن لم يعد الجسم محددًا. أما الآن فيُغلق (دون تطبيق) بمجرد ألا تكون كل الأجسام التي فُتح لها محددة."
         }
       }
     ]
@@ -1000,81 +1126,97 @@
       {
         "title": {
           "de": "Skizze schmaler machen: Umriss nach innen versetzen",
-          "en": "Narrower: move a sketch outline inwards"
+          "en": "Narrower: move a sketch outline inwards",
+          "ar": "أضيق: إزاحة الحد الخارجي للرسم التخطيطي إلى الداخل"
         },
         "body": {
           "de": "Neben „Breiter“ gibt es bei der Füllung eines Skizzenkörpers jetzt „Schmaler“: Die Fläche bleibt gefüllt und ihr Rand rückt rundum um die Linienbreite nach innen, Löcher werden größer. So entstehen aus einer Skizze das Passloch und das Teil, das 0,5 mm schmaler hindurchgeht, oder eine Innenwand.",
-          "en": "Next to \"Wider\", the fill of a sketch body now has \"Narrower\": the area stays filled and its edge moves in by the line width all round, holes grow. One sketch gives the fit hole and the part that passes through it 0.5 mm smaller, or an inner wall."
+          "en": "Next to \"Wider\", the fill of a sketch body now has \"Narrower\": the area stays filled and its edge moves in by the line width all round, holes grow. One sketch gives the fit hole and the part that passes through it 0.5 mm smaller, or an inner wall.",
+          "ar": "إلى جانب «أعرض»، أصبح لتعبئة جسم الرسم التخطيطي الآن «أضيق»: تبقى المساحة معبأة وتنزاح حافتها إلى الداخل بعرض الخط من كل الجهات، وتكبر الثقوب. فيعطي رسم تخطيطي واحد ثقب التركيب والقطعة التي تمر فيه أصغر بـ0.5 مم، أو جدارًا داخليًا."
         }
       },
       {
         "title": {
           "de": "Abstand zwischen den Buchstaben einstellen",
-          "en": "Set the space between the letters"
+          "en": "Set the space between the letters",
+          "ar": "ضبط المسافة بين الحروف"
         },
         "body": {
           "de": "Texte haben jetzt einen Zeichenabstand in Prozent der Buchstabengröße, auch negativ und bei gebogenem Text. Das hilft vor allem bei eigenen Schriften, die zu eng oder zu weit stehen. Die Buchstaben behalten ihre Größe, der Rahmen folgt der Zeile.",
-          "en": "Texts now have a letter spacing in per cent of the letter size, also negative and on curved text. That helps most with fonts of your own that stand too tight or too wide. The letters keep their size and the box follows the line."
+          "en": "Texts now have a letter spacing in per cent of the letter size, also negative and on curved text. That helps most with fonts of your own that stand too tight or too wide. The letters keep their size and the box follows the line.",
+          "ar": "أصبح للنصوص الآن تباعد للحروف بالنسبة المئوية من حجم الحرف، وقد يكون سالبًا، ويعمل على النص المنحني أيضًا. وهذا يفيد أكثر مع الخطوط التي تضيفها بنفسك عندما تكون حروفها متلاصقة أو متباعدة أكثر مما يجب. وتحتفظ الحروف بحجمها، ويتبع الصندوق السطر."
         }
       },
       {
         "title": {
           "de": "Formen unter der Skizze mit ihrem echten Umriss",
-          "en": "Bodies under a sketch show their real outline"
+          "en": "Bodies under a sketch show their real outline",
+          "ar": "الأجسام تحت الرسم التخطيطي تُظهر حدها الخارجي الحقيقي"
         },
         "body": {
           "de": "Im Skizzenmodus erscheinen die Körper auf der Arbeitsebene im Hintergrund jetzt mit ihrem wirklichen Umriss: Vieleck, Stern, Herz, Keil und die anderen Formen waren dort bisher alle ein Quadrat. Auch die Fangpunkte der Skizze rasten an diesem Umriss ein.",
-          "en": "In sketch mode the bodies on the workplane now show in the background with their real outline: a polygon, a star, a heart, a wedge and the other shapes were all drawn as a square there. The sketch's snap points follow that outline as well."
+          "en": "In sketch mode the bodies on the workplane now show in the background with their real outline: a polygon, a star, a heart, a wedge and the other shapes were all drawn as a square there. The sketch's snap points follow that outline as well.",
+          "ar": "في وضع الرسم التخطيطي تظهر الأجسام الموجودة على سطح العمل الآن في الخلفية بحدها الخارجي الحقيقي: فالمضلع والنجمة والقلب والإسفين والأشكال الأخرى كانت كلها تُرسم هناك مربعًا. وتتبع نقاط الالتقاط في الرسم التخطيطي هذا الحد الخارجي أيضًا."
         }
       },
       {
         "title": {
           "de": "Tastenkürzel auf einer Seite drucken",
-          "en": "The shortcuts print on one sheet"
+          "en": "The shortcuts print on one sheet",
+          "ar": "الاختصارات تُطبع على ورقة واحدة"
         },
         "body": {
           "de": "Der Druckerknopf im Fenster mit den Tastenkürzeln setzt die ganze Liste, im Editor wie in der Skizze, auf eine Seite (A4 oder Letter): schwarz auf weiß, in drei Spalten, als Kurzübersicht zum Hinlegen.",
-          "en": "The printer button in the shortcuts window now puts the whole list, in the editor and in sketch mode, on one sheet (A4 or Letter): black on white, in three columns, as a quick reference to keep at hand."
+          "en": "The printer button in the shortcuts window now puts the whole list, in the editor and in sketch mode, on one sheet (A4 or Letter): black on white, in three columns, as a quick reference to keep at hand.",
+          "ar": "زر الطابعة في نافذة الاختصارات يضع الآن القائمة كلها، في المحرر وفي وضع الرسم التخطيطي، على ورقة واحدة (A4 أو Letter): بالأسود على الأبيض، في ثلاثة أعمدة، كمرجع سريع تبقيه في متناول يدك."
         }
       },
       {
         "title": {
           "en": "Right-angle snapping and quick delete in the tape measure",
-          "de": "Rechtwinkliges Einrasten und schnelles Löschen beim Maßband"
+          "de": "Rechtwinkliges Einrasten und schnelles Löschen beim Maßband",
+          "ar": "الالتقاط بزاوية قائمة والحذف السريع في شريط القياس"
         },
         "body": {
           "en": "When placing the second point of a measurement, the tape measure now snaps at a right angle to an opposing edge or face - or anywhere on it while you hold Shift, which makes measuring the clear width of a hole or the gap between two parts exact. And while adding measurements, a click with Shift or Ctrl (Cmd on a Mac) deletes a point or a line right away without switching modes.",
-          "de": "Beim Setzen des zweiten Messpunkts rastet das Maßband jetzt im rechten Winkel an einer gegenüberliegenden Kante oder Fläche ein – oder überall darauf, solange du Umschalt hältst; so misst du die lichte Weite einer Öffnung oder den Abstand zwischen zwei Teilen genau. Und während du Maße hinzufügst, löscht ein Klick mit Umschalt oder Strg (Cmd auf dem Mac) einen Punkt oder eine Linie sofort, ohne den Modus zu wechseln."
+          "de": "Beim Setzen des zweiten Messpunkts rastet das Maßband jetzt im rechten Winkel an einer gegenüberliegenden Kante oder Fläche ein – oder überall darauf, solange du Umschalt hältst; so misst du die lichte Weite einer Öffnung oder den Abstand zwischen zwei Teilen genau. Und während du Maße hinzufügst, löscht ein Klick mit Umschalt oder Strg (Cmd auf dem Mac) einen Punkt oder eine Linie sofort, ohne den Modus zu wechseln.",
+          "ar": "عند وضع النقطة الثانية من القياس، يلتقط شريط القياس الآن بزاوية قائمة على حافة أو وجه مقابل - أو عند أي نقطة عليه ما دمت تضغط Shift، وهذا يجعل قياس العرض الصافي لثقب أو الفجوة بين قطعتين دقيقًا. وأثناء إضافة القياسات، النقر مع Shift أو Ctrl (Cmd على Mac) يحذف نقطة أو خطًا فورًا دون تبديل الوضع."
         }
       },
       {
         "title": {
           "de": "Winkellineal: X und Y stimmen wieder",
-          "en": "Corner ruler: X and Y are the right way round"
+          "en": "Corner ruler: X and Y are the right way round",
+          "ar": "زاوية النجار: X وY في مكانهما الصحيح"
         },
         "body": {
           "de": "Beim Winkellineal trugen die grünen Zahlen die Hinweise „X-Position“ und „Y-Position zum Lineal“ vertauscht: Rückte ein Körper nach hinten, änderte sich die Zahl mit dem Hinweis X. Jetzt heißt jede Zahl nach der Richtung ihres Arms: X nach rechts, Y nach hinten, Z nach oben, auch nach einer Vierteldrehung des Lineals.",
-          "en": "On the corner ruler the green numbers had the tooltips \"X position\" and \"Y position to ruler\" the wrong way round: when a body moved to the back, the number with the X tooltip changed. Now each number is named by the direction of its arm: X to the right, Y to the back, Z up, also after the ruler is turned by a quarter."
+          "en": "On the corner ruler the green numbers had the tooltips \"X position\" and \"Y position to ruler\" the wrong way round: when a body moved to the back, the number with the X tooltip changed. Now each number is named by the direction of its arm: X to the right, Y to the back, Z up, also after the ruler is turned by a quarter.",
+          "ar": "في «زاوية النجار» كانت تلميحات الأرقام الخضراء «الموضع X للمسطرة» و«الموضع Y للمسطرة» معكوسة: فعندما يتحرك جسم إلى الخلف، يتغير الرقم الذي عليه تلميح X. أما الآن فيُسمّى كل رقم باتجاه ذراعه: X إلى اليمين، وY إلى الخلف، وZ إلى الأعلى، حتى بعد تدوير الزاوية ربع دورة."
         }
       },
       {
         "title": {
           "de": "Raster auch bei mehreren markierten Teilen erreichbar",
-          "en": "Snap grid reachable with several parts selected"
+          "en": "Snap grid reachable with several parts selected",
+          "ar": "شبكة الالتقاط متاحة مع تحديد عدة أجزاء"
         },
         "body": {
           "de": "Sind mehrere Teile markiert, reichte das Fenster rechts bis ganz nach unten und verdeckte die Rasterwahl in der Ecke. Jetzt sitzt die Rasterwahl, samt dem Schalter zum Fangen an Formen, am Fuß dieses Fensters, wie bei einem einzelnen Teil. Schiebst du das Fenster weg, ist sie wieder in der Ecke.",
-          "en": "With several parts selected, the panel on the right reached down to the bottom and covered the snap grid choice in the corner. The snap grid, with the switch for snapping to shapes, now sits at the foot of that panel, as it does for a single part. Move the panel away and it is back in the corner."
+          "en": "With several parts selected, the panel on the right reached down to the bottom and covered the snap grid choice in the corner. The snap grid, with the switch for snapping to shapes, now sits at the foot of that panel, as it does for a single part. Move the panel away and it is back in the corner.",
+          "ar": "عند تحديد عدة أجزاء كانت اللوحة على اليمين تمتد حتى الأسفل وتغطي اختيار شبكة الالتقاط في الزاوية. أما الآن فتقع شبكة الالتقاط، مع مفتاح الالتقاط إلى الأشكال، في أسفل تلك اللوحة، كما مع جزء واحد. وإذا أبعدت اللوحة، تعود إلى الزاوية."
         }
       },
       {
         "title": {
           "de": "Auswahlrahmen: Grün für „berühren“",
-          "en": "Selection frame: green for \"touching\""
+          "en": "Selection frame: green for \"touching\"",
+          "ar": "إطار التحديد: الأخضر لـ«ما يلامسه»"
         },
         "body": {
           "de": "Ziehst du den Rahmen von rechts nach links (oder mit Alt andersherum), nimmt er alles mit, was er berührt. Jetzt ist er dann grün und gestrichelt, sodass du sofort siehst, in welcher Art er auswählt. Der Rahmen, der Teile ganz umschließen muss, bleibt orange.",
-          "en": "Drag the frame from right to left (or the other way round with Alt) and it takes everything it touches. It is now green and dashed then, so you see at once how it selects. The frame that must enclose parts completely stays orange."
+          "en": "Drag the frame from right to left (or the other way round with Alt) and it takes everything it touches. It is now green and dashed then, so you see at once how it selects. The frame that must enclose parts completely stays orange.",
+          "ar": "اسحب الإطار من اليمين إلى اليسار (أو بالعكس مع Alt) فيأخذ كل ما يلامسه. وهو الآن أخضر ومتقطع حينها، فترى فورًا كيف يحدد. ويبقى الإطار الذي يجب أن يحيط بالأجزاء كاملة برتقاليًا."
         }
       }
     ]
@@ -1085,81 +1227,97 @@
       {
         "title": {
           "de": "Eine Drehung windet sich zu einem durchgehenden Strang",
-          "en": "A revolve can wind up as one continuous strand"
+          "en": "A revolve can wind up as one continuous strand",
+          "ar": "الدوران يمكن أن يلتف كخيط واحد متصل"
         },
         "body": {
           "de": "Ein gedrehter Körper hat jetzt eine Steigung im Eigenschaften-Fenster. Über 0 windet sich der Umriss als Schraubenlinie statt zu Ringen, wie Filament auf einer Spule, und du stellst die Windungen ein.",
-          "en": "A revolved body now has a Pitch in the Properties panel. Above 0 the outline winds up as a helix instead of rings, like filament on a spool, and you set the number of turns."
+          "en": "A revolved body now has a Pitch in the Properties panel. Above 0 the outline winds up as a helix instead of rings, like filament on a spool, and you set the number of turns.",
+          "ar": "أصبح للجسم الدوراني الآن «الخطوة» في لوحة «الخصائص». وفوق 0 يلتف الحد الخارجي كلولب بدلًا من حلقات، مثل خيط الطباعة على البكرة، وتضبط عدد اللفات."
         }
       },
       {
         "title": {
           "de": "Alt dreht den Auswahlrahmen um",
-          "en": "Alt turns the selection frame around"
+          "en": "Alt turns the selection frame around",
+          "ar": "Alt يعكس عمل إطار التحديد"
         },
         "body": {
           "de": "Halte beim Ziehen eines Auswahlrahmens Alt: Der Rahmen arbeitet für dieses eine Ziehen andersherum. Mit der Einstellung \"Die Richtung des Rahmens entscheidet\" nimmt ein Rahmen nach rechts dann alles, was er berührt, und einer nach links nur das ganz Eingeschlossene. Ist die Einstellung aus, nimmt Alt nur das ganz Eingeschlossene.",
-          "en": "Hold Alt while you drag a selection frame: it works the other way round for that one drag. With the setting \"The direction of the frame decides\" on, a frame dragged to the right then takes everything it touches and one dragged to the left only what lies completely inside. With the setting off, Alt takes only what lies completely inside."
+          "en": "Hold Alt while you drag a selection frame: it works the other way round for that one drag. With the setting \"The direction of the frame decides\" on, a frame dragged to the right then takes everything it touches and one dragged to the left only what lies completely inside. With the setting off, Alt takes only what lies completely inside.",
+          "ar": "اضغط Alt أثناء سحب إطار التحديد: فيعمل بالعكس لتلك السحبة وحدها. ومع تفعيل الإعداد «اتجاه الإطار يحدد طريقة التحديد»، يأخذ الإطار المسحوب إلى اليمين عندها كل ما يلامسه، والمسحوب إلى اليسار ما يقع داخله بالكامل فقط. ومع إيقاف الإعداد، يأخذ Alt ما يقع داخل الإطار بالكامل فقط."
         }
       },
       {
         "title": {
           "de": "Gravur um den Zylinder schneidet sauber durch",
-          "en": "An engraving around a cylinder cuts all the way through"
+          "en": "An engraving around a cylinder cuts all the way through",
+          "ar": "النقش حول أسطوانة يقطع حتى النهاية"
         },
         "body": {
           "de": "Ein nach innen gewickeltes Logo, als Loch von einem Zylinder abgezogen, ließ an manchen Stellen eine hauchdünne Haut stehen. Der gewickelte Körper ragt jetzt 0,05 mm über die Wand hinaus, sodass das Loch sicher durchschneidet.",
-          "en": "A logo wrapped inward and cut out of a cylinder as a hole left a hair-thin skin standing in places. The wrapped body now reaches 0.05 mm beyond the wall, so the hole cuts all the way through."
+          "en": "A logo wrapped inward and cut out of a cylinder as a hole left a hair-thin skin standing in places. The wrapped body now reaches 0.05 mm beyond the wall, so the hole cuts all the way through.",
+          "ar": "الشعار الملفوف إلى الداخل والمقطوع من أسطوانة كثقب كان يترك في بعض المواضع قشرة رقيقة كالشعرة. أما الآن فيمتد الجسم الملفوف 0.05 مم خلف الجدار، فيقطع الثقب حتى النهاية."
         }
       },
       {
         "title": {
           "de": "Mausrad in Größenfeldern stoppt am unteren Grenzwert",
-          "en": "The wheel in a size field stops at the lower limit"
+          "en": "The wheel in a size field stops at the lower limit",
+          "ar": "العجلة في حقل المقاس تتوقف عند الحد الأدنى"
         },
         "body": {
           "de": "Das Mausrad in einem Größenfeld der Eigenschaften läuft nicht mehr unter den kleinsten Wert (0,01 mm) in negative Zahlen: Das Feld bleibt am Grenzwert stehen.",
-          "en": "The mouse wheel in a size field of the properties no longer runs below the smallest value (0.01 mm) into negative numbers: the field stops at the limit."
+          "en": "The mouse wheel in a size field of the properties no longer runs below the smallest value (0.01 mm) into negative numbers: the field stops at the limit.",
+          "ar": "لم تعد عجلة الفأرة في حقل مقاس في الخصائص تنزل تحت أصغر قيمة (0.01 مم) إلى الأرقام السالبة: فالحقل يتوقف عند الحد."
         }
       },
       {
         "title": {
           "de": "Winzige Körper lassen sich auf dem Tablet wieder verschieben",
-          "en": "Tiny bodies can be moved on a tablet again"
+          "en": "Tiny bodies can be moved on a tablet again",
+          "ar": "يمكن تحريك الأجسام الصغيرة جدًا على الجهاز اللوحي مجددًا"
         },
         "body": {
           "de": "Ist ein ausgewählter Körper auf dem Bildschirm sehr klein, greift ein Finger nicht mehr aus Versehen einen Anfasser statt des Körpers: Die breiten Fangbereiche der Anfasser entfallen dann, und die Mitte bleibt zum Verschieben frei.",
-          "en": "When a selected body is very small on the screen, a finger no longer grabs a handle instead of the body: the handles' wide catch zones are dropped then, and the middle stays free for dragging."
+          "en": "When a selected body is very small on the screen, a finger no longer grabs a handle instead of the body: the handles' wide catch zones are dropped then, and the middle stays free for dragging.",
+          "ar": "عندما يكون الجسم المحدد صغيرًا جدًا على الشاشة، لم يعد الإصبع يمسك مقبضًا بدلًا من الجسم: فتُلغى حينها مناطق الالتقاط الواسعة للمقابض، ويبقى الوسط حرًا للسحب."
         }
       },
       {
         "title": {
           "de": "Schnittfläche eines durchsichtigen Körpers ist durchsichtig",
-          "en": "A see-through body has a see-through cut face"
+          "en": "A see-through body has a see-through cut face",
+          "ar": "الجسم الشفاف له وجه قطع شفاف"
         },
         "body": {
           "de": "Schneidest du einen durchsichtigen Körper in der Schnittansicht, ist die gefüllte Schnittfläche jetzt ebenso durchsichtig wie der Körper, nicht mehr undurchsichtig.",
-          "en": "When you cut a see-through body in the section view, the filled cut face is now as see-through as the body, no longer solid."
+          "en": "When you cut a see-through body in the section view, the filled cut face is now as see-through as the body, no longer solid.",
+          "ar": "عندما تقطع جسمًا شفافًا في «عرض المقطع»، يصبح وجه القطع المملوء الآن شفافًا بقدر الجسم، لا صلبًا."
         }
       },
       {
         "title": {
           "de": "Formenfenster der Skizze: eigener Platz, eigene Größe",
-          "en": "The sketch's shape panel: its own place and size"
+          "en": "The sketch's shape panel: its own place and size",
+          "ar": "لوحة الأشكال في الرسم التخطيطي: مكانها وحجمها الخاصان"
         },
         "body": {
           "de": "Das Formenfenster der Skizze merkt sich Platz, Anheften und Größe jetzt für sich und teilt sie nicht mehr mit dem 3D-Editor. Es lässt sich an Rändern und Ecken auf die gewünschte Größe ziehen, wie das des 3D-Editors.",
-          "en": "The sketch's shape panel now remembers its place, its pin and its size on its own and no longer shares them with the 3D editor. Its edges and corners can be pulled to the size you want, like the 3D editor's panel."
+          "en": "The sketch's shape panel now remembers its place, its pin and its size on its own and no longer shares them with the 3D editor. Its edges and corners can be pulled to the size you want, like the 3D editor's panel.",
+          "ar": "أصبحت لوحة الأشكال في الرسم التخطيطي تتذكر الآن مكانها ودبوسها وحجمها وحدها، ولم تعد تتشاركها مع المحرر ثلاثي الأبعاد. ويمكن سحب حوافها وزواياها إلى الحجم الذي تريده، مثل لوحة المحرر ثلاثي الأبعاد."
         }
       },
       {
         "title": {
           "de": "Keine Offline-Versprechen, wo es nicht geht",
-          "en": "No offline promise where it cannot work"
+          "en": "No offline promise where it cannot work",
+          "ar": "لا وعد بالعمل دون اتصال حيث لا يمكن ذلك"
         },
         "body": {
           "de": "Die Karte \"layerling als App installieren\" und die Kachel \"Ohne Internet\" auf der Startseite erscheinen nur noch, wo layerling sich wirklich für den Offline-Betrieb ablegen kann. Im Docker-Image, das als Node-Server läuft, und unter einer Adresse mit http fallen sie weg.",
-          "en": "The card \"Install layerling as an app\" and the \"Works offline\" tile on the start page now appear only where layerling can really keep itself for offline use. In the Docker image, which runs as a Node server, and at a plain-http address they are gone."
+          "en": "The card \"Install layerling as an app\" and the \"Works offline\" tile on the start page now appear only where layerling can really keep itself for offline use. In the Docker image, which runs as a Node server, and at a plain-http address they are gone.",
+          "ar": "أصبحت البطاقة «ثبّت layerling كتطبيق» وبطاقة «يعمل بدون إنترنت» في صفحة البداية تظهران الآن فقط حيث يستطيع layerling فعلًا حفظ نفسه للعمل دون اتصال. وفي صورة Docker، التي تعمل كخادم Node، وعلى عنوان http عادي، اختفتا."
         }
       },
       {
@@ -1199,71 +1357,85 @@
       {
         "title": {
           "de": "Nachgezeichnete SVGs bleiben klein genug zum Verbinden",
-          "en": "Traced SVGs stay small enough to join"
+          "en": "Traced SVGs stay small enough to join",
+          "ar": "ملفات SVG المستخرجة تبقى صغيرة بما يكفي للدمج"
         },
         "body": {
           "de": "Eine importierte SVG mit sehr vielen Kurven, etwa eine nachgezeichnete Zeichnung, wurde in über 350.000 Dreiecke zerlegt, sodass mehrere Kopien nicht mehr zu verbinden waren. Jetzt sind es etwa zehnmal weniger, und die Zeichnung sieht bei dieser Größe gleich aus. Von Hand gezeichnete Skizzen bleiben so fein wie vorher.",
-          "en": "An imported SVG with very many curves, such as a traced drawing, was cut into over 350,000 triangles, so several copies could no longer be joined. It is now about ten times fewer, and the drawing looks the same at that size. Sketches drawn by hand stay as fine as before."
+          "en": "An imported SVG with very many curves, such as a traced drawing, was cut into over 350,000 triangles, so several copies could no longer be joined. It is now about ten times fewer, and the drawing looks the same at that size. Sketches drawn by hand stay as fine as before.",
+          "ar": "ملف SVG مستورد فيه منحنيات كثيرة جدًا، مثل رسم مستخرج من صورة، كان يُقطع إلى أكثر من 350,000 مثلث، فلم يعد ممكنًا دمج عدة نسخ منه. أما الآن فالعدد أقل بنحو عشر مرات، ويبدو الرسم كما هو بذلك الحجم. وتبقى الرسوم التخطيطية المرسومة باليد دقيقة كما كانت."
         }
       },
       {
         "title": {
           "de": "Dünne, kleine Buchstaben gehen im Export nicht mehr verloren",
-          "en": "Thin, small letters are no longer lost in the export"
+          "en": "Thin, small letters are no longer lost in the export",
+          "ar": "الحروف الصغيرة الرقيقة لم تعد تضيع في التصدير"
         },
         "body": {
           "de": "Ein kleiner, flacher Text verlor beim Export als STL, 3MF oder OBJ einzelne Buchstaben, bei dünnem Text die meisten: das Pünktchen des i, den Apostroph, kleine Buchstaben. Der Export hielt sie für Splitter, die ein Schnitt zurückgelassen hat. Das gilt jetzt nur noch für Körper, die ein Schnitt, ein Verschmelzen mehrerer Körper oder die Farbtrennung verändert hat.",
-          "en": "A small, flat text lost single letters in the export as STL, 3MF or OBJ, with a thin text most of them: the dot of the i, the apostrophe, small letters. The export took them for splinters that a cut had left behind. That now applies only to bodies that a cut, a merge of several bodies or the colour separation has changed."
+          "en": "A small, flat text lost single letters in the export as STL, 3MF or OBJ, with a thin text most of them: the dot of the i, the apostrophe, small letters. The export took them for splinters that a cut had left behind. That now applies only to bodies that a cut, a merge of several bodies or the colour separation has changed.",
+          "ar": "كان النص الصغير المسطح يفقد حروفًا مفردة عند التصدير بصيغة STL أو 3MF أو OBJ، ومع النص الرقيق أغلبها: نقطة الحرف i، والفاصلة العليا، والحروف الصغيرة. فقد كان التصدير يعدّها شظايا تركها القطع. أما الآن فلا ينطبق ذلك إلا على الأجسام التي غيّرها قطع أو دمج عدة أجسام أو فصل الألوان."
         }
       },
       {
         "title": {
           "de": "Ein SVG mit sich berührenden Formen kommt vollständig an",
-          "en": "An SVG with touching shapes comes in whole"
+          "en": "An SVG with touching shapes comes in whole",
+          "ar": "ملف SVG فيه أشكال متلامسة يُستورد كاملًا"
         },
         "body": {
           "de": "Bei einem gezeichneten oder nachgezeichneten Bild treffen sich zwei Formen oft in nur einem Punkt. Der Import hat dann einzelne Formen weggelassen, das Bild kam kleiner und lückenhaft an. Solche Formen werden jetzt zusammen aufgebaut, und das Bild bleibt vollständig.",
-          "en": "In a drawn or traced picture two shapes often meet in just one point. The import then left some shapes out, and the picture came in smaller and with gaps. Such shapes are now built together, and the picture stays whole."
+          "en": "In a drawn or traced picture two shapes often meet in just one point. The import then left some shapes out, and the picture came in smaller and with gaps. Such shapes are now built together, and the picture stays whole.",
+          "ar": "في الصورة المرسومة أو المستخرجة يلتقي شكلان كثيرًا في نقطة واحدة فقط. فكان الاستيراد يترك بعض الأشكال، فتأتي الصورة أصغر وفيها فجوات. أما الآن فتُبنى هذه الأشكال معًا، وتبقى الصورة كاملة."
         }
       },
       {
         "title": {
           "de": "Chamfillet am Zylinder sitzt wieder am Fuß",
-          "en": "The chamfillet on a cylinder sits at the foot again"
+          "en": "The chamfillet on a cylinder sits at the foot again",
+          "ar": "الشطف المستدير على الأسطوانة يعود إلى القاعدة"
         },
         "body": {
           "de": "Ein Chamfillet an der unteren Kante eines Zylinders kam verkehrt herum heraus: unten die Verrundung, darüber die Fase, und auch der obere Rand wurde gerundet. Jetzt liegt unten die Fase auf der Platte, die in die Wand übergeht, und der obere Rand bleibt unberührt.",
-          "en": "A chamfillet on the bottom edge of a cylinder came out the wrong way round: the fillet at the foot, the chamfer above it, and the top rim rounded as well. Now the chamfer sits on the plate and blends into the wall, and the top rim stays untouched."
+          "en": "A chamfillet on the bottom edge of a cylinder came out the wrong way round: the fillet at the foot, the chamfer above it, and the top rim rounded as well. Now the chamfer sits on the plate and blends into the wall, and the top rim stays untouched.",
+          "ar": "الشطف المستدير على الحافة السفلى للأسطوانة كان يخرج معكوسًا: التنعيم عند القاعدة، والشطف فوقه، والحافة العليا مدوّرة أيضًا. أما الآن فيقع الشطف عند اللوحة وينتقل إلى الجدار، وتبقى الحافة العليا كما هي."
         }
       },
       {
         "title": {
           "de": "Japanisch und Chinesisch ins Textfeld tippen",
-          "en": "Typing Japanese and Chinese into the Text field"
+          "en": "Typing Japanese and Chinese into the Text field",
+          "ar": "كتابة اليابانية والصينية في حقل «نص»"
         },
         "body": {
           "de": "Mit einer Eingabemethode (IME) ließ sich in das Textfeld eines Textes oder Namensschilds nichts Sinnvolles tippen: \"ishi\" wurde zu \"いｓｈい\" und ließ sich nicht in Kanji umwandeln. Das Feld behält jetzt, was getippt wird, und übernimmt ein Wort erst, wenn es fertig ist. Das gilt für Japanisch, Chinesisch und Koreanisch.",
-          "en": "With an input method (IME) nothing sensible could be typed into the Text field of a text or a name tag: \"ishi\" came out as \"いｓｈい\" and could not be converted to kanji. The field now keeps what is typed and takes a word over once it is done. This holds for Japanese, Chinese and Korean."
+          "en": "With an input method (IME) nothing sensible could be typed into the Text field of a text or a name tag: \"ishi\" came out as \"いｓｈい\" and could not be converted to kanji. The field now keeps what is typed and takes a word over once it is done. This holds for Japanese, Chinese and Korean.",
+          "ar": "مع طريقة إدخال (IME) لم يكن يمكن كتابة شيء معقول في حقل «نص» لنص أو بطاقة اسم: فكانت «ishi» تخرج «いｓｈい» ولا يمكن تحويلها إلى كانجي. أما الآن فيحتفظ الحقل بما يُكتب ويأخذ الكلمة بعد اكتمالها. وهذا ينطبق على اليابانية والصينية والكورية."
         }
       },
       {
         "title": {
           "de": "Interaktive Hilfe erklärt jede Einstellung einzeln",
-          "en": "Interactive Help explains each setting on its own"
+          "en": "Interactive Help explains each setting on its own",
+          "ar": "المساعدة التفاعلية تشرح كل إعداد وحده"
         },
         "body": {
           "de": "In den Arbeitsbereich-Einstellungen führte ein Klick bei eingeschalteter Interaktiver Hilfe oft nur auf einen langen Abschnitt oder zu gar nichts. Jetzt hat die Anleitung zu jeder Gruppe von Einstellungen einen eigenen Abschnitt (Deutsch und Englisch), dazu „Farben wählen“ für die Farbkarte, und die Felder, Regler, Farbknöpfe und Listen finden ihren Abschnitt, auch der Schnellmodus-Schalter.",
-          "en": "In the Workspace settings, a click with Interactive Help on often led only to a long section, or to nothing. Now the guide has a section of its own for each group of settings (English and German), plus \"Choosing colours\" for the colour card, and the fields, sliders, colour buttons and lists find their section, the Fast mode switch too."
+          "en": "In the Workspace settings, a click with Interactive Help on often led only to a long section, or to nothing. Now the guide has a section of its own for each group of settings (English and German), plus \"Choosing colours\" for the colour card, and the fields, sliders, colour buttons and lists find their section, the Fast mode switch too.",
+          "ar": "في «إعدادات مساحة العمل» كان النقر مع تفعيل «المساعدة التفاعلية» يقود غالبًا إلى قسم طويل فقط، أو إلى لا شيء. أما الآن ففي الدليل قسم خاص لكل مجموعة من الإعدادات (بالإنجليزية والألمانية)، إضافة إلى «اختيار الألوان» لبطاقة الألوان، وتجد الحقول وأشرطة التمرير وأزرار الألوان والقوائم قسمها، ومنها مفتاح «الوضع السريع»."
         }
       },
       {
         "title": {
           "de": "Die Verlaufsansicht nennt den Schritt hinter den Pfeilen",
-          "en": "The History view says what the arrows undo and redo"
+          "en": "The History view says what the arrows undo and redo",
+          "ar": "عرض السجل يذكر ما تتراجع عنه الأسهم وما تعيده"
         },
         "body": {
           "de": "Unter dem Regler der Verlaufsansicht steht jetzt, welchen Schritt der linke Pfeil zurücknehmen würde („Letzter Schritt: Box verschoben“) und welchen der rechte wiederholen würde („Nächster Schritt: 2 Objekte zu Gruppe gruppiert“). Am ältesten und am neuesten Stand steht „keiner“. Das klappt auch bei Entwürfen, die schon früher gespeichert wurden.",
-          "en": "Under the slider of the History view, a row now names the step the left arrow would undo (\"Last step: Moved Box\") and the one the right arrow would redo (\"Next step: Grouped 2 objects into Group\"), with \"none\" at the oldest and the newest state. It also works for designs saved before."
+          "en": "Under the slider of the History view, a row now names the step the left arrow would undo (\"Last step: Moved Box\") and the one the right arrow would redo (\"Next step: Grouped 2 objects into Group\"), with \"none\" at the oldest and the newest state. It also works for designs saved before.",
+          "ar": "تحت شريط التمرير في عرض «السجل» يذكر صف الآن الخطوة التي سيتراجع عنها السهم الأيسر («الخطوة السابقة: تم نقل: Box») والخطوة التي سيعيدها السهم الأيمن («الخطوة التالية: تم التجميع في Group (الأجسام: 2)»)، مع «لا شيء» عند أقدم حالة وأحدثها. ويعمل ذلك أيضًا مع التصاميم المحفوظة من قبل."
         }
       }
     ]
@@ -1308,41 +1480,49 @@
       {
         "title": {
           "de": "Angehobener Boden für Gridfinity-Behälter",
-          "en": "Raised floor for Gridfinity bins"
+          "en": "Raised floor for Gridfinity bins",
+          "ar": "أرضية مرفوعة لعلب Gridfinity"
         },
         "body": {
           "de": "Ein Gridfinity-Behälter kann jetzt einen angehobenen Boden haben: Bis zur „Bodenhöhe“, die du im Eigenschaften-Fenster einstellst, ist er massiv - ein Rohling, in den du die Formen deiner Werkzeuge schneidest.",
-          "en": "A Gridfinity bin can now have a raised floor: set \"Floor height\" in the Properties panel, and the bin is solid up to it, a blank to cut the shapes of your tools into."
+          "en": "A Gridfinity bin can now have a raised floor: set \"Floor height\" in the Properties panel, and the bin is solid up to it, a blank to cut the shapes of your tools into.",
+          "ar": "يمكن الآن أن تكون لعلبة Gridfinity أرضية مرفوعة: اضبط «ارتفاع الأرضية» في لوحة «الخصائص»، فتصبح العلبة صلبة حتى ذلك الارتفاع، قطعة خام تقطع فيها أشكال أدواتك."
         }
       },
       {
         "title": {
           "de": "Die Schnittfläche folgt der Ebene ohne Verzug",
-          "en": "The cut face follows the plane without lag"
+          "en": "The cut face follows the plane without lag",
+          "ar": "وجه القطع يتبع المستوى دون تأخر"
         },
         "body": {
           "de": "Die gefüllte Schnittfläche der Schnittansicht hinkte der Ebene hinterher, solange du sie zogst, und kam erst zurück, wenn die Hand ruhte. Jetzt wird sie bei jedem Schritt für die neueste Lage der Ebene geschnitten.",
-          "en": "The filled cut face of the section view lagged behind the plane while you dragged it and only came back when your hand rested. Now it is cut for the newest position of the plane at every step."
+          "en": "The filled cut face of the section view lagged behind the plane while you dragged it and only came back when your hand rested. Now it is cut for the newest position of the plane at every step.",
+          "ar": "كان وجه القطع المملوء في «عرض المقطع» يتأخر عن المستوى أثناء سحبه، ولا يلحق به إلا عندما تتوقف يدك. أما الآن فيُقطع عند أحدث موضع للمستوى في كل خطوة."
         }
       },
       {
         "title": {
           "de": "Ordner für eigene Formen",
-          "en": "Folders for custom shapes"
+          "en": "Folders for custom shapes",
+          "ar": "مجلدات للأشكال المخصصة"
         },
         "body": {
           "de": "Eigene Formen lassen sich in Ordner sortieren, bis zu drei Ebenen tief, im Browser und auf dem Server. Ein Ordner hat einen Zähler, lässt sich umbenennen und löschen (nach Rückfrage), und eine Form wird beim Speichern oder danach in einen anderen Ordner gelegt.",
-          "en": "Custom shapes can be sorted into folders, up to three levels deep, in the browser and on the server. A folder has a counter and can be renamed and deleted (after asking), and a shape is put into a folder when you save it or moved to another one afterwards."
+          "en": "Custom shapes can be sorted into folders, up to three levels deep, in the browser and on the server. A folder has a counter and can be renamed and deleted (after asking), and a shape is put into a folder when you save it or moved to another one afterwards.",
+          "ar": "يمكن ترتيب الأشكال المخصصة في مجلدات، حتى ثلاثة مستويات عمقًا، في المتصفح وعلى الخادم. وللمجلد عدّاد، ويمكن إعادة تسميته وحذفه (بعد السؤال)، ويوضع الشكل في مجلد عند حفظه أو يُنقل إلى مجلد آخر بعد ذلك."
         }
       },
       {
         "title": {
           "de": "Ein loses Loch geht beim Export nicht mehr verloren",
-          "en": "A loose hole is no longer lost in the export"
+          "en": "A loose hole is no longer lost in the export",
+          "ar": "الثقب المنفصل لم يعد يضيع في التصدير"
         },
         "body": {
           "de": "Ein Loch, das du nicht gruppiert hast, fehlte in der STL-, 3MF- oder OBJ-Datei, wenn der Körper, aus dem es schneidet, einen anderen Körper derselben Farbe berührte oder überlappte. Auch die Materialschätzung zählte ihn dann als massiv. Jetzt bleibt das Loch erhalten.",
-          "en": "A hole you had not grouped was missing from the STL, 3MF or OBJ file when the body it cuts from touched or overlapped another body of the same colour. The material estimate then counted it as solid too. The hole now stays."
+          "en": "A hole you had not grouped was missing from the STL, 3MF or OBJ file when the body it cuts from touched or overlapped another body of the same colour. The material estimate then counted it as solid too. The hole now stays.",
+          "ar": "الثقب الذي لم تجمعه كان يغيب عن ملف STL أو 3MF أو OBJ عندما يلامس الجسم الذي يقطع منه جسمًا آخر من اللون نفسه أو يتداخل معه. وكان تقدير المادة يعدّه صلبًا أيضًا. أما الآن فيبقى الثقب."
         }
       }
     ]
