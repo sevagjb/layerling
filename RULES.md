@@ -11,6 +11,9 @@ Upstream: https://github.com/henmedia/layerling (maintainer Stefan). Fork: https
 - Do not change anything that is not Arabic (no English, no code), except `docs/guide/ar/**`, `apps/web/src/lib/messages.ar.ts` and the `ar` fields in `apps/web/src/lib/whatsNew.json`.
 - Edit messages.ar.ts directly. Keep Stefan's own Arabic additions unless they break the glossary (then fix and list them).
 
+## PENDING.md
+If PENDING.md exists on this branch, read it first: it is a snapshot Sevag asked for of what was waiting. Cover everything in it plus anything newer, then delete PENDING.md from this branch at the end of the batch (it is replaced by the batch itself).
+
 ## What to look for (compare upstream main with the Arabic)
 1. Interface: `npm ci` (if needed) then `npm run i18n:status -- ar` lists missing sentences. Add each key in the English key order. `{placeholder}` names must match the English exactly.
 2. Release notes: in `whatsNew.json`, items among the newest 20 versions (WHATS_NEW_MAX_VERSIONS) without an `ar` title/body. Add `"ar"` after the existing keys. Write the file back with `json.dumps(d, ensure_ascii=False, indent=2) + "\n"` (this reproduces the original formatting exactly).
