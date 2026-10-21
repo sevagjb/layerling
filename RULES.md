@@ -23,6 +23,7 @@ If PENDING.md exists on this branch, read it first: it is a snapshot Sevag asked
 - Glossary: glossary.tsv in this branch. One Arabic word per English term; the "Not this" column is forbidden. Key ones: chamfer = شطف (never شطب), fillet = تنعيم, workplane = سطح العمل, plane = مستوى, object/body = جسم (never أوبجكت/كائن), view cube = مكعب العرض, thread = سن لولبي, section view = عرض المقطع, slider = شريط التمرير, tooltip = تلميح الأداة, Duplicate = تكرار, Gridfinity bin = علبة, baseplate = لوح شبكة, hinge pin = الدبوس, knuckles = المفاصل, inset = الهامش الداخلي.
 - Any button/field name must be exactly its Arabic interface text from messages.ar.ts. In release notes write it in «».
 - Counts: Arabic has six plural forms and one string per key, so write counts in the colon form, e.g. "أُعيدت أجسام: {count}".
+- Key names and shortcut letters always stay Latin, exactly as in English: in the interface as plain text like "(L)", "Ctrl+K", "Shift+نقرة"; in the guide with the [[Key]] markup; never an Arabic letter for a key.
 - Guide markup stays exactly as in English: {{ui:key}}, [[Key]], {{value:X}}, {{shortcuts}}, (shot:...), (chapter:...), code in backticks.
 - A guide heading that something links to (anchor) gets its English heading in parentheses, e.g. `## حذف وجه (Deleting faces)`, because slugify drops Arabic letters.
 - Modern Standard Arabic, Western digits, "مم" for millimetre. Error messages that the program shows in English stay in English, quoted.
