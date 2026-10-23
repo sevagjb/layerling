@@ -11,4 +11,8 @@ Review file: ar-batch-2026-10-21-review.docx (sent to Sevag in chat).
 - Build on `ar-batch-2026-10-21` (rebase onto upstream main), add anything newer than 1.99.0.
 - Guide pictures: Stefan retook all 35 English pictures on 2026-10-20; remake the Arabic ones with pictures/shots-ar.mjs.
 - Apply any corrections Sevag sends.
+- **README in Arabic (Sevag asked, 2026-10-24):** add `README.ar.md` next to README.de.md / README.nl.md /
+  README.zh-cn.md, translated from README.md (code, commands, paths and links unchanged; glossary terms).
+  Add an "العربية" link in the language links of README.md and of the other READMEs, the same way
+  the existing languages are linked. Put it in the review file as its own section.
 - Then one review file for the new part only, and one pull-request link for the whole branch.
