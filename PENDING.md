@@ -14,5 +14,6 @@ Review file: ar-batch-2026-10-21-review.docx (sent to Sevag in chat).
 - **Done 2026-10-24 (already on `ar-batch-2026-10-21`, upstream 1.109.0 merged in):** `README.ar.md`, the «العربية» links
   in all READMEs, `languages.ts` readme/quickstartAnchor for ar, `README.ar.md` in sync-videos.mjs, 65 release notes
   (1.100.0 to 1.109.0) and 12 button names. Do not redo these; apply Sevag's corrections if he sends any.
-- Still open: 54 interface sentences, 15 guide paragraphs (02, 04, 05, 09, 12), Arabic pictures.
+- Done 2026-10-25 01:00: everything up to upstream 6056a9d (0 interface sentences missing, guide synced, unreleased cards in Arabic).
+- Still open: Arabic pictures.
 - Then one review file for the new part only, and one pull-request link for the whole branch.
