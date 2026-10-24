@@ -28,7 +28,8 @@ import { iconSourceFromFile, PICTURE_FILE_ACCEPT, type IconSource } from "@/lib/
 import { loadedManifoldRuntime, onManifoldReady } from "@/lib/manifoldHandle";
 import { canApplySketchCornerTreatment } from "@/lib/sketchFilletChamfer";
 import { SKETCH_POLYGON_DEFAULT_SIDES, SKETCH_STAR_DEFAULT_INNER_PERCENT, sketchPrimitiveGeometry } from "@/lib/sketchPrimitives";
-import { alignedSmoothHandles, cloneSketchProfile, orderedSketchPaths, withSegmentHandles, withSmoothSketchHandles } from "@/lib/sketchSmoothHandles";
+import { cloneSketchProfile, orderedSketchPaths, sketchWithPointMode, withSmoothSketchHandles } from "@/lib/sketchSmoothHandles";
+import { curveThroughPoints } from "@/lib/sketchCurveThroughPoints";
 import { changesLockedOutline, setSketchPointsLocked, sketchLockState } from "@/lib/sketchLock";
 import { curveSketchSegment, isSegmentCurved, straightenSketchSegment } from "@/lib/sketchSegmentCurve";
 import { chordHandles, withBezierHandles, withBezierStartHandle } from "@/lib/sketchBezierHandles";
@@ -69,6 +70,7 @@ import { arrayFollowingPivot, arrayGroupsCopies, circleStepDegrees, clampArrayCo
 import { bedOverhangs, keepDismissedOverhangs, printerPresetById, shapeBedFootprint, type BedOverhang } from "@/lib/printBed";
 import { SplitPanel, type SplitWorkplaneDirection } from "./workplane/SplitPanel";
 import { NO_SPLIT_ROTATION, modelSplitPlane, snapSplitPositionToVertices, splitOrientationForNormal, splitAxisFromLabel, splitAxisLabel, splitRotationAxes, type SplitRotation } from "@/lib/modelSplit";
+import { AttachmentViewer } from "./workplane/AttachmentViewer";
 import { GuideModal } from "./workplane/GuideModal";
 import { HistoryViewOverlay, historyStateNameSuffix } from "./workplane/HistoryViewOverlay";
 import { useHistoryViewPicking } from "./workplane/useHistoryViewPicking";
@@ -2680,6 +2682,16 @@ export function LayerlingEditor({
     if (!editorOpen) setInteractiveHelp(false);
   }, [editorOpen]);
   const [guideOpen, setGuideOpen] = useState(false);
+  /**
+   * The attachment open in the viewer (#820), by id. The viewer is drawn from the attachment that has
+   * this id now, so it shows a replaced file's new content and goes away when the file does.
+   */
+  const [viewedAttachmentId, setViewedAttachmentId] = useState<string | null>(null);
+  const viewedAttachment = viewedAttachmentId ? projectAttachments.find((attachment) => attachment.id === viewedAttachmentId) : undefined;
+  // A file that went away is forgotten too, so that it does not open again if the same design comes back.
+  useEffect(() => {
+    if (viewedAttachmentId && !viewedAttachment) setViewedAttachmentId(null);
+  }, [viewedAttachmentId, viewedAttachment]);
   // The object list stays open or closed as it was left, in this browser, for every design (#356).
   const [outlinerOpen, setOutlinerOpen] = useRememberedFlag("layerling.editor.objectListOpen");
   /**
@@ -5115,33 +5127,6 @@ export function LayerlingEditor({
     commitSketchProfile(next, t("status.sketchHandleAdjusted"), keyRunKey);
   }, [commitSketchProfile, sketchProfile]);
 
-  /** One point turned corner, smooth or split; null when the point is gone. */
-  const sketchWithPointMode = (profile: SketchProfile, id: string, mode: "corner" | "smooth" | "split"): SketchProfile | null => {
-    let next = cloneSketchProfile(profile);
-    const point = next.points.find((entry) => entry.id === id);
-    if (!point) return null;
-    point.mode = mode;
-    if (mode === "corner") {
-      point.handleIn = undefined;
-      point.handleOut = undefined;
-      next.segments = next.segments.map((segment) => segment.startId === id || segment.endId === id ? { ...segment, kind: "line" } : segment);
-    } else {
-      next.segments = next.segments.map((segment) => segment.startId === id || segment.endId === id ? { ...segment, kind: "bezier" } : segment);
-      // The point's own handles along its neighbours; the segments around it then need the handle at
-      // their other end too, or they would stay straight.
-      // A point that already has two handles keeps their lengths; as a smooth point they are lined up (#347).
-      const aligned = mode === "smooth" ? alignedSmoothHandles(point) : null;
-      if (aligned) {
-        point.handleIn = aligned.handleIn;
-        point.handleOut = aligned.handleOut;
-      } else if (!point.handleIn || !point.handleOut || mode === "smooth") next = withSmoothSketchHandles(next, new Set([id]));
-      next = withSegmentHandles(next, new Set(next.segments.filter((segment) => segment.startId === id || segment.endId === id).map((segment) => segment.id)));
-      const updated = next.points.find((entry) => entry.id === id);
-      if (updated) updated.mode = mode;
-    }
-    return next;
-  };
-
   const setSketchPointMode = useCallback((id: string, mode: "corner" | "smooth" | "split") => {
     const next = sketchWithPointMode(sketchProfile, id, mode);
     if (!next) return;
@@ -5153,6 +5138,12 @@ export function LayerlingEditor({
     let next: SketchProfile | null = null;
     for (const id of ids) next = sketchWithPointMode(next ?? sketchProfile, id, mode) ?? next;
     if (next) commitSketchProfile(next, mode === "corner" ? t("status.sketchMadeCorner") : t("status.sketchMadeSmooth"));
+  }, [commitSketchProfile, sketchProfile]);
+
+  /** Curve through points: one flowing curve from the first selected point to the last, one undo step. */
+  const curveSketchThroughPointsAction = useCallback((ids: string[]) => {
+    const result = curveThroughPoints(sketchProfile, ids);
+    if (result) commitSketchProfile(result.profile, t("status.sketchCurveThroughPoints", { count: result.count }));
   }, [commitSketchProfile, sketchProfile]);
 
   const curveSketchSegmentAction = useCallback((id: string) => {
@@ -13091,6 +13082,7 @@ export function LayerlingEditor({
             onInsertPoint={insertSketchPoint}
             onSetPointMode={setSketchPointMode}
             onSetPointsMode={setSketchPointsMode}
+            onCurveThroughPoints={curveSketchThroughPointsAction}
             onCurveSegment={curveSketchSegmentAction}
             onCurveSegments={curveSketchSegmentsAction}
             onMirror={mirrorSketchSelectionAction}
@@ -13592,6 +13584,7 @@ export function LayerlingEditor({
           attachmentsLocked={historyViewIndex !== null}
           onAttachmentsChange={updateProjectAttachments}
           onAttachmentDownload={(attachment) => void downloadBlobFile(attachment.name, new Blob([attachment.bytes as BlobPart], { type: attachment.mediaType }))}
+          onAttachmentView={(attachment) => setViewedAttachmentId(attachment.id)}
           onAttachmentNotice={setNotice}
         />
       ) : null}
@@ -13668,6 +13661,7 @@ export function LayerlingEditor({
         <ShortcutsModal sketchMode={toolbarMode === "sketch"} onClose={() => setShortcutsOpen(false)} />
       ) : null}
       {interactiveHelp ? <InteractiveHelp onExit={toggleInteractiveHelp} /> : null}
+      {viewedAttachment ? <AttachmentViewer attachment={viewedAttachment} onClose={() => setViewedAttachmentId(null)} /> : null}
       {guideOpen ? <GuideModal sharedStore={sharedProjectsEnabled} sketchMode={toolbarMode === "sketch"} onClose={() => setGuideOpen(false)} /> : null}
       {notice ? (
         <p className="editor-status" role="status" aria-live="polite" onMouseEnter={holdNotice} onMouseLeave={releaseNotice}>

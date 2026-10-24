@@ -2,6 +2,7 @@
 
 import { AlignCenterHorizontal, AlignCenterVertical, AlignEndHorizontal, AlignEndVertical, AlignStartHorizontal, AlignStartVertical, Check, ChevronUp, CornerDownRight, Crop, Crosshair, FlipHorizontal2, FlipVertical2, Home, Layers, Link, Link2Off, LockKeyhole, LockKeyholeOpen, Minus, Plus, Ruler, RulerDimensionLine, Slash, Spline, Split, Trash2, Waves, X } from "lucide-react";
 import { displayedHandle } from "@/lib/sketchBezierHandles";
+import { curveStretches } from "@/lib/sketchCurveThroughPoints";
 import { markEscapeHandled } from "@/lib/escapeHandled";
 import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type Dispatch, type SetStateAction, type FocusEvent as ReactFocusEvent, type KeyboardEvent as ReactKeyboardEvent, type MouseEvent as ReactMouseEvent, type PointerEvent as ReactPointerEvent, type WheelEvent as ReactWheelEvent } from "react";
 import { SnapGridControl } from "@/components/workplane/ShapeInspector";
@@ -108,6 +109,8 @@ type SketchWorkspaceProps = {
   onSetPointMode: (id: string, mode: "corner" | "smooth" | "split") => void;
   /** Several points at once, one undo step: the keys 1 and 3 on a selection (#347). */
   onSetPointsMode?: (ids: string[], mode: "corner" | "smooth") => void;
+  /** One smooth curve from the first selected point to the last, through those between (3 or more points). */
+  onCurveThroughPoints?: (ids: string[]) => void;
   /** Bends a straight side into a curve with handles, or makes a curved side straight again. */
   onCurveSegment?: (id: string) => void;
   /** Curve or straighten all the selected lines at once (#283). */
@@ -704,6 +707,7 @@ export function SketchWorkspace({
   onInsertPoint,
   onSetPointMode,
   onSetPointsMode,
+  onCurveThroughPoints,
   onCurveSegment,
   onCurveSegments,
   onMirror,
@@ -1041,6 +1045,7 @@ export function SketchWorkspace({
   const canStraightenLines = selectedLines.some((segment) => isSegmentCurved(displayProfile, segment) || (segment.kind ?? "line") !== "line");
   const manyCorners = selected?.kind === "multiple" && selectedCornerIds.some((id) => canApplySketchCornerTreatment(displayProfile, id));
   const manyLines = selected?.kind === "multiple" && selectedLines.length > 0 && Boolean(onCurveSegments && onStraightenSegments);
+  const canCurveThroughPoints = selected?.kind === "multiple" && Boolean(onCurveThroughPoints) && selectedCornerIds.length >= 3 && curveStretches(displayProfile, selectedCornerIds).length > 0;
   const handleApplyCorner = () => {
     if (selectedCornerIds.length === 0 || !activeCornerDialog) return;
     const val = parseLengthMm(cornerValue);
@@ -3037,7 +3042,7 @@ export function SketchWorkspace({
           )}
         </div>
       ) : null}
-      {(manyCorners || manyLines || (selected?.kind === "multiple" && onMirror)) && tool === "select" && !mirrorOpen ? (
+      {(manyCorners || manyLines || canCurveThroughPoints || (selected?.kind === "multiple" && onMirror)) && tool === "select" && !mirrorOpen ? (
         <div className="sketch-point-actions" aria-label={t("sketch.pointActions")}>
           {activeCornerDialog && manyCorners ? (
             cornerDialogContent
@@ -3074,6 +3079,12 @@ export function SketchWorkspace({
                 <>
                   <button type="button" title={`${t("sketch.curveLineHint")} (2)`} aria-keyshortcuts="2" disabled={!canCurveLines} onClick={() => onCurveSegments?.(selectedLines.map((segment) => segment.id))}><Spline /><span>{t("sketch.curveLine")}</span></button>
                   <button type="button" title={`${t("sketch.straightenLineHint")} (1)`} aria-keyshortcuts="1" disabled={!canStraightenLines} onClick={() => onStraightenSegments?.(selectedLines.map((segment) => segment.id))}><Minus /><span>{t("sketch.straightenLine")}</span></button>
+                </>
+              ) : null}
+              {canCurveThroughPoints ? (
+                <>
+                  {manyCorners || manyLines ? <span className="sketch-point-divider" /> : null}
+                  <button type="button" title={t("sketch.curveThroughPointsHint")} onClick={() => onCurveThroughPoints?.(selectedCornerIds)}><Waves /><span>{t("sketch.curveThroughPoints")}</span></button>
                 </>
               ) : null}
               {mirrorButton}

@@ -32,7 +32,7 @@ Flere indstillinger:
 - **{{ui:prop.threadHand}}:** {{ui:thread.right}} eller {{ui:thread.left}}.
 - **{{ui:prop.threadProfile}}:** {{ui:thread.profileV}} er standardprofilen på metriske og tomme-gevind, {{ui:thread.profileWhitworth}} det Whitworth-rørgevindenes: 55° med rundede toppe og rødder. {{ui:thread.profileTrapezoidal}} og {{ui:thread.profileRound}} har flade toppe og rødder. Det printer som regel mere pålideligt, fordi der ikke opstår tynde spidser.
 - **{{ui:thread.profileCustom}}:** En trapez du selv former, med en flad top og en flad rod af samme bredde. {{ui:prop.threadFlankAngle}} er vinklen mellem de to flanker af en tand: 60° er det skarpe V-gevind, 30° det trapezformede gevind, og ved 90° eller mindre er ingen flanke fladere end 45°, så gevindet printer uden støtte. {{ui:prop.threadDepth}} og {{ui:prop.threadCoreDiameter}} er ét mål sagt på to måder: kernediameteren er diameteren minus to gange dybden, og ændring af den ene ændrer den anden. En ny egen profil starter med V-gevindets dybde ved 60°. Dybden har grænser der afhænger af vinklen og delingen: ikke smallere end en tiendedel af delingen, ikke dybere end 40 % af diameteren, og ikke så dyb at de to flanker optager mere end ni tiendedele af delingen. Ændrer du delingen, følger dybden proportionalt; skalerer du gevindet, gør dybden også. Spillet og faserne virker som med de andre profiler. Gennem MCP-broen er profilen `custom` med `threadFlankAngle` og `threadDepth`.
-- **{{ui:prop.clearance}}:** For møtrik og gevindhul, det rum der sikrer at et printet par faktisk kan drejes. Jo grovere din printer arbejder, jo mere clearance har parret brug for. Det er det ekstra rum hen over diameteren, og mellemrummet mellem flankerne af et V-gevind er kun omkring halvdelen, så et printet par har brug for mere end man skulle tro: nye møtrikker starter på 0,4 mm, 0,3 er stramt og 0,5 løst. Print et testpar først. Stænger og skruer har deres eget clearance her, som gør bolten så meget tyndere i diameter. Det er sat til 0. Hvilken side der får rummet afhænger af hvad du parrer:
+- **{{ui:prop.clearance}}:** For møtrik og gevindhul, det rum der sikrer at et printet par faktisk kan drejes. Jo grovere din printer arbejder, jo mere frirum har parret brug for. Det er det ekstra rum hen over diameteren, og mellemrummet mellem flankerne af et V-gevind er kun omkring halvdelen, så et printet par har brug for mere end man skulle tro: nye møtrikker starter på 0,4 mm, 0,3 er stramt og 0,5 løst. Print et testpar først. Stænger og skruer har deres eget clearance her, som gør bolten så meget tyndere i diameter. Det er sat til 0. Hvilken side der får rummet afhænger af hvad du parrer:
   - **Printet skrue og printet møtrik:** lad skruen være på 0 og giv møtrikken rummet (de 0,4 mm den starter med).
   - **Rigtig skrue i printet møtrik eller gevindhul:** den printede side tager det hele, så møtrikken beholder sine 0,4 mm. En strammere 0,3 mm er et forsøg værd hvis skruen vakler.
   - **Printet skrue i rigtig møtrik:** den rigtige møtrik har intet spil, så skruen skal være tyndere: 0,3 til 0,4 mm her, lige så meget som en printet møtrik ville have.
@@ -42,16 +42,16 @@ Flere indstillinger:
 At skifte et gevind mellem {{ui:thread.rod}} og {{ui:thread.bore}} bevarer dets længde. En møtrik og en skrue starter fra deres standardmål.
 - **{{ui:prop.quality}}:** Hvor fint gevindet beregnes. Højere er mere nøjagtigt, men langsommere.
 
-Printede gevind er et emne for sig. Lav skrue-møtrik-parret som test før du printer en stor del, og justér clearance til din printer.
+Printede gevind er et emne for sig. Lav skrue-møtrik-parret som test før du printer en stor del, og justér frirummet til din printer.
 
 ## Gevind til 3D-print
 
 Et printet gevind har brug for luft to steder, og de virker forskelligt:
 
-- **Clearance i diameteren ({{ui:prop.clearance}}):** gør møtrikken bredere. Skruen får så halvdelen af værdien som luft på hver side, 0,2 mm ved 0,4 mm. Gevindet drejer let, men skruen kan vakle sidelæns.
+- **Frirum i diameteren ({{ui:prop.clearance}}):** gør møtrikken bredere. Skruen får så halvdelen af værdien som luft på hver side, 0,2 mm ved 0,4 mm. Gevindet drejer let, men skruen kan vakle sidelæns.
 - **Spil langs aksen ({{ui:prop.axialClearance}}):** gør møtrikkens tænder tyndere. Skruen kan så bevæge sig frem og tilbage langs aksen med den værdi når den ikke er strammet. Der er ingen ekstra luft til siden for det.
 
-Tilsammen giver de mellemrummet mellem flankerne: omkring 0,58 gange clearance i diameteren plus spillet langs aksen. Et eksempel for 0,3 mm mellemrum: det krævede før 0,5 mm i diameteren, det er 0,25 mm luft på hver side. Nu gør 0,2 mm i diameteren (0,1 mm på hver side) og 0,2 mm langs aksen det, og mellemrummet er 0,32 mm.
+Tilsammen giver de mellemrummet mellem flankerne: omkring 0,58 gange frirum i diameteren plus spillet langs aksen. Et eksempel for 0,3 mm mellemrum: det krævede før 0,5 mm i diameteren, det er 0,25 mm luft på hver side. Nu gør 0,2 mm i diameteren (0,1 mm på hver side) og 0,2 mm langs aksen det, og mellemrummet er 0,32 mm.
 
 **Konsekvenser at kende**
 
@@ -63,7 +63,7 @@ Tilsammen giver de mellemrummet mellem flankerne: omkring 0,58 gange clearance i
 **Tips**
 
 1. **Et testpar først.** En skrue og en møtrik, kun 4 til 6 mm høje hver, tager et par minutter. Print tre par med forskelligt spil side om side og tag det der drejer let og ikke vakler.
-2. **Start med værdier der ofte passer.** Clearance i diameteren 0,2 til 0,3 mm og spil langs aksen 0,2 mm. Hvis skruen vakler sidelæns, sænk clearance i diameteren; hvis den klemmer, hæv spillet langs aksen. Hvis du hellere vil undvære spillet langs aksen, brug 0,4 mm i diameteren som før.
+2. **Start med værdier der ofte passer.** Frirum i diameteren 0,2 til 0,3 mm og spil langs aksen 0,2 mm. Hvis skruen vakler sidelæns, sænk frirummet i diameteren; hvis den klemmer, hæv spillet langs aksen. Hvis du hellere vil undvære spillet langs aksen, brug 0,4 mm i diameteren som før.
 3. **Spillet langs aksen bør være mindst en laghøjde.** Det der ligger under ét lag opløser printeren ikke. Ved en laghøjde på 0,2 mm er 0,2 mm et godt udgangspunkt; ved 0,1 mm er mindre nok.
 4. **Print skrue og møtrik stående.** Aksen peger opad, så hver omgang ligger i hele lag og flankerne kommer rene ud. Liggende synker flankerne.
 5. **Fine delinger er svære.** Under omkring 1 mm deling fusionerer omgangene ofte. Et grovere gevind, eller en {{ui:thread.profileTrapezoidal}}-profil med flade toppe, printer mere pålideligt end et fint V-gevind.

@@ -29,7 +29,7 @@ Vejledningen du læser har også en søgeboks, øverst på hver side: tast et or
 
 Kan du ikke finde hvor du skal læse om en knap eller et felt? Lad programmet tage dig derhen. Klik på spørgsmålstegnet i området {{ui:editor.group.help}}, eller tryk [[Shift]]+[[F1]]. Markøren bliver til et spørgsmålstegn, og alt der ligger under det bliver markeret med en ramme.
 
-- Klik på en knap, et felt, en kontakt, et håndtag, en gruppe i båndet eller en vindues titellinje. Den gør **ikke** det den normalt gør. I stedet åbnes et lille vindue, med elementets navn, et kort resumé af den del af denne vejledning der handler om det, op til to andre steder der nævner det, og {{ui:interactiveHelp.open}}.
+- Klik på en knap, et felt, en kontakt, et håndtag, en gruppe i båndet eller et vindues titellinje. Den gør **ikke** det den normalt gør. I stedet åbnes et lille vindue, med elementets navn, et kort resumé af den del af denne vejledning der handler om det, op til to andre steder der nævner det, og {{ui:interactiveHelp.open}}.
 - Hjælpen handler om elementet du pegede på, ikke om hele vinduet omkring det. Et element uden eget navn bruger det nærmeste omkring sig; inde i et vindue falder den tilbage på vindues spørgsmålstegn.
 - {{ui:interactiveHelp.open}} åbner vejledningen ved det afsnit i en ny fane. Der er afsnittet markeret med farve, fra sin overskrift til sin slut, så du ser hvor det begynder og slutter.
 - Siger vejledningen intet om elementet, siger vinduet det og tilbyder {{ui:interactiveHelp.search}}.

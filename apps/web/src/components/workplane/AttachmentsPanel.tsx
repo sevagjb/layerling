@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, Download, FileText, Trash2, Upload, X } from "lucide-react";
+import { Check, Download, Eye, FileText, Trash2, Upload, X } from "lucide-react";
 import { useRef, useState, type FormEvent } from "react";
 import { formatFileSize } from "@/lib/formatFileSize";
 import { t, type MessageKey } from "@/lib/i18n";
@@ -9,6 +9,7 @@ import {
   AttachmentError,
   attachmentAcceptList,
   attachmentNameProblem,
+  attachmentView,
   cleanAttachmentName,
   findAttachmentByName,
   freeAttachmentName,
@@ -58,7 +59,8 @@ type WaitingFile = { name: string; bytes: Uint8Array };
  * What the user sees, top to bottom:
  *   1. an Upload button (the same button as the Import panel's), which opens the file chooser;
  *   2. a prompt, only while a chosen file has the name of one that is attached already;
- *   3. the list of attached files, each with Download and Remove;
+ *   3. the list of attached files, each with Download and Remove, and View for the types the viewer
+ *      can show (Markdown and text, `view` in the type table);
  *   4. a line with the limits.
  *
  * A file whose name is already attached is not added silently and not turned away: the user is asked
@@ -76,6 +78,7 @@ export function AttachmentsPanel({
   locked,
   onChange,
   onDownload,
+  onView,
   onNotice,
 }: {
   /** The files kept with the design, in the order they are listed. */
@@ -86,6 +89,8 @@ export function AttachmentsPanel({
   onChange: (next: ProjectAttachment[]) => void;
   /** Saves one attachment as a file on the user's computer. */
   onDownload: (attachment: ProjectAttachment) => void;
+  /** Opens the attachment viewer on one attachment. Only offered for the types it can show. */
+  onView: (attachment: ProjectAttachment) => void;
   /** Says something at the bottom of the editor: what was done, or why a file was refused. */
   onNotice: (message: string) => void;
 }) {
@@ -261,6 +266,12 @@ export function AttachmentsPanel({
                   </>
                 ) : (
                   <>
+                    {/* View only reads, so it stays on in the History view, like Download. */}
+                    {attachmentView(attachment) ? (
+                      <button type="button" className="my-shape-tile-action" aria-label={t("attachments.view", { name: attachment.name })} title={t("attachments.view", { name: attachment.name })} onClick={() => onView(attachment)}>
+                        <Eye aria-hidden="true" />
+                      </button>
+                    ) : null}
                     <button type="button" className="my-shape-tile-action" aria-label={t("attachments.download", { name: attachment.name })} title={t("attachments.download", { name: attachment.name })} onClick={() => onDownload(attachment)}>
                       <Download aria-hidden="true" />
                     </button>

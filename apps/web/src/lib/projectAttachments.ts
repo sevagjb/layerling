@@ -125,7 +125,15 @@ export type AttachmentType = {
    * A file is never trusted by its name alone - a name is easy to fake - so every type brings its own check.
    */
   check: (bytes: Uint8Array) => AttachmentProblem | null;
+  /**
+   * How the attachment viewer shows the file: "markdown" formatted (`markdownView.ts`), "text" as it is.
+   * A type without it gets no View button in the panel, only Download.
+   */
+  view?: AttachmentView;
 };
+
+/** The ways the attachment viewer can show a file. */
+export type AttachmentView = "markdown" | "text";
 
 /**
  * Every type that may be attached, one row each. This table is the whole definition of "may be
@@ -134,8 +142,8 @@ export type AttachmentType = {
  * else has to change.
  */
 export const ATTACHMENT_TYPES: readonly AttachmentType[] = [
-  { extension: "md", mediaType: "text/markdown", check: textProblem },
-  { extension: "txt", mediaType: "text/plain", check: textProblem },
+  { extension: "md", mediaType: "text/markdown", check: textProblem, view: "markdown" },
+  { extension: "txt", mediaType: "text/plain", check: textProblem, view: "text" },
 ];
 
 /** The lower-case extension of a file name, or "" when there is none ("README", ".md" alone). */
@@ -153,6 +161,14 @@ export function attachmentTypeForFileName(fileName: string) {
 /** The type that goes by this media type; how a package's records are matched back to the table. */
 export function attachmentTypeForMediaType(mediaType: string) {
   return ATTACHMENT_TYPES.find((type) => type.mediaType === mediaType);
+}
+
+/**
+ * How the viewer shows an attachment, or undefined when it cannot show it. It goes by the media type the
+ * design recorded, which the format only accepts when it is a row of the table above.
+ */
+export function attachmentView(attachment: Pick<ProjectAttachment, "mediaType">): AttachmentView | undefined {
+  return attachmentTypeForMediaType(attachment.mediaType)?.view;
 }
 
 /** The extensions that may be attached, ".md,.txt" for the `accept` of a file chooser or ".md, .txt" for a sentence. */

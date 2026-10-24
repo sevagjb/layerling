@@ -7907,6 +7907,123 @@ html[data-theme="dark"]:where([data-palette="graphite"]) .attachment-clash {
   border-color: #585858;
 }
 
+:where(html[data-theme="dark"][data-palette="graphite"]) .attachment-viewer-text {
+  color: #323232;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view {
+  color: #323232;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view h1,
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view h2,
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view h3,
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view h4,
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view h5,
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view h6 {
+  color: #5a3917;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view h1 {
+  border-bottom: 1px solid #dddddd;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view li.markdown-task > input {
+  accent-color: #d46b08;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view blockquote {
+  color: #585858;
+  border-left: 3px solid #e3b98f;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view code {
+  background: #f2f2f2;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view pre {
+  background: #f2f2f2;
+  border: 1px solid #dddddd;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view pre code {
+  background: none;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view hr {
+  border: 0;
+  border-top: 1px solid #dddddd;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view a {
+  color: #8f4700;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view th,
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view td {
+  border: 1px solid #dddddd;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-view th {
+  background: #f6f6f6;
+}
+
+:where(html[data-theme="dark"][data-palette="graphite"]) .markdown-image {
+  color: #565656;
+  background: #f2f2f2;
+  border: 1px dashed #c4c4c4;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .attachment-viewer-text,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view {
+  color: #e3e3e3;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view h1,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view h2,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view h3,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view h4,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view h5,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view h6 {
+  color: #e4e4e4;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view h1,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view hr,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view pre,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view th,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view td {
+  border-color: #4d4d4d;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view blockquote {
+  color: #bababa;
+  border-left-color: #585858;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view code,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view pre,
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-image {
+  background: #2d2d2d;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view pre code {
+  background: none;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view th {
+  background: #313131;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-view a {
+  color: #f3a452;
+}
+
+html[data-theme="dark"]:where([data-palette="graphite"]) .markdown-image {
+  color: #bababa;
+  border-color: #585858;
+}
+
 :where(html[data-theme="dark"][data-palette="graphite"]) .view-cube {
   color: #8e8e8e;
   filter: drop-shadow(0 2px 3px rgba(66, 66, 66, 0.14));

@@ -146,3 +146,255 @@ html[data-theme="dark"] .attachment-clash {
   background: #3a2c1f;
   border-color: #7a5b35;
 }
+
+/*
+ * The attachment viewer (#820, phase 2): the quick guide's window, narrower because it holds one
+ * column of reading text, and as tall as the file needs up to the window's own limit.
+ */
+.attachment-viewer .shortcuts-modal-card {
+  width: min(760px, calc(100vw - 32px));
+}
+
+/* The text scrolls and the footer stays under it (the shortcut list has its search above instead). */
+.attachment-viewer .shortcuts-modal-card .workspace-modal-content {
+  grid-template-rows: minmax(0, 1fr) auto;
+}
+
+.attachment-viewer .workspace-modal-header strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.attachment-viewer .workspace-modal-footer {
+  min-height: 0;
+}
+
+.attachment-viewer-body {
+  display: block;
+}
+
+/* A text file is shown exactly as written, its lines wrapped to the window rather than cut off. */
+.attachment-viewer-text {
+  margin: 0;
+  color: #3f2e1c;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* A Markdown file, formatted: sizes and spacing for reading, in the colours of the editor's text. */
+.markdown-view {
+  color: #3f2e1c;
+  font-size: 14px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.markdown-view > :first-child {
+  margin-top: 0;
+}
+
+.markdown-view > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-view h1,
+.markdown-view h2,
+.markdown-view h3,
+.markdown-view h4,
+.markdown-view h5,
+.markdown-view h6 {
+  margin: 1.2em 0 0.5em;
+  color: #5a3917;
+  line-height: 1.25;
+}
+
+.markdown-view h1 {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ebe1cf;
+  font-size: 22px;
+}
+
+.markdown-view h2 {
+  font-size: 18px;
+}
+
+.markdown-view h3 {
+  font-size: 16px;
+}
+
+.markdown-view h4,
+.markdown-view h5,
+.markdown-view h6 {
+  font-size: 14px;
+}
+
+.markdown-view p,
+.markdown-view ul,
+.markdown-view ol,
+.markdown-view blockquote,
+.markdown-view pre,
+.markdown-view .markdown-table {
+  margin: 0 0 0.8em;
+}
+
+/* The editor's own lists have no bullets; a file's lists keep theirs. */
+.markdown-view ul,
+.markdown-view ol {
+  padding-left: 22px;
+}
+
+.markdown-view ul {
+  list-style: disc;
+}
+
+.markdown-view ol {
+  list-style: decimal;
+}
+
+.markdown-view li {
+  display: list-item;
+}
+
+.markdown-view li > ul,
+.markdown-view li > ol,
+.markdown-view li > p {
+  margin: 0.2em 0;
+}
+
+/* A task: its tick box in place of the bullet. */
+.markdown-view li.markdown-task {
+  list-style: none;
+}
+
+.markdown-view li.markdown-task > input {
+  margin: 0 6px 0 -20px;
+  vertical-align: -1px;
+  accent-color: #d46b08;
+}
+
+.markdown-view blockquote {
+  padding: 2px 0 2px 12px;
+  color: #6f5840;
+  border-left: 3px solid #e3b98f;
+}
+
+.markdown-view code {
+  padding: 1px 4px;
+  background: #f6f2ed;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+.markdown-view pre {
+  padding: 10px 12px;
+  overflow: auto;
+  background: #f6f2ed;
+  border: 1px solid #ebe1cf;
+  border-radius: 6px;
+}
+
+.markdown-view pre code {
+  padding: 0;
+  background: none;
+}
+
+.markdown-view hr {
+  margin: 1.2em 0;
+  border: 0;
+  border-top: 1px solid #ebe1cf;
+}
+
+.markdown-view a {
+  color: #8f4700;
+}
+
+.markdown-table {
+  overflow-x: auto;
+}
+
+.markdown-view table {
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.markdown-view th,
+.markdown-view td {
+  padding: 5px 10px;
+  border: 1px solid #ebe1cf;
+}
+
+.markdown-view th {
+  background: #fff7ec;
+}
+
+/* A picture that is not loaded: its description in a small box, the address in the tooltip. */
+.markdown-image {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 6px;
+  color: #7b6249;
+  background: #f6f2ed;
+  border: 1px dashed #d8c7b1;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+.markdown-image svg {
+  width: 14px;
+  height: 14px;
+  flex: none;
+}
+
+html[data-theme="dark"] .attachment-viewer-text,
+html[data-theme="dark"] .markdown-view {
+  color: #eee6d7;
+}
+
+html[data-theme="dark"] .markdown-view h1,
+html[data-theme="dark"] .markdown-view h2,
+html[data-theme="dark"] .markdown-view h3,
+html[data-theme="dark"] .markdown-view h4,
+html[data-theme="dark"] .markdown-view h5,
+html[data-theme="dark"] .markdown-view h6 {
+  color: #f0e7d9;
+}
+
+html[data-theme="dark"] .markdown-view h1,
+html[data-theme="dark"] .markdown-view hr,
+html[data-theme="dark"] .markdown-view pre,
+html[data-theme="dark"] .markdown-view th,
+html[data-theme="dark"] .markdown-view td {
+  border-color: #5e4c3a;
+}
+
+html[data-theme="dark"] .markdown-view blockquote {
+  color: #cdbca6;
+  border-left-color: #7a5b35;
+}
+
+html[data-theme="dark"] .markdown-view code,
+html[data-theme="dark"] .markdown-view pre,
+html[data-theme="dark"] .markdown-image {
+  background: #35281b;
+}
+
+html[data-theme="dark"] .markdown-view pre code {
+  background: none;
+}
+
+html[data-theme="dark"] .markdown-view th {
+  background: #3a2c1f;
+}
+
+html[data-theme="dark"] .markdown-view a {
+  color: #f3a452;
+}
+
+html[data-theme="dark"] .markdown-image {
+  color: #cdbca6;
+  border-color: #7a5b35;
+}

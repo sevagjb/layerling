@@ -59,6 +59,7 @@ export function TopActionPanel({
   attachmentsLocked,
   onAttachmentsChange,
   onAttachmentDownload,
+  onAttachmentView,
   onAttachmentNotice,
 }: {
   panel: Exclude<TopPanel, null>;
@@ -98,6 +99,7 @@ export function TopActionPanel({
   attachmentsLocked: boolean;
   onAttachmentsChange: (next: ProjectAttachment[]) => void;
   onAttachmentDownload: (attachment: ProjectAttachment) => void;
+  onAttachmentView: (attachment: ProjectAttachment) => void;
   onAttachmentNotice: (message: string) => void;
 }) {
   const [keepSvgPage, setKeepSvgPage] = useState(false);
@@ -292,6 +294,7 @@ export function TopActionPanel({
           locked={attachmentsLocked}
           onChange={onAttachmentsChange}
           onDownload={onAttachmentDownload}
+          onView={onAttachmentView}
           onNotice={onAttachmentNotice}
         />
       ) : null}
