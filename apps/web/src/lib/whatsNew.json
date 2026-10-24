@@ -5,61 +5,73 @@
       {
         "title": {
           "de": "Eigene Startansicht",
-          "en": "A start view of your own"
+          "en": "A start view of your own",
+          "ar": "عرض بداية خاص بك"
         },
         "body": {
           "de": "Unter Einstellungen → Darstellung übernimmt „Aktuelle Ansicht nehmen“ den Blickwinkel, den du gerade siehst: Neue Entwürfe öffnen dann so, und die Ausgangsansicht kehrt dorthin zurück. „Standard“ bringt den gewohnten Blick zurück.",
-          "en": "Under Settings → Appearance, \"Use current view\" keeps the angle you are looking from: new designs then open that way, and Home goes back to it. \"Standard\" brings the usual view back."
+          "en": "Under Settings → Appearance, \"Use current view\" keeps the angle you are looking from: new designs then open that way, and Home goes back to it. \"Standard\" brings the usual view back.",
+          "ar": "ضمن «الإعدادات» ← «المظهر»، يحتفظ «استخدام العرض الحالي» بالزاوية التي تنظر منها الآن: تُفتح التصاميم الجديدة عندها بهذا الشكل، ويعود «المشهد كاملًا» إليها. ويعيد «القياسي» العرض المعتاد."
         }
       },
       {
         "title": {
           "de": "Alt+W setzt die Arbeitsebene zurück",
-          "en": "Alt+W puts the workplane back"
+          "en": "Alt+W puts the workplane back",
+          "ar": "Alt+W يعيد سطح العمل"
         },
         "body": {
           "de": "Mit Alt+W liegt die Arbeitsebene wieder auf der Grundplatte, ohne dass du die Auswahl verlierst. Vorher ging das nur mit Esc beim Platzieren, einem Klick neben die Platte oder dem Pfeilknopf unter dem Auge. Die Kürzelliste nennt es.",
-          "en": "Alt+W puts the workplane back on the base plate without losing the selection. Before that it took Esc while placing, a click beside the plate or the arrow button below the eye. The shortcut list names it."
+          "en": "Alt+W puts the workplane back on the base plate without losing the selection. Before that it took Esc while placing, a click beside the plate or the arrow button below the eye. The shortcut list names it.",
+          "ar": "يعيد Alt+W سطح العمل إلى اللوحة الأساسية دون فقدان التحديد. كان ذلك يحتاج من قبل إلى Esc أثناء الوضع، أو نقرة بجانب اللوحة، أو زر السهم تحت العين. وتذكره قائمة الاختصارات."
         }
       },
       {
         "title": {
           "de": "Gestreckte Gruppen behalten ihre ovalen Teile",
-          "en": "Stretched groups keep their oval parts"
+          "en": "Stretched groups keep their oval parts",
+          "ar": "المجموعات الممطوطة تحتفظ بأجزائها البيضاوية"
         },
         "body": {
           "de": "Eine Gruppe aus zwei Zylindern und einem Quader, nur in eine Richtung breiter gezogen, wurde beim Aushöhlen an den Enden zu Kreisen, einem „Hundeknochen“. Jetzt kommen die Enden als Ellipsen mit beiden Maßen zurück.",
-          "en": "A group of two cylinders and a box, stretched one way only, turned its ends into circles when hollowed, a \"dog bone\". The ends now come back as ellipses with both sizes."
+          "en": "A group of two cylinders and a box, stretched one way only, turned its ends into circles when hollowed, a \"dog bone\". The ends now come back as ellipses with both sizes.",
+          "ar": "مجموعة من أسطوانتين وصندوق، مُطّت في اتجاه واحد فقط، كانت أطرافها تتحول إلى دوائر عند التفريغ، فتصبح مثل «عظمة الكلب». أما الآن فتعود الأطراف قطوعًا ناقصة بمقاسيها كليهما."
         }
       },
       {
         "title": {
           "de": "„Meinen Standard nutzen“ nimmt den Drucker mit",
-          "en": "Use my default brings the printer along"
+          "en": "Use my default brings the printer along",
+          "ar": "«استخدام إعداداتي الافتراضية» يجلب الطابعة معه"
         },
         "body": {
           "de": "Der gespeicherte Standard übernimmt jetzt auch den Drucker samt Plattengröße. Ein Tinkercad-Import bleibt dadurch nicht mehr auf „Kein Drucker, freie Größe“ stehen.",
-          "en": "The saved default now brings its printer along with the plate size. A Tinkercad import no longer stays on \"No printer - free size\"."
+          "en": "The saved default now brings its printer along with the plate size. A Tinkercad import no longer stays on \"No printer - free size\".",
+          "ar": "صار الإعداد الافتراضي المحفوظ يجلب طابعته مع مقاس اللوحة. ولم يعد الاستيراد من Tinkercad يبقى على «بدون طابعة - حجم حر»."
         }
       },
       {
         "title": {
           "de": "Touch: Tipps treffen besser",
-          "en": "Touch: taps land better"
+          "en": "Touch: taps land better",
+          "ar": "اللمس: النقرات تصيب بشكل أفضل"
         },
         "body": {
           "de": "Auf einem Touchscreen fangen die Ausrichten-Punkte einen Tipp jetzt von einem Fingerbreit Umkreis ab. Ein Wertekästchen neben einem Körper öffnet sein Zahlenfeld erst mit dem zweiten Tipp: Der erste markiert es nur, so holt ein Finger, der versehentlich darauf landet, die Tastatur nicht hoch.",
-          "en": "On a touch screen the Align dots now catch a tap from a finger's width round them. A value box beside a body opens its number field with the second tap: the first tap only marks it, so a finger that lands on it by accident does not raise the keyboard."
+          "en": "On a touch screen the Align dots now catch a tap from a finger's width round them. A value box beside a body opens its number field with the second tap: the first tap only marks it, so a finger that lands on it by accident does not raise the keyboard.",
+          "ar": "على شاشة اللمس، تلتقط نقاط «محاذاة» الآن النقرة من مسافة بعرض إصبع حولها. ومربع القيمة بجانب الجسم يفتح حقله الرقمي مع النقرة الثانية: النقرة الأولى تعلّمه فقط، فالإصبع الذي يقع عليه خطأً لا يُظهر لوحة المفاتيح."
         }
       },
       {
         "title": {
           "de": "KI-Werkzeuge für Anhänge",
-          "en": "AI tools for attachments"
+          "en": "AI tools for attachments",
+          "ar": "أدوات الذكاء الاصطناعي للمرفقات"
         },
         "body": {
           "de": "KI-Assistenten können die Dateien eines Entwurfs jetzt über fünf Werkzeuge der KI-Brücke auflisten, lesen, hinzufügen, umbenennen und entfernen, so wie das Fenster „Anhänge“ es kann. Eine Stückliste oder Montagehinweise, die sie schreiben, bleiben so beim Entwurf.",
-          "en": "AI assistants can now list, read, add, rename and remove a design's files through five tools of the AI bridge, as the Attachments panel does. A parts list or assembly notes they write stay with the design."
+          "en": "AI assistants can now list, read, add, rename and remove a design's files through five tools of the AI bridge, as the Attachments panel does. A parts list or assembly notes they write stay with the design.",
+          "ar": "يستطيع مساعدو الذكاء الاصطناعي الآن سرد ملفات التصميم وقراءتها وإضافتها وإعادة تسميتها وإزالتها عبر خمس أدوات في جسر الذكاء الاصطناعي، كما تفعل لوحة «المرفقات». وتبقى قائمة القطع أو ملاحظات التركيب التي يكتبونها مع التصميم."
         }
       }
     ]
@@ -70,61 +82,73 @@
       {
         "title": {
           "de": "Muster gruppiert seine Stücke",
-          "en": "Patterns group their pieces"
+          "en": "Patterns group their pieces",
+          "ar": "الأنماط تجمّع قطعها"
         },
         "body": {
           "de": "Im Muster-Fenster gibt es „Kopien gruppieren“: Dann wird aus dem Original und allen Kopien gleich ein Objekt, ein Kranz aus 36 Stücken ist ein Teil. Ab 6 Stücken ist das Kästchen von selbst angehakt, du kannst es jederzeit abwählen.",
-          "en": "The Pattern window has \"Group the copies\": the original and all copies then become one object, so a ring of 36 pieces is one part. Above 5 pieces the box ticks itself, and you can untick it at any time."
+          "en": "The Pattern window has \"Group the copies\": the original and all copies then become one object, so a ring of 36 pieces is one part. Above 5 pieces the box ticks itself, and you can untick it at any time.",
+          "ar": "في نافذة «النمط» الآن «تجميع النسخ»: يصبح الأصل وكل النسخ جسمًا واحدًا، فتكون حلقة من 36 قطعة جزءًا واحدًا. فوق 5 قطع تُعلَّم الخانة من تلقاء نفسها، ويمكنك إلغاء علامتها في أي وقت."
         }
       },
       {
         "title": {
           "de": "Verdeckte Formen auswählen",
-          "en": "Select shapes that are hidden behind others"
+          "en": "Select shapes that are hidden behind others",
+          "ar": "تحديد الأشكال المخفية خلف غيرها"
         },
         "body": {
           "de": "Ein Rechtsklick bietet jetzt „Anderes auswählen…“, wenn mehrere Formen unter dem Zeiger liegen: Die Liste zeigt sie von vorn nach hinten, die Form unter dem Zeiger wird auch durch andere hindurch umrandet, und ein Klick wählt sie aus. So kommst du an eine Aussparung in einem Körper, ohne die Ansicht zu drehen.",
-          "en": "A right click now offers \"Select other…\" when several shapes lie under the pointer: the list shows them from front to back, the one you point at is outlined even through the others, and a click selects it. So you reach a hole inside a body without turning the view."
+          "en": "A right click now offers \"Select other…\" when several shapes lie under the pointer: the list shows them from front to back, the one you point at is outlined even through the others, and a click selects it. So you reach a hole inside a body without turning the view.",
+          "ar": "عندما تقع عدة أشكال تحت المؤشر، تعرض النقرة بالزر الأيمن الآن «تحديد جسم آخر…»: تُظهر القائمة الأشكال من الأمام إلى الخلف، ويُحاط الشكل الذي تشير إليه بخط حتى من خلال غيره، والنقرة تحدده. فتصل إلى ثقب داخل جسم دون تدوير العرض."
         }
       },
       {
         "title": {
           "de": "Das Winkellineal bleibt liegen",
-          "en": "The framing square stays where you put it"
+          "en": "The framing square stays where you put it",
+          "ar": "زاوية النجار تبقى حيث وضعتها"
         },
         "body": {
           "de": "Ein gesetztes Winkellineal gehört jetzt zum Entwurf: Nach dem Neuladen oder beim nächsten Öffnen liegt es an derselben Stelle, gleich gedreht und mit denselben Messpunkten, auch aus einer .lyl-Datei. Mit dem × entfernst du es.",
-          "en": "A placed framing square now belongs to the design: after a reload or the next time you open it, it lies in the same place, turned the same way and measuring from the same points, also from a .lyl file. The × removes it."
+          "en": "A placed framing square now belongs to the design: after a reload or the next time you open it, it lies in the same place, turned the same way and measuring from the same points, also from a .lyl file. The × removes it.",
+          "ar": "صارت زاوية النجار الموضوعة جزءًا من التصميم: بعد إعادة التحميل أو عند فتحه في المرة القادمة تكون في المكان نفسه، بالاتجاه نفسه، وتقيس من النقاط نفسها، ومن ملف .lyl أيضًا. والعلامة × تزيلها."
         }
       },
       {
         "title": {
           "de": "Anhänge: Anleitung und Teileliste im Entwurf",
-          "en": "Attachments: instructions and parts lists in the design"
+          "en": "Attachments: instructions and parts lists in the design",
+          "ar": "المرفقات: التعليمات وقوائم القطع داخل التصميم"
         },
         "body": {
           "de": "Unter Verwalten gibt es jetzt „Anhänge“ (Büroklammer): Häng Markdown- oder Textdateien an einen Entwurf, etwa eine Montageanleitung oder eine Teileliste. Sie bleiben beim Entwurf, auch in der .lyl-Datei, in der Sicherung und im Serverordner. Ein Entwurf mit Anhängen braucht zum Öffnen diese oder eine neuere layerling-Version.",
-          "en": "Manage now has \"Attachments\" (the paperclip): attach Markdown or text files to a design, such as assembly instructions or a parts list. They stay with the design, also in the .lyl file, the backup and the server folder. A design with attachments needs this layerling version or a newer one to open."
+          "en": "Manage now has \"Attachments\" (the paperclip): attach Markdown or text files to a design, such as assembly instructions or a parts list. They stay with the design, also in the .lyl file, the backup and the server folder. A design with attachments needs this layerling version or a newer one to open.",
+          "ar": "في «إدارة» الآن «المرفقات» (مشبك الورق): أرفق ملفات Markdown أو نصية بالتصميم، مثل تعليمات التركيب أو قائمة القطع. تبقى مع التصميم، وفي ملف .lyl والنسخة الاحتياطية ومجلد الخادم أيضًا. والتصميم الذي فيه مرفقات يحتاج إلى هذا الإصدار من layerling أو إصدار أحدث لفتحه."
         }
       },
       {
         "title": {
           "de": "Ausrichten in der Skizze",
-          "en": "Align in the sketch"
+          "en": "Align in the sketch",
+          "ar": "المحاذاة في الرسم التخطيطي"
         },
         "body": {
           "de": "Wählst du in der Skizze zwei oder mehr Umrisse aus, kannst du sie jetzt aneinander ausrichten: links, mittig, rechts, oben oder unten. Zwei Kreise, in beide Richtungen mittig ausgerichtet, werden so zu einem sauberen Ring.",
-          "en": "Select two or more outlines in a sketch and you can now line them up: left, centred, right, top or bottom. Two circles centred both ways become a clean ring."
+          "en": "Select two or more outlines in a sketch and you can now line them up: left, centred, right, top or bottom. Two circles centred both ways become a clean ring.",
+          "ar": "حدّد حدّين خارجيين أو أكثر في رسم تخطيطي، ويمكنك الآن محاذاتها: يسارًا أو في المنتصف أو يمينًا أو أعلى أو أسفل. ودائرتان موسّطتان في الاتجاهين تصبحان حلقة نظيفة."
         }
       },
       {
         "title": {
           "de": "Mehrere Körper auf dem Tablet wählen",
-          "en": "Select several bodies on a tablet"
+          "en": "Select several bodies on a tablet",
+          "ar": "تحديد عدة أجسام على الجهاز اللوحي"
         },
         "body": {
           "de": "Tippst du auf dem Tablet einen Körper an, erscheint unten links ein runder Knopf. Tippst du ihn an, kommt jeder weitere angetippte Körper zur Auswahl dazu, wie mit der Umschalttaste am Computer. Ein zweiter Tipp auf den Knopf beendet das.",
-          "en": "Tap a body on a tablet and a round button appears in the lower left. Tap it, and every further body you tap joins the selection, as with the Shift key on a computer. A second tap on the button ends it."
+          "en": "Tap a body on a tablet and a round button appears in the lower left. Tap it, and every further body you tap joins the selection, as with the Shift key on a computer. A second tap on the button ends it.",
+          "ar": "المس جسمًا على الجهاز اللوحي فيظهر زر دائري في أسفل اليسار. المسه، وكل جسم تلمسه بعد ذلك ينضم إلى التحديد، كما مع مفتاح Shift على الحاسوب. ولمسة ثانية على الزر تنهي ذلك."
         }
       }
     ]
@@ -135,91 +159,109 @@
       {
         "title": {
           "de": "Glatt richtet eine Ecke mit zwei Griffen sofort aus",
-          "en": "Smooth straightens a corner with two handles at once"
+          "en": "Smooth straightens a corner with two handles at once",
+          "ar": "«منحنى سلس» يقوّم زاوية بمقبضين دفعة واحدة"
         },
         "body": {
           "de": "Hat ein Skizzenpunkt zwei getrennte Griffe, macht „Glatt“ (im Menü des Punkts oder mit der Taste 3) ihn jetzt sofort zu einem glatten Punkt: Beide Griffe liegen danach auf einer Linie, jeder behält seine Länge. Der Umweg über „Ecke“ ist nicht mehr nötig.",
-          "en": "When a sketch point has two separate handles, Smooth (in the point's menu or with the 3 key) now makes it a smooth point at once: both handles end up on one line, each keeping its length. No more detour through Corner."
+          "en": "When a sketch point has two separate handles, Smooth (in the point's menu or with the 3 key) now makes it a smooth point at once: both handles end up on one line, each keeping its length. No more detour through Corner.",
+          "ar": "عندما تكون لنقطة في الرسم التخطيطي مقبضان منفصلان، يجعلها «منحنى سلس» (في قائمة النقطة أو بالمفتاح 3) الآن نقطة سلسة مباشرة: ينتهي المقبضان على خط واحد، ويحتفظ كل منهما بطوله. لا حاجة بعد الآن إلى المرور عبر «زاوية»."
         }
       },
       {
         "title": {
           "de": "Weiches Licht",
-          "en": "Soft light"
+          "en": "Soft light",
+          "ar": "ضوء ناعم"
         },
         "body": {
           "de": "In den Einstellungen unter Aussehen gibt es jetzt „Weiches Licht“: Das meiste Licht kommt dann aus deiner Blickrichtung und dreht mit der Ansicht. Keine Fläche bleibt dunkel, und die Oberseite eines dunklen Körpers wird nicht mehr weiß überstrahlt.",
-          "en": "Appearance in the settings now has \"Soft light\": most of the light then comes from where you look and turns with the view. No face is left dark, and the top of a dark body is no longer burnt out to white."
+          "en": "Appearance in the settings now has \"Soft light\": most of the light then comes from where you look and turns with the view. No face is left dark, and the top of a dark body is no longer burnt out to white.",
+          "ar": "في «المظهر» ضمن الإعدادات الآن «ضوء ناعم»: يأتي معظم الضوء عندها من حيث تنظر ويدور مع العرض. لا يبقى أي وجه مظلمًا، ولم يعد أعلى الجسم الداكن يحترق إلى الأبيض."
         }
       },
       {
         "title": {
           "de": "Eingefügte Entwürfe bringen ihre Notizen mit",
-          "en": "Inserted designs bring their notes"
+          "en": "Inserted designs bring their notes",
+          "ar": "التصاميم المُدرجة تجلب ملاحظاتها"
         },
         "body": {
           "de": "„In diesen Entwurf einfügen“ und das Ablegen von .lyl-Dateien im Import-Fenster bringen jetzt auch die Notizen und Bezugspunkte des gespeicherten Entwurfs mit, an derselben Stelle. Bisher kamen nur die Körper.",
-          "en": "\"Insert into this design\" and dropping .lyl files on the import window now bring the saved design's notes and reference points too, in the same place. Until now only the bodies came."
+          "en": "\"Insert into this design\" and dropping .lyl files on the import window now bring the saved design's notes and reference points too, in the same place. Until now only the bodies came.",
+          "ar": "صار «إدراج في هذا التصميم» وإفلات ملفات .lyl على نافذة الاستيراد يجلبان ملاحظات التصميم المحفوظ ونقاطه المرجعية أيضًا، في المكان نفسه. وكانت الأجسام وحدها تأتي حتى الآن."
         }
       },
       {
         "title": {
           "de": "Wandstärke für Gridfinity-Behälter",
-          "en": "Wall thickness for Gridfinity bins"
+          "en": "Wall thickness for Gridfinity bins",
+          "ar": "سمك الجدار لعلب Gridfinity"
         },
         "body": {
           "de": "Die Wand eines Gridfinity-Behälters ist nicht mehr auf 0,95 mm festgelegt: Stell sie im Eigenschaften-Fenster unter „Wandstärke“ ein, von 0,8 mm bis dorthin, wo sich die Wände treffen. Die Außenseite bleibt gleich, der Behälter passt also weiter und lässt sich stapeln; lassen die Wände innen weniger als 1 mm frei, wird er massiv.",
-          "en": "A Gridfinity bin's wall is no longer fixed at 0.95 mm: set \"Wall thickness\" in the Properties panel, from 0.8 mm up to where the walls meet. The outside stays the same, so the bin still fits and stacks; once the walls leave less than 1 mm inside, it is built solid."
+          "en": "A Gridfinity bin's wall is no longer fixed at 0.95 mm: set \"Wall thickness\" in the Properties panel, from 0.8 mm up to where the walls meet. The outside stays the same, so the bin still fits and stacks; once the walls leave less than 1 mm inside, it is built solid.",
+          "ar": "لم يعد جدار علبة Gridfinity ثابتًا عند 0.95 مم: اضبط «سمك الجدار» في لوحة «الخصائص»، من 0.8 مم حتى التقاء الجدران. يبقى الخارج كما هو، فتبقى العلبة مناسبة وقابلة للتكديس؛ وعندما تترك الجدران أقل من 1 مم في الداخل، تُبنى العلبة صلبة."
         }
       },
       {
         "title": {
           "de": "Der Browser soll deine Entwürfe behalten",
-          "en": "The browser is asked to keep your designs"
+          "en": "The browser is asked to keep your designs",
+          "ar": "يُطلب من المتصفح الاحتفاظ بتصاميمك"
         },
         "body": {
           "de": "layerling bittet den Browser jetzt einmal, den Speicher mit deinen Entwürfen bei Platzmangel nicht zuerst zu leeren. Safari löscht die Daten einer Website, die sieben Tage nicht besucht wurde, nur bei einer installierten App nicht, die Anleitung (Installieren) sagt es jetzt dazu. Gesichert werden sollten wichtige Entwürfe trotzdem als Datei.",
-          "en": "layerling now asks the browser once not to clear the storage with your designs first when it runs short of room. Safari clears the data of a website that has not been visited for seven days, but not that of an installed app, and the guide (Installing) now says so. Important designs should still be saved as a file."
+          "en": "layerling now asks the browser once not to clear the storage with your designs first when it runs short of room. Safari clears the data of a website that has not been visited for seven days, but not that of an installed app, and the guide (Installing) now says so. Important designs should still be saved as a file.",
+          "ar": "يطلب layerling الآن من المتصفح مرة واحدة ألا يبدأ بمسح التخزين الذي فيه تصاميمك عندما تنفد المساحة. يمسح Safari بيانات الموقع الذي لم يُزَر منذ سبعة أيام، لكن ليس بيانات التطبيق المثبت، والدليل (التثبيت) يذكر ذلك الآن. ومع ذلك يجب حفظ التصاميم المهمة كملف."
         }
       },
       {
         "title": {
           "de": "Mehrfarbige SVG: ein Körper je Farbe",
-          "en": "Multi-colour SVG: one body per colour"
+          "en": "Multi-colour SVG: one body per colour",
+          "ar": "SVG متعدد الألوان: جسم واحد لكل لون"
         },
         "body": {
           "de": "Ein SVG in mehreren Farben kommt jetzt als ein Körper je Farbe an, jeder in seiner Farbe und an seinem Platz in der Zeichnung, bereit für den Mehrfarbdruck. Ein SVG in einer Farbe bleibt ein Körper, ebenso eines mit mehr als 12 Farben wie ein nachgezeichnetes Bild.",
-          "en": "An SVG drawn in several colours now comes in as one body per colour, each in its colour and in its place in the drawing, ready for a multicolour print. An SVG of one colour stays one body, and so does one of more than 12 colours, such as a traced picture."
+          "en": "An SVG drawn in several colours now comes in as one body per colour, each in its colour and in its place in the drawing, ready for a multicolour print. An SVG of one colour stays one body, and so does one of more than 12 colours, such as a traced picture.",
+          "ar": "صار ملف SVG المرسوم بعدة ألوان يدخل كجسم واحد لكل لون، كل منها بلونه وفي مكانه من الرسم، جاهزًا للطباعة متعددة الألوان. ويبقى ملف SVG ذو اللون الواحد جسمًا واحدًا، وكذلك الملف الذي فيه أكثر من 12 لونًا، مثل صورة متتبَّعة."
         }
       },
       {
         "title": {
           "de": "Kleine Löcher in Netzen werden geschlossen",
-          "en": "Small holes in meshes are closed"
+          "en": "Small holes in meshes are closed",
+          "ar": "إغلاق الثقوب الصغيرة في شبكات المثلثات"
         },
         "body": {
           "de": "Ein importiertes Netz mit Öffnungen, etwa offenen Augen einer Figur, ließ sich nicht teilen, gruppieren oder ausschneiden. layerling schließt solche Öffnungen jetzt zuerst mit einem flachen Deckel und sagt, wie viele es waren. Ist eine Öffnung dafür zu groß und uneben, erklärt die Meldung, was zu tun ist.",
-          "en": "An imported mesh with openings, such as a figure's open eyes, could not be split, grouped or cut. layerling now closes such openings with a flat cap first and says how many there were. If an opening is too large and uneven for that, the message explains what to do."
+          "en": "An imported mesh with openings, such as a figure's open eyes, could not be split, grouped or cut. layerling now closes such openings with a flat cap first and says how many there were. If an opening is too large and uneven for that, the message explains what to do.",
+          "ar": "شبكة المثلثات المستوردة التي فيها فتحات، مثل العيون المفتوحة في مجسّم شخصية، لم يكن ممكنًا تقسيمها أو تجميعها أو قطعها. يغلق layerling الآن هذه الفتحات أولًا بغطاء مسطح ويذكر عددها. وإذا كانت الفتحة كبيرة جدًا وغير منتظمة لذلك، فالرسالة تشرح ما يجب فعله."
         }
       },
       {
         "title": {
           "de": "Maßband: Länge eintippen verschiebt den Körper",
-          "en": "Tape measure: typing a length moves the body"
+          "en": "Tape measure: typing a length moves the body",
+          "ar": "شريط القياس: كتابة الطول تحرّك الجسم"
         },
         "body": {
           "de": "Liegt ein Ende einer Messung auf einem Körper, lässt sich ihre Zahl anklicken. Tippst du eine neue Länge ein, rückt der Körper am zweiten Punkt entlang der Messlinie genau auf diesen Abstand, wie beim Lineal in Tinkercad.",
-          "en": "When one end of a measurement sits on a body, its number can be clicked. Type a new length, and the body at the second point moves along the measured line to exactly that distance, as with the ruler in Tinkercad."
+          "en": "When one end of a measurement sits on a body, its number can be clicked. Type a new length, and the body at the second point moves along the measured line to exactly that distance, as with the ruler in Tinkercad.",
+          "ar": "عندما يكون أحد طرفي القياس على جسم، يمكن النقر على رقمه. اكتب طولًا جديدًا، فيتحرك الجسم عند النقطة الثانية على خط القياس إلى تلك المسافة بالضبط، كما مع المسطرة في Tinkercad."
         }
       },
       {
         "title": {
           "de": "Formen rasten in der Flächenmitte ein",
-          "en": "Shapes snap to the middle of a face"
+          "en": "Shapes snap to the middle of a face",
+          "ar": "الأشكال تلتقط منتصف الوجه"
         },
         "body": {
           "de": "Setzt du eine neue Form auf eine Fläche, rastet sie in der Mitte der Fläche ein, sobald der Zeiger in die Nähe kommt. Aus der Formenliste auf eine Fläche gezogen, landet sie immer in der Mitte. Mit gedrückter Alt-Taste setzt du sie frei ab.",
-          "en": "When you place a new shape on a face, it snaps to the middle of that face once the pointer comes near it. Dragged from the shape library onto a face, it always lands in the middle. Hold Alt to set it down anywhere."
+          "en": "When you place a new shape on a face, it snaps to the middle of that face once the pointer comes near it. Dragged from the shape library onto a face, it always lands in the middle. Hold Alt to set it down anywhere.",
+          "ar": "عندما تضع شكلًا جديدًا على وجه، يلتقط منتصف ذلك الوجه بمجرد أن يقترب المؤشر منه. والشكل المسحوب من مكتبة الأشكال إلى وجه يستقر دائمًا في المنتصف. اضغط Alt لوضعه في أي مكان."
         }
       }
     ]
@@ -230,11 +272,13 @@
       {
         "title": {
           "de": "Sicherer Speicherordner auf dem eigenen Server",
-          "en": "A safer store folder on your own server"
+          "en": "A safer store folder on your own server",
+          "ar": "مجلد store أكثر أمانًا على خادمك الخاص"
         },
         "body": {
           "de": "Wer layerling selbst auf einem Webserver betreibt und den Ordner „store“ nutzt: store.php nimmt jetzt nur noch Exportdateien an, die wirklich das sind, was ihr Name sagt, und der Ordner wird nicht mehr direkt ausgeliefert. Ersetze store.php durch die neue Fassung. Auf layerling.com und im Docker-Image ändert sich nichts.",
-          "en": "If you run layerling on your own web server with a \"store\" folder: store.php now only accepts export files that really are what their name says, and the folder is no longer served directly. Replace store.php with the new one. Nothing changes on layerling.com or in the Docker image."
+          "en": "If you run layerling on your own web server with a \"store\" folder: store.php now only accepts export files that really are what their name says, and the folder is no longer served directly. Replace store.php with the new one. Nothing changes on layerling.com or in the Docker image.",
+          "ar": "إذا كنت تشغّل layerling على خادم ويب خاص بك مع مجلد \"store\": صار store.php يقبل فقط ملفات التصدير التي هي فعلًا ما يقوله اسمها، ولم يعد المجلد يُقدَّم مباشرة. استبدل store.php بالملف الجديد. لا يتغير شيء على layerling.com ولا في صورة Docker."
         }
       }
     ]
@@ -245,71 +289,85 @@
       {
         "title": {
           "de": "Flächen ausrichten: Löcher auf eine Achse",
-          "en": "Align faces: holes on one axis"
+          "en": "Align faces: holes on one axis",
+          "ar": "«محاذاة الأوجه»: ثقوب على محور واحد"
         },
         "body": {
           "de": "„Flächen ausrichten“ kann jetzt auch „Gleiche Achse“: die runde Innenseite eines Lochs oder die Außenseite eines Zapfens anklicken, dann eine runde Fläche des anderen Teils, und das Teil steht genau auf deren Achse. Loch über Loch, Zapfen in Loch, auch bei importierten Netzen.",
-          "en": "Align faces now has \"Same axis\": click the round inside of a hole or the outside of a pin, then a round face of the other part, and the part lands right on its axis. Hole over hole, pin into hole, on imported meshes too."
+          "en": "Align faces now has \"Same axis\": click the round inside of a hole or the outside of a pin, then a round face of the other part, and the part lands right on its axis. Hole over hole, pin into hole, on imported meshes too.",
+          "ar": "في «محاذاة الأوجه» الآن «المحور نفسه»: انقر على الداخل الدائري لثقب أو الخارج الدائري لدبوس، ثم على وجه دائري للقطعة الأخرى، فتستقر القطعة على محوره تمامًا. ثقب فوق ثقب، أو دبوس داخل ثقب، وعلى شبكات المثلثات المستوردة أيضًا."
         }
       },
       {
         "title": {
           "de": "Notizen mit Umschalt+N ein- und ausblenden",
-          "en": "Show or hide notes with Shift+N"
+          "en": "Show or hide notes with Shift+N",
+          "ar": "إظهار الملاحظات أو إخفاؤها بـShift+N"
         },
         "body": {
           "de": "Umschalt+N blendet die Notizen und Bezugspunkte ein und aus, im 3D-Editor und in der Skizze, wie „Notizen und Punkte anzeigen“ im Sichtbarkeitsmenü. N allein setzt weiter eine Notiz.",
-          "en": "Shift+N shows or hides the notes and reference points, in the 3D editor and in a sketch, like \"Show notes and points\" in the Visibility menu. N alone still places a note."
+          "en": "Shift+N shows or hides the notes and reference points, in the 3D editor and in a sketch, like \"Show notes and points\" in the Visibility menu. N alone still places a note.",
+          "ar": "يُظهر Shift+N الملاحظات والنقاط المرجعية أو يخفيها، في المحرر ثلاثي الأبعاد وفي الرسم التخطيطي، مثل «إظهار الملاحظات والنقاط» في قائمة «الرؤية». والمفتاح N وحده ما زال يضع ملاحظة."
         }
       },
       {
         "title": {
           "de": "Bezugspunkte rasten beim Ziehen ein",
-          "en": "Reference points snap while you drag them"
+          "en": "Reference points snap while you drag them",
+          "ar": "النقاط المرجعية تلتقط أثناء سحبها"
         },
         "body": {
           "de": "Ziehst du einen Bezugspunkt, rastet er an Ecken, Kanten- und Flächenmitten der Körper und an anderen Punkten ein. Mit gedrückter Alt-Taste bleibt er frei.",
-          "en": "Drag a reference point and it snaps to the corners, the middles of the edges and faces of bodies, and to other points. Hold Alt to let it go free."
+          "en": "Drag a reference point and it snaps to the corners, the middles of the edges and faces of bodies, and to other points. Hold Alt to let it go free.",
+          "ar": "اسحب نقطة مرجعية فتلتقط زوايا الأجسام ومنتصفات حوافها وأوجهها، والنقاط الأخرى. اضغط Alt لتتركها حرة."
         }
       },
       {
         "title": {
           "de": "Das Lineal misst auch aufgestellt",
-          "en": "The ruler measures when stood up"
+          "en": "The ruler measures when stood up",
+          "ar": "المسطرة تقيس وهي واقفة"
         },
         "body": {
           "de": "Stellst du das Lineal auf oder kippst es, misst es entlang seiner eigenen Richtung: Senkrecht neben einem Körper zeigt es dessen Höhe, statt weiter über die Platte zu messen.",
-          "en": "Stand the ruler up or tip it and it measures along its own direction: upright beside a body it shows the body's height instead of measuring along the plate."
+          "en": "Stand the ruler up or tip it and it measures along its own direction: upright beside a body it shows the body's height instead of measuring along the plate.",
+          "ar": "أوقف المسطرة أو أَمِلها فتقيس على طول اتجاهها هي: واقفة بجانب جسم تُظهر ارتفاعه بدل القياس على طول اللوحة."
         }
       },
       {
         "title": {
           "de": "Pfeiltasten ändern Zahlen",
-          "en": "The arrow keys change a number"
+          "en": "The arrow keys change a number",
+          "ar": "مفاتيح الأسهم تغيّر الرقم"
         },
         "body": {
           "de": "In einem angeklickten Zahlenfeld der Eigenschaften ändern jetzt die Tasten Hoch und Runter den Wert um einen Schritt, mit Umschalt um einen größeren und mit Alt um einen feineren, wie es das Mausrad schon konnte. Bisher bewegten die Tasten nur den Textcursor.",
-          "en": "In a number field of the properties you have clicked, the Up and Down keys now change the value by one step, with Shift a larger step and with Alt a finer one, as the mouse wheel already did. Until now the keys only moved the text cursor."
+          "en": "In a number field of the properties you have clicked, the Up and Down keys now change the value by one step, with Shift a larger step and with Alt a finer one, as the mouse wheel already did. Until now the keys only moved the text cursor.",
+          "ar": "في حقل رقمي من الخصائص نقرت عليه، يغيّر المفتاحان أعلى وأسفل القيمة الآن بخطوة واحدة، ومع Shift بخطوة أكبر، ومع Alt بخطوة أدق، كما كانت عجلة الفأرة تفعل. وكانت المفاتيح حتى الآن تحرّك مؤشر النص فقط."
         }
       },
       {
         "title": {
           "de": "Fase am Gridfinity-Stapelrand",
-          "en": "A chamfer on the Gridfinity lip"
+          "en": "A chamfer on the Gridfinity lip",
+          "ar": "شطف على حافة تكديس Gridfinity"
         },
         "body": {
           "de": "Die scharfe Oberkante des Stapelrands lässt sich jetzt direkt am Gridfinity-Behälter fasen: Stell sie im Eigenschaften-Fenster unter „Fase am Stapelrand“ auf bis zu 1 mm ein. Das ist dieselbe Fase, die das Kantenwerkzeug macht, ohne dass du die Kanten auswählen musst.",
-          "en": "The sharp top of a Gridfinity bin's stacking lip can now be chamfered on the bin itself: set \"Lip chamfer\" in the Properties panel, up to 1 mm. It is the same chamfer the edge tool makes, without picking the edges."
+          "en": "The sharp top of a Gridfinity bin's stacking lip can now be chamfered on the bin itself: set \"Lip chamfer\" in the Properties panel, up to 1 mm. It is the same chamfer the edge tool makes, without picking the edges.",
+          "ar": "صار ممكنًا شطف أعلى حافة التكديس الحاد في علبة Gridfinity على العلبة نفسها: اضبط «شطف حافة التكديس» في لوحة «الخصائص»، حتى 1 مم. إنه الشطف نفسه الذي تصنعه أداة الحواف، دون اختيار الحواف."
         }
       },
       {
         "title": {
           "de": "Zentrieren auf einer Fläche",
-          "en": "Centring on a face"
+          "en": "Centring on a face",
+          "ar": "التوسيط على وجه"
         },
         "body": {
           "de": "Liegt die Arbeitsebene auf einer Fläche, zentriert „Auf der Arbeitsebene zentrieren“ jetzt auf den Punkt, den du mit W angeklickt hast, und schiebt nur entlang der Fläche. Bisher zentrierte es auf der Grundplatte, und ein Teil auf einer schrägen Fläche rutschte von ihr weg.",
-          "en": "With the workplane on a face, \"Center on workplane\" now centres on the point you picked with W and moves only along that face. Until now it centred on the base plate, and a part on a sloped face slid off it."
+          "en": "With the workplane on a face, \"Center on workplane\" now centres on the point you picked with W and moves only along that face. Until now it centred on the base plate, and a part on a sloped face slid off it.",
+          "ar": "عندما يكون سطح العمل على وجه، يوسّط «توسيط على سطح العمل» الآن على النقطة التي اخترتها بالمفتاح W، ويتحرك على امتداد ذلك الوجه فقط. وكان حتى الآن يوسّط على اللوحة الأساسية، فكانت القطعة على وجه مائل تنزلق عنه."
         }
       }
     ]
@@ -320,63 +378,75 @@
       {
         "title": {
           "de": "Vorschaubilder zeigen alle Körper, egal wie weit gezoomt",
-          "en": "Preview pictures show all bodies, however far you have zoomed"
+          "en": "Preview pictures show all bodies, however far you have zoomed",
+          "ar": "صور المعاينة تُظهر كل الأجسام مهما كبّرت العرض"
         },
         "body": {
           "de": "Das Vorschaubild eines Entwurfs in der Übersicht war ein verkleinerter Abzug des Editors: Wer nah herangezoomt hatte, bekam einen angeschnittenen Ausschnitt, wer weit herausgezoomt hatte, winzige Körper in der Ecke der Platte. Jetzt wird für das Bild kurz auf alle Körper eingepasst, aus der Richtung, aus der du schaust. Dein Bildschirm bleibt dabei, wie er ist.",
-          "en": "The preview picture of a design in the overview was a shrunken copy of the editor: with a close-up you got a cut-off detail, zoomed far out you got tiny bodies in the corner of the plate. For the picture the view is now briefly fitted to all bodies, from the side you are looking from. Your screen stays as it is."
+          "en": "The preview picture of a design in the overview was a shrunken copy of the editor: with a close-up you got a cut-off detail, zoomed far out you got tiny bodies in the corner of the plate. For the picture the view is now briefly fitted to all bodies, from the side you are looking from. Your screen stays as it is.",
+          "ar": "كانت صورة معاينة التصميم في النظرة العامة نسخة مصغّرة من المحرر: مع لقطة قريبة تحصل على تفصيل مقطوع، ومع تصغير كبير تحصل على أجسام صغيرة جدًا في زاوية اللوحة. أما الآن فيُضبط العرض للصورة لحظيًا على كل الأجسام، من الجهة التي تنظر منها. وتبقى شاشتك كما هي."
         }
       },
       {
         "title": {
           "de": "Entwürfe per Ziehen einfügen",
-          "en": "Drop designs to insert them"
+          "en": "Drop designs to insert them",
+          "ar": "أفلت التصاميم لإدراجها"
         },
         "body": {
           "de": "Legst du eine oder mehrere layerling-Dateien (.lyl) im Ablagefeld des Import-Fensters ab, kommen ihre Körper in den offenen Entwurf, wie bei „In diesen Entwurf einfügen“. Praktisch, wenn ein großer Tinkercad-Import in mehrere Dateien zerlegt ist.",
-          "en": "Drop one or more layerling files (.lyl) on the drop zone of the import window and their bodies are added to the open design, as with \"Insert into this design\". Handy when a large Tinkercad import comes in several files."
+          "en": "Drop one or more layerling files (.lyl) on the drop zone of the import window and their bodies are added to the open design, as with \"Insert into this design\". Handy when a large Tinkercad import comes in several files.",
+          "ar": "أفلت ملف layerling واحدًا أو أكثر (.lyl) على منطقة الإفلات في نافذة الاستيراد فتُضاف أجسامها إلى التصميم المفتوح، كما مع «إدراج في هذا التصميم». مفيد عندما يأتي استيراد كبير من Tinkercad في عدة ملفات."
         }
       },
       {
         "title": {
           "de": "DXF öffnen",
           "en": "Open DXF files",
-          "hu": "DXF megnyitása"
+          "hu": "DXF megnyitása",
+          "ar": "فتح ملفات DXF"
         },
         "body": {
           "de": "Eine DXF, etwa ein Teileumriss vom Laserschneid-Betrieb oder vom Lieferanten, kommt jetzt als Teile zum Weiterarbeiten herein: jeder Umriss ein Körper, jedes Loch darin ein eigenes Loch (ein rundes als Zylinder), das du im 3D-Editor verschiebst und in der Größe änderst. In Millimetern, Bögen und Kreise als echte Bögen. Text, Bemaßungen und nicht geschlossene Umrisse fallen weg, die Meldung sagt, wie viele.",
           "en": "A DXF, such as a part outline from a laser cutting shop or a supplier, now comes in as parts to work on: every outline a body, every hole in it a hole of its own (a round one a cylinder) that you move and size in the 3D editor. In millimetres, its arcs and circles as true arcs. Text, dimensions and outlines that do not close are left out, and the message says how many.",
-          "hu": "Egy DXF, például egy lézervágó cégtől vagy beszállítótól kapott alkatrész-körvonal, mostantól szerkeszthető részekként érkezik: minden körvonalból test lesz, a benne lévő minden furatból külön furat (a kerekből henger), amelyet a 3D szerkesztőben mozgatsz és méretezel. Milliméterben, az ívek és körök valódi ívekként. A szöveg, a méretvonalak és a nem záródó körvonalak kimaradnak, és az üzenet megmondja, hány."
+          "hu": "Egy DXF, például egy lézervágó cégtől vagy beszállítótól kapott alkatrész-körvonal, mostantól szerkeszthető részekként érkezik: minden körvonalból test lesz, a benne lévő minden furatból külön furat (a kerekből henger), amelyet a 3D szerkesztőben mozgatsz és méretezel. Milliméterben, az ívek és körök valódi ívekként. A szöveg, a méretvonalak és a nem záródó körvonalak kimaradnak, és az üzenet megmondja, hány.",
+          "ar": "صار ملف DXF، مثل الحد الخارجي لقطعة من ورشة قطع بالليزر أو من مورّد، يدخل كقطع للعمل عليها: كل حد خارجي جسم، وكل ثقب فيه ثقب مستقل (والدائري أسطوانة) تحرّكه وتغيّر مقاسه في المحرر ثلاثي الأبعاد. بالمليمترات، وأقواسه ودوائره أقواس حقيقية. وتُترك النصوص والأبعاد والحدود الخارجية غير المغلقة، وتذكر الرسالة عددها."
         }
       },
       {
         "title": {
           "de": "Vor dem Schließen des Tabs nachfragen",
-          "en": "Ask before closing the tab"
+          "en": "Ask before closing the tab",
+          "ar": "السؤال قبل إغلاق علامة التبويب"
         },
         "body": {
           "de": "In den Einstellungen gibt es jetzt „Vor dem Schließen des Tabs nachfragen“, standardmäßig aus. Ist es an, fragt der Browser mit seiner eigenen Frage „Seite verlassen?“ nach, wenn du einen Tab mit offenem Entwurf schließt oder neu lädst. Deine Entwürfe sind nach jeder Änderung ohnehin gespeichert, die Frage ist nur eine Gedächtnisstütze, etwa gegen ein versehentliches Strg+W.",
-          "en": "The settings now have \"Ask before closing the tab\", off by default. When it is on, the browser asks its own question \"Leave site?\" if you close or reload a tab with an open design. Your designs are saved after every change anyway, so the question is only a reminder, say against a Ctrl+W by mistake."
+          "en": "The settings now have \"Ask before closing the tab\", off by default. When it is on, the browser asks its own question \"Leave site?\" if you close or reload a tab with an open design. Your designs are saved after every change anyway, so the question is only a reminder, say against a Ctrl+W by mistake.",
+          "ar": "في الإعدادات الآن «السؤال قبل إغلاق علامة التبويب»، وهو متوقف افتراضيًا. عند تشغيله يطرح المتصفح سؤاله الخاص \"Leave site?\" إذا أغلقت علامة تبويب فيها تصميم مفتوح أو أعدت تحميلها. تُحفظ تصاميمك بعد كل تغيير على أي حال، فالسؤال مجرد تذكير، مثلًا عند ضغط Ctrl+W خطأً."
         }
       },
       {
         "title": {
           "de": "Kein Einfrieren mehr bei großen Netzen",
-          "en": "No more freezing with large meshes"
+          "en": "No more freezing with large meshes",
+          "ar": "لا تجمّد بعد الآن مع شبكات المثلثات الكبيرة"
         },
         "body": {
           "de": "Schneiden, Vereinen und Teilen großer importierter Netze, die Druckschätzung und das Vereinfachen rechnen jetzt im Hintergrund. Statt ein bis zwei Sekunden stillzustehen, bleibt layerling bedienbar, die Statuszeile zeigt „Wird berechnet … du kannst weiterarbeiten“. Auch OBJ-Import, 3MF-Export und das Öffnen von Entwürfen mit importierten Netzen halten dich weniger auf. Das Ergebnis ist genau dasselbe wie vorher.",
-          "en": "Cutting, merging and splitting large imported meshes, the print estimate and Simplify now work in the background. Instead of standing still for a second or two, layerling stays usable, and the status line says \"Calculating… you can keep working\". OBJ import, 3MF export and opening designs with imported meshes hold you up less too. The result is exactly the same as before."
+          "en": "Cutting, merging and splitting large imported meshes, the print estimate and Simplify now work in the background. Instead of standing still for a second or two, layerling stays usable, and the status line says \"Calculating… you can keep working\". OBJ import, 3MF export and opening designs with imported meshes hold you up less too. The result is exactly the same as before.",
+          "ar": "صار قطع شبكات المثلثات المستوردة الكبيرة ودمجها وتقسيمها، وتقدير الطباعة، و«تبسيط» تعمل في الخلفية. بدل التوقف لثانية أو ثانيتين، يبقى layerling قابلًا للاستخدام، ويقول سطر الحالة «جارٍ الحساب… يمكنك متابعة العمل». كما صار استيراد OBJ وتصدير 3MF وفتح التصاميم التي فيها شبكات مستوردة يؤخرك أقل. والنتيجة هي نفسها تمامًا كما من قبل."
         }
       },
       {
         "title": {
           "de": "DXF-Export erkennt Kreise auf unruhigen Umrissen",
-          "en": "DXF export finds circles on uneven outlines"
+          "en": "DXF export finds circles on uneven outlines",
+          "ar": "تصدير DXF يجد الدوائر على الحدود الخارجية غير المنتظمة"
         },
         "body": {
           "de": "Ein Umriss, dessen Ecken ein paar Tausendstel Millimeter neben der Kurve liegen, etwa aus einer wieder eingelesenen DXF, kam im DXF-Export als viele kleine Bögen heraus. Jetzt wird daraus wieder ein Kreis, und gerade Kanten bleiben Linien.",
-          "en": "An outline whose corners sit a few thousandths of a millimetre off the curve, such as one from a DXF read back in, came out of the DXF export as many small arcs. It now becomes one circle again, and straight edges stay lines."
+          "en": "An outline whose corners sit a few thousandths of a millimetre off the curve, such as one from a DXF read back in, came out of the DXF export as many small arcs. It now becomes one circle again, and straight edges stay lines.",
+          "ar": "الحد الخارجي الذي تقع زواياه على بعد أجزاء من الألف من المليمتر عن المنحنى، مثل حد مقروء مرة أخرى من DXF، كان يخرج من تصدير DXF كأقواس صغيرة كثيرة. أما الآن فيصبح دائرة واحدة من جديد، وتبقى الحواف المستقيمة خطوطًا."
         }
       }
     ]
@@ -387,53 +457,63 @@
       {
         "title": {
           "de": "Tinkercad-Importe mit tief verschachtelten Gruppen öffnen sich wieder",
-          "en": "Tinkercad imports with deeply nested groups open again"
+          "en": "Tinkercad imports with deeply nested groups open again",
+          "ar": "استيرادات Tinkercad ذات المجموعات المتداخلة بعمق تُفتح من جديد"
         },
         "body": {
           "de": "Ein Entwurf mit vielen ineinander verschachtelten Gruppen, wie ihn der Tinkercad-Importer ablegen kann, ließ den Browser-Tab beim Öffnen abstürzen („Speicher voll“), schon bei einer Datei von 12 MB. Der Editor bildete für jede Gruppe einen Schlüssel, der mit jeder Verschachtelungsstufe doppelt so lang wurde (bei 19 Stufen 346 MB). Jetzt bleibt er klein, und die Dateien öffnen sich.",
-          "en": "A design with many groups nested inside each other, as the Tinkercad importer can write them, made the browser tab crash on opening (\"out of memory\"), even with a file of 12 MB. The editor made a key for each group that doubled in length with every level of nesting (346 MB at 19 levels). It now stays small, and the files open."
+          "en": "A design with many groups nested inside each other, as the Tinkercad importer can write them, made the browser tab crash on opening (\"out of memory\"), even with a file of 12 MB. The editor made a key for each group that doubled in length with every level of nesting (346 MB at 19 levels). It now stays small, and the files open.",
+          "ar": "التصميم الذي فيه مجموعات كثيرة متداخلة بعضها في بعض، كما قد يكتبها مستورد Tinkercad، كان يجعل علامة تبويب المتصفح تتعطل عند الفتح (\"out of memory\")، حتى مع ملف حجمه 12 MB. كان المحرر يصنع لكل مجموعة مفتاحًا يتضاعف طوله مع كل مستوى من التداخل (346 MB عند 19 مستوى). أما الآن فيبقى صغيرًا، وتُفتح الملفات."
         }
       },
       {
         "title": {
           "de": "DXF für den Laserschnitt",
           "en": "DXF for laser cutting shops",
-          "hu": "DXF lézervágáshoz"
+          "hu": "DXF lézervágáshoz",
+          "ar": "DXF لورش القطع بالليزر"
         },
         "body": {
           "de": "Das Exportfenster hat jetzt DXF: die Draufsicht oder die Aufstandsfläche als ein Umriss aus Linien, echten Bögen und Kreisen auf Layer 0 in Weiß, in Millimetern - so, wie Laserschneid-Betriebe die Datei verlangen. Löcher und Rundungen werden echte Kreise und Bögen statt vieler kurzer Geraden, an denen der Schneidkopf ruckelt. Noch nicht an einem Laserschneider erprobt: Rückmeldungen sind willkommen.",
           "en": "The export window now has DXF: the top view or the footprint as one outline of lines, true arcs and circles on layer 0 in white, in millimetres - the way laser cutting shops ask for the file. Holes and roundings become real circles and arcs instead of many short straight pieces that make the cutting head shake. Not yet tried on a laser cutter: feedback is welcome.",
-          "hu": "Az exportablakban mostantól DXF is van: a felülnézet vagy a felfekvési felület egyetlen körvonalként, egyenesekből, valódi ívekből és körökből, a 0-s rétegen, fehér színnel, milliméterben - ahogy a lézervágó cégek kérik. A furatok és lekerekítések valódi körök és ívek lesznek, nem sok rövid egyenes, amitől a vágófej rázkódik. Lézervágón még nincs kipróbálva: a visszajelzéseket szívesen fogadjuk."
+          "hu": "Az exportablakban mostantól DXF is van: a felülnézet vagy a felfekvési felület egyetlen körvonalként, egyenesekből, valódi ívekből és körökből, a 0-s rétegen, fehér színnel, milliméterben - ahogy a lézervágó cégek kérik. A furatok és lekerekítések valódi körök és ívek lesznek, nem sok rövid egyenes, amitől a vágófej rázkódik. Lézervágón még nincs kipróbálva: a visszajelzéseket szívesen fogadjuk.",
+          "ar": "في نافذة التصدير الآن DXF: المنظر العلوي أو مساحة الارتكاز كحد خارجي واحد من خطوط وأقواس ودوائر حقيقية على الطبقة 0 باللون الأبيض، بالمليمترات - كما تطلب ورش القطع بالليزر الملف. تصبح الثقوب والتدويرات دوائر وأقواسًا حقيقية بدل قطع مستقيمة قصيرة كثيرة تجعل رأس القطع يهتز. لم يُجرَّب بعد على آلة قطع بالليزر: ملاحظاتكم مرحّب بها."
         }
       },
       {
         "title": {
           "de": "Winkellineal: Abstandsfelder überdecken sich nicht mehr",
-          "en": "Framing square: the distance fields no longer cover each other"
+          "en": "Framing square: the distance fields no longer cover each other",
+          "ar": "زاوية النجار: حقول المسافة لم تعد تغطي بعضها"
         },
         "body": {
           "de": "Lag ein Körper direkt an der Ecke des Winkellineals, fielen die drei grünen Abstandsfelder (X, Y, Z) auf dieselbe Stelle und verdeckten sich und die Knöpfe des Lineals. Jetzt weichen sie einander aus, wo sie sich überdecken würden, und bleiben in der Mitte ihrer Pfeile, wo Platz ist. Vor jeder Zahl steht jetzt ein kleines x, y oder z: die Achse, auf die sie sich bezieht.",
-          "en": "When a body sat right at the corner of the framing square, the three green distance fields (X, Y, Z) fell on the same spot and covered each other and the square's buttons. They now step aside where they would overlap, and stay at the middle of their arrows where there is room. Each number now starts with a small x, y or z: the axis it belongs to."
+          "en": "When a body sat right at the corner of the framing square, the three green distance fields (X, Y, Z) fell on the same spot and covered each other and the square's buttons. They now step aside where they would overlap, and stay at the middle of their arrows where there is room. Each number now starts with a small x, y or z: the axis it belongs to.",
+          "ar": "عندما يكون جسم عند زاوية زاوية النجار تمامًا، كانت حقول المسافة الخضراء الثلاثة (X وY وZ) تقع في المكان نفسه وتغطي بعضها وتغطي أزرار الزاوية. أما الآن فتتنحّى حيث تتداخل، وتبقى في منتصف أسهمها حيث توجد مساحة. ويبدأ كل رقم الآن بحرف صغير x أو y أو z: المحور الذي ينتمي إليه."
         }
       },
       {
         "title": {
           "de": "Exportdateien auf dem Server speichern",
-          "en": "Save export files on the server"
+          "en": "Save export files on the server",
+          "ar": "حفظ ملفات التصدير على الخادم"
         },
         "body": {
           "de": "Ist der Serverordner an, hat das Export-Fenster „Auf dem Server speichern“ jetzt auch für STL, 3MF, OBJ, STEP, SVG, PNG und die Zeichnung. Die Datei landet im Ordner deines Entwurfs, ein Programm, das den Ordner teilt, etwa ein Slicer in Docker, kann sie dort öffnen. In der Liste der Entwürfe erscheint sie nicht, und eine Datei gleichen Namens wird erst beim zweiten Druck auf den Knopf ersetzt.",
-          "en": "When the server folder is on, the export window now has \"Save to the server\" for STL, 3MF, OBJ, STEP, SVG, PNG and the drawing too. The file lands in the folder of your design, so a program that shares the folder, such as a slicer in Docker, can open it there. It does not show in the list of designs, and a file of the same name is replaced only by a second press on the button."
+          "en": "When the server folder is on, the export window now has \"Save to the server\" for STL, 3MF, OBJ, STEP, SVG, PNG and the drawing too. The file lands in the folder of your design, so a program that shares the folder, such as a slicer in Docker, can open it there. It does not show in the list of designs, and a file of the same name is replaced only by a second press on the button.",
+          "ar": "عندما يكون مجلد الخادم مفعّلًا، صار في نافذة التصدير «حفظ إلى الخادم» لملفات STL و3MF وOBJ وSTEP وSVG وPNG والرسم الهندسي أيضًا. يستقر الملف في مجلد تصميمك، فيستطيع برنامج يشارك المجلد، مثل برنامج تقطيع في Docker، فتحه هناك. ولا يظهر في قائمة التصاميم، والملف الذي يحمل الاسم نفسه لا يُستبدل إلا بضغطة ثانية على الزر."
         }
       },
       {
         "title": {
           "de": "Tastenkürzel durchsuchen",
-          "en": "Search the keyboard shortcuts"
+          "en": "Search the keyboard shortcuts",
+          "ar": "البحث في اختصارات لوحة المفاتيح"
         },
         "body": {
           "de": "Das Fenster mit den Tastenkürzeln hat oben ein Suchfeld. Es zeigt nur die Kürzel, deren Beschreibung, Gruppe oder Tasten jedes eingetippte Wort enthalten, etwa \"ctrl+z\" oder \"spiegel\". Das X am Ende des Feldes leert es, und mit leerem Feld ist die ganze Liste wieder da.",
-          "en": "The keyboard shortcuts window has a search box at the top. It shows only the shortcuts whose description, group or keys contain every word you type, such as \"ctrl+z\" or \"mirror\". The X at the end of the box empties it, and with the box empty the whole list is back."
+          "en": "The keyboard shortcuts window has a search box at the top. It shows only the shortcuts whose description, group or keys contain every word you type, such as \"ctrl+z\" or \"mirror\". The X at the end of the box empties it, and with the box empty the whole list is back.",
+          "ar": "في نافذة اختصارات لوحة المفاتيح مربع بحث في الأعلى. يُظهر فقط الاختصارات التي يحتوي وصفها أو مجموعتها أو مفاتيحها على كل كلمة تكتبها، مثل \"ctrl+z\" أو \"mirror\". العلامة X في آخر المربع تفرغه، ومع المربع الفارغ تعود القائمة كاملة."
         }
       },
       {
@@ -481,21 +561,25 @@
       {
         "title": {
           "de": "Alt mit den Pfeiltasten verschiebt in feinen Schritten",
-          "en": "Alt with the arrow keys moves in fine steps"
+          "en": "Alt with the arrow keys moves in fine steps",
+          "ar": "Alt مع مفاتيح الأسهم يحرّك بخطوات دقيقة"
         },
         "body": {
           "de": "Umschalt mit einer Pfeiltaste verschiebt einen Körper um fünf Rasterschritte; Alt macht jetzt das Gegenteil und verschiebt ihn um ein Fünftel eines Rasterschritts, bei 1 mm Raster also um 0,2 mm. Es geht auf der Arbeitsfläche und in der Skizze (Punkte, Linien, Bild und Kurvengriffe), und die Kürzelliste nennt es.",
-          "en": "Shift with an arrow key moves a body by five grid steps; Alt now does the opposite and moves it by a fifth of a grid step, so with a 1 mm grid it is 0.2 mm. It works on the workplane and in the sketch (points, lines, image and curve handles), and the shortcut list names it."
+          "en": "Shift with an arrow key moves a body by five grid steps; Alt now does the opposite and moves it by a fifth of a grid step, so with a 1 mm grid it is 0.2 mm. It works on the workplane and in the sketch (points, lines, image and curve handles), and the shortcut list names it.",
+          "ar": "Shift مع مفتاح سهم يحرّك الجسم خمس خطوات من الشبكة؛ أما Alt فيفعل الآن العكس ويحرّكه خُمس خطوة شبكة، فمع شبكة 1 مم تكون 0.2 مم. يعمل على سطح العمل وفي الرسم التخطيطي (النقاط والخطوط والصورة ومقابض المنحنيات)، وتذكره قائمة الاختصارات."
         }
       },
       {
         "title": {
           "de": "Eine Gruppe zeigt unter der Skizze ihre echten Umrisse",
-          "en": "A group shows its real outline under the sketch"
+          "en": "A group shows its real outline under the sketch",
+          "ar": "المجموعة تُظهر حدها الخارجي الحقيقي تحت الرسم التخطيطي"
         },
         "body": {
           "de": "Eine Gruppe aus mehreren Körpern, etwa einer runden Platte und einem Zahnrad, erschien unter der Skizze als einfacher Kasten. Jetzt zeigt sie die Umrisse ihrer Teile, die runde Platte und das Zahnrad, und die Skizze rastet daran ein.",
-          "en": "A group of bodies, say a round plate and a gear, was drawn under the sketch as a plain box. It now shows the outline of each of its parts, the round plate and the gear, and the sketch snaps to them."
+          "en": "A group of bodies, say a round plate and a gear, was drawn under the sketch as a plain box. It now shows the outline of each of its parts, the round plate and the gear, and the sketch snaps to them.",
+          "ar": "مجموعة من الأجسام، لوح دائري وترس مثلًا، كانت تُرسم تحت الرسم التخطيطي كصندوق بسيط. أما الآن فتُظهر الحد الخارجي لكل جزء من أجزائها، اللوح الدائري والترس، ويلتقطها الرسم التخطيطي."
         }
       }
     ]
@@ -506,31 +590,37 @@
       {
         "title": {
           "de": "Mehrere Objekte drehen sich starr, auch über den Rand",
-          "en": "Several objects turn rigidly, even past the edge"
+          "en": "Several objects turn rigidly, even past the edge",
+          "ar": "عدة أجسام تدور ككتلة واحدة، حتى بعد الحافة"
         },
         "body": {
           "de": "Beim Drehen mehrerer Objekte mit dem Drehgriff wurde jeder Mittelpunkt auf das Raster gerundet und auf die Arbeitsfläche begrenzt, so blieben Objekte am Rand hängen und die Anordnung ging verloren. Die Gruppe dreht sich jetzt exakt um ihren Drehpunkt und behält die Abstände, auch wenn Teile über den Rand der Fläche wandern.",
-          "en": "When several objects were turned with the rotate handle, each centre was rounded to the grid and kept inside the workplane, so objects near the edge got stuck and the arrangement broke. The group now turns exactly around its pivot and keeps its spacing, even when parts move past the edge of the plane."
+          "en": "When several objects were turned with the rotate handle, each centre was rounded to the grid and kept inside the workplane, so objects near the edge got stuck and the arrangement broke. The group now turns exactly around its pivot and keeps its spacing, even when parts move past the edge of the plane.",
+          "ar": "عند تدوير عدة أجسام بمقبض التدوير، كان كل مركز يُقرَّب إلى الشبكة ويُبقى داخل سطح العمل، فتعلق الأجسام القريبة من الحافة وينكسر الترتيب. أما الآن فتدور المجموعة حول محور دورانها بالضبط وتحتفظ بالمسافات بينها، حتى عندما تتجاوز أجزاء حافة السطح."
         }
       },
       {
         "title": {
           "de": "Skizze: Tasten 1 bis 3 ändern auch die Auswahl",
-          "en": "Sketch: keys 1 to 3 also change a selection"
+          "en": "Sketch: keys 1 to 3 also change a selection",
+          "ar": "الرسم التخطيطي: المفاتيح 1 إلى 3 تغيّر التحديد أيضًا"
         },
         "body": {
           "de": "Mit dem Werkzeug Auswählen und gewählten Linien oder Punkten macht die Taste 1 Linien gerade und Punkte zu Ecken, 2 macht Linien zu Kurven und 3 macht Punkte weich, alle gewählten auf einmal. Ohne Auswahl wählen die Tasten wie bisher das Zeichenwerkzeug. Die Tasten stehen in den Hinweisen der Knöpfe.",
-          "en": "With the Select tool and lines or points selected, key 1 makes lines straight and points corners, 2 turns lines into curves and 3 makes points smooth, all selected ones at once. With nothing selected the keys still pick the drawing tool. The keys are named in the tooltips of the buttons."
+          "en": "With the Select tool and lines or points selected, key 1 makes lines straight and points corners, 2 turns lines into curves and 3 makes points smooth, all selected ones at once. With nothing selected the keys still pick the drawing tool. The keys are named in the tooltips of the buttons.",
+          "ar": "مع أداة «تحديد» وخطوط أو نقاط محددة، يجعل المفتاح 1 الخطوط مستقيمة والنقاط زوايا، ويحوّل 2 الخطوط إلى منحنيات، ويجعل 3 النقاط سلسة، لكل المحدد منها دفعة واحدة. وبلا تحديد ما زالت المفاتيح تختار أداة الرسم. وتُذكر المفاتيح في تلميحات أدوات الأزرار."
         }
       },
       {
         "title": {
           "de": "Gridfinity-Bodenplatte passend zur Schublade",
-          "en": "Fit a Gridfinity baseplate to a drawer"
+          "en": "Fit a Gridfinity baseplate to a drawer",
+          "ar": "ملاءمة لوح شبكة Gridfinity لدرج"
         },
         "body": {
           "de": "Eine Gridfinity-Bodenplatte hat jetzt „Schubladenbreite“ und „Schubladentiefe“ im Eigenschaften-Fenster: Tippe das Innenmaß der Schublade ein, und die Platte nimmt so viele Einheiten, wie hineinpassen, und verteilt den Rest gleichmäßig auf den Ausgleich, sodass sie 0,5 mm kleiner als die Schublade wird.",
-          "en": "A Gridfinity baseplate now has \"Drawer width\" and \"Drawer depth\" in the Properties panel: type the drawer's inside size, and the plate takes as many units as fit and splits the rest evenly into its padding, so it comes out 0.5 mm smaller than the drawer."
+          "en": "A Gridfinity baseplate now has \"Drawer width\" and \"Drawer depth\" in the Properties panel: type the drawer's inside size, and the plate takes as many units as fit and splits the rest evenly into its padding, so it comes out 0.5 mm smaller than the drawer.",
+          "ar": "صار في لوح شبكة Gridfinity «عرض الدرج» و«عمق الدرج» في لوحة «الخصائص»: اكتب المقاس الداخلي للدرج، فيأخذ اللوح ما يتسع من الوحدات ويوزّع الباقي بالتساوي على حاشيته، فيخرج أصغر من الدرج بمقدار 0.5 مم."
         }
       }
     ]
@@ -541,51 +631,61 @@
       {
         "title": {
           "de": "STL als normalen Download speichern",
-          "en": "Save STL as a plain download"
+          "en": "Save STL as a plain download",
+          "ar": "حفظ STL كتنزيل عادي"
         },
         "body": {
           "de": "In Chrome und Edge schreibt der STL-Export jedes Mal in dieselbe Datei. In den Einstellungen unter Aussehen schaltest du jetzt \"STL als Download speichern\" ein: Dann bekommst du einen normalen Download, und der Browser nummeriert die Dateien selbst, name (1).stl, name (2).stl.",
-          "en": "In Chrome and Edge the STL export writes into the same file each time. In the settings under Appearance you can now switch on \"Save STL as a download\": you then get a plain download and the browser numbers the files itself, name (1).stl, name (2).stl."
+          "en": "In Chrome and Edge the STL export writes into the same file each time. In the settings under Appearance you can now switch on \"Save STL as a download\": you then get a plain download and the browser numbers the files itself, name (1).stl, name (2).stl.",
+          "ar": "في Chrome وEdge يكتب تصدير STL في الملف نفسه كل مرة. يمكنك الآن في الإعدادات ضمن «المظهر» تشغيل «حفظ STL كتنزيل»: تحصل عندها على تنزيل عادي ويرقّم المتصفح الملفات بنفسه، name (1).stl وname (2).stl."
         }
       },
       {
         "title": {
           "de": "Zurück zu deinen eigenen Einstellungen",
-          "en": "Back to your own settings"
+          "en": "Back to your own settings",
+          "ar": "العودة إلى إعداداتك الخاصة"
         },
         "body": {
           "de": "Eine geöffnete Datei bringt ihre eigenen Farben, ihr Raster und ihre Platte mit. In den Einstellungen gibt es neben \"Als Vorgabe speichern\" jetzt \"Meine Vorgabe verwenden\": Es legt deine gespeicherten Farben, das Raster, die Schatten, die Kamera und die Formstarts auf den offenen Entwurf. Plattengröße, Drucker und Einheiten bleiben beim Entwurf.",
-          "en": "A file you open brings its own colours, grid and plate. Next to \"Make default\" the settings now have \"Use my default\": it puts your saved colours, grid, shadows, camera and shape starts on the open design. The size of the plate, the printer and the units stay as they are."
+          "en": "A file you open brings its own colours, grid and plate. Next to \"Make default\" the settings now have \"Use my default\": it puts your saved colours, grid, shadows, camera and shape starts on the open design. The size of the plate, the printer and the units stay as they are.",
+          "ar": "الملف الذي تفتحه يجلب ألوانه وشبكته ولوحته. وبجانب «جعلها افتراضية» صار في الإعدادات «استخدام إعداداتي الافتراضية»: يضع ألوانك وشبكتك وظلالك وكاميرتك وبدايات أشكالك المحفوظة على التصميم المفتوح. ويبقى مقاس اللوحة والطابعة والوحدات كما هي."
         }
       },
       {
         "title": {
           "de": "Skalieren in Prozent mit der Tastatur",
-          "en": "Scale by percent from the keyboard"
+          "en": "Scale by percent from the keyboard",
+          "ar": "التكبير/التصغير بالنسبة المئوية من لوحة المفاتيح"
         },
         "body": {
           "de": "Das Prozentfeld hat beim Öffnen den Fokus, und Enter wendet die Skalierung an. Strg+K, Prozentwert, Enter: ganz ohne Maus.",
-          "en": "The percentage field has the focus when the window opens, and Enter applies the scale. Ctrl+K, the percentage and Enter do it without the mouse."
+          "en": "The percentage field has the focus when the window opens, and Enter applies the scale. Ctrl+K, the percentage and Enter do it without the mouse.",
+          "ar": "يكون التركيز على حقل النسبة المئوية عند فتح النافذة، وEnter يطبّق التكبير/التصغير. فـCtrl+K والنسبة وEnter تفعل ذلك دون الفأرة."
         }
       },
       {
         "title": {
           "de": "Materialschätzung auf Klick",
-          "en": "Material estimate on a click"
+          "en": "Material estimate on a click",
+          "ar": "تقدير المادة بنقرة"
         },
         "body": {
           "de": "Der Material-Kasten im Exportfenster rechnet erst, wenn du auf \"Berechnen\" drückst. Bei feinen Mehrfarbmodellen bleibt der Export-Knopf so sofort bedienbar.",
-          "en": "The Material box in the export window now works out its numbers only when you press Calculate. For finely traced multicolour models the Export button stays usable at once."
+          "en": "The Material box in the export window now works out its numbers only when you press Calculate. For finely traced multicolour models the Export button stays usable at once.",
+          "ar": "صار مربع «المادة» في نافذة التصدير يحسب أرقامه فقط عندما تضغط «حساب». فيبقى زر «تصدير» قابلًا للاستخدام فورًا مع النماذج متعددة الألوان المتتبَّعة بدقة."
         }
       },
       {
         "title": {
           "de": "Kegelradius beim Auflösen einer Gruppe",
-          "en": "Cone radius kept when ungrouping"
+          "en": "Cone radius kept when ungrouping",
+          "ar": "الاحتفاظ بنصف قطر المخروط عند فك التجميع"
         },
         "body": {
           "de": "Ein Kegel, der mit anderen Teilen gruppiert und vergrößert wurde, behält beim Auflösen der Gruppe jetzt auch seinen größeren Grundradius.",
-          "en": "A cone that was grouped with other parts and made larger now keeps its larger base radius when the group is ungrouped."
+          "en": "A cone that was grouped with other parts and made larger now keeps its larger base radius when the group is ungrouped.",
+          "ar": "المخروط الذي جُمّع مع أجزاء أخرى ثم كُبّر صار يحتفظ بنصف قطر قاعدته الأكبر عند فك تجميع المجموعة."
         }
       },
       {
@@ -629,11 +729,13 @@
       {
         "title": {
           "de": "Fläche herausschieben: neues Teil als eigener Körper",
-          "en": "Face tool: the new part as a body of its own"
+          "en": "Face tool: the new part as a body of its own",
+          "ar": "أداة الوجه: الجزء الجديد كجسم مستقل"
         },
         "body": {
           "de": "Im Fenster Fläche gibt es den Schalter \"Als eigener Körper (nicht gruppiert)\". Ist er an, steht das herausgeschobene Teil (oder das Loch einer Tasche) neben dem Körper statt in einer Gruppe: Du kannst es gleich in der Größe ändern, verschieben oder damit schneiden.",
-          "en": "The Face window has a new switch, \"As a body of its own (not grouped)\". With it on, the part pushed out of the face (or the hole of a pocket) stands beside the body instead of in a group with it: resize it, move it or use it to cut right away."
+          "en": "The Face window has a new switch, \"As a body of its own (not grouped)\". With it on, the part pushed out of the face (or the hole of a pocket) stands beside the body instead of in a group with it: resize it, move it or use it to cut right away.",
+          "ar": "في نافذة «الوجه» مفتاح جديد، «كجسم مستقل (غير مجمّع)». عند تشغيله، يقف الجزء المدفوع من الوجه (أو ثقب الجيب) بجانب الجسم بدل أن يكون في مجموعة معه: غيّر مقاسه أو حرّكه أو استخدمه للقطع مباشرة."
         }
       },
       {
@@ -677,31 +779,37 @@
       {
         "title": {
           "de": "Ausgleich für Gridfinity-Bodenplatten",
-          "en": "Padding for Gridfinity baseplates"
+          "en": "Padding for Gridfinity baseplates",
+          "ar": "حاشية لألواح شبكة Gridfinity"
         },
         "body": {
           "de": "Eine Gridfinity-Bodenplatte kann jetzt an jeder Seite einen massiven Ausgleich bekommen, damit sie eine Schublade füllt, die keine ganze Zahl von Einheiten misst: Stell im Eigenschaften-Fenster „Ausgleich rechts“ oder eine andere Seite ein. Das Raster bleibt bei ganzen Einheiten, und die Platte wird um den Ausgleich größer.",
-          "en": "A Gridfinity baseplate can now have a solid border on any side, so it fills a drawer that is not a whole number of units: set \"Padding on the right\" or another side in the Properties panel. The grid stays whole units, and the plate's size grows with the padding."
+          "en": "A Gridfinity baseplate can now have a solid border on any side, so it fills a drawer that is not a whole number of units: set \"Padding on the right\" or another side in the Properties panel. The grid stays whole units, and the plate's size grows with the padding.",
+          "ar": "صار ممكنًا أن يكون للوح شبكة Gridfinity إطار صلب على أي جانب، فيملأ درجًا لا يساوي عددًا صحيحًا من الوحدات: اضبط «حاشية من اليمين» أو جانبًا آخر في لوحة «الخصائص». تبقى الشبكة وحدات كاملة، ويكبر مقاس اللوح مع الحاشية."
         }
       },
       {
         "title": {
           "de": "Loft: Segmente pro Kreis einstellbar",
-          "en": "Loft: segments per circle"
+          "en": "Loft: segments per circle",
+          "ar": "الانتقال (Loft): عدد المقاطع في الدائرة"
         },
         "body": {
           "de": "Die Kreise und runden Ecken eines Loft waren immer aus 96 Teilstücken gebaut, bei großen runden Enden sah man die Facetten. Das neue Feld \"Segmente pro Kreis\" (16 bis 360) stellt es ein. Es gilt in der Ansicht und in STL, OBJ und 3MF.",
-          "en": "The circles and rounded corners of a Loft were always built from 96 pieces, so on a large round end the facets showed. The new field \"Segments per circle\" (16 to 360) sets it, in the view and in STL, OBJ and 3MF."
+          "en": "The circles and rounded corners of a Loft were always built from 96 pieces, so on a large round end the facets showed. The new field \"Segments per circle\" (16 to 360) sets it, in the view and in STL, OBJ and 3MF.",
+          "ar": "كانت دوائر الانتقال (Loft) وزواياه المدوّرة تُبنى دائمًا من 96 قطعة، فتظهر الأوجه الصغيرة على الطرف الدائري الكبير. والحقل الجديد «عدد المقاطع في الدائرة» (16 إلى 360) يضبط ذلك، في العرض وفي STL وOBJ و3MF."
         }
       },
       {
         "title": {
           "de": "Ein skalierter Stern behält seine Form",
-          "en": "A scaled star keeps its shape"
+          "en": "A scaled star keeps its shape",
+          "ar": "النجمة المكبّرة تحتفظ بشكلها"
         },
         "body": {
           "de": "Beim Ändern der Größe eines Sterns wuchs nur der äußere Radius, so wurde ein kleinerer Stern weniger spitz und ein größerer spitzer. Der innere Radius und die Rundungen wachsen jetzt mit.",
-          "en": "When a star was resized only its outer size changed, so a smaller star came out less pointy and a larger one more pointy. The inner size and the roundings now stretch with it."
+          "en": "When a star was resized only its outer size changed, so a smaller star came out less pointy and a larger one more pointy. The inner size and the roundings now stretch with it.",
+          "ar": "عند تغيير مقاس النجمة كان مقاسها الخارجي وحده يتغير، فتخرج النجمة الأصغر أقل حدة والأكبر أكثر حدة. أما الآن فيتمدد المقاس الداخلي والتدويرات معها."
         }
       }
     ]
@@ -712,11 +820,13 @@
       {
         "title": {
           "de": "Keine Fremdkörper mehr beim Verrunden importierter Teile",
-          "en": "No stray strip when rounding an imported part"
+          "en": "No stray strip when rounding an imported part",
+          "ar": "لا شريط زائد عند تنعيم قطعة مستوردة"
         },
         "body": {
           "de": "Beim Verrunden eines importierten Teils mit einem engen Einschnitt konnte bei großem Radius ein dünner Streifen über dem Einschnitt entstehen. Jetzt meldet layerling, dass der Radius für diese Kante zu groß ist, statt den Streifen zu zeigen.",
-          "en": "Rounding an imported part with a narrow bay could leave a thin strip over the bay at a large radius. Now layerling says the radius is too large for that edge instead of showing the strip."
+          "en": "Rounding an imported part with a narrow bay could leave a thin strip over the bay at a large radius. Now layerling says the radius is too large for that edge instead of showing the strip.",
+          "ar": "تنعيم قطعة مستوردة فيها تجويف ضيق كان قد يترك شريطًا رفيعًا فوق التجويف عند نصف قطر كبير. أما الآن فيقول layerling إن نصف القطر كبير جدًا على تلك الحافة بدل إظهار الشريط."
         }
       },
       {
@@ -798,41 +908,49 @@
       {
         "title": {
           "de": "Verrunden bei geneigten Körpern",
-          "en": "Fillets on leaning bodies"
+          "en": "Fillets on leaning bodies",
+          "ar": "التنعيم على الأجسام المائلة"
         },
         "body": {
           "de": "Verrundung und Fase an einem Körper mit Verjüngung und Neigung oder Verdrehung verschieben ihn nicht mehr: Die Neigung wurde nach dem Verrunden ein zweites Mal angewendet, jetzt bleibt der Körper, wie er vor der Kante war.",
-          "en": "A fillet or chamfer on a body with taper and lean or twist no longer shifts it: the lean was applied a second time after the edge work, now the body stays as it was before the edge."
+          "en": "A fillet or chamfer on a body with taper and lean or twist no longer shifts it: the lean was applied a second time after the edge work, now the body stays as it was before the edge.",
+          "ar": "التنعيم أو الشطف على جسم فيه استدقاق وميل أو التواء لم يعد يزيحه: كان الميل يُطبَّق مرة ثانية بعد العمل على الحواف، أما الآن فيبقى الجسم كما كان قبل معالجة الحافة."
         }
       },
       {
         "title": {
           "de": "Sichtbare Kanten im SVG: Rundungen und geschlossene Umrisse",
-          "en": "Visible edges in the SVG: rounded edges and closed outlines"
+          "en": "Visible edges in the SVG: rounded edges and closed outlines",
+          "ar": "الحواف المرئية في SVG: الحواف المنعّمة والحدود الخارجية المغلقة"
         },
         "body": {
           "de": "Im SVG-Export „Sichtbare Kanten von oben“ bekommt eine verrundete Oberkante jetzt ihren äußeren Umriss, dort, wo die Rundung in die Wand darunter übergeht – ebenso die Draufsicht der 2D-Zeichnung. Die Umrisse bleiben auch an spitzen Ecken von Schrift geschlossen und dort, wo eine Bohrung durch zwei aufeinanderliegende Teile geht, sodass sich jede Fläche im Laserprogramm gravieren lässt.",
-          "en": "In the SVG export's \"Visible edges from above\", a rounded top edge now gets its outer outline, where the rounding runs into the wall below it – and so does the 2D drawing's top view. Outlines also stay closed at the sharp corners of text and where a bore goes through two parts lying on each other, so a laser program can engrave every area."
+          "en": "In the SVG export's \"Visible edges from above\", a rounded top edge now gets its outer outline, where the rounding runs into the wall below it – and so does the 2D drawing's top view. Outlines also stay closed at the sharp corners of text and where a bore goes through two parts lying on each other, so a laser program can engrave every area.",
+          "ar": "في خيار «الحواف المرئية من الأعلى» في تصدير SVG، صارت الحافة العلوية المنعّمة تحصل على حدها الخارجي، حيث يلتقي التنعيم بالجدار الذي تحته – وكذلك المنظر العلوي في الرسم الهندسي ثنائي الأبعاد. وتبقى الحدود الخارجية مغلقة أيضًا عند الزوايا الحادة للنص، وحيث يمر ثقب نافذ عبر قطعتين موضوعتين إحداهما فوق الأخرى، فيستطيع برنامج الليزر نقش كل مساحة."
         }
       },
       {
         "title": {
           "de": "Sweep: Kante des Profils auf den Pfad legen",
-          "en": "Sweep: put an edge of the section on the path"
+          "en": "Sweep: put an edge of the section on the path",
+          "ar": "السحب على مسار: وضع حافة المقطع على المسار"
         },
         "body": {
           "de": "In der Pfad-Skizze sitzt das Profil nicht mehr nur mittig auf dem Pfad: Im Menü neben der Modusanzeige legst du stattdessen seine linke oder rechte Kante auf den Pfad. So folgt eine Leiste der Kante eines Teils, ohne dass du den Pfad um die halbe Breite verschieben musst.",
-          "en": "In the sweep sketch the section is no longer only centred on the path: in the menu next to the mode badge you can put its left or right edge on the path instead. A rail then follows the edge of a part without you having to move the path by half the width."
+          "en": "In the sweep sketch the section is no longer only centred on the path: in the menu next to the mode badge you can put its left or right edge on the path instead. A rail then follows the edge of a part without you having to move the path by half the width.",
+          "ar": "في الرسم التخطيطي للسحب على مسار، لم يعد المقطع موسّطًا على المسار فقط: في القائمة بجانب شارة الوضع يمكنك وضع حافته اليسرى أو اليمنى على المسار بدلًا من ذلك. فتتبع السكة حافة القطعة دون أن تحتاج إلى إزاحة المسار بنصف العرض."
         }
       },
       {
         "title": {
           "de": "3MF- und OBJ-Export deutlich schneller",
-          "en": "3MF and OBJ export much faster"
+          "en": "3MF and OBJ export much faster",
+          "ar": "تصدير 3MF وOBJ أسرع بكثير"
         },
         "body": {
           "de": "Ein fein aus einem Bild nachgezeichnetes Modell mit vielen Dreiecken hielt die Seite beim Schreiben der Datei lange beschäftigt, auf langsamen Rechnern bis Chrome fragte, ob er warten soll. Das Verschweißen der Punkte, der größte Einzelposten, ist rund dreißigmal schneller.",
-          "en": "A finely traced model with many triangles kept the page busy while the file was written, on slow computers until Chrome asked whether to wait. Welding the points, the biggest single item, is about thirty times faster."
+          "en": "A finely traced model with many triangles kept the page busy while the file was written, on slow computers until Chrome asked whether to wait. Welding the points, the biggest single item, is about thirty times faster.",
+          "ar": "النموذج المتتبَّع بدقة وفيه مثلثات كثيرة كان يُبقي الصفحة مشغولة أثناء كتابة الملف، وعلى الحواسيب البطيئة حتى يسأل Chrome هل ينتظر. ولحام النقاط، وهو أكبر بند منفرد، صار أسرع بنحو ثلاثين مرة."
         }
       }
     ]
@@ -1001,64 +1119,76 @@
         "title": {
           "de": "layerling spricht Chinesisch",
           "en": "layerling speaks Chinese",
-          "hu": "A layerling kínaiul is beszél"
+          "hu": "A layerling kínaiul is beszél",
+          "ar": "layerling يتكلم الصينية"
         },
         "body": {
           "de": "Die Oberfläche und die Anleitung gibt es jetzt auf Chinesisch, vereinfacht und traditionell. Du wählst sie im Sprachmenü; ein chinesischer Browser bekommt sie von selbst. Was noch nicht übersetzt ist, erscheint auf Englisch.",
           "en": "The interface and the guide are now in Chinese, simplified and traditional. Choose one in the language menu; a Chinese browser gets it by itself. Whatever is not translated yet shows in English.",
-          "hu": "A felület és az útmutató mostantól kínaiul is elérhető, egyszerűsített és hagyományos írással. A nyelvmenüben választható, egy kínai böngésző magától megkapja. Ami még nincs lefordítva, angolul jelenik meg."
+          "hu": "A felület és az útmutató mostantól kínaiul is elérhető, egyszerűsített és hagyományos írással. A nyelvmenüben választható, egy kínai böngésző magától megkapja. Ami még nincs lefordítva, angolul jelenik meg.",
+          "ar": "صارت الواجهة والدليل بالصينية، المبسطة والتقليدية. اختر إحداهما في قائمة اللغات؛ والمتصفح الصيني يحصل عليها تلقائيًا. وكل ما لم يُترجم بعد يظهر بالإنجليزية."
         }
       },
       {
         "title": {
           "de": "Offene Seiten für Gridfinity-Behälter",
-          "en": "Open sides for Gridfinity bins"
+          "en": "Open sides for Gridfinity bins",
+          "ar": "جوانب مفتوحة لعلب Gridfinity"
         },
         "body": {
           "de": "Ein Gridfinity-Behälter kann jetzt an jeder Seite offen sein, ohne Wand und Stapelrand: Schalte im Eigenschaften-Fenster „Vorne offen“ oder eine andere Seite ein, und Behälter, die zueinander offen sind, ergeben eine durchgehende Reihe. Sind alle vier Seiten offen, wird der Behälter zur Schale.",
-          "en": "A Gridfinity bin can now be open on any side, with no wall and no stacking lip there: switch on \"Open at the front\" or another side in the Properties panel, and bins open towards each other make one continuous run. With all four sides open the bin is a tray."
+          "en": "A Gridfinity bin can now be open on any side, with no wall and no stacking lip there: switch on \"Open at the front\" or another side in the Properties panel, and bins open towards each other make one continuous run. With all four sides open the bin is a tray.",
+          "ar": "صار ممكنًا أن تكون علبة Gridfinity مفتوحة من أي جانب، بلا جدار ولا حافة تكديس هناك: شغّل «الجانب الأمامي مفتوح» أو جانبًا آخر في لوحة «الخصائص»، والعلب المفتوحة بعضها على بعض تصنع مجرى واحدًا متصلًا. ومع فتح الجوانب الأربعة تصبح العلبة صينية."
         }
       },
       {
         "title": {
           "de": "Gruppen im STEP-Export",
           "en": "Groups in the STEP export",
-          "hu": "Csoportok a STEP-exportban"
+          "hu": "Csoportok a STEP-exportban",
+          "ar": "المجموعات في تصدير STEP"
         },
         "body": {
           "de": "Eine Gruppe, etwa ein Würfel mit Gewindeloch, fehlte bisher im STEP, und es kam nur die Schraube heraus. Jetzt geht die Gruppe als die genauen Körper mit, die sie enthält, und ihre Löcher schneiden nur ihre eigenen Körper.",
           "en": "A group, a block with a tapped hole say, was missing from the STEP, and only the screw came out. Now the group goes along as the exact bodies it holds, and its holes cut only its own bodies.",
-          "hu": "Egy csoport, például egy menetes furatú kocka, eddig hiányzott a STEP-ből, és csak a csavar került ki. Most a csoport a benne lévő pontos testekként kerül az exportba, és a lyukai csak a saját testeit vágják."
+          "hu": "Egy csoport, például egy menetes furatú kocka, eddig hiányzott a STEP-ből, és csak a csavar került ki. Most a csoport a benne lévő pontos testekként kerül az exportba, és a lyukai csak a saját testeit vágják.",
+          "ar": "كانت المجموعة، كتلة فيها ثقب ملولب مثلًا، مفقودة من ملف STEP، ويخرج البرغي وحده. أما الآن فتذهب المجموعة كالأجسام الدقيقة التي تحتويها، ولا تقطع ثقوبها إلا أجسامها هي."
         }
       },
       {
         "title": {
           "de": "Formenbibliothek in Farbe",
-          "en": "The shape library in colour"
+          "en": "The shape library in colour",
+          "ar": "مكتبة الأشكال بالألوان"
         },
         "body": {
           "de": "Die Bilder in der Formenbibliothek tragen jetzt die Farbe, in der die Form eingefügt wird: ein roter Quader, ein oranger Zylinder, eine blaue Kugel. Wer die grauen Bilder lieber mag, schaltet „Formen in Farbe“ in den Arbeitsbereich-Einstellungen aus.",
-          "en": "The pictures in the shape library now wear the colour the shape is added in: a red box, an orange cylinder, a blue sphere. If you prefer the grey pictures, switch off \"Shapes in colour\" in the workspace settings."
+          "en": "The pictures in the shape library now wear the colour the shape is added in: a red box, an orange cylinder, a blue sphere. If you prefer the grey pictures, switch off \"Shapes in colour\" in the workspace settings.",
+          "ar": "صارت صور مكتبة الأشكال تحمل اللون الذي يُضاف به الشكل: صندوق أحمر، وأسطوانة برتقالية، وكرة زرقاء. وإذا كنت تفضّل الصور الرمادية، فأوقف «الأشكال بالألوان» في إعدادات مساحة العمل."
         }
       },
       {
         "title": {
           "de": "Der Ansichtswürfel dreht sanft",
-          "en": "The view cube turns smoothly"
+          "en": "The view cube turns smoothly",
+          "ar": "مكعب العرض يدور بسلاسة"
         },
         "body": {
           "de": "Ein Klick auf eine Fläche, Kante oder Ecke des Ansichtswürfels lässt die Kamera jetzt in etwa einer Drittelsekunde dorthin drehen, statt zu springen. Ein Zug mit der Maus oder dem Finger beendet die Drehung sofort; wer Bewegung reduziert hat, bekommt weiter den Sprung.",
-          "en": "A click on a face, edge or corner of the view cube now turns the camera there in about a third of a second instead of jumping. A drag with the mouse or a finger ends the turn at once; if your system is set to reduce motion, you still get the jump."
+          "en": "A click on a face, edge or corner of the view cube now turns the camera there in about a third of a second instead of jumping. A drag with the mouse or a finger ends the turn at once; if your system is set to reduce motion, you still get the jump.",
+          "ar": "صارت النقرة على وجه أو حافة أو زاوية في مكعب العرض تدير الكاميرا إلى هناك في نحو ثلث ثانية بدل القفز. والسحب بالفأرة أو بالإصبع ينهي الدوران فورًا؛ وإذا كان نظامك مضبوطًا على تقليل الحركة، فستحصل على القفزة كما كانت."
         }
       },
       {
         "title": {
           "de": "Texthöhe bleibt bei „Proportionen beibehalten“ frei",
-          "en": "A text's height ignores \"Keep proportions\""
+          "en": "A text's height ignores \"Keep proportions\"",
+          "ar": "ارتفاع النص يتجاهل «الحفاظ على النسب»"
         },
         "body": {
           "de": "Mit „Proportionen beibehalten“ änderte die Eingabe der Höhe eines Textes auch Breite und Tiefe, also die Schriftgröße. Die Höhe eines Textes ist nur die Dicke der Buchstaben und bleibt jetzt außen vor.",
-          "en": "With \"Keep proportions\" on, typing a text's height also changed its width and depth, and with them the letter size. A text's height is only the thickness of its letters and is now left out."
+          "en": "With \"Keep proportions\" on, typing a text's height also changed its width and depth, and with them the letter size. A text's height is only the thickness of its letters and is now left out.",
+          "ar": "مع تشغيل «الحفاظ على النسب»، كانت كتابة ارتفاع النص تغيّر عرضه وعمقه أيضًا، ومعهما مقاس الحروف. وارتفاع النص هو سمك حروفه فقط، فصار الآن مستثنى من ذلك."
         }
       }
     ]
