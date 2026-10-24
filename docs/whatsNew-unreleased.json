@@ -2,21 +2,25 @@
   {
     "title": {
       "de": "Kurve durch Punkte",
-      "en": "Curve through points"
+      "en": "Curve through points",
+      "ar": "منحنى عبر النقاط"
     },
     "body": {
       "de": "Wähle in der Skizze drei oder mehr Punkte eines Umrisses und klicke in der Leiste auf „Kurve durch Punkte“: Vom ersten bis zum letzten Punkt entsteht eine fließende Kurve durch alle Punkte dazwischen, in anderen Programmen „Fit curve“ oder „Fit point spline“ genannt. Die Linien jenseits der beiden Enden bleiben, wie sie sind.",
-      "en": "Select three or more points of an outline in a sketch and click \"Curve through points\" in the bar: one flowing curve runs from the first point to the last, through all the points between, what other programs call \"Fit curve\" or \"Fit point spline\". The lines beyond the two ends stay as they are."
+      "en": "Select three or more points of an outline in a sketch and click \"Curve through points\" in the bar: one flowing curve runs from the first point to the last, through all the points between, what other programs call \"Fit curve\" or \"Fit point spline\". The lines beyond the two ends stay as they are.",
+      "ar": "حدّد في الرسم التخطيطي ثلاث نقاط أو أكثر من حد خارجي وانقر على «منحنى عبر النقاط» في الشريط: يمتد منحنى انسيابي واحد من النقطة الأولى إلى الأخيرة، مرورًا بكل النقاط بينهما، وهو ما تسميه برامج أخرى \"Fit curve\" أو \"Fit point spline\". وتبقى الخطوط الواقعة خارج الطرفين كما هي."
     }
   },
   {
     "title": {
       "de": "Anhänge lesen",
-      "en": "Read attachments"
+      "en": "Read attachments",
+      "ar": "قراءة المرفقات"
     },
     "body": {
       "de": "Das Auge in der Liste der Anhänge öffnet eine .md- oder .txt-Datei zum Lesen, ohne sie herunterzuladen: Markdown formatiert, mit Überschriften, Listen, Tabellen und Code, Text so, wie er geschrieben ist. Escape oder ein Klick daneben schließt das Fenster.",
-      "en": "The eye in the list of attachments opens a .md or .txt file to read without downloading it: Markdown formatted, with headings, lists, tables and code, text exactly as written. Escape or a click beside it closes the window."
+      "en": "The eye in the list of attachments opens a .md or .txt file to read without downloading it: Markdown formatted, with headings, lists, tables and code, text exactly as written. Escape or a click beside it closes the window.",
+      "ar": "العين في قائمة المرفقات تفتح ملف .md أو .txt للقراءة دون تنزيله: Markdown منسّقًا، بالعناوين والقوائم والجداول والكود، والنص تمامًا كما كُتب. ويغلق Escape أو نقرة بجانبها النافذة."
     }
   }
 ]
