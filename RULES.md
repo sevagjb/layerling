@@ -53,3 +53,6 @@ If a picture cannot be made, do not block the batch: list the picture names in t
 - Push the branch to the fork, send the Word file, and a short message: what was new upstream (version numbers), how many items were translated, anything he must decide, and a prefilled compare link:
   https://github.com/henmedia/layerling/compare/main...sevagjb:layerling:<branch>?expand=1&title=...&body=...
 - If nothing is new: no branch, just a one-line "nothing new for Arabic today (upstream at <version>)".
+
+## Release notes scope (Sevag, 1 Nov 2026)
+Translate release notes only from 1.90.0 onward (when the Arabic started). Do not translate older releases.
