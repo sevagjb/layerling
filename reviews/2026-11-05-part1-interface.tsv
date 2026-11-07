@@ -1,0 +1,558 @@
+key	status	english	arabic (proposed)	arabic before (by others)	reason
+storageNotice.line	checked, no change	These designs are stored only in this browser. A crash or browser update can erase them. Use “{button}” above to save them all in one file.	"هذه التصاميم محفوظة في هذا المتصفح فقط، وقد يمحوها تعطل أو تحديث للمتصفح. استخدم ""{button}"" في الأعلى لحفظها كلها في ملف واحد."		
+welcome.gap1	corrected	Chamfer and fillet edges, a fillet with a radius that changes along the edge too, taken back or changed at any time, on exact CAD geometry all the way into the STEP file. A concave fillet scoops a straight edge out instead.	شطف الحواف وتنعيمها، والتنعيم بنصف قطر يتغير على طول الحافة أيضًا، مع إمكانية التراجع عنها أو تغييرها في أي وقت، على هندسة CAD دقيقة وصولًا إلى ملف STEP. أما التنعيم المقعّر فيحفر حافة مستقيمة إلى الداخل بدلًا من تدويرها.	شطف الحواف وتنعيمها، مع إمكانية التراجع عنها أو تغييرها في أي وقت، على هندسة CAD دقيقة وصولًا إلى ملف STEP. والتقعير يقطع حافة مستقيمة إلى الداخل بدلًا من ذلك.	جزء ناقص (التنعيم بنصف قطر متغير) + اسم «التنعيم المقعّر»
+welcome.gap5	checked, no change	Patterns in a row, grid, circle or spiral, and wrapping shapes around a cylinder.	أنماط وتكرارات في صف أو شبكة أو دائرة أو حلزون، ولف الأشكال حول أسطوانة.		
+welcome.moreSketchBody	checked, no change	"draw outlines, draw freehand with a pen or a finger and get a few points you can edit, lay a true arc through three points, curve any straight side (a double click on the body opens its sketch again), type a line's length and angle while drawing (""50<30"") or snap it in 15° steps, type lines to an exact length, corners to an exact angle and a shape, a point or a curve handle to an exact position, fillet or chamfer corners, mirror a selection across an axis or a line, draw construction lines that points snap to, close a gap by dragging one open end onto the other, and extrude them or revolve them around an axis - or build just the line with a width, as a frame or a stripe. A picture under the sketch traces into lines with one click."	"ارسم حدودًا خارجية، ارسم باليد الحرة بالقلم أو بالإصبع لتحصل على نقاط قليلة قابلة للتعديل، ومرّر قوسًا حقيقيًا عبر ثلاث نقاط، واثنِ أي ضلع مستقيم إلى منحنى (النقر المزدوج على الجسم يفتح رسمه التخطيطي مرة أخرى)، واكتب طول الخط وزاويته أثناء الرسم (""50<30"") أو التقطه بخطوات 15°، واضبط الخطوط على طول دقيق والزوايا على قيمة دقيقة والشكل أو النقطة أو مقبض المنحنى على موضع دقيق، ونعّم الزوايا أو اشطفها، واعكس تحديدًا حول محور أو خط، وارسم خطوط إنشاء تلتقط النقاط إليها، وأغلق فجوة بسحب طرف مفتوح على الآخر، ثم ابثق الحد الخارجي أو أدِره حول محور - أو ابنِ الخط نفسه فقط بعرض معيّن، كإطار أو شريط. وتُتتبّع صورة تحت الرسم التخطيطي إلى خطوط بنقرة واحدة."		
+welcome.moreLibraryBody	corrected	threads (metric, UNC/UNF, G and tapered NPT pipe threads), screws with a hex, Torx, Phillips, slot or Robertson (square) drive, wing heads and star knobs, a collar under the head, nuts (hex, square, flange or wing), washers to ISO 7089 (a tube of the screw size), finishing washers (rosettes) under countersunk screws, gears, ring gears and racks with involute or round teeth that mesh, Hirth joints that lock two parts at any multiple of one tooth, coil and flat springs, bent pipes, lofts from one outline to another, twisted or tilted too, capsules with one smaller end, paraboloids, curved cones that flare like a trumpet or bulge like a dome, text (with the spacing between the letters set, including curved along an arc with the letters narrower or wider, stacked top to bottom, or as a block of several lines aligned left, centred or right, in fonts of your own, Arabic and Hebrew right to left too, as an outline, a silhouette or in layers as a name tag for a multicolour print, with a key ring hole - on a side or anywhere you put it - and rounded letter edges if you like; an SVG icon as a layered icon tag too), QR codes from a text or a web address (alone, raised on a plate or engraved), print-in-place hinges, Gridfinity bins (with compartments if you like) and baseplates, knurled grips (straight, crossed or round), dovetail joints, screw bosses for heat-set inserts or self-tapping screws, snap-fit hooks with their catch, ribs and gussets, teardrop holes for horizontal bores, port openings for USB, HDMI, DisplayPort and RJ45 sockets, counterbores, countersinks and double countersinks for screw heads (shaft and head to the screw size you pick), nut pockets from the hexagon and more - all adjustable afterwards. Bodies you need again and again are kept as custom shapes - in the browser or on your own server - and go into any design with one click.	أسنان لولبية (مترية، UNC/UNF وأسنان أنابيب G وNPT المخروطية)، وبراغي برأس سداسي أو Torx أو فيليبس أو شق مستقيم أو Robertson (مربع)، ورؤوس بجناحين ومقابض نجمية، وطوق تحت الرأس، وصواميل (سداسية أو مربعة أو بشفة أو بجناحين)، وحلقات وفق ISO 7089 (أنبوب بمقاس البرغي)، وحلقات تشطيب تحت البراغي الغاطسة، وتروس وتروس داخلية وجرائد مسننة بأسنان منحنية (Involute) أو مستديرة تتعاشق معًا، ووصلات Hirth تثبّت قطعتين عند أي مضاعف لسن واحد، ونوابض لولبية ومسطحة، وأنابيب منحنية، وانتقالات (Loft) من حد خارجي إلى آخر، ملتوية أو مائلة أيضًا، وكبسولات بطرف أصغر، ومجسمات مكافئة، ومخاريط منحنية تتسع كالبوق أو تنتفخ كالقبة، ونصوص (مع ضبط المسافة بين الحروف، بما في ذلك النص المنحني على قوس بحروف أضيق أو أعرض، أو المرصوص من الأعلى إلى الأسفل، أو ككتلة من عدة أسطر بمحاذاة لليسار أو للوسط أو لليمين، بخطوطك الخاصة، والعربية والعبرية من اليمين إلى اليسار أيضًا، كخط خارجي أو ظل خارجي أو في طبقات كبطاقة اسم للطباعة متعددة الألوان، مع ثقب لحلقة مفاتيح - على جانب أو في أي مكان تضعه فيه - وحواف حروف مستديرة إن أردت؛ وأيقونة SVG كبطاقة أيقونة بطبقات أيضًا)، ورموز QR من نص أو عنوان ويب (وحدها، أو بارزة على لوح، أو محفورة)، ومفصلات تُطبع جاهزة للحركة (print-in-place)، وعلب Gridfinity (بحجرات إن أردت) وألواح شبكتها، ومقابض مخرّشة (مستقيمة أو متقاطعة أو مستديرة)، ووصلات ذيل الحمامة، وأعمدة براغٍ لحشوات تُثبَّت بالحرارة أو لبراغٍ ذاتية القطع، ومشابك طقّ مع ماسكها، وأضلاع ودعامات مثلثة، وثقوب دمعية للثقوب الأفقية، وفتحات منافذ لمقابس USB وHDMI وDisplayPort وRJ45، وثقوب متدرجة وغاطسة وغاطسة مزدوجة لرؤوس البراغي (الساق والرأس بمقاس البرغي الذي تختاره)، وجيوب صواميل من المسدس، والمزيد - وكلها قابلة للتعديل لاحقًا. الأجسام التي تحتاجها مرارًا وتكرارًا تُحفظ كأشكال مخصصة - في المتصفح أو على خادمك الخاص - وتدخل أي تصميم بنقرة واحدة.	أسنان لولبية (مترية، UNC/UNF وأسنان أنابيب G وNPT المخروطية)، وبراغي برأس سداسي أو Torx أو فيليبس أو شق مستقيم أو Robertson (مربع)، وصواميل، وحلقات وفق ISO 7089 (أنبوب بمقاس البرغي)، وتروس وتروس داخلية وجرائد مسننة بأسنان منحنية (Involute) أو مستديرة تتعاشق معًا، ووصلات Hirth تثبّت قطعتين عند أي مضاعف لسن واحد، ونوابض لولبية ومسطحة، وأنابيب منحنية، وانتقالات (Loft) من حد خارجي إلى آخر، ملتوية أو مائلة أيضًا، وكبسولات بطرف أصغر، ومخاريط منحنية (على شكل بوق أو قبة)، ومجسمات مكافئة، ونصوص (مع ضبط المسافة بين الحروف، بما في ذلك النص المنحني على قوس أو المرصوص من الأعلى إلى الأسفل، بخطوطك الخاصة، والعربية والعبرية من اليمين إلى اليسار أيضًا، كخط خارجي أو ظل خارجي أو في طبقات كبطاقة اسم للطباعة متعددة الألوان، مع ثقب لحلقة مفاتيح - على جانب أو في أي مكان تضعه فيه - وحواف حروف مستديرة إن أردت؛ وأيقونة SVG كبطاقة أيقونة بطبقات أيضًا)، ورموز QR من نص أو عنوان ويب (وحدها، أو بارزة على لوح، أو محفورة)، ومفصلات تُطبع جاهزة للحركة (print-in-place)، وعلب Gridfinity (بحجرات إن أردت) وألواح شبكتها، ومقابض مخرّشة (مستقيمة أو متقاطعة أو مستديرة)، ووصلات ذيل الحمامة، وأعمدة براغٍ لحشوات تُدخل بالحرارة أو لبراغٍ ذاتية القطع، ومشابك طقّ مع ماسكها، وأضلاع ودعامات مثلثة، وثقوب دمعية للثقوب الأفقية، وفتحات منافذ لمقابس USB وHDMI وDisplayPort وRJ45، وثقوب متدرجة وغاطسة وغاطسة مزدوجة لرؤوس البراغي، والمزيد - وكلها قابلة للتعديل لاحقًا. الأجسام التي تحتاجها مرارًا وتكرارًا تُحفظ كأشكال مخصصة - في المتصفح أو على خادمك الخاص - وتدخل أي تصميم بنقرة واحدة.	أجزاء ناقصة من الإنجليزية (رؤوس بجناحين، الطوق، أنواع الصواميل، حلقات التشطيب، كتلة النص، جيوب الصواميل)
+welcome.moreSbcTitle	checked, no change	SBC boards	لوحات SBC		
+welcome.moreSbcBody	checked, no change	the Raspberry Pi 5, 4, 3 B+ and Zero 2 W and the BIGTREETECH Pi true to size, with their mounting holes, connectors and larger chips - to build a case around. Grouped with the case as a hole, the board cuts the openings for its connectors, with the clearance you give them.	Raspberry Pi 5 و4 و3 B+ وZero 2 W وBIGTREETECH Pi بحجمها الحقيقي، مع ثقوب التثبيت والموصلات والشرائح الأكبر - لبناء علبة حولها. عند تجميعها مع العلبة كثقب، تقطع اللوحة فتحات موصلاتها بالخلوص الذي تحدده.		
+welcome.morePatternBody	checked, no change	repeat a shape n times in a row, in a grid or around a circle, for hole grids or toothed rings - and scale several parts at once by a percentage. Alt on an align dot stretches parts to the side or the size of another instead of moving them. The dot beside each align line spreads parts of different sizes with equal gaps between them, on a board too and row by row.	كرّر شكلًا n مرة في صف أو شبكة أو حول دائرة، لشبكات الثقوب أو الحلقات المسننة - وكبّر/صغّر عدة أجزاء دفعة واحدة بنسبة مئوية. وAlt على نقطة محاذاة يمدّ الأجزاء إلى جانب جزء آخر أو إلى حجمه بدلًا من تحريكها. النقطة بجانب كل خط محاذاة توزّع قطعًا مختلفة الأحجام بمسافات متساوية، على لوح أيضًا وصفًا صفًا.		
+welcome.morePlaceBody	checked, no change	a new shape follows the pointer and lands where you click, near the middle of a face right in its middle - can be switched off in the settings.	الشكل الجديد يتبع المؤشر ويهبط حيث تنقر، وقرب منتصف وجه يهبط في منتصفه تمامًا - يمكن إيقافه في الإعدادات.		
+welcome.moreWindowsBody	checked, no change	the object list, the settings and the tool windows can be dragged anywhere on the workplane, dragging the view cube turns the view, a click on its corners and edges shows the model at an angle, and the plate can be hidden for a look from below. P looks straight onto the workplane, on a sloped face too. A right click on a body brings up the most used commands, and the view can be saved as a picture. A start view of your own opens new designs from the angle you like. A second view opens in a window of its own, with its own camera, and follows every change.	قائمة الأجسام والإعدادات ونوافذ الأدوات يمكن سحبها إلى أي مكان على سطح العمل، وسحب مكعب العرض يدير المشهد، والنقر على زواياه وحوافه يعرض النموذج بزاوية، ويمكن إخفاء اللوحة للنظر من الأسفل. ومفتاح P ينظر مباشرة إلى سطح العمل، على وجه مائل أيضًا. النقر بالزر الأيمن على جسم يُظهر الأوامر الأكثر استخدامًا، ويمكن حفظ العرض كصورة. وعرض بداية خاص بك يفتح التصاميم الجديدة من الزاوية التي تفضلها. ويُفتح عرض ثانٍ في نافذة مستقلة، بكاميرا خاصة به، ويتبع كل تغيير.		
+welcome.moreSnapBody	corrected	while moving, edges and centres lock onto neighbouring shapes and a guide line shows where - Alt during the drag pauses it. Shift keeps the move on one axis, and Alt held from the start drags a copy, as in Tinkercad. New shapes lie down on the face under the pointer, sloped ones too, and C sets the selection down on another face the same way, like Cruise in Tinkercad. With Shift held, it sinks in instead, its top flush with the face. The centre of the workplane counts too.	أثناء التحريك، تلتقط الحواف والمراكز إلى الأشكال المجاورة ويُظهر خط إرشاد مكان الالتقاط - والضغط على Alt أثناء السحب يوقفه مؤقتًا. Shift يبقي الحركة على محور واحد، وAlt المضغوط منذ البداية يسحب نسخة، كما في Tinkercad. الأشكال الجديدة تستقر على الوجه تحت المؤشر، المائلة منها أيضًا، والمفتاح C يضع التحديد على وجه آخر بالطريقة نفسها، مثل Cruise في Tinkercad. ومع Shift يغوص فيه بدلًا من ذلك، وأعلاه مستوٍ مع الوجه. ويُحسب مركز سطح العمل أيضًا.	أثناء التحريك، تلتقط الحواف والمراكز إلى الأشكال المجاورة ويُظهر خط إرشاد مكان الالتقاط - والضغط على Alt أثناء السحب يوقفه مؤقتًا. Shift يبقي الحركة على محور واحد، وAlt المضغوط منذ البداية يسحب نسخة، كما في Tinkercad. الأشكال الجديدة تستقر على الوجه تحت المؤشر، المائلة منها أيضًا، والمفتاح C يضع التحديد على وجه آخر بالطريقة نفسها، مثل Cruise في Tinkercad. ومع Shift يغوص فيه بدلًا من ذلك، وأعلاه مستوٍ مع الوجه. ويُحسب مركز مستوى العمل أيضًا.	مستوى العمل → سطح العمل
+welcome.moreLayFlatBody	corrected	"click a face and the part rests on the plate with that side down - the best print orientation in one click. ""Align faces"" does the same between two parts: click a face of one, then a face of the other, and they touch or sit flush, with an optional gap. ""Same axis"" puts a hole over a hole or a pin into a hole."	"انقر على وجه فتستقر القطعة على اللوحة بذلك الجانب إلى الأسفل - أفضل اتجاه للطباعة بنقرة واحدة. ""محاذاة الأوجه"" تفعل الشيء نفسه بين قطعتين: انقر على وجه في إحداهما، ثم على وجه في الأخرى، فتتلامسان أو تستويان، مع فجوة اختيارية. و""المحور نفسه"" يضع ثقبًا فوق ثقب أو دبوسًا في ثقب."	"انقر على وجه فتستقر القطعة على اللوحة بذلك الجانب إلى الأسفل - أفضل اتجاه للطباعة بنقرة واحدة. ""محاذاة الأوجه"" تفعل الشيء نفسه بين قطعتين: انقر على وجه في إحداهما، ثم على وجه في الأخرى، فتتلامسان أو تستويان، مع فجوة اختيارية. و""المحور نفسه"" يضع ثقبًا فوق ثقب أو مسمارًا في ثقب."	pin = دبوس
+welcome.moreMeasureBody	checked, no change	tape measure (a typed length moves the body to exactly that distance; its measurements stay with the design and can be hidden), ruler, framing square and protractor (the angle at a corner or between two faces), distances to the origin - for several selected bodies too -, notes right on the workplane, reference images to line parts up on (a photo of a board under its case, calibrated to size), and a section view that cuts the model open to look inside, hatches the cut like a drawing, measures wall thickness and gaps on the cut, saves it as an SVG for a laser or a template, or turns it into a sketch lying on the cut, to start a lid or an insert that fits.	شريط القياس (الطول المكتوب ينقل الجسم إلى تلك المسافة بالضبط؛ وتبقى قياساته مع التصميم ويمكن إخفاؤها)، والمسطرة وزاوية النجار والمنقلة (الزاوية عند ركن أو بين وجهين)، والمسافات إلى نقطة الأصل - لعدة أجسام محددة أيضًا -، وملاحظات على سطح العمل مباشرة، وصور مرجعية لمحاذاة الأجزاء عليها (صورة للوحة إلكترونية تحت علبتها، معايرة على المقاس)، وعرض مقطع يفتح النموذج لرؤية ما بداخله، ويهشّر المقطع كما في الرسم الهندسي، ويقيس سمك الجدار والفجوات على المقطع، ويحفظه كملف SVG لليزر أو كقالب، أو يحوّله إلى رسم تخطيطي يقع على المقطع، لبدء غطاء أو إدخال يلائمه.		
+sketch.pointPositionHint	checked, no change	Where the point lies, in mm from the sketch's origin. Type a value to move it there.	موضع النقطة بالمليمتر من أصل الرسم التخطيطي. اكتب قيمة لنقلها إلى هناك.		
+sketch.handleX	checked, no change	Handle X	المقبض X		
+sketch.handleY	checked, no change	Handle Y	المقبض Y		
+sketch.handlePositionHint	corrected	Where the clicked handle lies, in mm from its point. Type a value to set it there; on a smooth point the other handle turns along.	موضع المقبض الذي نقرت عليه بالمليمتر من نقطته. اكتب قيمة لوضعه هناك؛ في النقطة السلسة يدور المقبض الآخر معه.	موضع المقبض الذي نقرت عليه بالمليمتر من نقطته. اكتب قيمة لوضعه هناك؛ في النقطة الملساء يدور المقبض الآخر معه.	smooth point = سلسة (كما في الواجهة)
+sketch.traceObjectHint	checked, no change	All that stands out from the colour at the picture's edge. The threshold sets how clearly.	كل ما يبرز عن اللون عند حافة الصورة. تحدد العتبة مدى وضوح ذلك.		
+sketch.traceCutHint	checked, no change	Off: a construction line instead of a hole.	معطّل: خط إنشاء بدل الثقب.		
+sketch.traceTrimHint	checked, no change	Click corners round the part to cut away. Click the first corner or press Enter to close, Escape to discard.	انقر زوايا حول الجزء المراد قصه بعيدًا. انقر الزاوية الأولى أو اضغط Enter للإغلاق، وEscape للتجاهل.		
+sketch.traceLassoHint	checked, no change	Click roughly along an edge; the line finds it. Click the first point or press Enter to close, Escape to discard.	انقر تقريبًا على طول حافة؛ والخط يجدها. انقر النقطة الأولى أو اضغط Enter للإغلاق، وEscape للتجاهل.		
+sketch.traceHint	checked, no change	Square points are corners, round ones smooth points.	النقاط المربعة زوايا، والمستديرة نقاط سلسة.		
+flexi.bend	checked, no change	Links move	حركة الحلقات		
+flexi.bend.side	checked, no change	To the sides	إلى الجانبين		
+flexi.bend.fold	checked, no change	Up and down	إلى الأعلى والأسفل		
+flexi.fold	checked, no change	Fold up and down by	الطي للأعلى والأسفل حتى		
+flexi.helpFold	checked, no change	The body is cut across its length into bands, with a hinge printed in place at every cut, so the bands fold up and down once printed, like a flexi keychain. Lay the body flat on the plate first; where the hinges go it should be about 5 mm high and 15–20 mm wide at least.	يُقطع الجسم عرضيًا على طوله إلى شرائح، ومع كل قطع مفصلة تُطبع في مكانها، فتنطوي الشرائح بعد الطباعة إلى الأعلى والأسفل مثل ميدالية مفاتيح فليكسي. ضع الجسم أولًا مسطّحًا على اللوح؛ وحيث توضع المفصلات ينبغي أن يكون ارتفاعه نحو 5 مم وعرضه 15–20 مم على الأقل.		
+flexi.error.foldTooThin	checked, no change	Joint {joint} has no room: the body is only {size} mm wide there, a folding hinge needs about {need} mm. Make the body wider there or move the joints.	المفصل {joint} لا مكان له: عرض الجسم هناك {size} مم فقط، والمفصل القابل للطي يحتاج نحو {need} مم. اجعل الجسم أعرض هناك أو حرّك المفاصل.		
+status.flexiFolded	corrected	Flexi links made: {links} bands with {joints} hinges, each folding up to {swing}° up and down. Print them as they lie, in one piece.	صُنعت حلقات فليكسي: الشرائح {links}، والمفصلات {joints}، وتنطوي كل منها حتى {swing}° إلى الأعلى والأسفل. اطبعها كما هي موضوعة، قطعة واحدة.	صُنعت حلقات فليكسي: {links} شرائح مع {joints} مفصلات، تنطوي كل منها حتى {swing}° إلى الأعلى والأسفل. اطبعها كما هي موضوعة، قطعة واحدة.	صيغة العدد بالنقطتين
+editor.tool.cableChannel	checked, no change	Cable channel	قناة كابل		
+cable.title	checked, no change	Cable channel	قناة كابل		
+cable.subtitle	checked, no change	A round way through the body for a cable	ممر دائري عبر الجسم لكابل		
+cable.help	checked, no change	Click where the cable goes in, then where it comes out. Layerling finds the way: straight where it can, with gentle bends where it must, as far from the outside as it can.	انقر حيث يدخل الكابل، ثم حيث يخرج. يجد Layerling الطريق بنفسه: مستقيمًا حيث يمكن، وبانحناءات لطيفة حيث يلزم، وأبعد ما يمكن عن السطح الخارجي.		
+cable.entry	checked, no change	Entry	المدخل		
+cable.exit	checked, no change	Exit	المخرج		
+cable.pick	checked, no change	Click on the body	انقر على الجسم		
+cable.pickNow	checked, no change	Now click on the body …	انقر الآن على الجسم …		
+cable.pickAgain	checked, no change	Set again	اضبط من جديد		
+cable.diameter	checked, no change	Diameter	القطر		
+cable.minBend	checked, no change	Smallest bend	أصغر انحناء		
+cable.minWall	checked, no change	Least wall	أقل سماكة للجدار		
+cable.hint	corrected	A cable pushes through a bend of about five times its diameter. The channel becomes a bent tube as a hole, grouped with the body, and can be changed later.	يمكن دفع الكابل عبر انحناء نصف قطره نحو خمسة أضعاف قطره. تصبح القناة أنبوبًا منحنيًا كثقب، مجمّعًا مع الجسم، ويمكن تغييره لاحقًا.	يمكن دفع الكابل عبر انحناء نصف قطره نحو خمسة أضعاف قطره. تصبح القناة أنبوبًا منحنيًا كفراغ، مجمّعًا مع الجسم، ويمكن تغييره لاحقًا.	as a hole = كثقب
+cable.working	checked, no change	Finding the way …	جارٍ البحث عن الطريق …		
+cable.found	checked, no change	Way found: {length} mm, tightest bend {bend} mm, thinnest wall {wall} mm.	وُجد الطريق: {length} مم، أضيق انحناء {bend} مم، أرق جدار {wall} مم.		
+cable.foundStraight	checked, no change	Way found: {length} mm, straight, thinnest wall {wall} mm.	وُجد الطريق: {length} مم، مستقيم، أرق جدار {wall} مم.		
+cable.tight	checked, no change	A bend is tighter than asked: the body has no room for a gentler one there. A smaller value for Smallest bend, or another entry or exit, helps.	أحد الانحناءات أضيق من المطلوب: لا مكان في الجسم هناك لانحناء ألطف. يساعد تصغير أصغر انحناء، أو مدخل أو مخرج آخر.		
+cable.thin	checked, no change	The wall is thinner than asked in one place.	الجدار أرق من المطلوب في موضع واحد.		
+cable.error.needsBody	checked, no change	Select one body for the cable channel.	اختر جسمًا واحدًا لقناة الكابل.		
+cable.error.missed	checked, no change	That was not on the selected body. Click on its surface.	لم يكن ذلك على الجسم المحدد. انقر على سطحه.		
+cable.error.noBody	checked, no change	The body could not be read.	تعذّرت قراءة الجسم.		
+cable.error.endsTooClose	checked, no change	Entry and exit are too close together.	المدخل والمخرج متقاربان جدًا.		
+cable.error.endTooThin	checked, no change	At the entry or the exit the body is too thin for this diameter and wall.	الجسم رقيق جدًا عند المدخل أو المخرج لهذا القطر وهذا الجدار.		
+cable.error.noWay	checked, no change	No way found that keeps the wall. A smaller diameter or a thinner wall may fit.	لم يُعثر على طريق يحافظ على الجدار. قد يناسب قطر أصغر أو جدار أرق.		
+cable.error.tooWinding	checked, no change	The way needs more bends than a bent tube has (11). Put the entry or the exit somewhere else.	يحتاج الطريق انحناءات أكثر مما في الأنبوب المنحني (11). ضع المدخل أو المخرج في مكان آخر.		
+cable.error.kernel	checked, no change	The channel could not be cut into the body.	تعذّر قطع القناة في الجسم.		
+cable.apply	checked, no change	Make channel	أنشئ القناة		
+cable.making	checked, no change	Making the channel …	جارٍ إنشاء القناة …		
+cable.cancel	checked, no change	Close cable channel	أغلق قناة الكابل		
+cable.name	corrected	{name} cable channel	قناة كابل {name}	{name} قناة كابل	ترتيب الاسم
+status.cableMade	checked, no change	Cable channel made: {length} mm through {name}.	أُنشئت قناة الكابل: {length} مم عبر {name}.		
+status.cableMadeTight	checked, no change	Cable channel made: {length} mm through {name}; one bend is tighter than asked ({bend} mm).	أُنشئت قناة الكابل: {length} مم عبر {name}؛ أحد الانحناءات أضيق من المطلوب ({bend} مم).		
+lid.magnets	checked, no change	Magnets in the corners	مغناطيسات في الزوايا		
+lid.magnetSize	checked, no change	Magnet	المغناطيس		
+lid.magnetSizeOption	checked, no change	{diameter} × {height}	{diameter} × {height}		
+lid.magnetDiameter	checked, no change	Magnet diameter	قطر المغناطيس		
+lid.magnetHeight	checked, no change	Magnet height	ارتفاع المغناطيس		
+lid.magnetGap	checked, no change	Play round the magnet	الخلوص حول المغناطيس		
+lid.magnetsHint	checked, no change	Pockets in the corners of the body and the lid, and a post where the wall is too thin. 0.1 mm play to press the magnets in, more to glue them; more in the guide.	جيوب في زوايا الجسم والغطاء، وعمود حيث يكون الجدار رقيقًا جدًا. خلوص 0.1 مم لكبس المغناطيسات، وأكثر للصقها؛ المزيد في الدليل.		
+lid.magnetsThicknessRaised	checked, no change	Lid thickness raised to {thickness} mm so the magnets fit.	زيدت سماكة الغطاء إلى {thickness} مم لتتسع المغناطيسات.		
+lid.magnetPosts	checked, no change	{name} magnet posts	أعمدة مغناطيس {name}		
+lid.magnetPocket	checked, no change	Magnet pocket {number}	جيب المغناطيس {number}		
+lid.error.magnetsNoRoom	checked, no change	There is no room for four magnets of this size in the body's corners. Take smaller magnets or a larger body.	لا مكان لأربعة مغناطيسات بهذا الحجم في زوايا الجسم. خذ مغناطيسات أصغر أو جسمًا أكبر.		
+lid.error.magnetsThinLid	checked, no change	The lid is too thin for these magnets: make it at least {thickness} mm thick.	الغطاء رقيق جدًا لهذه المغناطيسات: اجعله بسماكة {thickness} مم على الأقل.		
+lid.error.magnetsBundle	checked, no change	A bundle is not one body. Group it first, then make the lid with magnets.	الحزمة ليست جسمًا واحدًا. جمّعها أولًا، ثم اصنع الغطاء بالمغناطيسات.		
+lid.error.magnetsKernel	checked, no change	The pockets for the magnets could not be cut into the body.	تعذّر قطع جيوب المغناطيسات في الجسم.		
+lid.hinge	checked, no change	Hinge	مفصلة		
+lid.hingeSide	checked, no change	Hinge side	جانب المفصلة		
+lid.hingePin	corrected	Pin diameter	قطر الدبوس	قطر المسمار	مصطلح الدليل: hinge pin = الدبوس
+lid.hingeGap	checked, no change	Hinge clearance	خلوص المفصلة		
+lid.hingePinPlay	corrected	Pin play (per side)	خلوص الدبوس (لكل جانب)	خلوص المسمار (لكل جانب)	مصطلح الدليل: الدبوس
+lid.hingeKnuckles	corrected	Knuckles (0 = automatic)	المفاصل (0 = تلقائي)	العُقد (0 = تلقائي)	مصطلح الدليل: knuckles = المفاصل
+lid.hingePrintPin	corrected	Print the pin too	اطبع الدبوس أيضًا	اطبع المسمار أيضًا	مصطلح الدليل
+lid.hingeTeardrop	corrected	Teardrop pin holes (no droop when printed)	ثقوب دمعية للدبوس (لا تتدلى عند الطباعة)	ثقوب المسمار على شكل قطرة (لا تتدلى عند الطباعة)	مصطلح الدليل: teardrop = دمعي
+lid.hingeStyle	checked, no change	Hinge type	نوع المفصلة		
+lid.hingeStyle.outside	checked, no change	Outside	من الخارج		
+lid.hingeStyle.flush	checked, no change	Flush	مستوية		
+lid.hingeStyle.pivot	corrected	Pivot pins	دبابيس محورية	مسامير محورية	مصطلح الدليل
+lid.hingeStyleHint.outside	corrected	Behind the side: the lid opens all the way, the knuckles stand out.	خلف الجانب: يُفتح الغطاء بالكامل، وتبرز المفاصل.	خلف الجانب: يُفتح الغطاء بالكامل، وتبرز العُقد.	مصطلح الدليل
+lid.hingeStyleHint.flush	checked, no change	In the wall: the box keeps its size, the lid opens to about 140°.	داخل الجدار: يحتفظ الصندوق بمقاساته، ويُفتح الغطاء حتى نحو 140°.		
+lid.hingeStyleHint.pivot	corrected	The lid lies in the opening on a ledge and turns on two pins through the side walls, to about 95°.	يستقر الغطاء على حافة داخل الفتحة ويدور على دبوسين عبر الجدارين الجانبيين، حتى نحو 95°.	يستقر الغطاء على حافة داخل الفتحة ويدور على مسمارين عبر الجدارين الجانبيين، حتى نحو 95°.	مصطلح الدليل
+lid.error.hingeStyleStraight	checked, no change	A flush hinge needs a straight side; on a round body take the hinge outside.	تحتاج المفصلة المستوية إلى جانب مستقيم؛ مع الجسم المستدير اختر المفصلة من الخارج.		
+lid.error.hingeStyleMagnets	checked, no change	Magnets go only with the hinge outside: a flush hinge or a pivot lid sits where their pockets would be.	المغناطيسات تصلح فقط مع المفصلة من الخارج: المفصلة المستوية أو الغطاء الدوار يقع حيث تكون جيوبها.		
+lid.error.pivotNoSides	corrected	A pivot lid needs straight side walls at the ends of the hinge's side, at least 0.8 mm thick, for its pins.	يحتاج الغطاء الدوار إلى جدارين جانبيين مستقيمين عند طرفي جانب المفصلة، بسمك 0.8 مم على الأقل، لدبوسيه.	يحتاج الغطاء الدوار إلى جدارين جانبيين مستقيمين عند طرفي جانب المفصلة، بسمك 0.8 مم على الأقل، لمسماريه.	مصطلح الدليل
+lid.hingeCutsName	corrected	{name} hinge cuts	فتحات المفصلة {name}	{name} فتحات المفصلة	ترتيب الاسم
+lid.pivotLedgeName	corrected	{name} lid ledge	حافة الغطاء {name}	{name} حافة الغطاء	ترتيب الاسم
+status.lidMadeHingeFlush	corrected	Lid made ({type}) with a flush hinge: {count} knuckles in the wall and a hole for a {pin} mm pin. The lid lies turned over beside the body, ready to print.	صُنع الغطاء ({type}) بمفصلة مستوية: المفاصل داخل الجدار: {count}، وثقب لدبوس {pin} مم. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	تم صنع الغطاء ({type}) بمفصلة مستوية: {count} عُقد داخل الجدار وثقب لمسمار {pin} مم. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	مصطلح الدليل + صيغة العدد
+status.lidMadePivot	corrected	Pivot lid made: it lies in the opening on a ledge and turns on two {pin} mm pins through the side walls. The lid lies turned over beside the body, ready to print.	صُنع الغطاء الدوار: يستقر على حافة داخل الفتحة ويدور على دبوسين {pin} مم عبر الجدارين الجانبيين. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	تم صنع الغطاء الدوار: يستقر على حافة داخل الفتحة ويدور على مسمارين {pin} مم عبر الجدارين الجانبيين. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	مصطلح الدليل
+lid.hingeHint	corrected	Knuckles take turns on the body and the lid, with a hole for the pin through all of them. 1.75 mm takes a piece of filament, a printed pin holds from about 3 mm. Knuckles {diameter} mm.	تتناوب المفاصل بين الجسم والغطاء، وفيها كلها ثقب للدبوس. 1.75 مم يناسب قطعة من خيط الطباعة، والدبوس المطبوع يصمد من نحو 3 مم. المفاصل {diameter} مم.	تتناوب العُقد بين الجسم والغطاء، وفيها كلها ثقب للمسمار. 1.75 مم يناسب قطعة من الخيط، والمسمار المطبوع يصمد من نحو 3 مم. العُقد {diameter} مم.	مصطلح الدليل
+lid.hingeTypeHint	checked, no change	A hinge goes with a lid that pushes in or a flat one.	المفصلة تناسب غطاءً مُدخَلًا أو مسطحًا.		
+lid.hingeKnucklesName	corrected	{name} hinge knuckles	مفاصل المفصلة {name}	{name} عُقد المفصلة	مصطلح الدليل + ترتيب الاسم
+lid.hingePinName	corrected	{name} hinge pin	دبوس المفصلة {name}	{name} مسمار المفصلة	مصطلح الدليل + ترتيب الاسم
+lid.error.hingeLidType	checked, no change	A hinge goes only with a lid that pushes in or a flat one: a rim round the outside would hit the back wall as the lid swings open.	المفصلة تناسب فقط غطاءً مُدخَلًا أو مسطحًا: الحافة الخارجية ستصطدم بالجدار الخلفي عند الفتح.		
+lid.error.hingeNoBack	corrected	The side picked has no room for three knuckles: it is too short, or too sharply curved.	لا يتسع الجانب المختار لثلاثة مفاصل: إنه قصير جدًا أو شديد الانحناء.	لا يتسع الجانب المختار لثلاث عُقد: إنه قصير جدًا أو شديد الانحناء.	مصطلح الدليل
+lid.error.hingeTooLow	corrected	The body is too low for the hinge: below the knuckles it needs room for their slope. Take a thinner pin or a taller body.	الجسم منخفض جدًا للمفصلة: تحت المفاصل يلزم مكان لميلها. خذ دبوسًا أرفع أو جسمًا أعلى.	الجسم منخفض جدًا للمفصلة: تحت العُقد يلزم مكان لميلها. خذ مسمارًا أرفع أو جسمًا أعلى.	مصطلح الدليل
+lid.error.hingeKernel	checked, no change	The hinge could not be joined to the body.	تعذر وصل المفصلة بالجسم.		
+lid.clickBumps	checked, no change	Click bumps	نتوءات طقطقة		
+lid.clickBumpsHint	corrected	Small bumps on the lip or rim snap into dimples in the body, so the lid clicks into place. Not for a flat lid or pivot pins.	نتوءات صغيرة على الشفة أو الإطار تنطبق في تجاويف في الجسم، فيُغلق الغطاء بطقة. لا تناسب الغطاء المسطح ولا الدبابيس المحورية.	نتوءات صغيرة على الشفة أو الإطار تنطبق في تجاويف في الجسم، فيُغلق الغطاء بطقة. لا تناسب الغطاء المسطح ولا المسامير المحورية.	مصطلح الدليل
+lid.clickDimplesName	corrected	{name} click dimples	تجاويف الطقطقة {name}	{name} تجاويف الطقطقة	ترتيب الاسم
+lid.error.clickBumpsNoLip	corrected	Click bumps need a lip or a rim to sit on: take a lid that pushes in, goes over the top or does both, and no pivot pins.	تحتاج نتوءات الطقطقة إلى شفة أو إطار تقوم عليه: اختر غطاءً يُدفع للداخل أو يركب من الأعلى أو يجمع الاثنين، ودون دبابيس محورية.	تحتاج نتوءات الطقطقة إلى شفة أو إطار: اختر غطاءً يُدفع للداخل أو فوق الحافة أو من الجانبين، دون مسامير محورية.	المعنى: does both = يجمع الاثنين، لا «من الجانبين»
+lid.error.clickBumpsNoRoom	checked, no change	There is no room for click bumps: away from the hinge and the finger notch, the lip or rim needs a straight side of at least 12 mm, or a round outline.	لا مكان لنتوءات الطقطقة: بعيدًا عن المفصلة وتجويف الإصبع تحتاج الشفة أو الإطار إلى جانب مستقيم طوله 12 مم على الأقل، أو إلى محيط مستدير.		
+lid.handle	checked, no change	Handle	مقبض		
+lid.handle.none	checked, no change	None	بلا		
+lid.handle.tab	checked, no change	Pull tab	لسان سحب		
+lid.handle.notch	checked, no change	Finger notch	تجويف للإصبع		
+lid.handleHint.tab	checked, no change	A tab as thick as the plate, 6 mm out from its front edge (or the edge opposite the hinge), to pull the lid open by.	لسان بسماكة اللوح يبرز 6 مم عن حافته الأمامية (أو الحافة المقابلة للمفصلة)، لسحب الغطاء وفتحه.		
+lid.handleHint.notch	checked, no change	A recess in the body's front wall (or the wall opposite the hinge) just below the lid's edge, for a finger to lift it; 0.8 mm of the wall always stays.	تجويف في الجدار الأمامي للجسم (أو الجدار المقابل للمفصلة) أسفل حافة الغطاء مباشرة، ليرفعه الإصبع؛ ويبقى دائمًا 0.8 مم من الجدار.		
+lid.fingerNotchName	corrected	{name} finger notch	تجويف الإصبع {name}	{name} تجويف الإصبع	ترتيب الاسم
+lid.error.handlePivot	checked, no change	A pivot lid lies in the opening: it takes neither a pull tab nor a finger notch.	الغطاء الدوار يستقر داخل الفتحة: لا يأخذ لسان سحب ولا تجويفًا للإصبع.		
+lid.error.handleSideShort	checked, no change	The side for the handle (the front, or the one opposite the hinge) is too short: a pull tab needs 16 mm, a finger notch 14 mm.	جانب المقبض (الأمامي أو المقابل للمفصلة) قصير جدًا: يحتاج لسان السحب إلى 16 مم وتجويف الإصبع إلى 14 مم.		
+lid.error.handleNotchNoRoom	checked, no change	There is no room for a finger notch in the front wall: it needs a wall at least 1.2 mm thick and 5.8 mm of height below the lid's edge.	لا مكان لتجويف الإصبع في الجدار الأمامي: يحتاج إلى جدار بسمك 1.2 مم على الأقل وارتفاع 5.8 مم أسفل حافة الغطاء.		
+lid.error.cutsKernel	checked, no change	The dimples or the finger notch could not be cut into the body.	تعذر قطع تجاويف الطقطقة أو تجويف الإصبع في الجسم.		
+status.lidMadeMagnets	corrected	Lid made ({type}) with {count} magnet pockets, in the body's rim and in the lid. The lid lies beside the body, turned over, ready to print.	صُنع الغطاء ({type}) مع جيوب للمغناطيس: {count}، في حافة الجسم وفي الغطاء. الغطاء بجانب الجسم، مقلوبًا، جاهزًا للطباعة.	صُنع الغطاء ({type}) مع {count} جيوب للمغناطيس، في حافة الجسم وفي الغطاء. الغطاء بجانب الجسم، مقلوبًا، جاهزًا للطباعة.	صيغة العدد
+status.lidMadeMagnetsPosts	corrected	Lid made ({type}) with {count} magnet pockets, in the lid and in posts in the body's corners, where its wall was too thin. The lid lies beside the body, turned over, ready to print.	صُنع الغطاء ({type}) مع جيوب للمغناطيس: {count}، في الغطاء وفي أعمدة في زوايا الجسم حيث كان جداره رقيقًا جدًا. الغطاء بجانب الجسم، مقلوبًا، جاهزًا للطباعة.	صُنع الغطاء ({type}) مع {count} جيوب للمغناطيس، في الغطاء وفي أعمدة في زوايا الجسم حيث كان جداره رقيقًا جدًا. الغطاء بجانب الجسم، مقلوبًا، جاهزًا للطباعة.	صيغة العدد
+status.lidMadeHinge	corrected	Lid made ({type}) with a hinge: {count} knuckles and a hole for a {pin} mm pin. The lid lies turned over beside the body, ready to print.	صُنع الغطاء ({type}) بمفصلة: المفاصل: {count}، وثقب لدبوس {pin} مم. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	تم صنع الغطاء ({type}) بمفصلة: {count} عُقد وثقب لمسمار {pin} مم. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	مصطلح الدليل + صيغة العدد
+status.lidMadeHingeMagnets	corrected	Lid made ({type}) with a hinge ({count} knuckles, {pin} mm pin) and {magnets} magnet pockets. The lid lies turned over beside the body, ready to print.	صُنع الغطاء ({type}) بمفصلة (المفاصل: {count}، دبوس {pin} مم) وجيوب للمغناطيس: {magnets}. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	تم صنع الغطاء ({type}) بمفصلة ({count} عُقد، مسمار {pin} مم) و{magnets} جيوب للمغناطيس. الغطاء مقلوب بجانب الجسم، جاهز للطباعة.	مصطلح الدليل + صيغة العدد
+status.lidClickBumps	checked, no change	{count} click bumps on the lid snap into dimples in the body.	نتوءات الطقطقة على الغطاء: {count}، وتنطبق في تجاويف في الجسم.		
+status.lidHandleTab	checked, no change	The lid has a pull tab on the edge it opens at.	للغطاء لسان سحب على الحافة التي يُفتح منها.		
+status.lidHandleNotch	checked, no change	A finger notch is cut into the body's wall below the lid's edge, on the side it opens at.	قُطع تجويف للإصبع في جدار الجسم أسفل حافة الغطاء، في الجانب الذي يُفتح منه.		
+status.intersectPreviewOn	checked, no change	Showing what the selected shapes share. Move a shape to see it change; click {tool} again to apply it, Esc closes the preview.	عرض ما تشترك فيه الأشكال المحددة. حرّك شكلًا لترى التغيير؛ نقرة ثانية على {tool} تطبّقه، وEsc يغلق المعاينة.		
+editor.tool.clearance	checked, no change	Check clearance	فحص الخلوص		
+clearance.title	checked, no change	Check clearance	فحص الخلوص		
+clearance.subtitle	checked, no change	Gaps between parts, before you print	الفجوات بين الأجزاء، قبل الطباعة		
+clearance.help	checked, no change	Finds parts that overlap, touch or come closer than the minimum gap. The design stays as it is.	يجد الأجزاء التي تتداخل أو تتلامس أو تقترب أكثر من الفجوة الدنيا. يبقى التصميم كما هو.		
+clearance.scope.selection	corrected	{count} selected objects	الأجسام المحددة: {count}	{count} كائنات محددة	مصطلح الدليل: object = جسم، لا كائن
+clearance.scope.all	corrected	All visible objects	كل الأجسام الظاهرة	كل الكائنات الظاهرة	مصطلح الدليل
+clearance.threshold	checked, no change	Minimum gap	الفجوة الدنيا		
+clearance.splitParts	corrected	Check the separate parts of one object (print in place)	فحص الأجزاء المنفصلة لجسم واحد (طباعة في المكان)	فحص الأجزاء المنفصلة لكائن واحد (طباعة في المكان)	مصطلح الدليل
+clearance.running	checked, no change	Checking …	جارٍ الفحص …		
+clearance.stale	checked, no change	Changed – check again	تغيّر – افحص مرة أخرى		
+clearance.tooFew	corrected	Fewer than two parts: nothing to check against. Select two objects, or one with separate parts.	أقل من جزأين: لا شيء للمقارنة. حدّد جسمين، أو جسمًا واحدًا بأجزاء منفصلة.	أقل من جزأين: لا شيء للمقارنة. حدّد كائنين، أو كائنًا واحدًا بأجزاء منفصلة.	مصطلح الدليل
+clearance.allClear	corrected	No problems: {count} parts, none overlap, touch or come too close.	لا مشاكل: الأجزاء: {count}، ولا يتداخل أي منها ولا يتلامس ولا يقترب أكثر من اللازم.	لا مشاكل: {count} أجزاء، لا يتداخل أي منها ولا يتلامس ولا يقترب أكثر من اللازم.	صيغة العدد
+clearance.count.overlap	corrected	{count} overlapping	متداخلة: {count}	{count} متداخلة	صيغة العدد
+clearance.count.touching	corrected	{count} touching	متلامسة: {count}	{count} متلامسة	صيغة العدد
+clearance.count.tight	corrected	{count} too tight	ضيقة جدًا: {count}	{count} ضيقة جدًا	صيغة العدد
+clearance.count.fine	corrected	{count} fine	سليمة: {count}	{count} سليمة	صيغة العدد
+clearance.listLabel	checked, no change	Pairs of parts	أزواج الأجزاء		
+clearance.kind.overlap	checked, no change	Overlap	تداخل		
+clearance.kind.touching	checked, no change	Touching	تلامس		
+clearance.kind.tight	checked, no change	Too tight	ضيق جدًا		
+clearance.kind.fine	checked, no change	Fine	سليم		
+clearance.kind.unchecked	checked, no change	Not checked	لم يُفحص		
+clearance.overlap	checked, no change	{volume} mm³ in common, prints as one piece	{volume} مم³ مشتركة، يُطبع كقطعة واحدة		
+clearance.touching	checked, no change	fuses when printed	يلتحم عند الطباعة		
+clearance.gap	checked, no change	{gap} {direction}	{gap} {direction}		
+clearance.direction.layer	checked, no change	between layers	بين الطبقات		
+clearance.direction.side	checked, no change	side by side	جنبًا إلى جنب		
+clearance.unchecked.triangles	checked, no change	too many triangles for this pair	مثلثات كثيرة جدًا لهذا الزوج		
+clearance.unchecked.failed	checked, no change	could not be calculated	تعذّر الحساب		
+clearance.hint	corrected	Measured on the triangle mesh: round parts can be off by a few hundredths. Pairs further apart than {search} are not listed.	يُقاس على شبكة المثلثات: قد تنحرف الأجزاء المستديرة ببضعة أجزاء من المئة من المليمتر. الأزواج الأبعد من {search} لا تُدرج.	يُقاس على شبكة المثلثات: قد تنحرف الأجزاء المستديرة ببضعة أجزاء من المئة. الأزواج الأبعد من {search} لا تُدرج.	توضيح: أجزاء من المئة من المليمتر
+clearance.check	checked, no change	Check	فحص		
+clearance.checkAgain	checked, no change	Check again	افحص مرة أخرى		
+clearance.close	checked, no change	Close	إغلاق		
+clearance.part	checked, no change	Part {number}	الجزء {number}		
+clearance.failed	checked, no change	The check failed: {message}	فشل الفحص: {message}		
+clearance.nothing	checked, no change	Nothing to check: no visible body	لا شيء للفحص: لا يوجد جسم ظاهر		
+clearance.otherTool	checked, no change	Close the open tool first, then check the clearance.	أغلق الأداة المفتوحة أولًا، ثم افحص الخلوص.		
+editor.tool.makeExact	checked, no change	Make exact	تحويل إلى جسم دقيق		
+editor.tool.punch	checked, no change	Punch	تثقيب		
+punch.title	checked, no change	Punch an outline through a body	تثقيب محيط عبر جسم		
+punch.subtitle	checked, no change	The punch's outline goes straight through, the punch stays	يمر محيط المِثقب مستقيمًا عبر الجسم، ويبقى المِثقب		
+punch.help	checked, no change	Seen along the direction, the outline of the punch is cut straight through the other body, wherever the punch stands. Move or turn the punch and punch again for another opening.	عند النظر في الاتجاه المختار، يُقطع محيط المِثقب مستقيمًا عبر الجسم الآخر أينما كان المِثقب. حرّك المِثقب أو أدره وثقّب مرة أخرى لفتحة أخرى.		
+punch.punch	checked, no change	Punch (stays)	المِثقب (يبقى)		
+punch.target	checked, no change	Body to punch	الجسم المراد تثقيبه		
+punch.swap	checked, no change	Swap the two	تبديل الاثنين		
+punch.axis	checked, no change	Direction	الاتجاه		
+punch.axisHint	checked, no change	X runs left to right, Y front to back, Z up. layerling starts with the one along which the punch stands furthest from the body.	يمتد X من اليسار إلى اليمين، وY من الأمام إلى الخلف، وZ إلى الأعلى. يبدأ layerling بالمحور الذي يبعد فيه المِثقب أكثر ما يكون عن الجسم.		
+punch.clearance	checked, no change	Clearance	الخلوص		
+punch.clearanceHint	checked, no change	How much larger the opening is than the outline on every side. 0 follows it exactly; 0.2 mm lets a printed part pass through.	مقدار ما تكون الفتحة أكبر من المحيط من كل جانب. القيمة 0 تتبعه تمامًا؛ ومع 0.2 مم يمر جزء مطبوع عبرها.		
+punch.apply	checked, no change	Punch	تثقيب		
+punch.working	checked, no change	Punching…	جارٍ التثقيب…		
+punch.cancel	checked, no change	Cancel punching	إلغاء التثقيب		
+punch.holeName	checked, no change	Outline of {name}	محيط {name}		
+status.punchSelectTwo	checked, no change	Select two solids: first the punch, then the body to punch	حدّد جسمين: المِثقب أولًا، ثم الجسم المراد تثقيبه		
+status.punchDone	checked, no change	Punched the outline of {punch} through {target}	تم تثقيب محيط {punch} عبر {target}		
+status.punchMcp	checked, no change	MCP punched the outline of {punch} through {target}	قام MCP بتثقيب محيط {punch} عبر {target}		
+status.punchMiss	checked, no change	Seen along {axis}, the outline of {punch} does not reach {target}. Move the punch in front of it or choose another direction.	عند النظر على طول {axis} لا يصل محيط {punch} إلى {target}. ضع المِثقب أمامه أو اختر اتجاهًا آخر.		
+status.punchEmpty	checked, no change	{punch} has no outline seen along {axis}	ليس لـ {punch} محيط عند النظر على طول {axis}		
+status.punchTooMany	corrected	The outline of {punch} has more than {count} lines and curves, too many for a sketch. Simplify the punch first.	يحتوي محيط {punch} على خطوط ومنحنيات أكثر من {count}، وهذا كثير على رسم تخطيطي. بسّط المِثقب أولًا.	يحتوي محيط {punch} على أكثر من {count} خطًا ومنحنى، وهذا كثير على رسم تخطيطي. بسّط المِثقب أولًا.	صيغة العدد
+status.punchChanged	checked, no change	The scene changed while punching; run the command again	تغيّر المشهد أثناء التثقيب؛ شغّل الأمر مرة أخرى		
+deleteFace.help	checked, no change	Click the faces to delete; another click takes a face out again. The faces around them grow until the gap is closed: a fillet, a hole or a boss is gone, and the body stays exact. Hair-thin faces between faces in one plane go with the picked faces.	انقر الأوجه المراد حذفها؛ ونقرة أخرى تزيل الوجه من الاختيار. تمتد الأوجه المحيطة حتى تُسدّ الفجوة: يختفي التنعيم أو الثقب أو النتوء، ويبقى الجسم دقيقًا. وتُحذف مع الأوجه المختارة الأوجهُ الرفيعة كالشعرة الواقعة بين أوجه في مستوى واحد.		
+deleteFace.thinOne	checked, no change	Taken along: 1 hair-thin face	أُخذ معها: وجه واحد رفيع كالشعرة		
+deleteFace.thinMany	checked, no change	Taken along: {count} hair-thin faces	أُخذت معها أوجه رفيعة كالشعرة: {count}		
+guide.select.align	checked, no change	Align lays several bodies out along one edge or centre; Mirror flips the selection across a plane (left-right, front-back or top-bottom). For a mirrored copy, duplicate first. The dot beside each line gives the bodies equal gaps.	المحاذاة ترصّ عدة أجسام على حافة واحدة أو مركز واحد؛ والانعكاس يقلب التحديد عبر مستوى (يسار-يمين، أمام-خلف أو أعلى-أسفل). للحصول على نسخة معكوسة، كرّر أولًا. النقطة بجانب كل خط تعطي الأجسام مسافات متساوية.		
+guide.select.pattern	checked, no change	"Pattern repeats the selection n times in a row, in a grid of columns and rows or around a circle - for hole grids, bolt circles and toothed rings. The copies show as a preview; only ""Create"" adds them. With several parts selected, the properties panel on the right colours them together or makes them holes. Scale by percent (right-click or Ctrl+K) makes the selection larger or smaller by a percentage, together or each part in place."	"النمط يكرر التحديد n مرة في صف أو في شبكة من أعمدة وصفوف أو حول دائرة - لشبكات الثقوب ودوائر البراغي والحلقات المسننة. تظهر النسخ كمعاينة؛ ولا يضيفها إلا ""إنشاء"". ومع تحديد عدة أجزاء، تلوّنها لوحة الخصائص على اليمين معًا أو تجعلها ثقوبًا. و""التكبير/التصغير بالنسبة المئوية"" (بالنقر بالزر الأيمن أو Ctrl+K) يكبّر التحديد أو يصغّره بنسبة مئوية، معًا أو كل جزء في مكانه."		
+guide.select.overhangs	checked, no change	Show overhangs (in the menu next to the eye) hatches every face red and white that overhangs more steeply than 45° and would need supports in print. Set the angle in the settings under Appearance. While they are shown, a line under the view says the steepest overhang and how many cm² need supports.	"""إظهار البروزات"" (في القائمة بجانب العين) يظلّل بالأحمر والأبيض كل وجه يبرز بميل أشد من 45° ويحتاج إلى دعامات في الطباعة. اضبط الزاوية في الإعدادات تحت المظهر. ما دامت معروضة، يذكر سطر أسفل العرض أشد بروز وكم سم² يحتاج إلى دعامات."		
+guide.measure.protractor	checked, no change	The protractor in the view bar measures angles: click the corner and a point on each side, or two flat faces. It snaps to corners and edges like the tape measure, follows the bodies it measures and is not saved.	تقيس المنقلة في شريط العرض الزوايا: انقر على الركن ونقطة في كل ضلع، أو على وجهين مستويين. تلتقط الأركان والحواف مثل شريط القياس، وتتبع الأجسام التي تقيسها ولا تُحفظ.		
+guide.files.project	checked, no change	LYL is layerling's own design format: the whole design including history in one file. Under Export you choose a file name, and how many undo steps travel along - down to None, to share a design without its history. In Chrome and Edge you pick the folder yourself and Ctrl+S saves into that file again; other browsers download it. Older .skf files still open. With the installed app (Chrome or Edge), a double click on a .lyl file in the file manager opens it in layerling.	"LYL هو صيغة التصميم الخاصة بـ layerling: التصميم كله مع السجل في ملف واحد. تحت ""تصدير"" تختار اسم الملف، وعدد خطوات التراجع التي تُحفظ معه - حتى ""لا شيء""، لمشاركة تصميم دون سجله. في Chrome وEdge تختار المجلد بنفسك، وCtrl+S يحفظ في ذلك الملف مرة أخرى؛ أما المتصفحات الأخرى فتنزّله. وملفات .skf الأقدم ما زالت تُفتح. ومع التطبيق المثبّت (Chrome أو Edge) يفتح النقر المزدوج على ملف .lyl في مدير الملفات الملفَّ في layerling."		
+shortcuts.lockShape	checked, no change	Lock or unlock the shape only: the part still moves, turns and groups	قفل الشكل فقط أو فك قفله: لا يزال الجزء يتحرك ويدور ويُجمَّع		
+shortcuts.alignSpread	checked, no change	On the equal-gaps dot: type the gap to use	على نقطة المسافات المتساوية: اكتب المسافة		
+shortcuts.lookOntoWorkplane	checked, no change	Look straight onto the workplane	النظر مباشرة على سطح العمل		
+shortcuts.sketchNudge	checked, no change	Move the selected points, lines or image by one grid step (Shift: a larger step, Alt: a fifth of it)	تحريك النقاط أو الخطوط أو الصورة المحددة بخطوة شبكة واحدة (Shift: خطوة أكبر، Alt: خُمسها)		
+shortcuts.sketchTools	checked, no change	Pick a drawing tool: 1 Line, 2 Bezier Curve, 3 Smooth Curve, 4 Add or Remove Points, 5 Freehand (while no line is being drawn)	اختر أداة رسم: 1 خط، 2 منحنى بيزيه، 3 منحنى سلس، 4 إضافة أو إزالة نقاط، 5 رسم حر (أثناء عدم رسم خط)		
+shortcuts.sketchHandleNudge	checked, no change	Move a clicked curve handle by one grid step (Shift: a larger step, Alt: a fifth of it)	تحريك مقبض المنحنى الذي نقرت عليه بخطوة شبكة واحدة (Shift: خطوة أكبر، Alt: خُمسها)		
+status.edgeCornerEdgeAdded	checked, no change	One short edge at a corner was taken along: without it the kernel cannot treat that corner.	أُضيفت حافة قصيرة عند زاوية: بدونها لا يمكن معالجة هذه الزاوية.		
+status.edgeCornerEdgesAdded	checked, no change	{count} short edges at corners were taken along: without them the kernel cannot treat those corners.	أُضيفت حواف قصيرة عند الزوايا ({count}): بدونها لا يمكن معالجة هذه الزوايا.		
+status.edgeInnerCornersRounded	checked, no change	Inner corners rounded first ({count} at {size}): the sharp corners where the edges meet leave the fillet no room otherwise.	نُعّمت الزوايا الداخلية أولًا ({count}، {size}): وإلا فلا مكان للتنعيم في الزوايا الحادة حيث تلتقي الحواف.		
+status.edgeInnerCornersChamfered	checked, no change	Inner corners chamfered first ({count} at {size}): the sharp corners where the edges meet leave the chamfer no room otherwise.	شُطفت الزوايا الداخلية أولًا ({count}، {size}): وإلا فلا مكان للشطف في الزوايا الحادة حيث تلتقي الحواف.		
+holePattern.countPieces.one	checked, no change	1 piece fits on the face.	قطعة واحدة تتسع على الوجه.		
+holePattern.countPieces.many	corrected	{count} pieces fit on the face.	القطع التي تتسع على الوجه: {count}.	{count} قطعة تتسع على الوجه.	صيغة العدد
+holePattern.form.custom	checked, no change	Own shape	شكل خاص		
+holePattern.customShape	checked, no change	Shape from the scene	شكل من المشهد		
+holePattern.customNone	corrected	First make the shape that is to repeat, a rivet say, as a body or a hole.	أنشئ أولًا الشكل الذي سيتكرر، برشامًا مثلًا، كجسم أو كثقب.	أنشئ أولًا الشكل الذي سيتكرر، مسمارًا مثلًا، كجسم أو كتجويف.	rivet = برشام، hole = ثقب
+holePattern.holeType	checked, no change	Hole type	نوع الثقب		
+holePattern.holeType.plain	checked, no change	Plain	عادي		
+holePattern.screwSize.own	checked, no change	Own measures	مقاسات خاصة		
+holePattern.arrangement.perimeter	checked, no change	Along the edge	على الحافة		
+holePattern.perimeterBy	checked, no change	Spread by	التوزيع حسب		
+holePattern.perimeterBy.spacing	checked, no change	Spacing	المسافة		
+holePattern.perimeterBy.count	checked, no change	Number	العدد		
+holePattern.perimeterCount	checked, no change	Number of holes	عدد الثقوب		
+holePattern.perimeterCorners	checked, no change	A hole on every corner	ثقب عند كل زاوية		
+holePattern.perimeterStart	checked, no change	Start along the edge	البداية على الحافة		
+status.holePatternCreatedPieces	corrected	Pattern made: {count} pieces, grouped with the body	تم إنشاء النمط: القطع: {count}، مجمّعة مع الجسم	تم إنشاء النمط: {count} قطعة، مجمّعة مع الجسم	صيغة العدد
+welcome.moreHolePatternBody	corrected	Click a flat face of a body and spread holes over it: round, square, rectangular, hexagonal or slots, in a grid or staggered, with spacing, margin to the edge and depth (through the whole body or a set depth). A preview shows the holes before you create them; they stay ordinary holes, grouped with the body - for vents, speaker grilles, baskets and enclosures. Or set a ring of screw holes along its edge, a hole on every corner, with counterbores or countersinks if you like. A shape of your own can be repeated the same way, rivets or a diamond plate.	انقر على وجه مسطح لجسم وانشر عليه الثقوب: مستديرة أو مربعة أو مستطيلة أو سداسية أو شقوقًا، في شبكة أو بترتيب متداخل، مع المسافة والهامش إلى الحافة والعمق (عبر الجسم كله أو عمق محدد). المعاينة تعرض الثقوب قبل إنشائها؛ وتبقى ثقوبًا عادية مجمّعة مع الجسم - لفتحات التهوية وشبكات مكبرات الصوت والسلال والعلب. أو ضع حلقة من ثقوب البراغي على طول الحافة، مع ثقب عند كل زاوية، وبثقوب متدرجة أو غاطسة إن شئت. ويمكن تكرار شكل خاص بك بالطريقة نفسها، كالبراشيم أو لوح بنقش ماسي.	انقر على وجه مسطح لجسم وانشر عليه الثقوب: مستديرة أو مربعة أو مستطيلة أو سداسية أو شقوقًا، في شبكة أو بترتيب متداخل، مع المسافة والهامش إلى الحافة والعمق (عبر الجسم كله أو عمق محدد). المعاينة تعرض الثقوب قبل إنشائها؛ وتبقى ثقوبًا عادية مجمّعة مع الجسم - لفتحات التهوية وشبكات مكبرات الصوت والسلال والعلب. أو ضع حلقة من ثقوب البراغي على طول الحافة، مع ثقب عند كل زاوية، وبتجويف أو غاطسة إن شئت. ويمكن تكرار شكل خاص بك بالطريقة نفسها، كالمسامير أو لوح مضلّع.	counterbore/countersink = ثقوب متدرجة/غاطسة؛ rivet = برشام
+welcome.moreTextureBody	checked, no change	lay a relief onto any body, for grip or for looks - knurling, grooves, honeycomb, bricks, carbon fibre, tree bark, wood grain, rope, a picture as a height map or text, around round bodies or flat along an axis. Up to six patterns go on one body, each on faces of its own.	ضع نقشًا بارزًا على أي جسم، للإمساك أو للمظهر - تخريش، أخاديد، خلايا نحل، طوب، ألياف كربون، لحاء شجر، عروق خشب، حبل، صورة كخريطة ارتفاع أو نص، حول الأجسام المستديرة أو مسطحًا على طول محور. حتى ستة نقوش على جسم واحد، كل منها على أوجهه الخاصة.		
+welcome.moreVaseBody	checked, no change	a shape of its own for vases, pots and lampshades: body form, cross-section, twist, patterns, drain holes, a saucer and a lid - solid for the slicer's vase mode or hollow. A teapot lid takes the vase's own top, the pattern running on across the joint.	شكل مستقل للمزهريات والأصص وأغطية المصابيح: هيئة الجسم، والمقطع العرضي، والالتواء، والنقوش، وثقوب التصريف، وصحن وغطاء - صلبًا لوضع المزهرية في برنامج التقطيع أو مجوفًا. وغطاء إبريق الشاي هو أعلى المزهرية نفسها، ويستمر النقش عبر الوصلة.		
+welcome.morePunchTitle	checked, no change	Punch	تثقيب		
+welcome.morePunchBody	checked, no change	cuts the outline of one body straight through another, wherever it stands in front of it: a teapot's silhouette through a sign, a logo through a lid. Move or turn the punch and punch again; a clearance lets a printed part pass through.	يقطع محيط جسم مستقيمًا عبر جسم آخر أينما وقف أمامه: ظل إبريق شاي عبر لافتة، أو شعار عبر غطاء. حرّك المِثقب أو أدره وثقّب مرة أخرى؛ ويسمح الخلوص بمرور جزء مطبوع.		
+welcome.moreClearanceTitle	checked, no change	Check clearance	فحص الخلوص		
+welcome.moreClearanceBody	checked, no change	before printing parts that should move - a hinge printed in place, a flexi toy, a lid in its box - finds the pairs that overlap, touch or come closer than the gap you set.	قبل طباعة أجزاء يجب أن تتحرك - مفصلة تُطبع في مكانها، لعبة فليكسي، غطاء في علبته - يجد الأزواج التي تتداخل أو تتلامس أو تقترب أكثر من الفجوة التي تحددها.		
+status.shapeLockOn	checked, no change	Shape locked: it still moves, turns and groups, but keeps its size and settings	تم قفل الشكل: لا يزال يتحرك ويدور ويُجمَّع، لكنه يحتفظ بحجمه وإعداداته		
+status.shapeLockOff	checked, no change	Shape unlocked	تم فك قفل الشكل		
+status.shapeLockRefused	checked, no change	The shape is locked: it can be moved and turned, but not changed (Ctrl+Shift+L unlocks it)	الشكل مقفل: يمكن تحريكه وتدويره، لكن لا يمكن تغييره (Ctrl+Shift+L يفك القفل)		
+status.shapeLockHeld	checked, no change	"""{name}"" has its shape locked: its size, settings and name stay as they are"	"شكل ""{name}"" مقفل: يبقى حجمه وإعداداته واسمه كما هي"		
+status.selectionRaisedBy	checked, no change	Moved selection up by {distance}	تم تحريك التحديد للأعلى بمقدار {distance}		
+status.selectionLoweredBy	checked, no change	Moved selection down by {distance}	تم تحريك التحديد للأسفل بمقدار {distance}		
+status.vaseTooDense	corrected	This vase has {triangles} triangles, more than the {limit} that hollowing and edge treatment can handle. The vase hollows itself and has its own lid: choose “Hollow with wall” under Build, and pick a lid on the Accessories card.	مثلثات هذه المزهرية: {triangles}، وهذا أكثر من {limit} التي يتعامل معها التفريغ ومعالجة الحواف. المزهرية تصبح مجوفة بنفسها ولها غطاء خاص بها: اختر «مجوف بجدار» تحت «البنية»، واختر غطاءً في بطاقة «الملحقات».	هذه المزهرية فيها {triangles} مثلث، أكثر من {limit} التي يتعامل معها التفريغ ومعالجة الحواف. المزهرية تصبح مجوفة بنفسها ولها غطاء خاص بها: اختر «مجوف بجدار» تحت البنية، واختر غطاءً في بطاقة الملحقات.	صيغة العدد + أسماء الواجهة بين «»
+status.movedOneBy	checked, no change	Moved 1 shape by {distance}	تم نقل شكل واحد بمقدار {distance}		
+status.movedManyBy	checked, no change	Moved {count} shapes by {distance}	تم نقل الأشكال: {count}، بمقدار {distance}		
+status.sketchFreehandAdded	corrected	Freehand line added, {count} points	أُضيف خط حر، النقاط: {count}	أُضيف خط حر، {count} نقاط	صيغة العدد
+status.sketchFreehandClosed	corrected	Freehand outline closed, {count} points	أُغلق محيط حر، النقاط: {count}	أُغلق محيط حر، {count} نقاط	صيغة العدد
+status.sketchTool.freehand	checked, no change	Freehand: draw with the pen, a finger or the mouse; a line that ends where it began closes into an outline	رسم حر: ارسم بالقلم أو بالإصبع أو بالفأرة؛ الخط الذي ينتهي حيث بدأ يُغلق ليصبح محيطًا		
+overhang.figures	checked, no change	"Steepest overhang {angle}° on ""{name}"" · {area} cm² beyond {limit}° need supports"	"أشد بروز {angle}° في ""{name}"" · {area} سم² أشد من {limit}° تحتاج إلى دعامات"		
+overhang.figuresBelow	checked, no change	"Steepest overhang {angle}° on ""{name}"" – below {limit}°, nothing needs supports"	"أشد بروز {angle}° في ""{name}"" – أقل من {limit}°، لا شيء يحتاج إلى دعامات"		
+overhang.figuresNone	checked, no change	No overhangs – nothing needs supports	لا بروزات – لا شيء يحتاج إلى دعامات		
+historyView.playForwards	checked, no change	Play forwards	تشغيل للأمام		
+historyView.playBackwards	checked, no change	Play backwards	تشغيل للخلف		
+historyView.pause	checked, no change	Pause	إيقاف مؤقت		
+historyView.speed	checked, no change	Speed	السرعة		
+historyView.speedSlow	checked, no change	Slow	بطيء		
+historyView.speedNormal	checked, no change	Normal	عادي		
+historyView.speedFast	checked, no change	Fast	سريع		
+status.alignStart	checked, no change	Align: choose a dot, or click a selected shape to anchor it. Hold Alt on a dot to match the size instead. The dot beside each line spreads them with equal gaps	محاذاة: اختر نقطة، أو انقر على شكل محدد لجعله المرجع الثابت. اضغط Alt على نقطة لمطابقة الحجم بدلاً من ذلك. النقطة بجانب كل خط توزّعها بمسافات متساوية		
+status.alignAnchorPlate	checked, no change	Align reference: the plate - the dots line up on it, equal gaps spread over it	مرجع المحاذاة: اللوحة - تحاذي النقاط إليها وتوزّع المسافات المتساوية عليها		
+status.alignAnchorPlateOff	checked, no change	Align reference: none, the plate is let go	مرجع المحاذاة: لا شيء، تُركت اللوحة		
+array.subtitle	checked, no change	A row, grid or circle of copies	صف أو شبكة أو دائرة من النسخ		
+array.helpGrid	checked, no change	The selection repeats in columns along X and rows along Y, like the holes of a perforated plate. One column or one row gives a single line. A negative spacing runs that way the other way.	يتكرر التحديد في أعمدة على امتداد X وصفوف على امتداد Y، مثل ثقوب لوح مثقب. عمود واحد أو صف واحد يعطي خطًا واحدًا. المسافة السالبة تعكس الاتجاه.		
+array.mode.grid	checked, no change	Grid	شبكة		
+array.columns	checked, no change	Columns along X (with original)	أعمدة على امتداد X (مع الأصل)		
+array.rows	checked, no change	Rows along Y (with original)	صفوف على امتداد Y (مع الأصل)		
+array.gridTotal	corrected	{columns} × {rows} = {count} pieces	{columns} × {rows} = {count}	{columns} × {rows} = {count} قطعة	صيغة العدد
+array.gridCapped	corrected	{columns} × {rows} = {count} pieces: a pattern has at most {max}, so the rows are cut back.	{columns} × {rows} = {count}: للنمط {max} نسخة على الأكثر، لذا تُقلَّص الصفوف.	{columns} × {rows} = {count} قطعة: للنمط {max} قطعة على الأكثر، لذا تُقلَّص الصفوف.	صيغة العدد
+status.arrayNothing	checked, no change	One column and one row is the original alone - set more columns or rows.	عمود واحد وصف واحد هما الأصل وحده - اختر أعمدة أو صفوفًا أكثر.		
+status.stlSavedToFile	checked, no change	Saved STL to {name}. Later STL exports of this design overwrite this file unless you use Save as in the export window.	"تم حفظ STL في {name}. وتصديرات STL اللاحقة لهذا التصميم تكتب فوق هذا الملف، إلا إذا استخدمت ""حفظ باسم"" في نافذة التصدير."		
+editor.property.dragToChange	checked, no change	Drag left or right to change the value	اسحب يمينًا أو يسارًا لتغيير القيمة		
+status.exportStepSkip.freeform	checked, no change	a mostly free-form mesh, nothing flat or round to make exact	شبكة حرّة الشكل في معظمها، لا شيء مستوٍ أو مستدير لتحويله		
+status.exportStepSkip.meshFailed	checked, no change	a mesh that could not be made exact here; try Make exact on it	"شبكة تعذّر تحويلها هنا إلى جسم دقيق؛ جرّب ""تحويل إلى جسم دقيق"" عليها"		
+status.shapeMoved	checked, no change	“{name}” moved in the list	تم نقل «{name}» في القائمة		
+status.spreadOne	checked, no change	Equal gaps {label}: {gap}	مسافات متساوية {label}: {gap}		
+status.spreadRows	corrected	Equal gaps {label}, in {count} rows	مسافات متساوية {label}، الصفوف: {count}	مسافات متساوية {label}، في {count} صفوف	صيغة العدد
+status.spreadAlready	checked, no change	The gaps are already equal	المسافات متساوية بالفعل		
+status.spreadTooFew	checked, no change	Equal gaps need three parts in a row, or a board with parts on it	تحتاج المسافات المتساوية إلى ثلاث قطع في صف، أو لوح عليه قطع		
+status.spreadNoRoom	checked, no change	Not enough room: the parts are longer than the space for them	لا توجد مساحة كافية: القطع أطول من المساحة المتاحة لها		
+status.spreadLocked	checked, no change	A locked part or the anchor sits between the others and would have to move	قطعة مقفلة أو الشكل المرجعي تقع بين الأخرى وسيتعين تحريكها		
+inspector.gearPairKeep	checked, no change	Keep {name}, fit the other	أبقِ {name}، واضبط الآخر		
+inspector.gearPairKeepHint	checked, no change	This gear stays as it is. The other gear gets its module and is moved along the line between the two centres to the distance where they mesh. Teeth, height and centre hole stay. For a chain of gears, fit one pair after the other.	يبقى هذا الترس كما هو. يأخذ الترس الآخر موديوله ويُنقل على الخط بين المركزين إلى المسافة التي يتعاشقان عندها. تبقى الأسنان والارتفاع والثقب المركزي. في سلسلة تروس، اضبط زوجًا بعد آخر.		
+status.gearPairKept	checked, no change	{name} stays; the other gear is set to module {module} and moved to a centre distance of {distance} mm.	يبقى {name}؛ ويُضبط الترس الآخر على موديول {module} ويُنقل إلى مسافة بين المركزين قدرها {distance} مم.		
+contextMenu.lockShape	checked, no change	Lock shape	قفل الشكل		
+contextMenu.unlockShape	checked, no change	Unlock shape	فك قفل الشكل		
+contextMenu.lockShapeHint	checked, no change	Lock shape: it still moves, turns and groups, but keeps its size and settings	قفل الشكل: لا يزال يتحرك ويدور ويُجمَّع، لكنه يحتفظ بحجمه وإعداداته		
+contextMenu.makeExact	checked, no change	Make exact	تحويل إلى جسم دقيق		
+inspector.surfaceLayers	checked, no change	Layers	الطبقات		
+inspector.surfaceLayerAdd	checked, no change	Add a layer: another pattern on faces of its own	إضافة طبقة: نقش آخر على أوجه خاصة به		
+inspector.surfaceLayerAddShort	checked, no change	Layer	طبقة		
+inspector.surfaceLayerRemove	checked, no change	Remove this layer	إزالة هذه الطبقة		
+inspector.surfaceFacesRest	checked, no change	The pattern goes on the faces the other layers leave free.	يذهب النقش على الأوجه التي تتركها الطبقات الأخرى حرة.		
+inspector.surfaceLayerNeedsFaces	checked, no change	Pick the faces for this layer	اختر الأوجه لهذه الطبقة		
+inspector.surfaceLayerNeedsFacesNumber	checked, no change	Layer {number} has no faces yet	الطبقة {number} بلا أوجه بعد		
+inspector.surfaceLayersHint	checked, no change	Several patterns on one body: every further layer goes on the faces you pick for it, the first one on all the others.	عدة نقوش على جسم واحد: كل طبقة إضافية تذهب على الأوجه التي تختارها لها، والأولى على كل الباقي.		
+simplify.keepEdges	checked, no change	Keep edges and holes	الحفاظ على الحواف والثقوب		
+simplify.keepEdgesHint	checked, no change	Sharp edges and the rims of holes stay exactly where they are, while flat faces still lose most of their triangles. Switched off, they may be rounded off for a lower count.	تبقى الحواف الحادة وحواف الثقوب في مكانها تمامًا، بينما تفقد الأوجه المستوية معظم مثلثاتها. عند الإيقاف يمكن تدويرها للوصول إلى عدد أقل.		
+status.meshSimplifiedEdgesKept	corrected	Simplified from {before} to {after} triangles, sharp edges and holes kept	بُسّطت المثلثات من {before} إلى {after} مع الحفاظ على الحواف الحادة والثقوب	بُسّطت من {before} إلى {after} مثلثًا مع الحفاظ على الحواف الحادة والثقوب	صيغة العدد
+makeExact.selectOne	checked, no change	Select one imported mesh to make exact, such as an STL from Printables. Shapes from the catalogue, sketches and STEP imports are exact already.	اختر شبكة مستوردة واحدة لتحويلها إلى جسم دقيق، مثل ملف STL من Printables. الأشكال من الكتالوج والرسومات وملفات STEP المستوردة دقيقة أصلًا.		
+makeExact.working	corrected	Looking for planes, cylinders, cones, spheres and tori in {count} triangles…	جارٍ البحث عن مستويات وأسطوانات ومخاريط وكرات وطارات بين المثلثات ({count})…	جارٍ البحث عن مستويات وأسطوانات ومخاريط وكرات وطارات في {count} مثلثًا…	صيغة العدد
+makeExact.failed	corrected	The faces found did not close into a solid, so the body stays a mesh. A mesh with gaps or crossed walls cannot be made exact; repair it, for example in your slicer, and try again.	الأوجه التي وُجدت لا تنغلق في جسم صلب، لذا يبقى شبكة. لا يمكن تحويل شبكة فيها فجوات أو جدران متقاطعة إلى جسم دقيق؛ أصلحها، في برنامج التقطيع مثلًا، ثم حاول مجددًا.	الأوجه التي وُجدت لا تنغلق في جسم مصمت، لذا يبقى شبكة. لا يمكن تحويل شبكة فيها ثقوب أو جدران متقاطعة إلى جسم دقيق؛ أصلحها، في برنامج التقطيع مثلًا، ثم حاول مجددًا.	مصطلح الدليل: solid = صلب؛ gaps = فجوات
+makeExact.freeform	checked, no change	This body is mostly free-form, like a figure or a sculpted shape: only {percent} % of its surface is flat, cylindrical, conical, spherical or ring-shaped. It stays a mesh.	هذا الجسم حرّ الشكل في معظمه، مثل مجسّم أو شكل منحوت: {percent} % فقط من سطحه مستوٍ أو أسطواني أو مخروطي أو كروي أو حلقي. يبقى شبكة.		
+makeExact.tooSlow	checked, no change	"Making this body exact took too long. Export the part again with fewer triangles, or simplify it with ""Keep edges and holes"" switched on, and try again."	"استغرق تحويل هذا الجسم وقتًا طويلًا. صدّر القطعة من جديد بمثلثات أقل، أو بسّطها مع تفعيل ""الحفاظ على الحواف والثقوب"" ثم حاول مجددًا."		
+makeExact.changed	checked, no change	The body or the design changed while it was being made exact. Please try again.	تغيّر الجسم أو التصميم أثناء تحويله. يُرجى المحاولة مجددًا.		
+makeExact.tooLarge	corrected	"This mesh has {count} triangles; Make exact takes up to {limit}. Simplify it first with ""Keep edges and holes"" switched on."	المثلثات في هذه الشبكة: {count}، و«تحويل إلى جسم دقيق» يقبل حتى {limit}. بسّطها أولًا مع تفعيل «الحفاظ على الحواف والثقوب».	"تحتوي هذه الشبكة على {count} مثلثًا، والتحويل إلى جسم دقيق يقبل حتى {limit}. بسّطها أولًا مع تفعيل ""الحفاظ على الحواف والثقوب""."	صيغة العدد
+makeExact.denseHint	checked, no change	Or click Make exact: as an exact body it can be rounded and chamfered.	"أو انقر ""تحويل إلى جسم دقيق"": فالجسم الدقيق يمكن تنعيم حوافه وشطفها."		
+makeExact.done	checked, no change	Made exact: {kinds}	حُوّل إلى جسم دقيق: {kinds}		
+makeExact.facets	checked, no change	 – {percent} % of the surface stays as small flat facets	 – يبقى {percent} % من السطح أوجهًا مستوية صغيرة		
+makeExact.kind.plane	checked, no change	planes: {count}	مستويات: {count}		
+makeExact.kind.cylinder	checked, no change	cylinders: {count}	أسطوانات: {count}		
+makeExact.kind.cone	checked, no change	cones: {count}	مخاريط: {count}		
+makeExact.kind.sphere	checked, no change	spheres: {count}	كرات: {count}		
+makeExact.kind.torus	checked, no change	tori: {count}	طارات: {count}		
+status.mcpMadeExact	checked, no change	MCP made a mesh exact	حوّل MCP شبكة إلى جسم دقيق		
+thread.headSquare	checked, no change	Square head	رأس مربع		
+thread.headFlange	checked, no change	Flange head	رأس بشفة		
+thread.headWing	checked, no change	Wing head	رأس بجناحين		
+thread.headKnob	checked, no change	Star knob	مقبض نجمي		
+thread.nutHex	checked, no change	Hex	سداسي		
+thread.nutSquare	checked, no change	Square	مربع		
+thread.nutFlange	checked, no change	Flange	بشفة		
+thread.nutWing	checked, no change	Wing	بجناحين		
+thread.nutKnob	checked, no change	Star knob	مقبض نجمي		
+inspector.threadNutShape	checked, no change	Nut shape	شكل الصامولة		
+prop.headSpan	checked, no change	Span	الامتداد		
+thread.group.NPT	checked, no change	NPT – US pipe, tapered	NPT – أنابيب مخروطية		
+thread.hint.NPT	checked, no change	US tapered pipe thread (ASME B1.20.1), e.g. on fittings, valves, pressure gauges and air tools; it seals on the taper. The diameter is the pipe's, at the wide end.	سن أنابيب أمريكي مخروطي (ASME B1.20.1)، مثلًا في الوصلات والصمامات ومقاييس الضغط وأدوات الهواء المضغوط؛ يُحكم الإغلاق في المخروط. القطر هو قطر الأنبوب عند الطرف الواسع.		
+thread.hint.bottle	checked, no change	PCO 1881: the 28 mm neck of most water and soda bottles. S60x6 (IBC): the outlet of IBC containers. Rod for the neck, Nut or Threaded hole for a cap.	PCO 1881: عنق بقطر 28 مم في معظم زجاجات الماء والمشروبات الغازية. S60x6 (IBC): مخرج حاويات IBC. القضيب للعنق، والصامولة أو الثقب الملولب للغطاء.		
+shape.screwBoss	corrected	Screw boss	عمود برغي	عمود براغي	مفرد
+shape.snapFit	checked, no change	Snap-fit	مشبك طقّ		
+shape.rib	checked, no change	Rib	ضلع		
+shape.finishingWasher	checked, no change	Finishing Washer	حلقة تشطيب		
+prop.finishingWasherSizeHint	checked, no change	Sets bore, seat and size for the washer under a countersunk screw of this size: clearance hole to ISO 273, medium, seat as the countersink to ISO 15065 at 90°.	يضبط الثقب والمقعد والحجم للحلقة تحت برغي غاطس بهذا المقاس: ثقب خلوص وفق ISO 273، متوسط، والمقعد كالتغطيس وفق ISO 15065 بزاوية 90°.		
+prop.finishingWasherSeatDepth	checked, no change	Seat depth	عمق المقعد		
+shape.curvedCone	checked, no change	Curved Cone	مخروط منحنٍ		
+shape.mesh	checked, no change	Mesh	شبكة		
+shape.exactBody	checked, no change	Exact body	جسم دقيق		
+library.search	checked, no change	Search shapes	ابحث عن شكل		
+library.clearSearch	checked, no change	Clear the search	امسح البحث		
+library.noMatch	checked, no change	No shapes found.	لم يُعثر على أشكال.		
+library.countOf	checked, no change	{shown} of {total}	{shown} من {total}		
+library.recent	checked, no change	Recently used	المستخدمة مؤخرًا		
+library.helpersNote	checked, no change	For measuring only, not exported.	للقياس فقط، ولا يُصدَّر.		
+library.section.basic	checked, no change	Basic shapes	الأشكال الأساسية		
+library.section.vessels	checked, no change	Vessels, tubes & transitions	الأوعية والأنابيب والانتقالات		
+library.section.holes	checked, no change	Holes & cut-outs	الثقوب والفتحات		
+library.section.connections	checked, no change	Connections	الوصلات		
+library.section.enclosure	corrected	Enclosure parts	أجزاء العلب	العلب	Enclosure parts = أجزاء العلب
+library.section.mechanics	checked, no change	Mechanics & moving parts	الميكانيكا والأجزاء المتحركة		
+library.section.systems	checked, no change	Systems & templates	الأنظمة والقوالب		
+library.section.lettering	checked, no change	Lettering & signs	الكتابة واللافتات		
+library.section.decorative	checked, no change	Decorative outlines	الحدود الزخرفية		
+library.section.helpers	checked, no change	Helpers	أدوات مساعدة		
+library.section.other	checked, no change	More shapes	أشكال أخرى		
+prop.curvedConeTop	checked, no change	Top diameter	القطر العلوي		
+prop.curvedConeTopHint	checked, no change	Across the flat top, at most the bottom's width; 0 runs to a point. It keeps its share of the bottom when the cone is resized.	عبر السطح العلوي المستوي، بحد أقصى عرض القاعدة؛ القيمة 0 تنتهي برأس مدبب. تبقى نسبته إلى القاعدة ثابتة عند تغيير حجم المخروط.		
+prop.curvedConeBend	checked, no change	Bend	الانحناء		
+prop.curvedConeBendHint	checked, no change	How far the side bends, in percent: below 0 inward into a trumpet, 0 straight, above 0 outward into a dome.	مقدار انحناء الجانب بالنسبة المئوية: أقل من 0 إلى الداخل على شكل بوق، و0 مستقيم، وأكثر من 0 إلى الخارج على شكل قبة.		
+textBlock.title	checked, no change	Text block	كتلة نص		
+textBlock.lines	checked, no change	Lines	الأسطر		
+textBlock.linesPlaceholder	checked, no change	"LAYERLING
+IS THE
+Best"	"LAYERLING
+IS THE
+Best"		
+textBlock.linesHint	checked, no change	One line per line, up to {max}: each becomes a text of its own under the one above, in this text's font and fill. The first takes this text's place.	سطر لكل سطر، حتى {max}: يصبح كل سطر نصاً مستقلاً تحت السطر الذي فوقه، بخط هذا النص وتعبئته. يأخذ الأول مكان هذا النص.		
+textBlock.align	checked, no change	Align	المحاذاة		
+textBlock.align.left	checked, no change	Left	يسار		
+textBlock.align.center	checked, no change	Centre	وسط		
+textBlock.align.right	checked, no change	Right	يمين		
+textBlock.gap	checked, no change	Line gap	تباعد الأسطر		
+textBlock.step	checked, no change	Next line (%)	السطر التالي (%)		
+textBlock.stepHint	checked, no change	100 makes all lines the same size, 80 each line a fifth smaller than the one above. Each line can be changed on its own afterwards.	100 يجعل كل الأسطر بالحجم نفسه، و80 يجعل كل سطر أصغر بالخُمس من الذي فوقه. يمكن تغيير كل سطر وحده بعد ذلك.		
+textBlock.makeNone	checked, no change	Type at least two lines	اكتب سطرين على الأقل		
+textBlock.make	corrected	Make {count} lines	إنشاء الأسطر: {count}	إنشاء {count} أسطر	صيغة العدد
+status.textBlockMade	corrected	{count} lines made	أُنشئت الأسطر: {count}	تم إنشاء {count} أسطر	صيغة العدد
+prop.textLetterWidth	checked, no change	Letter width (%)	عرض الحروف (%)		
+prop.textLetterWidthHint	checked, no change	How wide each letter is drawn on the arc, in per cent of its own width; below 100 narrower, above wider. The letters keep their height, the arc and the box follow.	مدى عرض كل حرف على القوس، بالنسبة المئوية من عرضه الأصلي؛ أقل من 100 أضيق، وأكثر منه أعرض. تحتفظ الحروف بارتفاعها، ويتبعها القوس والصندوق.		
+prop.threadTaper	checked, no change	Tapered (1:16, NPT)	مخروطي (1:16، NPT)		
+prop.collarHeight	checked, no change	Collar height	ارتفاع الطوق		
+prop.collarHeightHint	checked, no change	A round collar between head and thread, such as a spacer under a star knob. 0 for none.	طوق دائري بين الرأس والسن، مثل فاصل تحت مقبض نجمي. 0 لعدم وجوده.		
+prop.collarDiameter	checked, no change	Collar diameter	قطر الطوق		
+prop.screwHoleSize	checked, no change	Screw size	مقاس البرغي		
+prop.screwHoleSizeCounterboreHint	corrected	Sets shaft, head diameter and depth for a socket head cap screw of this size: clearance hole to ISO 273, medium, counterbore to DIN 974-1. The length stays.	يضبط الساق وقطر الرأس وعمقه لبرغي برأس أسطواني بهذا المقاس: ثقب خلوص وفق ISO 273، متوسط، وثقب متدرج وفق DIN 974-1. يبقى الطول.	يضبط الساق وقطر الرأس وعمقه لبرغي برأس أسطواني بهذا المقاس: ثقب مرور وفق ISO 273، متوسط، وتجويف وفق DIN 974-1. يبقى الطول.	مصطلح الدليل: counterbore = ثقب متدرج
+prop.screwHoleSizeCountersinkHint	corrected	Sets shaft and head diameter for a countersunk screw of this size: clearance hole to ISO 273, medium, countersink to ISO 15065 at 90°. The length stays.	يضبط الساق وقطر الرأس لبرغي برأس غاطس بهذا المقاس: ثقب خلوص وفق ISO 273، متوسط، وثقب غاطس وفق ISO 15065 بزاوية 90°. يبقى الطول.	يضبط الساق وقطر الرأس لبرغي برأس غاطس بهذا المقاس: ثقب مرور وفق ISO 273، متوسط، وتخويش وفق ISO 15065 بزاوية 90°. يبقى الطول.	مصطلح الدليل: countersink = ثقب غاطس (لا تخويش)
+prop.nutPocketSize	corrected	Nut pocket	جيب الصامولة	تجويف الصامولة	مصطلح الدليل: pocket = جيب
+prop.nutPocketSizeHint	corrected	Makes the hexagon the pocket for a hex nut of this screw size (ISO 4032), 0.4 mm wider and higher than the nut. Switch it to a hole to cut the pocket.	يجعل المسدس جيبًا لصامولة سداسية بمقاس هذا البرغي (ISO 4032)، أعرض وأعلى من الصامولة بمقدار 0.4 مم. حوّله إلى ثقب ليُقطع الجيب.	يجعل المسدس تجويفًا لصامولة سداسية بمقاس هذا البرغي (ISO 4032)، أعرض وأعلى من الصامولة بمقدار 0.4 مم. كثقب يقطع التجويف.	مصطلح الدليل
+prop.screwBossFastener	checked, no change	Fastener	التثبيت		
+prop.screwBossSize	checked, no change	Size	المقاس		
+prop.screwBossHole	checked, no change	Hole diameter	قطر الثقب		
+prop.screwBossHoleDepth	checked, no change	Hole depth	عمق الثقب		
+prop.screwBossDiameter	checked, no change	Outer diameter	القطر الخارجي		
+prop.screwBossGussets	checked, no change	Gussets	أضلاع الدعم		
+prop.screwBossReach	checked, no change	Width with gussets	العرض مع الأضلاع		
+prop.screwBossGussetHeight	checked, no change	Gusset height	ارتفاع الأضلاع		
+prop.screwBossGussetThickness	checked, no change	Gusset thickness	سماكة الأضلاع		
+screwBoss.insert	checked, no change	Heat-set insert	حشوة تُثبَّت بالحرارة		
+screwBoss.selfTapping	checked, no change	Self-tapping screw for plastics	برغي ذاتي القطع للبلاستيك		
+screwBoss.custom	checked, no change	Hole of my own	ثقب خاص		
+screwBoss.insertOption	checked, no change	{size} – hole {hole} mm, insert {length} mm	{size} – ثقب {hole} مم، حشوة {length} مم		
+screwBoss.insertShortOption	checked, no change	{size} short – hole {hole} mm, insert {length} mm	{size} قصيرة – ثقب {hole} مم، حشوة {length} مم		
+screwBoss.screwOption	checked, no change	{size} – pilot hole {hole} mm	{size} – ثقب تمهيدي {hole} مم		
+screwBoss.insertHint	checked, no change	The hole is a millimetre deeper than the insert. Printed holes come out a little smaller than drawn: print one boss to try, and adjust the hole by a tenth or two.	الثقب أعمق من الحشوة بمليمتر. الثقوب المطبوعة تخرج أصغر قليلًا مما رُسم: اطبع عمودًا واحدًا للتجربة وعدّل الثقب بعُشر أو عُشرين.		
+screwBoss.screwHint	checked, no change	Pilot hole about 0.8 times the screw, the post about 2.5 times it, the hole 2.5 screws deep. Printed holes come out a little smaller: try one first.	ثقب تمهيدي نحو 0.8 من البرغي، والعمود نحو 2.5 منه، والثقب بعمق 2.5 برغي. الثقوب المطبوعة تخرج أصغر قليلًا: جرّب واحدًا أولًا.		
+screwBoss.customHint	checked, no change	Type in the hole you need, say 3.4 mm for an M3 screw that goes through.	اكتب الثقب الذي تحتاجه، مثل 3.4 مم لبرغي M3 نافذ.		
+screwBoss.through	checked, no change	As deep as the post: the hole goes through.	بعمق العمود كله: الثقب نافذ.		
+screwBoss.wall	checked, no change	Wall round the hole: {wall} mm.	الجدار حول الثقب: {wall} مم.		
+screwBoss.wallThin	checked, no change	Wall round the hole only {wall} mm – this fastener wants at least {min} mm. Make the post wider.	الجدار حول الثقب {wall} مم فقط – هذا التثبيت يحتاج {min} مم على الأقل. اجعل العمود أعرض.		
+screwBoss.gussetsHint	checked, no change	Thin ribs from the post down to the floor brace it; 3 or 4 are usual.	أضلاع رفيعة من العمود إلى القاع تدعمه؛ المعتاد 3 أو 4.		
+screwBoss.gussetsNoRoom	corrected	No room for that many: make the gussets thinner or the footprint wider.	لا يتسع لهذا العدد: اجعل الأضلاع أرفع أو القاعدة أعرض.	لا يتسع لهذا العدد: أضلاع أرفع أو عرض أكبر.	جملة ناقصة
+prop.snapFitPart	checked, no change	Part	الجزء		
+prop.snapFitWidth	checked, no change	Width	العرض		
+prop.snapFitHeight	checked, no change	Height to the tip	الارتفاع حتى الطرف		
+prop.snapFitDepth	checked, no change	Depth with foot	العمق مع القاعدة		
+prop.snapFitThickness	checked, no change	Arm thickness	سماكة الذراع		
+prop.snapFitUndercut	checked, no change	Undercut	عمق التعشيق		
+prop.snapFitLeadAngle	checked, no change	Entry angle	زاوية الإدخال		
+prop.snapFitRetainAngle	checked, no change	Holding angle	زاوية التثبيت		
+prop.snapFitClearance	checked, no change	Clearance	الخلوص		
+prop.snapFitFoot	checked, no change	Foot thickness	سماكة القاعدة		
+snapFit.both	checked, no change	Hook and catch	خطّاف وماسك		
+snapFit.hook	checked, no change	Hook only	الخطّاف فقط		
+snapFit.catch	checked, no change	Catch only	الماسك فقط		
+snapFit.bothHint	checked, no change	Both stand where they sit snapped in, the lid on top: put the hook's foot under the lid and the catch's back against the inside of the box wall, then Separate Parts splits them.	كلاهما في مكانه بعد الطقّ والغطاء في الأعلى: قاعدة الخطّاف تحت الغطاء وظهر الماسك على الجدار من الداخل، ثم يفصلهما «فصل الأجزاء».		
+snapFit.hookHint	checked, no change	Just the hook, for a window in the wall or a catch of your own.	الخطّاف وحده، لنافذة في الجدار أو ماسك خاص بك.		
+snapFit.catchHint	checked, no change	Just the ledge the hook snaps under; its back goes against the wall.	الحافة التي يعلق تحتها الخطّاف فقط؛ ظهرها على الجدار.		
+snapFit.strainFine	corrected	Bends {strain} % at its root as it snaps in: fine for PLA (up to about 2 %).	ينثني عند جذره بنسبة {strain} % عند الطقّ: مناسب لـ PLA (حتى نحو 2 %).	يتمدد عند جذره بنسبة {strain} % عند الطقّ: مناسب لـ PLA (حتى نحو 2 %).	Bends = ينثني
+snapFit.strainTough	corrected	Bends {strain} % at its root: too much for PLA, fine for PETG or ABS (up to about 4 %). A longer or thinner arm bends less.	ينثني عند جذره بنسبة {strain} %: كثير على PLA، مناسب لـ PETG أو ABS (حتى نحو 4 %). الذراع الأطول أو الأرفع ينثني أقل.	يتمدد عند جذره بنسبة {strain} %: كثير على PLA، مناسب لـ PETG أو ABS (حتى نحو 4 %). الذراع الأطول أو الأرفع ينثني أقل.	Bends = ينثني
+snapFit.strainTooMuch	corrected	Bends {strain} % at its root: it will break. Make the arm longer or thinner, or the undercut smaller.	ينثني عند جذره بنسبة {strain} %: سينكسر. اجعل الذراع أطول أو أرفع، أو عمق التعشيق أصغر.	يتمدد عند جذره بنسبة {strain} %: سينكسر. اجعل الذراع أطول أو أرفع، أو عمق التعشيق أصغر.	Bends = ينثني
+snapFit.leadHint	checked, no change	From the direction it goes in: 30° slides in easily, smaller goes in more gently.	بالنسبة إلى اتجاه الإدخال: 30° ينزلق بسهولة، والأقل أنعم.		
+snapFit.retainHint	checked, no change	90° holds for good, 45° lets it be pulled apart again.	90° يثبت نهائيًا، 45° يمكن فكّه مجددًا.		
+snapFit.footHint	checked, no change	The plate the arm hangs from, joined to the lid. 0: no foot.	اللوح الذي تتدلّى منه الذراع، متصل بالغطاء. 0: بلا قاعدة.		
+prop.ribStyle	checked, no change	Kind	النوع		
+prop.ribLength	checked, no change	Length	الطول		
+prop.ribGussetFoot	checked, no change	Along the floor	على القاع		
+prop.ribGussetLeg	checked, no change	Up the wall	على الجدار		
+prop.ribThickness	checked, no change	Thickness	السماكة		
+prop.ribTop	checked, no change	Top	الأعلى		
+rib.straight	checked, no change	Straight rib	ضلع مستقيم		
+rib.gusset	checked, no change	Gusset	دعامة مثلثة		
+rib.straightHint	checked, no change	Stiffens a floor or a wall. Several in a row come from Pattern.	يقوّي قاعًا أو جدارًا. عدة أضلاع في صف عبر «نمط».		
+rib.gussetHint	checked, no change	A triangle that braces a wall against the floor: its upright side goes against the wall.	مثلث يدعم الجدار على القاع: ضلعه العمودي على الجدار.		
+rib.thicknessHint	checked, no change	About as thick as the wall or a little thinner, a multiple of the line width: 0.8 or 1.6 mm with a 0.4 mm nozzle.	بسماكة الجدار تقريبًا أو أرفع قليلًا، ومضاعف لعرض الخط: 0.8 أو 1.6 مم مع فوهة 0.4 مم.		
+rib.topFlat	checked, no change	Flat	مستوٍ		
+rib.topRound	checked, no change	Round	مستدير		
+rib.topChamfer	checked, no change	Chamfered	مشطوف		
+gridfinity.binHint	checked, no change	A bin on the 42 mm Gridfinity grid: it stands in a baseplate and stacks on other bins, also ones made with other Gridfinity generators. Gridfinity is the open storage system by Zack Freedman, released under the MIT licence; layerling makes parts that fit it from the published measurements and is not part of the project.	علبة على شبكة Gridfinity بخطوة 42 مم: توضع في لوح شبكة وتُكدَّس فوق علب أخرى، ومنها علب من مولّدات Gridfinity أخرى. Gridfinity هو نظام التخزين المفتوح الذي صمّمه Zack Freedman، ونُشر بموجب ترخيص MIT؛ ويصنع layerling قطعًا تناسبه وفق المقاسات المنشورة، وهو ليس جزءًا من المشروع.		
+gridfinity.baseplateHint	checked, no change	The plate Gridfinity bins stand in, 5 mm tall: one socket for every 42 mm grid unit. Gridfinity is the open storage system by Zack Freedman, released under the MIT licence; layerling makes parts that fit it from the published measurements and is not part of the project.	اللوح الذي توضع فيه علب Gridfinity، بارتفاع 5 مم: تجويف لكل وحدة شبكة 42 مم. Gridfinity هو نظام التخزين المفتوح الذي صمّمه Zack Freedman، ونُشر بموجب ترخيص MIT؛ ويصنع layerling قطعًا تناسبه وفق المقاسات المنشورة، وهو ليس جزءًا من المشروع.		
+prop.gridfinitySwallowtail	checked, no change	Swallowtail	Swallowtail		
+gridfinity.swallowtailHint	checked, no change	Swallowtail: the plate stands on a 2.4 mm floor, 7.4 mm tall, with half a pocket under each side without padding, so two plates side by side make whole pockets across the seam. A key pressed in from below clicks in and holds them together. Add keys makes one for each pocket at the back and right, so that every pocket across a seam with the next plate gets one.	Swallowtail: يقف لوح الشبكة على أرضية بسماكة 2.4 مم، بارتفاع 7.4 مم، مع نصف جيب تحت كل جانب بلا حاشية، فيصنع لوحان متجاوران جيوبًا كاملة عبر موضع التقائهما. وصلة تُضغط من الأسفل تستقر بطقة وتمسكهما معًا. ويصنع «إضافة وصلات» وصلة لكل جيب في الخلف وعلى اليمين، فيأخذ كل جيب عبر موضع التقاء مع اللوح التالي وصلة.		
+prop.gridfinitySwallowtailClearance	checked, no change	Key clearance	خلوص الوصلات		
+gridfinity.swallowtailClearanceHint	checked, no change	How much smaller than its pocket each key is on every side. Raise it if the keys jam or break, lower it if they sit loose; it goes up to 0.15 mm. It changes the keys Add keys lays out next, not the plate, so click Add keys again after changing it.	مقدار ما تصغر به كل وصلة عن جيبها من كل جانب. ارفعه إذا علقت الوصلات أو انكسرت، واخفضه إذا كانت مرتخية؛ ويصل إلى 0.15 مم. وهو يغيّر الوصلات التي يضعها «إضافة وصلات» في المرة التالية، لا اللوح، فانقر «إضافة وصلات» مرة أخرى بعد تغييره.		
+gridfinity.floorHeightLipHint	checked, no change	The bin is solid from its underside up to this height, a blank to cut shapes into. Up to {height} mm another bin still stacks on it; above that the stacking lip is filled too, for a flat top.	حتى هذا الارتفاع، مقيسًا من الأسفل، تكون العلبة صلبة: قطعة خام تقطع فيها الأشكال. حتى {height} مم يمكن تكديس علبة أخرى فوقها؛ وفوق ذلك تُملأ حافة التكديس أيضًا ليصبح السطح العلوي مستويًا.		
+prop.gridfinityOutline	checked, no change	Fitted to an outline	مُطابَق لحدّ خارجي		
+gridfinity.outlineCells	corrected	Whole cells in the outline: {cells}, the rest solid. Switch the outline off for a plate of whole units with padding again.	الخلايا الكاملة داخل الحد الخارجي: {cells}، والباقي صلب. أوقف الحد الخارجي ليعود لوحًا من وحدات كاملة مع حاشية.	الخلايا الكاملة داخل الحد الخارجي: {cells}، والباقي مصمت. أوقف الحد الخارجي ليعود لوحًا من وحدات كاملة مع حاشية.	مصطلح الدليل: solid = صلب
+gridfinity.outlineNoCells	corrected	The outline is too small for a whole 42 mm cell: a solid plate. Switch the outline off for a plate of whole units with padding again.	الحد الخارجي أصغر من أن تتسع فيه خلية كاملة بمقاس 42 مم: لوح صلب. أوقف الحد الخارجي ليعود لوحًا من وحدات كاملة مع حاشية.	الحد الخارجي أصغر من أن تتسع فيه خلية كاملة بمقاس 42 مم: لوح مصمت. أوقف الحد الخارجي ليعود لوحًا من وحدات كاملة مع حاشية.	مصطلح الدليل
+gridfinity.outlineNeedsLargePlate	checked, no change	Large plate stays on while the outline is wider or deeper than {size} mm; make it smaller to switch Large plate off.	يبقى «لوح شبكة كبير» مفعّلًا ما دام الحد الخارجي أعرض أو أعمق من {size} مم؛ صغّره لتتمكن من إيقافه.		
+gridfinity.outlineFitHint	checked, no change	For a drawer that is not a rectangle, select the plate together with a shape of the drawer's inside and use Fit baseplate to outline.	لدرج غير مستطيل: حدّد اللوح مع شكلٍ لداخل الدرج واستخدم «مطابقة لوح الشبكة للحد الخارجي».		
+inspector.gridfinityOutlineFit	checked, no change	Fit baseplate to outline	مطابقة لوح الشبكة للحد الخارجي		
+inspector.gridfinityOutlineFitHint	corrected	Fills what the other shape stands on, set in by 0.25 mm, with whole 42 mm cells and makes the rest solid. The plate moves there; the other shape stays.	يملأ ما يقف عليه الشكل الآخر بخلايا كاملة بمقاس 42 مم، على بعد 0.25 مم داخله، ويجعل الباقي صلبًا. ينتقل اللوح إلى هناك ويبقى الشكل الآخر في مكانه.	يملأ ما يقف عليه الشكل الآخر بخلايا كاملة بمقاس 42 مم، على بعد 0.25 مم داخله، ويجعل الباقي مصمتًا. ينتقل اللوح إلى هناك ويبقى الشكل الآخر في مكانه.	مصطلح الدليل
+status.gridfinityOutlineReading	checked, no change	Reading the outline…	جارٍ قراءة الحد الخارجي…		
+status.gridfinityOutlineFitted	corrected	Baseplate fitted to the outline. Whole cells: {cells}, the rest solid.	طوبق لوح الشبكة مع الحد الخارجي. الخلايا الكاملة: {cells}، والباقي صلب.	طوبق لوح الشبكة مع الحد الخارجي. الخلايا الكاملة: {cells}، والباقي مصمت.	مصطلح الدليل
+status.gridfinityOutlineNoOutline	checked, no change	This has no outline on the workplane to fit the baseplate into. Put the shape on the workplane first.	لا يوجد هنا حد خارجي على سطح العمل يُطابَق معه لوح الشبكة. ضع الشكل على سطح العمل أولًا.		
+status.gridfinityOutlineSeveral	checked, no change	The outline is in several parts, and a baseplate fills one. Use one shape, or join them first.	الحد الخارجي من عدة أجزاء، ولوح الشبكة يملأ جزءًا واحدًا. استخدم شكلًا واحدًا، أو اجمعها أولًا.		
+status.gridfinityOutlineTooLarge	checked, no change	The outline is larger than one baseplate takes: at most {size} mm across and deep. For a slanted drawer, turn the plate along it first; otherwise use several plates.	الحد الخارجي أكبر مما يأخذه لوح شبكة واحد: {size} مم على الأكثر عرضًا وعمقًا. لدرج مائل، أدر اللوح معه أولًا؛ وإلا فاستخدم عدة ألواح.		
+status.gridfinityOutlineTooLargeSwitch	checked, no change	The outline is larger than a baseplate takes without Large plate: at most {size} mm across and deep. Switch on Large plate for up to {large} mm.	الحد الخارجي أكبر مما يأخذه لوح شبكة دون «لوح شبكة كبير»: {size} مم على الأكثر عرضًا وعمقًا. فعّل «لوح شبكة كبير» ليصل إلى {large} مم.		
+status.gridfinityOutlineTooSmall	checked, no change	The outline is smaller than a baseplate can be: at least {size} mm across and deep.	الحد الخارجي أصغر مما يمكن أن يكون عليه لوح الشبكة: {size} مم على الأقل عرضًا وعمقًا.		
+status.gridfinityOutlineTooComplex	checked, no change	The outline has too many points for a baseplate: at most {count}. Use a simpler shape.	الحد الخارجي فيه نقاط كثيرة جدًا للوح الشبكة: {count} على الأكثر. استخدم شكلًا أبسط.		
+status.gridfinityOutlineTilted	checked, no change	The baseplate has to lie flat on the workplane to be fitted to an outline.	يجب أن يكون لوح الشبكة مستويًا على سطح العمل ليُطابَق مع حد خارجي.		
+status.gridfinityOutlineChanged	checked, no change	The design changed while the outline was read. Try again.	تغيّر التصميم أثناء قراءة الحد الخارجي. حاول مرة أخرى.		
+inspector.gridfinityKeys	checked, no change	Add keys	إضافة وصلات		
+gridfinity.swallowtailKey	checked, no change	Swallowtail key	وصلة Swallowtail		
+status.gridfinityKeysMade	checked, no change	Keys added: {count}, in front of the plate, ready to print. Press each into a pocket across the seam from below until it clicks.	أُضيفت الوصلات: {count}، أمام اللوح، جاهزة للطباعة. اضغط كل واحدة من الأسفل في جيب عبر موضع الالتقاء حتى تستقر بطقة.		
+status.gridfinityKeysNone	checked, no change	This plate has no pockets at its back or right, as those sides are padded, so it brings no keys. Set the padding of one of them to 0 to give it pockets.	لا جيوب لهذا اللوح في الخلف ولا على اليمين، لأن لهذين الجانبين حاشية، فلا وصلات له. اضبط حاشية أحد هذين الجانبين على 0 لتصبح فيه جيوب.		
+status.gridfinityKeysChanged	checked, no change	The design changed while the keys were made. Try again.	تغيّر التصميم أثناء صنع الوصلات. حاول مرة أخرى.		
+surfaceTexture.tilingOnce	checked, no change	Once	مرة واحدة		
+inspector.surfaceImageWidth	checked, no change	Image width	عرض الصورة		
+inspector.surfaceImageHeight	checked, no change	Image height	ارتفاع الصورة		
+inspector.surfaceImageOnceHint	checked, no change	The image is pressed on once, like a label: Around and Height place its middle, as for a text. Outside it the surface stays smooth; Depth and Direction set how far it stands out or is cut in. An image height of 0 keeps the image's proportions. With faces picked, it always lands on them.	"تُطبع الصورة مرة واحدة مثل الملصق: ""حول المحيط"" و""الارتفاع"" يحددان وسطها، كما في النص. خارجها يبقى السطح أملس؛ ويحدد ""العمق"" و""الاتجاه"" مقدار بروزها أو انغراسها. ارتفاع الصورة 0 يحافظ على تناسبها. إذا اخترت أوجهًا، تقع الصورة عليها دائمًا."		
+status.surfaceImageMissed	checked, no change	"The image found no face that may carry it (a mask lies over it). Move it with ""Around"" and ""Height"", or change the masks."	"لم تجد الصورة وجهًا يمكن أن يحملها (يقع فوقها قناع). حرّكها بـ ""حول المحيط"" و""الارتفاع""، أو غيّر الأقنعة."		
+status.surfaceImageTorn	checked, no change	Over a corner the image tears like a sticker – turn or move it if it should stay whole.	فوق زاوية تتمزق الصورة كالملصق – أدِرها أو حرّكها إن كان يجب أن تبقى سليمة.		
+prop.vaseLidHeight	checked, no change	Lid height	ارتفاع الغطاء		
+prop.vaseLidJoint	checked, no change	Body up to · lid from	المزهرية حتى · الغطاء من		
+prop.vaseLidKnob	checked, no change	Knob (printed apart)	مقبض (قطعة منفصلة)		
+vase.lidTeapot	checked, no change	Teapot lid	غطاء إبريق شاي		
+vase.lidHeightHint	checked, no change	This much of the vase's top becomes the lid, with the vase's own wall and pattern: grooves and twist run on across the joint. The body ends open below it.	هذا القدر من أعلى المزهرية يصبح الغطاء، بجدارها ونقشها: تستمر الأخاديد والالتواء عبر الوصلة. وتحته ينتهي الجسم مفتوحًا.		
+vase.lidJointHint	checked, no change	Where the joint is, from the bottom. This field and Lid height add up to the vase's height: type one and the other takes the rest.	موضع الوصلة، مقيسًا من القاع. هذا الحقل و«ارتفاع الغطاء» معًا يساويان ارتفاع المزهرية: اكتب أحدهما فيأخذ الآخر الباقي.		
+vase.partKnob	checked, no change	Knob	مقبض		
+vaseCheck.teapotOverhang	corrected	Teapot lid, printed upside down: overhang of up to {angle}° between {from} and {to} mm of the vase's height (more than 45°) – it needs supports there, or make the form steeper there.	غطاء إبريق الشاي، مطبوعًا مقلوبًا: بروز حتى {angle}° بين ارتفاع {from} و{to} مم من المزهرية (أكثر من 45°) – يحتاج إلى دعامات هناك، أو اجعل الهيئة هناك أكثر انحدارًا.	غطاء إبريق الشاي، مطبوعًا مقلوبًا: بروز حتى {angle}° بين ارتفاع {from} و{to} مم من الإناء (أكثر من 45°) – يحتاج إلى دعامات هناك، أو اجعل الهيئة هناك أكثر انحدارًا.	الإناء → المزهرية
+vaseCheck.teapotOverhangAt	corrected	Teapot lid, printed upside down: overhang of up to {angle}° at {at} mm of the vase's height (more than 45°) – it needs supports there, or make the form steeper there.	غطاء إبريق الشاي، مطبوعًا مقلوبًا: بروز حتى {angle}° عند ارتفاع {at} مم من المزهرية (أكثر من 45°) – يحتاج إلى دعامات هناك، أو اجعل الهيئة هناك أكثر انحدارًا.	غطاء إبريق الشاي، مطبوعًا مقلوبًا: بروز حتى {angle}° عند ارتفاع {at} مم من الإناء (أكثر من 45°) – يحتاج إلى دعامات هناك، أو اجعل الهيئة هناك أكثر انحدارًا.	الإناء → المزهرية
+vaseCheck.teapotNeedsHollow	corrected	"The teapot lid needs a hollow vase (body ""{hollow}"")."	غطاء إبريق الشاي يحتاج إلى مزهرية مجوفة («البنية»: «{hollow}»).	"غطاء إبريق الشاي يحتاج إلى مزهرية مجوفة (البنية ""{hollow}"")."	اسم الواجهة بين «»
+vaseCheck.teapotLowpoly	checked, no change	The teapot lid does not go together with facets.	غطاء إبريق الشاي لا يجتمع مع الأوجه.		
+port.microHdmi	checked, no change	Micro-HDMI	Micro-HDMI		
+prop.portClearance	checked, no change	Extra clearance	خلوص إضافي		
+prop.portClearanceHint	checked, no change	Extra room on every side, on top of the preset's room. For a printed box take 0.2 to 0.5 mm, more if the board is hard to slide in. The width and height grow with it.	مسافة إضافية على كل جانب، فوق المسافة الموجودة للمقبس المختار. لعلبة مطبوعة 0.2 إلى 0.5 مم، وأكثر إذا كانت اللوحة تدخل بصعوبة. يزداد العرض والارتفاع معها.		
+shape.sbcBoard	checked, no change	SBC board	لوحة SBC		
+sbcBoard.title	checked, no change	SBC board	لوحة SBC		
+sbcBoard.cardHint	checked, no change	A single-board computer true to size, with its mounting holes, connectors and larger chips. Pick another board or give the connectors more room: it is made again where it stands.	حاسوب أحادي اللوحة بحجمه الحقيقي، مع ثقوب التثبيت والموصلات والشرائح الأكبر. اختر لوحة أخرى أو امنح الموصلات مساحة أكبر: تُصنع من جديد في مكانها.		
+sbcBoard.board	checked, no change	Board	اللوحة		
+sbcBoard.clearance	checked, no change	Connector clearance	خلوص الموصلات		
+sbcBoard.clearanceHint	checked, no change	Extra room on every side of the connectors at the edge, so a case wall cut with the board leaves them a gap. For a printed case 0.2 to 0.5 mm.	مساحة إضافية على كل جانب من الموصلات عند الحافة، حتى يترك جدار العلبة المقطوع باللوحة فجوة لها. لعلبة مطبوعة 0.2 إلى 0.5 مم.		
+sbcBoard.reach	checked, no change	Reach through the wall	الامتداد عبر الجدار		
+sbcBoard.reachHint	checked, no change	How much further out the connectors at the edge reach, so they cut through a case wall: the real ones stand out of the board only 1 to 3 mm. A little more than the wall is thick.	مقدار امتداد موصلات الحافة إلى الخارج أكثر، لتقطع جدار العلبة: الموصلات الحقيقية لا تبرز عن اللوحة إلا 1 إلى 3 مم. أكثر قليلًا من سماكة الجدار.		
+sbcBoard.ribbonUp	checked, no change	Ribbon cables up through the lid	الكابلات الشريطية لأعلى عبر الغطاء		
+sbcBoard.ribbonSide	checked, no change	Ribbon cables out through the wall	الكابلات الشريطية جانبًا عبر الجدار		
+sbcBoard.gpioUp	checked, no change	GPIO header up through the lid	موصل GPIO لأعلى عبر الغطاء		
+sbcBoard.upReach	checked, no change	Reach up	الامتداد لأعلى		
+sbcBoard.passagesHint	checked, no change	Ribbon cables (camera, display, PCIe) and the GPIO header can open up through a lid, by Reach up (at least 20 mm), or the cables out through the nearer wall, by the reach. The microSD card slot is a connector at the edge.	يمكن أن تنفتح الكابلات الشريطية (الكاميرا، الشاشة، PCIe) وموصل GPIO لأعلى عبر الغطاء بمقدار الامتداد لأعلى (20 مم على الأقل)، والكابلات أيضًا جانبًا عبر الجدار الأقرب بمقدار الامتداد. فتحة بطاقة microSD موصل عند الحافة.		
+sbcBoard.building	checked, no change	Making the board…	جارٍ صنع اللوحة…		
+sbcBoard.failed	checked, no change	The board could not be made.	تعذّر صنع اللوحة.		
+status.sbcBoardAdded	checked, no change	{name} added	تمت إضافة {name}		
+status.sbcBoardRegenerated	checked, no change	{name} made again	أُعيد صنع {name}		
+port.xt30	checked, no change	XT30	XT30		
+port.xt60	checked, no change	XT60	XT60		
+port.mt60	checked, no change	MT60 (3-pin)	MT60 (3 أطراف)		
+port.mpx	checked, no change	MPX (Multiplex)	MPX (Multiplex)		
+port.dsub9	checked, no change	D-Sub 9 (serial port, RS-232/RS-485)	D-Sub 9 (منفذ تسلسلي، RS-232/RS-485)		
+status.portScrewHolesAdded	checked, no change	Screw holes added	تمت إضافة ثقوب البراغي		
+export.step.note	checked, no change	Keeps boxes, cylinders, spheres and cones as precise CAD geometry, along with anything whose edges were rounded or chamfered and bodies that came in as STEP. Threads, springs and gears go as their exact body too. Tapered, leaning and twisted shapes go exactly too. Imported meshes go along made exact, their planes, cylinders, cones, spheres and tori as real faces; a free-form mesh, such as a figure, goes as STL.	يحتفظ بالصناديق والأسطوانات والكرات والمخاريط كهندسة CAD دقيقة، وكذلك بكل ما نُعّمت حوافه أو شُطفت، وبالأجسام التي استُوردت بصيغة STEP. والأسنان اللولبية والنوابض والتروس تُصدَّر كأجسام دقيقة أيضًا، وكذلك الأشكال المستدقة والمائلة والملتوية. أما الشبكات المستوردة فتُصدَّر بعد تحويلها إلى أجسام دقيقة، بمستوياتها وأسطواناتها ومخاريطها وكراتها وطاراتها أوجهًا حقيقية؛ والشبكة حرّة الشكل، كالمجسّم، تُصدَّر بصيغة STL.		
+import.dropZone	checked, no change	Drop STL, OBJ (with its .mtl or as a ZIP), 3MF, STEP, SVG, DXF, PNG or JPG files	أفلت هنا ملفات STL أو OBJ (مع ملف .mtl الخاص به أو كملف ZIP) أو 3MF أو STEP أو SVG أو DXF أو PNG أو JPG		
+editor.needs.exactMesh	checked, no change	Select one imported mesh, such as an STL	اختر شبكة مستوردة واحدة، مثل ملف STL		
+camera.showScrollbars	checked, no change	Show scrollbars	إظهار أشرطة التمرير		
+camera.hideScrollbars	checked, no change	Hide scrollbars	إخفاء أشرطة التمرير		
+viewScroll.left	checked, no change	Slide the view left	تحريك العرض لليسار		
+viewScroll.right	checked, no change	Slide the view right	تحريك العرض لليمين		
+viewScroll.up	checked, no change	Slide the view up	تحريك العرض لأعلى		
+viewScroll.down	checked, no change	Slide the view down	تحريك العرض لأسفل		
+viewScroll.horizontal	checked, no change	Slide the view sideways	تحريك العرض جانبيًا		
+viewScroll.vertical	checked, no change	Slide the view up and down	تحريك العرض لأعلى ولأسفل		
+camera.lookOntoWorkplane	checked, no change	Look straight onto the workplane	النظر مباشرة على سطح العمل		
+camera.protractor	checked, no change	Protractor	المنقلة		
+camera.protractorPoints	checked, no change	Angle from three points	زاوية من ثلاث نقاط		
+camera.protractorPointsHint	checked, no change	Angle from three points: click the corner first, then a point on each side.	زاوية من ثلاث نقاط: انقر على الركن أولًا، ثم على نقطة في كل ضلع.		
+camera.protractorFaces	checked, no change	Angle between two faces	زاوية بين وجهين		
+camera.protractorFacesHint	checked, no change	Angle between two faces: click two flat faces. It shows both angles the faces make, the smaller first.	زاوية بين وجهين: انقر على وجهين مستويين. تظهر الزاويتان اللتان يصنعهما الوجهان، الصغرى أولًا.		
+camera.protractorClear	checked, no change	Remove the angle	إزالة الزاوية		
+status.protractorPoints	checked, no change	Protractor: click the corner, then a point on each side.	المنقلة: انقر على الركن، ثم على نقطة في كل ضلع.		
+status.protractorFaces	checked, no change	Protractor: click two flat faces.	المنقلة: انقر على وجهين مستويين.		
+status.protractorFlatFace	checked, no change	That face is curved: the protractor measures between flat faces.	هذا الوجه منحنٍ: المنقلة تقيس بين وجوه مستوية.		
+workspace.dimensionAxisColors	checked, no change	Dimension boxes in axis colours	مربعات الأبعاد بألوان المحاور		
+workspace.dimensionAxisColorsHint	checked, no change	Each value box beside a selection takes the colour of its axis: red X, green Y, blue Z.	يأخذ كل مربع قيمة بجانب التحديد لون محوره: X أحمر، وY أخضر، وZ أزرق.		
+workspace.spaceMouseInvert	checked, no change	If a direction feels the wrong way round, turn it round:	إذا بدا اتجاه معكوسًا فاعكسه:		
+workspace.spaceMouseInvertShift	checked, no change	Shift left/right	إزاحة يسارًا/يمينًا		
+workspace.spaceMouseInvertLift	checked, no change	Shift up/down	إزاحة لأعلى/لأسفل		
+workspace.spaceMouseInvertZoom	checked, no change	Zoom	التكبير		
+workspace.spaceMouseInvertTilt	checked, no change	Tilt	الإمالة		
+workspace.spaceMouseInvertTwist	checked, no change	Twist	التدوير		
+sketch.freehand	checked, no change	Freehand	رسم حر		
+outliner.moveShape	checked, no change	Move in the list: drag, or press the up and down arrow keys	انقل في القائمة: اسحب أو اضغط مفتاحي السهم لأعلى ولأسفل		
+note.forAi	checked, no change	For the AI	للذكاء الاصطناعي		
+note.forAiHint	checked, no change	Marks the note as a request for the AI agent on the MCP bridge: it reads the note, does the work and answers under the text.	يجعل الملاحظة طلبًا لوكيل الذكاء الاصطناعي على جسر MCP: يقرأ الملاحظة وينجز العمل ويرد أسفل النص.		
+note.reply	checked, no change	Answer	الرد		
+edge.concave	corrected	Concave (scoop out)	مقعّر (حفر للداخل)	مقعّر (قطع للداخل)	scoop out = حفر
+edge.concaveHint	checked, no change	Cuts a quarter-round scoop out of each edge instead of rounding it off, like the notched corners of a box. Straight edges only.	بدل تدوير الحافة يقطع تجويفًا بشكل ربع دائرة من كل حافة، مثل زوايا الصندوق المجوّفة. للحواف المستقيمة فقط.		
+edge.revertConcaveOne	checked, no change	Concave fillet ({size} mm, 1 edge)	تنعيم مقعّر ({size} مم، حافة واحدة)		
+edge.revertConcaveMany	checked, no change	Concave fillet ({size} mm, {count} edges)	تنعيم مقعّر ({size} مم، حواف: {count})		
+edge.concaveStraightOnly	corrected	A concave fillet works on straight edges only. Pick only straight edges.	التنعيم المقعّر يعمل على الحواف المستقيمة فقط. حدّد حوافًا مستقيمة فقط.	الشكل المقعّر يعمل على الحواف المستقيمة فقط. حدّد حوافًا مستقيمة فقط.	concave fillet = تنعيم مقعّر
+align.spreadDo	checked, no change	Equal gaps: {label}	مسافات متساوية: {label}		
+align.spreadAlready	checked, no change	Gaps already equal: {label}	المسافات متساوية بالفعل: {label}		
+align.spreadGap	checked, no change	Type the gap: {label}	اكتب المسافة: {label}		
+align.gapLabel	checked, no change	Gap	المسافة		
+align.gapApply	checked, no change	Apply	تطبيق		
+align.gapCancel	checked, no change	Close	إغلاق		

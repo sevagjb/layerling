@@ -1,0 +1,413 @@
+chapter	english	arabic (new; old; reason)
+07-sketches.md	The sketch lies on the workplane. To draw on a face of a body, for an outline that should start higher up, say, first put the workplane on that face with [[W]] (see [View and workplane](chapter:view-and-workplane)), then start the sketch.	يقع الرسم التخطيطي على سطح العمل. وللرسم على وجه جسم، لحد خارجي يجب أن يبدأ أعلى مثلًا، ضع سطح العمل أولًا على ذلك الوجه بـ [[W]] (انظر [العرض وسطح العمل](chapter:view-and-workplane))، ثم ابدأ الرسم التخطيطي.
+07-sketches.md	## Drawing	## الرسم (Drawing)
+07-sketches.md	The ribbon in sketch mode is divided into areas. Below, each tool has a card of its own: what you do, one step to a line, and after an arrow what happens then. The key on the right of a card picks the tool.	ينقسم الشريط في وضع الرسم التخطيطي إلى مناطق. فيما يلي لكل أداة بطاقة خاصة بها: ما تفعله، خطوة في كل سطر، وبعد السهم ما يحدث عندها. والمفتاح على يمين البطاقة يختار الأداة.
+07-sketches.md	### Drawing tools	### أدوات الرسم
+07-sketches.md	"::: icon=line {{ui:sketch.line}} | [[1]]
+Click points one after another.
+Hold [[Shift]] to snap the new line in 15° steps, horizontal and vertical included.
+=> The length and angle of the new line show at the pointer.
+To type how long it should be, see [Lines by numbers](#lines-by-numbers).
+> Every point you click lands on the snap grid set under {{ui:inspector.snapGrid}}. With [[Shift]] held the 15° step comes first: the length still goes in grid steps, but the end can lie between the grid lines.
+:::"	"::: icon=line {{ui:sketch.line}} | [[1]]
+انقر النقاط واحدة تلو الأخرى.
+اضغط [[Shift]] ليلتقط الخط الجديد بخطوات 15°، والأفقي والرأسي مشمولان.
+=> يظهر طول الخط الجديد وزاويته عند المؤشر.
+ولكتابة طوله المطلوب، انظر [الخطوط بالأرقام](#lines-by-numbers).
+> كل نقطة تنقرها تقع على شبكة الالتقاط المضبوطة تحت {{ui:inspector.snapGrid}}. ومع الضغط على [[Shift]] تأتي خطوة 15° أولًا: يبقى الطول بخطوات الشبكة، لكن الطرف يمكن أن يقع بين خطوط الشبكة.
+:::"
+07-sketches.md	"::: icon=arc {{ui:sketch.arc}}
+Click the two ends of the arc.
+Click a third point the arc runs through.
+=> Until that third click a preview follows the pointer, and the message names the radius.
+=> An end clicked on an existing point joins it, so an arc can close an outline.
+[[Esc]] drops the points clicked so far and goes back to {{ui:sketch.select}}.
+> Once drawn, the arc is ordinary geometry made of points and curves: move, cut or erase it like any other line.
+:::"	"::: icon=arc {{ui:sketch.arc}}
+انقر على طرفي القوس.
+انقر على نقطة ثالثة يمر بها القوس.
+=> حتى تلك النقرة الثالثة تتبع معاينةٌ المؤشر، وتذكر الرسالة نصف القطر.
+=> الطرف الذي تنقره على نقطة موجودة يتصل بها، فيمكن للقوس أن يغلق حدًا خارجيًا.
+يُسقط [[Esc]] النقاط المنقورة حتى الآن ويعود إلى {{ui:sketch.select}}.
+> بعد رسمه يكون القوس هندسة عادية من نقاط ومنحنيات: حرّكه أو اقطعه أو امسحه كأي خط آخر.
+:::"
+07-sketches.md	"::: icon=bezier {{ui:sketch.bezier}} | [[2]]
+Click a point and drag in the direction the line should carry on, as with the pen tool in Illustrator or Inkscape.
+=> The further you drag, the more it bends.
+=> The stretch to the new point bends along while you drag, so you see what you get.
+> Coming from Tinkercad and just want to click points? Take the {{ui:sketch.smooth}}.
+> The first stretch only bends at its start if you drag at the first point too. Just clicked, the line leaves that point straight; to bend it later, select the point with {{ui:sketch.select}} and drag its handle.
+:::"	"::: icon=bezier {{ui:sketch.bezier}} | [[2]]
+انقر نقطة واسحب في الاتجاه الذي يجب أن يستمر فيه الخط، كما في أداة القلم في Illustrator أو Inkscape.
+=> كلما سحبت أبعد، زاد الانثناء.
+=> الجزء الممتد إلى النقطة الجديدة ينثني معك أثناء السحب، فترى ما ستحصل عليه.
+> قادم من Tinkercad وتريد النقر على النقاط فقط؟ استخدم {{ui:sketch.smooth}}.
+> لا ينثني الجزء الأول عند بدايته إلا إذا سحبت عند النقطة الأولى أيضًا. فإذا نقرتها فقط، يخرج الخط منها مستقيمًا؛ ولثنيه لاحقًا، حدّد النقطة بـ {{ui:sketch.select}} واسحب مقبضها.
+:::"
+07-sketches.md	"::: icon=smooth {{ui:sketch.smooth}} | [[3]]
+Click points one after another.
+=> It lays a flowing path through the points you click.
+> At the two ends of an open line the curve heads straight for the next point, so the first and the last stretch bend less than the others. To bend one more, select its end point with {{ui:sketch.select}} and drag its handle. In a closed outline every point bends alike.
+:::"	"::: icon=smooth {{ui:sketch.smooth}} | [[3]]
+انقر النقاط واحدة تلو الأخرى.
+=> يمدّ مسارًا انسيابيًا عبر النقاط التي تنقر عليها.
+> عند طرفي الخط المفتوح يتجه المنحنى مباشرة نحو النقطة التالية، فينثني الجزءان الأول والأخير أقل من غيرهما. ولثني أحدهما أكثر، حدّد نقطة طرفه بـ {{ui:sketch.select}} واسحب مقبضها. وفي الحد الخارجي المغلق تنثني كل النقاط بالتساوي.
+:::"
+07-sketches.md	"::: Closing or ending a line
+To close the outline, click the first point again at the end.
+To end the chain of lines without closing the outline, right-click without moving the pointer, or double-click the last point.
+=> A body comes only from a **closed** outline.
+:::"	"::: إغلاق الخط أو إنهاؤه
+لإغلاق الحد الخارجي، انقر على النقطة الأولى مجددًا في النهاية.
+ولإنهاء سلسلة الخطوط دون إغلاق الحد الخارجي، انقر بزر الفأرة الأيمن دون تحريك المؤشر، أو انقر نقرًا مزدوجًا على النقطة الأخيرة.
+=> الجسم يأتي فقط من حد خارجي **مغلق**.
+:::"
+07-sketches.md	"::: icon=freehand {{ui:sketch.freehand}} | [[5]]
+Draw with the pen, a finger or the mouse, as on paper.
+=> When you lift it, the line becomes ordinary points: a corner where it turned sharply, smooth points in between, only as many as the shape needs, so each can be dragged afterwards.
+Zoom in for fine detail: the closer you look, the more closely the line follows your hand.
+=> A line that ends where it began closes into an outline that can become a body; an open one stays a line, for {{ui:sketch.stroke}} or as a path to sweep along.
+Start on lines or on a template picture to trace a picture by hand.
+Begin or end a stroke at an open end to carry that line on, so a shape can be drawn in several strokes.
+> The stroke does not keep to the snap grid, so that it follows your hand. A point you drag afterwards does snap to it, unless {{ui:inspector.snapGrid}} is switched off.
+:::"	"::: icon=freehand {{ui:sketch.freehand}} | [[5]]
+ارسم بالقلم أو بالإصبع أو بالفأرة، كما على الورق.
+=> عندما ترفعه يصبح الخط نقاطًا عادية: زاوية حيث انعطف بحدة، ونقاط سلسة بينها، بقدر ما يحتاجه الشكل فقط، فيمكن سحب كل نقطة بعد ذلك.
+كبّر العرض للتفاصيل الدقيقة: كلما نظرت عن قرب تبع الخط يدك بدقة أكبر.
+=> الخط الذي ينتهي حيث بدأ يُغلق ليصبح حدًا خارجيًا يمكن أن يصير جسمًا؛ أما المفتوح فيبقى خطًا، لـ {{ui:sketch.stroke}} أو مسارًا للسحب على امتداده.
+ابدأ فوق الخطوط أو فوق صورة قالب لتتبّع صورة باليد.
+ابدأ الخط أو أنهِه عند طرف مفتوح لتُكمل ذلك الخط، فيمكن رسم الشكل بعدة ضربات.
+> لا يلتزم الخط بشبكة الالتقاط، حتى يتبع يدك. أما النقطة التي تسحبها بعد ذلك فتلتقط إليها، إلا إذا كانت {{ui:inspector.snapGrid}} معطّلة.
+:::"
+07-sketches.md	> The digits pick a tool as long as no line is being drawn; while one is, they are its length (see below). With {{ui:sketch.select}} and lines or points selected, the same keys change them instead: [[1]] makes lines straight and points corners, [[2]] turns lines into curves and [[3]] makes points smooth. With nothing selected they pick the tool as before.	> تختار الأرقام أداةً ما دام لا يُرسم خط؛ أما أثناء رسم خط فهي طوله (انظر أدناه). ومع {{ui:sketch.select}} وخطوط أو نقاط محددة، تغيّرها المفاتيح نفسها بدلًا من ذلك: [[1]] يجعل الخطوط مستقيمة والنقاط زوايا، و[[2]] يحوّل الخطوط إلى منحنيات، و[[3]] يجعل النقاط سلسة. ومن دون تحديد تختار الأداة كما من قبل.
+07-sketches.md	### Shapes	### الأشكال
+07-sketches.md	"::: {{ui:sketch.addShape}}
+Pick a ready-made outline: {{ui:sketch.rectangle}}, {{ui:sketch.circle}}, {{ui:sketch.ellipse}}, {{ui:sketch.halfCircle}}, {{ui:sketch.pieSlice}}, {{ui:sketch.boltCircle}} (a disc with holes), {{ui:sketch.triangle}}, {{ui:sketch.hexagon}}, a {{ui:sketch.polygon}} or a {{ui:sketch.star}}.
+Click it to put it at the origin of the sketch, or drag it from the menu to where you want it.
+At the bottom of the menu, {{ui:sketch.polygonSides}} sets the number of sides of the polygon and of points of the star, and {{ui:sketch.starInner}} how deep the star's valleys reach in towards the middle (10 to 90 percent of the outer radius).
+=> Both apply to the next shape you add.
+=> Like every sketch shape they are ordinary corner points afterwards, so you can move, round or chamfer them one by one.
+> The rectangle starts with the width and depth set for the box under {{ui:workspace.shapeDefaults}} in the settings, the circle and the ellipse with the width of the cylinder there; without a default of your own, and for the other shapes, they start 20 mm across.
+:::"	"::: {{ui:sketch.addShape}}
+اختر حدًا خارجيًا جاهزًا: {{ui:sketch.rectangle}} أو {{ui:sketch.circle}} أو {{ui:sketch.ellipse}} أو {{ui:sketch.halfCircle}} أو {{ui:sketch.pieSlice}} أو {{ui:sketch.boltCircle}} (قرص فيه ثقوب) أو {{ui:sketch.triangle}} أو {{ui:sketch.hexagon}} أو {{ui:sketch.polygon}} أو {{ui:sketch.star}}.
+انقر عليه لوضعه عند نقطة أصل الرسم التخطيطي، أو اسحبه من القائمة إلى حيث تريد.
+في أسفل القائمة يضبط {{ui:sketch.polygonSides}} عدد أضلاع المضلع ورؤوس النجمة، و{{ui:sketch.starInner}} مدى عمق تجاويف النجمة نحو الوسط (من 10 إلى 90 بالمئة من نصف القطر الخارجي).
+=> كلاهما يسري على الشكل التالي الذي تضيفه.
+=> ومثل كل أشكال الرسم التخطيطي، تصبح بعد ذلك نقاط زوايا عادية، فيمكنك تحريكها أو تنعيمها أو شطفها كلًّا على حدة.
+> يبدأ المستطيل بالعرض والعمق المضبوطين للصندوق تحت {{ui:workspace.shapeDefaults}} في الإعدادات، والدائرة والقطع الناقص بعرض الأسطوانة هناك؛ ومن دون قيمة خاصة بك، وفي باقي الأشكال، يكون قياسها 20 مم.
+:::"
+07-sketches.md	"::: Overlapping outlines
+Push two closed outlines over each other.
+=> They stay two bodies, which merge in the 3D editor; the overlap is not a hole.
+=> Moving does not join the lines where they cross, so you can pull the shapes apart again.
+Draw a line across others instead, and layerling puts a point at every crossing.
+> A hole only comes from an outline lying wholly inside another.
+:::"	"::: حدود خارجية متداخلة
+ادفع حدّين خارجيين مغلقين أحدهما فوق الآخر.
+=> يبقيان جسمين يندمجان في المحرر ثلاثي الأبعاد؛ فالتداخل ليس ثقبًا.
+=> والتحريك لا يربط الخطوط عند تقاطعها، فيمكنك فصل الأشكال مجددًا.
+أما إذا رسمت خطًا يعبر خطوطًا أخرى، فيضع layerling نقطة عند كل تقاطع.
+> لا ينشأ الثقب إلا من حد خارجي يقع بالكامل داخل آخر.
+:::"
+07-sketches.md	### Select and change	### التحديد والتغيير
+07-sketches.md	"::: icon=select {{ui:sketch.select}}
+Click a point or a line and drag it to move it.
+Click inside a closed outline to select the whole outline; inside a hole it picks the hole.
+=> You can drag or resize it straight away.
+Hold [[Shift]] and click to add a point or line to the selection or take it away again, so you can move several together.
+Drag a box over empty space to select everything in it.
+Drag a line to move it by its two ends, or all of the selection if it is part of one.
+The arrow keys move the selection by one grid step, [[Shift]] with them by a larger one.
+Hold [[Shift]] while you drag to keep the move on one axis.
+:::"	"::: icon=select {{ui:sketch.select}}
+انقر على نقطة أو خط واسحبه لتحريكه.
+انقر داخل حد خارجي مغلق لتحديده كله؛ وداخل ثقب يختار الثقب.
+=> يمكنك سحبه أو تغيير حجمه فورًا.
+اضغط [[Shift]] وانقر لإضافة نقطة أو خط إلى التحديد أو إزالته منه، فيمكنك تحريك عدة عناصر معًا.
+اسحب مربعًا فوق مساحة فارغة لتحديد كل ما فيه.
+اسحب خطًا لتحريكه بطرفيه، أو بالتحديد كله إن كان جزءًا منه.
+مفاتيح الأسهم تحرّك التحديد بخطوة شبكة واحدة، ومع [[Shift]] بخطوة أكبر.
+اضغط [[Shift]] أثناء السحب لإبقاء الحركة على محور واحد.
+:::"
+07-sketches.md	"::: The frame round the selection
+Drag a corner handle to change width and height together; hold [[Shift]] to keep the proportions.
+Drag a side handle to change one direction only.
+Click the width or height pill to type a new size, also as a sum (""60+12.5"") or in percent (""150%"").
+Drag the curved arrows beyond the corners to turn the whole selection about its middle.
+=> The figure over the pointer shows the angle; with [[Shift]] held it moves in steps of 15°.
+=> While you turn, a ring appears: with the pointer inside it the turn snaps to 22.5°, outside it goes in whole degrees, whatever the grid.
+[[R]] turns a whole closed outline by 45° at each press.
+:::"	"::: الإطار حول التحديد
+اسحب مقبض زاوية لتغيير العرض والارتفاع معًا؛ واضغط [[Shift]] للحفاظ على النسب.
+اسحب مقبضًا جانبيًا لتغيير اتجاه واحد فقط.
+انقر على خانة العرض أو الارتفاع لكتابة حجم جديد، ولو كمجموع (""60+12.5"") أو بنسبة مئوية (""150%"").
+اسحب الأسهم المنحنية خارج الزوايا لتدوير التحديد كله حول وسطه.
+=> الرقم فوق المؤشر يعرض الزاوية؛ ومع الضغط على [[Shift]] يدور بخطوات 15°.
+=> أثناء التدوير تظهر حلقة: عندما يكون المؤشر داخلها يلتقط الدوران بخطوات 22.5°، وخارجها يدور بدرجات كاملة، بغض النظر عن الشبكة.
+[[R]] يدير حدًا خارجيًا مغلقًا كاملًا 45° مع كل ضغطة.
+:::"
+07-sketches.md	"::: The bar above the sketch
+{{ui:sketch.keepProportions}} keeps the proportions without [[Shift]]: the corners and sides then stretch both ways alike, and a typed width or height changes the other one too.
+=> layerling remembers the switch.
+The X and Y fields show where the middle of the selection lies, in mm from the sketch's origin. Type a value to move it there, for a hole exactly 12 mm from the middle, say. Y counts upwards, as in the 3D editor.
+With two or more outlines selected, the bar lines them up: left, centred or right, and top, centred or bottom, on the frame round all of them.
+=> Each outline moves as a whole and keeps its shape; centred both ways, two circles become a ring.
+:::"	"::: الشريط فوق الرسم التخطيطي
+{{ui:sketch.keepProportions}} يحافظ على النسب دون [[Shift]]: فتمدّ الزوايا والجوانب عندها في الاتجاهين بالتساوي، والعرض أو الارتفاع المكتوب يغيّر الآخر أيضًا.
+=> يتذكر layerling هذا المفتاح.
+يعرض الحقلان X وY موضع منتصف التحديد بالمليمتر من أصل الرسم التخطيطي. اكتب قيمة لنقله إلى هناك، لثقب على بعد 12 مم بالضبط من المنتصف مثلًا. يزداد Y نحو الأعلى، كما في المحرر ثلاثي الأبعاد.
+ومع تحديد حدّين خارجيين أو أكثر، يحاذيها الشريط: يسارًا أو في المنتصف أو يمينًا، وأعلى أو في المنتصف أو أسفل، على الإطار المحيط بها كلها.
+=> يتحرك كل حد خارجي ككل ويحتفظ بشكله؛ ودائرتان موسّطتان في الاتجاهين تصبحان حلقة.
+:::"
+07-sketches.md	"::: Locking an outline | [[Ctrl]]+[[L]]
+Click {{ui:sketch.lockOutline}} in the bar to lock the selected outline, like a locked body in the 3D editor.
+=> It can no longer be moved, resized, turned or changed. Its lines turn paler, its points grey, and the frame's handles turn grey and no longer respond.
+=> Lines may still start at its corners.
+=> When outlines are lined up, a locked one stays where it is and the others line up on it.
+To free it, click the padlock in its corner while it is selected, or click {{ui:sketch.unlockOutline}}.
+:::"	"::: قفل حد خارجي | [[Ctrl]]+[[L]]
+انقر {{ui:sketch.lockOutline}} في الشريط لقفل الحد الخارجي المحدد، مثل الجسم المقفل في المحرر ثلاثي الأبعاد.
+=> لا يعود من الممكن نقله أو تغيير حجمه أو تدويره أو تعديله. وتصبح خطوطه أبهت ونقاطه رمادية، وتصبح مقابض الإطار رمادية ولا تستجيب.
+=> ويمكن مع ذلك أن تبدأ الخطوط من زواياه.
+=> وعند محاذاة الحدود الخارجية يبقى المقفل منها في مكانه وتصطف الأخرى عليه.
+لتحريره، انقر على القفل في زاويته وهو محدد، أو انقر {{ui:sketch.unlockOutline}}.
+:::"
+07-sketches.md	"::: icon=refine {{ui:sketch.refine}} | [[4]]
+Click a section to add a point.
+Click a point to remove it.
+=> layerling joins its two neighbours, so the outline stays closed.
+:::"	"::: icon=refine {{ui:sketch.refine}} | [[4]]
+انقر على مقطع لإضافة نقطة.
+انقر على نقطة لإزالتها.
+=> يصل layerling جارتيها، فيبقى الحد الخارجي مغلقًا.
+:::"
+07-sketches.md	"::: icon=erase {{ui:sketch.erase}}
+Click a point or a line to take it away.
+Drag a window over several to take away everything inside it.
+With something selected, the button erases the selection.
+To get rid of only a piece of a circle, for a rounded corner say, click exactly that piece of arc between two points.
+=> The rest stays.
+:::"	"::: icon=erase {{ui:sketch.erase}}
+انقر على نقطة أو خط لإزالته.
+اسحب نافذة فوق عدة عناصر لإزالة كل ما فيها.
+ومع وجود تحديد، يمسح الزر المحدد.
+وللتخلص من قطعة واحدة فقط من دائرة، لزاوية مدوّرة مثلًا، انقر على قطعة القوس تلك بالضبط بين نقطتين.
+=> يبقى الباقي.
+:::"
+07-sketches.md	"::: Closing a gap
+Drag one open end onto the other, for example after erasing one side of a hexagon.
+=> It snaps there and the two become one point, so the outline is closed again.
+=> At a crossing, such as where a line cuts a circle, the sides that run straight on are joined: arc with arc, line with line, and the circle stays round.
+:::"	"::: سدّ فجوة
+اسحب أحد الطرفين المفتوحين إلى الآخر، مثلًا بعد مسح جانب من شكل سداسي.
+=> يلتقط هناك ويصبح الطرفان نقطة واحدة، فيُغلق الحد الخارجي من جديد.
+=> وعند التقاطع، مثل موضع يقطع فيه خطٌ دائرةً، توصل الجوانب التي تستمر مستقيمة: القوس بالقوس والخط بالخط، وتبقى الدائرة مستديرة.
+:::"
+07-sketches.md	"::: icon=image {{ui:sketch.addImage}}
+Put a template picture under the sketch to trace it, see [A picture as template](#a-picture-as-template).
+:::"	"::: icon=image {{ui:sketch.addImage}}
+ضع صورة قالب تحت الرسم التخطيطي لتتبّعها، انظر [صورة كقالب](#a-picture-as-template).
+:::"
+07-sketches.md	### Clipboard and history	### الحافظة والسجل
+07-sketches.md	"::: Copy, paste, duplicate, delete
+{{ui:editor.tool.copy}}, {{ui:editor.tool.paste}}, {{ui:editor.tool.duplicate}} and {{ui:editor.tool.delete}} work on the selected points, lines and images, as in the 3D editor; [[Ctrl]]+[[X]] cuts.
+=> Pasted and duplicated geometry lands next to the original with a 10 mm gap, on a free spot where it touches no existing line, so it never gets joined to what is already there.
+=> It stays selected, so you can drag it straight into place.
+{{ui:sketch.undo}} and {{ui:sketch.redo}} take a step back and forward again.
+:::"	"::: نسخ، لصق، تكرار، حذف
+{{ui:editor.tool.copy}} و{{ui:editor.tool.paste}} و{{ui:editor.tool.duplicate}} و{{ui:editor.tool.delete}} تعمل على النقاط والخطوط والصور المحددة، كما في المحرر ثلاثي الأبعاد؛ و[[Ctrl]]+[[X]] يقص.
+=> الهندسة الملصقة أو المكررة تهبط بجانب الأصل على بعد 10 مم، في مكان خالٍ لا تلمس فيه أي خط موجود، فلا تنضم أبدًا إلى ما هو موجود.
+=> وتبقى محددة، فيمكنك سحبها إلى مكانها فورًا.
+{{ui:sketch.undo}} و{{ui:sketch.redo}} يرجعان خطوة إلى الخلف ثم إلى الأمام من جديد.
+:::"
+07-sketches.md	### Notes	### الملاحظات
+07-sketches.md	"::: {{ui:editor.tool.note}} | [[N]]
+Click {{ui:editor.tool.note}} under {{ui:sketch.viewControls}}, then click where the note should go: anywhere, on a line too.
+Drag the pin to move it; a click on the pin folds the card away.
+=> The notes of a sketch belong to its body: in the 3D view they sit on top of an extruded or swept body and on the drawn profile of a revolved one, and they move with it.
+=> Opening the sketch again shows all of the body's notes, those placed in 3D too.
+{{ui:sketch.undo}} takes back a note like a line, and {{ui:sketch.cancel}} discards what changed in the notes.
+> More in the chapter [Measuring and notes](chapter:measuring-and-notes).
+:::"	"::: {{ui:editor.tool.note}} | [[N]]
+انقر {{ui:editor.tool.note}} تحت {{ui:sketch.viewControls}}، ثم انقر حيث يجب أن تكون الملاحظة: في أي مكان، حتى على خط.
+اسحب الدبوس لنقلها؛ والنقر على الدبوس يطوي البطاقة.
+=> ملاحظات الرسم التخطيطي تخص جسمه: في العرض ثلاثي الأبعاد تجلس فوق الجسم المبثوق أو المسحوب على مسار، وعلى المقطع المرسوم للجسم الدوراني، وتتحرك معه.
+=> إعادة فتح الرسم التخطيطي تعرض كل ملاحظات الجسم، ومنها التي وُضعت في العرض ثلاثي الأبعاد.
+{{ui:sketch.undo}} يتراجع عن الملاحظة كما يتراجع عن الخط، و{{ui:sketch.cancel}} يتجاهل ما تغيّر في الملاحظات.
+> المزيد في فصل [القياس والملاحظات](chapter:measuring-and-notes).
+:::"
+07-sketches.md	### View and dimensions	### العرض والأبعاد
+07-sketches.md	"::: Moving the view
+Pan with the middle mouse button, or with [[Shift]] or [[Ctrl]] plus the right mouse button, as in the 3D editor.
+With nothing selected, [[Ctrl]] and the arrow keys slide it too: a tenth of the view a press, half with [[Shift]] as well; the sketch moves the way they point.
+[[Home]] fits the whole sketch in the view, [[F]] zooms to the selection (with nothing selected, to the whole sketch), and [[+]] and [[−]] zoom in and out, as in the 3D editor.
+With nothing selected, double-click an empty spot to slide it to the middle of the view.
+> {{ui:workspace.doubleClickCentersView}} in the settings switches the double-click off.
+:::"	"::: تحريك العرض
+أزح العرض بالزر الأوسط للفأرة، أو بـ [[Shift]] أو [[Ctrl]] مع الزر الأيمن، كما في المحرر ثلاثي الأبعاد.
+ومع عدم تحديد أي شيء تُزيحه [[Ctrl]] مع مفاتيح الأسهم أيضًا: عُشر العرض لكل ضغطة، ونصفه مع [[Shift]] أيضًا؛ ويتحرك الرسم التخطيطي في الاتجاه الذي تشير إليه.
+[[Home]] يُظهر الرسم التخطيطي كله في العرض، و[[F]] يكبّر على التحديد (وعند عدم وجود تحديد يُظهر الرسم كله)، و[[+]] و[[−]] يكبّران ويصغّران، كما في المحرر ثلاثي الأبعاد.
+ومع عدم تحديد أي شيء، انقر نقرًا مزدوجًا على موضع فارغ لإزاحته إلى وسط العرض.
+> يوقف {{ui:workspace.doubleClickCentersView}} في الإعدادات النقر المزدوج.
+:::"
+07-sketches.md	"::: Dimensions
+Click a line or a point.
+=> The sketch shows the length of the line, or for a point the lengths of the lines that meet there.
+{{ui:sketch.showMeasurements}} on the sketch toolbar hides and shows these dimensions when they get in the way, for example while shaping curves.
+The {{ui:camera.tapeTools}} on the sketch toolbar measures the distance between two points; it keeps working with the dimensions hidden.
+:::"	"::: الأبعاد
+انقر على خط أو نقطة.
+=> يعرض الرسم التخطيطي طول الخط، أو أطوال الخطوط التي تلتقي عند النقطة.
+{{ui:sketch.showMeasurements}} في شريط أدوات الرسم التخطيطي يخفي هذه الأبعاد ويُظهرها عندما تعيق الطريق، مثلًا أثناء تشكيل المنحنيات.
+{{ui:camera.tapeTools}} في شريط أدوات الرسم التخطيطي يقيس المسافة بين نقطتين؛ ويبقى يعمل والأبعاد مخفية.
+:::"
+07-sketches.md	![An L-shaped outline. At the selected corner point, top left, the lengths of the two lines are shown in millimetres, and the angle between them in degrees.](shot:sketch-outline)	![حد خارجي على شكل L. عند نقطة الزاوية المحددة، أعلى اليسار، تظهر أطوال الخطين بالمليمترات، والزاوية بينهما بالدرجات.](shot:sketch-outline)
+07-sketches.md	"::: Typing a length
+Click the dimension pill of a straight line and type the length in millimetres.
+[[Enter]] applies it, [[Esc]] cancels.
+=> The line keeps its direction, its start point stays where it is, and the lines at the other end follow. With an end point selected, that one moves.
+[[Alt]]+[[Enter]] grows the line to both sides around its middle instead.
+=> On curves the pill only shows the length.
+:::
+"	"::: كتابة طول
+انقر على خانة البعد لخط مستقيم واكتب الطول بالمليمترات.
+[[Enter]] يطبّق، و[[Esc]] يلغي.
+=> يحتفظ الخط باتجاهه، وتبقى نقطة بدايته في مكانها، وتتبعه الخطوط عند الطرف الآخر. وإذا كانت نقطة النهاية محددة، فهي التي تتحرك.
+[[Alt]]+[[Enter]] يطيل الخط على الجانبين حول وسطه بدلًا من ذلك.
+=> على المنحنيات تعرض الخانة الطول فقط.
+:::"
+04-select-and-arrange.md	Holding [[Shift]] while you carry sinks the part into the face instead: … [[Shift]]+[[D]] drops the selection with its top on the workplane instead of its base.	"فوق اللوحة الفارغة، [[C]] يوقف جزءًا مائلًا قائمًا على سطح العمل مجددًا. والضغط على [[Shift]] أثناء الحمل يُغرق القطعة في الوجه بدلًا من ذلك: تبقى قائمة، وأعلاها مستوٍ مع الوجه والجسم تحته، وهكذا يدخل ثقب غاطس أو متدرج في جسم؛ والشكل الجديد من المكتبة يوضع بالطريقة نفسها مع الضغط على [[Shift]]. و[[Shift]]+[[D]] يُنزل التحديد بحيث يكون أعلاه على سطح العمل بدلًا من قاعدته. ودون لوحة مفاتيح
+كان: فوق اللوحة الفارغة، [[C]] يوقف جزءًا مائلًا قائمًا على سطح العمل مجددًا. ودون لوحة مفاتيح
+السبب: جملتان ناقصتان: الإغراق مع Shift وShift+D"
+04-select-and-arrange.md	Without a board, hold [[Shift]] and click an empty spot of the plate first: the plate is then the fixed shape…	"وانقر أولًا على مكان فارغ من اللوحة: تصبح عندها اللوحة الشكل الثابت، فتوزّع المسافات المتساوية الأشكال على اللوحة كلها
+كان: وانقر أولًا على مكان فارغ من سطح الطباعة: يصبح عندها الشكل الثابت، فتوزّع المسافات المتساوية الأشكال على السطح كله
+السبب: plate = اللوحة (لا «سطح الطباعة»)"
+09-threads-and-mechanics.md	Its own {{ui:prop.helixAngle}} (0 to start with) turns the teeth while they taper…	"الترس المخروطي يأخذ الأسنان الانفلاتية ويصغّرها نحو أعلاه. وهذا تقريب، لا زوج مخروطي محسوب بدقة. و{{ui:prop.helixAngle}} الخاصة به (0 في البداية) تدير الأسنان وهي تستدق، كما في الترس المخروطي الحلزوني، لإعادة صنع الترس الحلزوني المخروطي لآلة قديمة مثلًا. ويبقى هذا الترس شبكة مثلثات: تستبعده أداة الحواف وتصدير STEP.
+كان: الترس المخروطي يأخذ الأسنان الانفلاتية ويصغّرها نحو أعلاه. وهذا تقريب، لا زوج مخروطي محسوب بدقة.
+السبب: جملة ناقصة: زاوية الحلزون في الترس المخروطي"
+09-threads-and-mechanics.md	### SBC boards	"
+### لوحات SBC (SBC boards)
+
+{{ui:shape.sbcBoard}} حاسوب أحادي اللوحة
+كان: 
+{{ui:shape.sbcBoard}} حاسوب أحادي اللوحة
+السبب: عنوان ناقص (رابط sbc-boards)"
+09-threads-and-mechanics.md	as on a lead screw: a T8x8 …	"كما في قضيب الحركة اللولبي: لقضيب T8x8
+كان: كما في عمود اللولب: لعمود T8x8
+السبب: lead screw = قضيب حركة لولبي (كما في الواجهة)"
+09-threads-and-mechanics.md	It comes as a hole, facing front.	"تأتي الفتحة كثقب متجهة
+كان: تأتي الفتحة كتجويف متجهة
+السبب: hole = ثقب"
+10-measuring-and-notes.md	## The protractor	"## المنقلة (The protractor)
+كان: ## المنقلة (Protractor)
+السبب: الرابط the-protractor يحتاج العنوان الإنجليزي الكامل"
+10-measuring-and-notes.md	The arrow keys show their way as well: … [[Ctrl]]+[[↑]] and [[Ctrl]]+[[↓]] show the way up or down.	"ويظهر مقدار الصعود أو النزول عند زاويته الأمامية. وتُظهر مفاتيح الأسهم مسافتها أيضًا: تتراكم الضغطات حتى تحدد شيئًا آخر أو تسحب، و[[Ctrl]]+[[↑]] و[[Ctrl]]+[[↓]] تُظهران المسافة إلى الأعلى أو الأسفل. بعد أن تفلت، انقر على أحد هذه الأرقام واكتب المسافة بالضبط، والسالب ينزل.
+كان: ويُقاس على طول زاويته الأمامية. بعد أن تفلت، انقر على أحد هذه الأرقام واكتب المسافة بالضبط، والسالب ينزل.
+السبب: جملة ناقصة: مفاتيح الأسهم وCtrl+↑/↓"
+11-printing.md	## Support ribs for a tilted part	"## أضلاع دعم لقطعة مائلة (Support ribs for a tilted part)
+كان: ## أضلاع دعم لقطعة مائلة
+السبب: رابط support-ribs-for-a-tilted-part"
+14-ai-with-mcp.md	makes a cookie cutter from the objects: a wall and a rim round the outline (Cookie cutter)	"| `layerling_cookie_cutter` | تصنع قطّاعة كعك من الأجسام: جدارًا بحافة قاطعة وإطارًا حول الحد الخارجي المعكوس (قطّاعة الكعك) |
+كان: | `layerling_cookie_cutter` | makes a cookie cutter from the objects: a wall and a rim round the outline (Cookie cutter) |
+السبب: صف كان ما زال بالإنجليزية"
+14-ai-with-mcp.md	cuts a flat body into links with joints printed in place that swing to the sides (Flexi joints)	"| `layerling_flexi_joints` | تقطع جسمًا مسطحًا إلى حلقات بمفاصل تُطبع في مكانها وتتأرجح إلى الجانبين (المفاصل المرنة) |
+كان: | `layerling_flexi_joints` | cuts a flat body into links with joints printed in place that swing to the sides (Flexi joints) |
+السبب: صف كان ما زال بالإنجليزية"
+14-ai-with-mcp.md	makes a lid for a body open at the top: pushed in, over the top or flat, with the fit you choose and magnets if you like (Lid)	"| `layerling_make_lid` | تصنع غطاءً لجسم مفتوح من الأعلى: مُدخَلًا أو فوق الحافة أو مسطحًا، بالإحكام الذي تختاره ومع مغناطيسات إن أردت (الغطاء) |
+كان: | `layerling_make_lid` | makes a lid for a body open at the top: pushed in, over the top or flat, with the fit you choose and magnets if you like (Lid) |
+السبب: صف كان ما زال بالإنجليزية"
+14-ai-with-mcp.md	runs a round channel for a cable through a body from an entry to an exit, finding the way itself with gentle bends (Cable channel)	"| `layerling_make_cable_channel` | تمدّ قناة دائرية لكابل عبر جسم من مدخل إلى مخرج، وتجد الطريق بنفسها بانحناءات لطيفة (قناة كابل) |
+كان: | `layerling_make_cable_channel` | runs a round channel for a cable through a body from an entry to an exit, finding the way itself with gentle bends (Cable channel) |
+السبب: صف كان ما زال بالإنجليزية"
+14-ai-with-mcp.md	joins two sketch bodies into a loft from one outline to the other (Loft sketches)	"| `layerling_loft_sketches` | تصل جسمي رسم تخطيطي بانتقال من حد خارجي إلى الآخر (انتقال بين رسمين) |
+كان: | `layerling_loft_sketches` | joins two sketch bodies into a loft from one outline to the other (Loft sketches) |
+السبب: صف كان ما زال بالإنجليزية"
+15-offline-and-install.md	It does the same for `.stl` and `.3mf` files, … choose it under Open with and let the system always use it.	"و[[Ctrl]]+[[S]] يحفظ في ذلك الملف نفسه. ويفعل الشيء نفسه لملفات `.stl` و`.3mf`، فتُفتح كتصميم جديد، كما مع {{ui:dashboard.importGeometry}} في صفحة البداية. ولجعل layerling البرنامج الافتراضي لها، اختره تحت «فتح باستخدام» واسمح للنظام باستخدامه دائمًا. ولا يعمل ذلك على Android
+كان: و[[Ctrl]]+[[S]] يحفظ في ذلك الملف نفسه. ولا يعمل ذلك على Android
+السبب: جملتان ناقصتان: ملفات STL و3MF"
+07-sketches.md	Drawing section (rewritten as cards, +190 lines)	"(انظر النص الكامل في القسم الخاص بالفصل 7)
+كان: (الصيغة القديمة: قائمة نقاط طويلة)
+السبب: الفصل 7 أُعيدت كتابته بالإنجليزية كبطاقات؛ ترجمتُ القسم كله بالصيغة الجديدة"
+07-sketches.md	For a bigger radius, move the profile further from the axis, past the edge of the plate if need be…	"ولنصف قطر أكبر، أبعد المقطع عن المحور، إلى ما بعد حافة اللوح إن لزم: يكبر اللوح مع الرسم التخطيطي، وتتبعه شبكته عند الإفلات، وزر التصغير يصغّر العرض حتى يتسع له كله.
+السبب: جملة ناقصة في «الدوران»"
+07-sketches.md	where construction lines cross	"وعند تقاطع خطوط الإنشاء
+كان: وعند تقاطع خطوط البناء
+السبب: مصطلح الدليل: construction line = خط إنشاء"
+09-threads-and-mechanics.md	The series also holds S60x6 (IBC), the outlet thread of IBC containers…	"اطبع قطعة تجريبية قبل غطاء كامل. وتضم السلسلة أيضًا S60x6 (IBC)، سن المخرج في حاويات IBC (DIN 6063-1، الخط KS 60): قطره 60 مم بخطوة 6 مم وعمق 3 مم، ومضبوط بالطريقة نفسها مع {{ui:prop.threadFlankAngle}} قدرها 30°. يرسم المعيار جانبيه غير متساويين، أحدهما بنحو 10° عن الوضع القائم والآخر 20°؛ أما المقطع هنا فله جانبان متساويان، فيتلاءم الزوج المطبوع مع بعض الخلوص. ليس لعبوات
+كان: اطبع قطعة تجريبية قبل غطاء كامل. ليس لعبوات
+السبب: جملة ناقصة: سن S60x6 (IBC)"
+02-view-and-workplane.md	—	"يحتاجها دبوس مطبوع ليدور
+كان: يحتاجها مسمار مطبوع ليدور
+السبب: مصطلح الدليل: hinge/test pin = دبوس (لا مسمار)"
+04-select-and-arrange.md	—	"أو دبوسًا في ثقب
+كان: أو مسمارًا في ثقب
+السبب: مصطلح الدليل: hinge/test pin = دبوس (لا مسمار)"
+04-select-and-arrange.md	—	"(أو خارج الدبوس)
+كان: (أو خارج المسمار)
+السبب: مصطلح الدليل: hinge/test pin = دبوس (لا مسمار)"
+04-select-and-arrange.md	—	"فيحتفظ الدبوس بارتفاعه
+كان: فيحتفظ المسمار بارتفاعه
+السبب: مصطلح الدليل: hinge/test pin = دبوس (لا مسمار)"
+04-select-and-arrange.md	—	"برشامًا أو نتوءًا أو لوحًا بنقش ماسي
+كان: مسمارًا أو نتوءًا أو بروز لوح مضلّع
+السبب: rivet = برشام؛ diamond plate = لوح بنقش ماسي"
+04-select-and-arrange.md	—	"ويُحسب مركز سطح العمل أيضًا
+كان: ويُحسب مركز مستوى العمل أيضًا
+السبب: مصطلح الدليل: workplane = سطح العمل"
+10-measuring-and-notes.md	—	"لا يقف على سطح العمل
+كان: لا يقف على مستوى العمل
+السبب: مصطلح الدليل: workplane = سطح العمل"
+06-edges-and-hollowing.md	hinge / pin / bayonet	"دبوس … / غطاء البايونيت
+كان: مسمار … / الغطاء الحربي
+السبب: مصطلح الدليل: hinge/test pin = دبوس (لا مسمار)؛ bayonet = بايونيت"
+11-printing.md	fit test pin	"الدبوس
+كان: المسمار
+السبب: مصطلح الدليل: hinge/test pin = دبوس (لا مسمار)"
+09-threads-and-mechanics.md	—	"للثقب الذي يُربط فيه برغي
+كان: للثقب الذي يُربط فيه مسمار
+السبب: screw = برغي؛ hole = ثقب"
+09-threads-and-mechanics.md	—	"كثقب له المقاس الكامل للبرغي
+كان: كتجويف له المقاس الكامل للمسمار
+السبب: screw = برغي؛ hole = ثقب"
+09-threads-and-mechanics.md	—	"إن جعلته ثقبًا رغم ذلك
+كان: إن جعلته تجويفًا رغم ذلك
+السبب: screw = برغي؛ hole = ثقب"
+09-threads-and-mechanics.md	—	"ثلاثة أو خمسة مفاصل متجاورة
+كان: ثلاث أو خمس عقد متجاورة
+السبب: knuckles = المفاصل"
+09-threads-and-mechanics.md	—	"وعلى كل مفصل من إحداهما مخروط بزاوية 45° يدخل في المفصل التالي من الأخرى. وبجانب المفاصل
+كان: وعلى كل عقدة من إحداهما مخروط بزاوية 45° يدخل في العقدة التالية من الأخرى. وبجانب العقد
+السبب: knuckles = المفاصل"
+09-threads-and-mechanics.md	—	"(والثقب الغاطس حتى M20)
+كان: (التخويش حتى M20)
+السبب: countersink = ثقب غاطس (لا تخويش)"
+09-threads-and-mechanics.md	—	"والمقعد هو الثقب الغاطس بذلك المقاس
+كان: والمقعد هو التخويش بذلك المقاس
+السبب: countersink = ثقب غاطس (لا تخويش)"
+09-threads-and-mechanics.md	—	"على سرير الطباعة أو على القاع
+كان: على سطح الطباعة أو على القاع
+السبب: print bed = سرير الطباعة"
+09-threads-and-mechanics.md	—	"ترتفع عن سرير الطباعة
+كان: ترتفع عن سطح الطباعة
+السبب: print bed = سرير الطباعة"
+09-threads-and-mechanics.md	—	"في جسم العلبة الوحيد
+كان: في كائن العلبة الوحيد
+السبب: object = جسم"
+10-measuring-and-notes.md	objects	"جسم/الأجسام
+كان: كائن/الكائنات
+السبب: object = جسم (لا كائن)"
+11-printing.md	objects	"جسم/الأجسام
+كان: كائن/الكائنات
+السبب: object = جسم (لا كائن)"
+14-ai-with-mcp.md	objects	"جسم/الأجسام
+كان: كائن/الكائنات
+السبب: object = جسم (لا كائن)"
+03/04/06/09/12	solid	"صلب
+كان: مصمت
+السبب: مصطلح الدليل: solid = صلب (لا مصمت)"
+trace-house	Ch. 7: tracing a picture (object, lasso, panes)	صُنعت بالعربية (مرفقة في المحادثة)
+trace-house-body	Ch. 7: the traced house as a body	صُنعت بالعربية (مرفقة في المحادثة)
+group-keep-parts	Ch. 4: group resized, keeps its holes	صُنعت بالعربية (مرفقة في المحادثة)
+paint	Ch. 6: the Paint tool	صُنعت بالعربية (مرفقة في المحادثة)
+print-check	Ch. 11: Print check	صُنعت بالعربية (مرفقة في المحادثة)
+ai-quickstart-powershell	Ch. 14: Windows PowerShell (taken by hand)	تبقى بالإنجليزية: لقطة يدوية لنافذة PowerShell
