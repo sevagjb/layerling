@@ -1,7 +1,7 @@
 section	key	english	arabic
 1. Release notes 1.151.0 (8)	1.151.0	"A framing square as long as the plate
-The framing square's arms can now be dragged longer or shorter at their ends. A button under the handle makes them as long as your printer's build plate."	"زاوية نجار بطول اللوحة
-يمكن الآن سحب ذراعي زاوية النجار من طرفيهما لإطالتهما أو تقصيرهما. وزر تحت المقبض يجعلهما بطول سرير الطباعة في طابعتك."
+The framing square's arms can now be dragged longer or shorter at their ends. A button under the handle makes them as long as your printer's build plate."	"زاوية النجار بطول سرير الطباعة
+يمكن الآن سحب ذراعي زاوية النجار من الأطراف لتطويلهما أو تقصيرهما. ويتيح لك الزر الموجود أسفل المقبض ضبط طولهما ليكون مساويًا لطول سرير الطباعة في طابعتك."
 1. Release notes 1.151.0 (8)	1.151.0	"A lid that screws in
 The Lid tool has a new kind, Screw in: the body gets the thread inside its opening and the lid a threaded plug below it. The outside of the body stays smooth, for a round pen holder, say. Both parts print without support."	"غطاء يُلفّ إلى الداخل
 لأداة «الغطاء» نوع جديد: «لولبي للداخل». يحصل الجسم على السن داخل فتحته، والغطاء على سدادة ملولبة تحته. ويبقى السطح الخارجي للجسم أملس، لحامل أقلام مستدير مثلًا. ويُطبع الجزءان دون دعامات."
