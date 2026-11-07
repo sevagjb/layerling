@@ -1,0 +1,101 @@
+section	key	english	arabic
+1. Release notes 1.151.0 (8)	1.151.0	"A framing square as long as the plate
+The framing square's arms can now be dragged longer or shorter at their ends. A button under the handle makes them as long as your printer's build plate."	"زاوية نجار بطول اللوحة
+يمكن الآن سحب ذراعي زاوية النجار من طرفيهما لإطالتهما أو تقصيرهما. وزر تحت المقبض يجعلهما بطول سرير الطباعة في طابعتك."
+1. Release notes 1.151.0 (8)	1.151.0	"A lid that screws in
+The Lid tool has a new kind, Screw in: the body gets the thread inside its opening and the lid a threaded plug below it. The outside of the body stays smooth, for a round pen holder, say. Both parts print without support."	"غطاء يُلفّ إلى الداخل
+لأداة «الغطاء» نوع جديد: «لولبي للداخل». يحصل الجسم على السن داخل فتحته، والغطاء على سدادة ملولبة تحته. ويبقى السطح الخارجي للجسم أملس، لحامل أقلام مستدير مثلًا. ويُطبع الجزءان دون دعامات."
+1. Release notes 1.151.0 (8)	1.151.0	"Turned slots in a hole pattern
+Slots and rectangles in a hole pattern can now be turned: with Angle of the holes each hole stands at a slant, ventilation slots at 45° for example, while the grid stays straight. The wall between the holes is kept."	"شقوق مُدارة في نمط الثقوب
+يمكن الآن تدوير الشقوق والمستطيلات في «نمط الثقوب»: مع «زاوية الثقوب» يقف كل ثقب مائلًا، كشقوق التهوية بزاوية 45° مثلًا، بينما تبقى الشبكة مستقيمة. ويبقى الجدار بين الثقوب محفوظًا."
+1. Release notes 1.151.0 (8)	1.151.0	"Hull with open holes
+A hull fills whatever is hollow in its parts: a tube, a hollowed cylinder, the holes in a group. With Keep the parts' holes under Properties they stay open, and the hull only fills the space between the parts."	"الغلاف مع ثقوب مفتوحة
+يملأ الغلاف كل ما هو مجوف في أجزائه: أنبوبًا، أو أسطوانة مفرّغة، أو الثقوب في مجموعة. ومع «الإبقاء على ثقوب الأجزاء» تحت «الخصائص» تبقى مفتوحة، ولا يملأ الغلاف إلا المسافة بين الأجزاء."
+1. Release notes 1.151.0 (8)	1.151.0	"A slide-in lid
+The Lid tool has a new kind, Slide-in, like a wooden pencil box's lid: it runs on tongues in grooves in three walls and slides in over the fourth. The box prints upright and the lid turned over, both without support."	"غطاء منزلق
+لأداة «الغطاء» نوع جديد: «منزلق»، كغطاء مقلمة خشبية: تجري حوافه في مجارٍ في ثلاثة جدران وينزلق إلى الداخل فوق الرابع. يُطبع الصندوق قائمًا والغطاء مقلوبًا، كلاهما دون دعامات."
+1. Release notes 1.151.0 (8)	1.151.0	"Flip-top and tether
+Screw and bayonet caps can get a pouring opening with a printed flap, like a shampoo bottle's, and a tether that keeps the cap on the body. Both print without support."	"غطاء قلّاب ورباط
+يمكن أن تحصل الأغطية اللولبية وأغطية البايونيت على فتحة صبّ بلسان مطبوع، كما في قارورة الشامبو، وعلى رباط يُبقي الغطاء مع الجسم. ويُطبع كلاهما دون دعامات."
+1. Release notes 1.151.0 (8)	1.151.0	"Standard bottle and jar threads
+The screw lid can take a standard's thread (PCO 1881, PCO 1810, GL 45, mason jars) so it fits a bottle from the shop. The bayonet lid's turn can be set, and a rounded rim is no longer refused."	"أسنان قياسية للزجاجات والبرطمانات
+يمكن للغطاء اللولبي أن يأخذ سنّ معيار (PCO 1881 وPCO 1810 وGL 45 وبرطمانات Mason) فيناسب زجاجة من المتجر. ويمكن ضبط دوران غطاء البايونيت، ولم تعد الحافة المستديرة تُرفض."
+1. Release notes 1.151.0 (8)	1.151.0	"Smoother image textures
+A picture on a large or round vase no longer comes out in steps of the grid, and Fine is really finer than Medium."	"أنسجة صور أنعم
+الصورة على مزهرية كبيرة أو مستديرة لم تعد تخرج بدرجات الشبكة، و«ناعم» أصبح فعلًا أنعم من «متوسط»."
+2. Interface: corrected (6)	lid.slideGroovesName	{name} lid grooves	"مجاري الغطاء {name}
+كان: {name} مجاري الغطاء
+السبب: ترتيب الاسم"
+2. Interface: corrected (6)	lid.tetherName	{name} tether	"رباط الغطاء {name}
+كان: {name} رباط الغطاء
+السبب: ترتيب الاسم"
+2. Interface: corrected (6)	lid.tetherBeadName	{name} tether bead	"حافة رباط الغطاء {name}
+كان: {name} حافة رباط الغطاء
+السبب: ترتيب الاسم"
+2. Interface: corrected (6)	lid.error.slideNotBox	A slide-in lid needs a box: seen from above, the walls it slides along must run straight, and they must stand upright down past the grooves. For a round body take a screw lid or a bayonet lid.	"يحتاج الغطاء المنزلق إلى صندوق: من الأعلى يجب أن تمتد الجدران التي ينزلق بمحاذاتها مستقيمة، وأن تقف عمودية حتى ما تحت المجاري. للجسم المستدير اختر غطاءً لولبيًا أو غطاء بايونيت.
+كان: يحتاج الغطاء المنزلق إلى صندوق: من الأعلى يجب أن تمتد الجدران التي ينزلق بمحاذاتها مستقيمة، وأن تقف عمودية حتى ما تحت المجاري. للجسم المستدير اختر غطاءً لولبيًا أو حربيًا.
+السبب: bayonet = بايونيت (لا «حربي»)"
+2. Interface: corrected (6)	lid.error.tetherType	A tether goes only with a screw lid or a bayonet lid: it keeps a cap that is turned off the body.	"رباط الغطاء لا يكون إلا مع غطاء لولبي أو غطاء بايونيت: يمسك غطاءً يُنزع عن الجسم بالتدوير.
+كان: رباط الغطاء لا يكون إلا مع غطاء لولبي أو حربي: يمسك غطاءً يُنزع عن الجسم بالتدوير.
+السبب: bayonet = بايونيت (لا «حربي»)"
+2. Interface: corrected (6)	lid.error.flipTopType	A flip-top goes only with a screw lid or a bayonet lid: a cap that stays on while its flap opens.	"الغطاء القلّاب لا يكون إلا مع غطاء لولبي أو غطاء بايونيت: غطاء يبقى في مكانه بينما ينفتح لسانه.
+كان: الغطاء القلّاب لا يكون إلا مع غطاء لولبي أو حربي: غطاء يبقى في مكانه بينما ينفتح لسانه.
+السبب: bayonet = بايونيت (لا «حربي»)"
+3. Guide chapter 6	06-edges-and-hollowing.md	Tick Tether with a screw or bayonet lid …	"فعّل {{ui:lid.tether}} مع غطاء لولبي أو غطاء بايونيت …
+كان: مع غطاء لولبي أو حربي
+السبب: bayonet = بايونيت"
+3. Guide chapter 6	06-edges-and-hollowing.md	Screw lids and bayonet lids can be flip-tops …	"يمكن أن يكون للغطاء اللولبي أو لغطاء البايونيت لسان قلّاب …
+كان: للغطاء اللولبي أو الحربي
+السبب: bayonet = بايونيت"
+3. Guide chapter 6	06-edges-and-hollowing.md	Standard threads, bayonet turn, tether, flip-top, slide-in lid (5 paragraphs, Stefan's Arabic)	راجعتُ الفقرات الخمس الجديدة: لا تغيير غير ما سبق.
+4. Interface: checked, no change (51)	aria.cornerRulerArmsToPlate	Make the arms as long as the build plate	اجعل الذراعين بطول سرير الطباعة
+4. Interface: checked, no change (51)	ruler.armsToPlate	Arms as long as the build plate (drag an arm's end to change its length)	ذراعان بطول سرير الطباعة (اسحب طرف الذراع لتغيير طوله)
+4. Interface: checked, no change (51)	ruler.armEnd	Arm {length}: drag its end to make it longer or shorter	ذراع {length}: اسحب طرفه لإطالته أو تقصيره
+4. Interface: checked, no change (51)	lid.type.slide	Slide-in	منزلق
+4. Interface: checked, no change (51)	lid.type.slideHint	A plate that slides in through one wall, its edges running in grooves in the other three, like on a wooden pencil box. For a box with straight walls.	لوح ينزلق إلى الداخل عبر جدار واحد، وتجري حوافه في مجارٍ في الجدران الثلاثة الأخرى، كما في مقلمة خشبية. لصندوق ذي جدران مستقيمة.
+4. Interface: checked, no change (51)	lid.threadStandard	Thread	السنّ
+4. Interface: checked, no change (51)	lid.threadStandard.own	Custom	مخصص
+4. Interface: checked, no change (51)	lid.threadStandardHint.pco1881	Most water and soft-drink bottles: the 28 mm neck with the short thread.	معظم زجاجات الماء والمشروبات الغازية: العنق بقطر 28 مم ذو السن القصير.
+4. Interface: checked, no change (51)	lid.threadStandardHint.pco1810	Older drinks bottles: the 28 mm neck with the taller thread.	زجاجات المشروبات الأقدم: العنق بقطر 28 مم ذو السن الأعلى.
+4. Interface: checked, no change (51)	lid.threadStandardHint.gl45	Laboratory bottles with the GL 45 thread (DIN 168).	زجاجات المختبر ذات السن GL 45 (DIN 168).
+4. Interface: checked, no change (51)	lid.threadStandardHint.mason70	Mason jars with a regular mouth. Their thread has no published drawing, and the sizes are measured ones: try the cap on your jar first.	برطمانات Mason ذات الفوهة العادية. لا يوجد رسم منشور لسنّها، والمقاسات مأخوذة بالقياس على برطمانات حقيقية: جرّب الغطاء على برطمانك أولًا.
+4. Interface: checked, no change (51)	lid.threadStandardHint.mason86	Mason jars with a wide mouth. Their thread has no published drawing, and the sizes are measured ones: try the cap on your jar first.	برطمانات Mason ذات الفوهة الواسعة. لا يوجد رسم منشور لسنّها، والمقاسات مأخوذة بالقياس على برطمانات حقيقية: جرّب الغطاء على برطمانك أولًا.
+4. Interface: checked, no change (51)	lid.screwStandardHint	The cap fits a {standard} neck: {major} mm across its thread, {pitch} mm a turn; it reaches {depth} mm down. A body whose top is as wide as the neck under the thread ({from} to {to} mm) gets the neck's thread; any other stays as it is, and only the cap is made. The flanks are the standard's, steeper than 45°.	يناسب الغطاء عنق {standard}: قطره عند السن {major} مم، وخطوته {pitch} مم؛ وينزل {depth} مم. الجسم الذي يتراوح عرض أعلاه بين {from} و{to} مم، مثل العنق تحت السن، يحصل على سنّ العنق؛ وأي جسم آخر يبقى كما هو ويُصنع الغطاء وحده. جوانب السن كما في المعيار، أشد انحدارًا من 45°.
+4. Interface: checked, no change (51)	lid.bayonetTurn	Turn (0 = automatic)	زاوية الدوران (0 = تلقائي)
+4. Interface: checked, no change (51)	lid.bayonetTurnHint	Up to 90°, a quarter turn, which two lugs leave room for. More lugs or a small body leave less room for the slots and the stops between them: a turn that does not fit is then held to what fits, and the status bar says so.	حتى 90°، أي ربع دورة، ويترك لسانان مكانًا لذلك. الألسنة الأكثر أو الجسم الصغير يتركان مكانًا أقل للمجاري والمصدّات بينها؛ فتُعدَّل الزاوية التي لا تتسع إلى ما يتسع، ويذكر ذلك شريط الحالة.
+4. Interface: checked, no change (51)	lid.slideSide	Slides in from	جهة الإدخال
+4. Interface: checked, no change (51)	lid.slideHint	The lid's edges run in grooves in three walls; the fourth is cut down to the lid's underside, so the lid slides in over it and its end fills the cut. The grooves' tops slope at 45°, so the box prints upright and the lid on its top, both without support.	تجري حواف الغطاء في مجارٍ في ثلاثة جدران؛ أما الرابع فيُخفض حتى الوجه السفلي للغطاء، فينزلق الغطاء فوقه إلى الداخل ويملأ طرفُه الفتحة المقطوعة. أعلى المجاري مائل بزاوية 45°، فيُطبع الصندوق قائمًا والغطاء على وجهه العلوي، كلاهما دون دعامات.
+4. Interface: checked, no change (51)	lid.slideBumpHint	A small bump under the lid's end clicks past the inner edge of the cut wall, so the lid does not slide out by itself. Bump height is how far it reaches below the wall's top: less for a small box, more for a firmer click.	نتوء صغير تحت طرف الغطاء يتخطى بطقة الحافة الداخلية للجدار المخفوض، فلا ينزلق الغطاء خارجًا وحده. ارتفاع النتوءات هو مقدار نزوله تحت أعلى الجدار: أقل لصندوق صغير، وأكثر لطقة أثبت.
+4. Interface: checked, no change (51)	lid.tether	Tether	رباط الغطاء
+4. Interface: checked, no change (51)	lid.tetherHint	Keeps the cap with the body when it is open, as on a drinks bottle: two open rings joined by a strap, printed flat beside the cap, best in PETG or TPU (in PLA it takes only a few bends). The larger ring snaps onto the cap from below, under a collar round its top, the smaller one onto the body below the cap, where a bead holds it. Both turn freely, so the cap still turns on and off.	يُبقي الغطاء مع الجسم حين يُفتح، كما في زجاجة المشروبات: حلقتان مفتوحتان يصل بينهما شريط، تُطبعان مسطّحتين بجانب الغطاء، والأفضل من PETG أو TPU (من PLA لا يحتمل الشريط إلا بضع ثنيات). تُطبَق الحلقة الكبرى على الغطاء من الأسفل تحت طوق في أعلاه، والصغرى على الجسم تحت الغطاء حيث تمسكها حافة بارزة. كلتاهما تدوران بحرية، فيظل الغطاء يُفتح ويُغلق بالتدوير.
+4. Interface: checked, no change (51)	lid.flipTop	Flip-top	غطاء قلّاب
+4. Interface: checked, no change (51)	lid.flipTopOpening	Opening	الفتحة
+4. Interface: checked, no change (51)	lid.flipTopHint	A round opening in the cap's plate with a flap in it, flush with the top. A thin strip at the flap's back is its hinge, so the cap stays on and the flap never comes off. Lift the flap with a fingernail in the groove across it, and press it down until it clicks. Print it in PETG or PP: in PLA the strip breaks after a few bends.	فتحة مستديرة في صفيحة الغطاء، فيها لسان مستوٍ مع سطحها. شريط رقيق في مؤخرة اللسان هو مفصلته: يبقى الغطاء في مكانه ولا ينفصل اللسان أبدًا. ارفع اللسان بظفرك من الحزّ الذي يعبره، واضغطه حتى يطقطق. اطبعه من PETG أو PP: في PLA ينكسر الشريط بعد ثنيات قليلة.
+4. Interface: checked, no change (51)	lid.handleHint.tabSlide	A tab as thick as the plate, 6 mm out from the lid's end at the cut wall, to pull it out by.	لسان بسماكة اللوح يبرز 6 مم عن طرف الغطاء عند الجدار المخفوض، لسحبه منه.
+4. Interface: checked, no change (51)	lid.handleHint.notchSlide	Four grooves across the lid's top near its end at the cut wall, for a thumb to push it out.	أربعة مجارٍ صغيرة بعرض الوجه العلوي للغطاء قرب طرفه عند الجدار المخفوض، ليدفعه الإبهام إلى الخارج.
+4. Interface: checked, no change (51)	lid.error.screwRimRound	The rim is rounded or chamfered so far down that the straight wall below it is too short for this thread, which reaches {height} mm down from where the rounding begins. Take fewer turns or a smaller pitch, or round the rim less.	الحافة مستديرة أو مشطوفة إلى أسفل لدرجة أن الجدار المستقيم تحتها أقصر من أن يحمل هذا السن، الذي ينزل {height} مم من حيث تبدأ الاستدارة. خذ لفّات أقل أو خطوة أصغر، أو اجعل استدارة الحافة أصغر.
+4. Interface: checked, no change (51)	lid.error.screwStandardGapDeep	The gap is too large for this thread: at most {gap} mm, half its depth, or the threads hardly hold.	الفجوة كبيرة جدًا لهذا السن: {gap} مم على الأكثر، أي نصف عمقه، وإلا فلن تتماسك الأسنان تقريبًا.
+4. Interface: checked, no change (51)	lid.error.screwStandardTooLow	The body is too low for a {standard} neck, whose thread reaches {height} mm down from the rim.	الجسم منخفض جدًا لعنق {standard}، الذي ينزل سنّه {height} مم من الحافة.
+4. Interface: checked, no change (51)	lid.error.screwStandardNeck	The body's top is as wide as a {standard} neck, but it has to stay round and {neck} mm across for {depth} mm down from the rim, as far as the cap reaches.	أعلى الجسم بعرض عنق {standard}، لكن يجب أن يبقى دائريًا وبعرض {neck} مم لمسافة {depth} مم تحت الحافة، إلى حيث يصل الغطاء.
+4. Interface: checked, no change (51)	lid.error.bayonetRimRound	The rim is rounded or chamfered so far down that the straight wall below it is too short for this cap, which reaches {height} mm down from where the rounding begins. Take a smaller rim depth, or round the rim less.	الحافة مستديرة أو مشطوفة إلى أسفل لدرجة أن الجدار المستقيم تحتها أقصر من أن يحمل هذا الغطاء، الذي ينزل {height} مم من حيث تبدأ الاستدارة. خذ عمق إطار أصغر، أو اجعل استدارة الحافة أصغر.
+4. Interface: checked, no change (51)	lid.error.slideExtras	A slide-in lid holds in its grooves: magnets and a hinge do not go with it.	الغطاء المنزلق يثبت في مجاريه: لا تتوافق معه المغناطيسات ولا المفصلة.
+4. Interface: checked, no change (51)	lid.error.slideThinWall	The walls are too thin for the grooves: with this gap they must be at least {wall} mm thick. Take a smaller gap or thicker walls.	الجدران رقيقة جدًا للمجاري: مع هذه الفجوة يجب أن تكون سماكتها {wall} مم على الأقل. اختر فجوة أصغر أو جدرانًا أسمك.
+4. Interface: checked, no change (51)	lid.error.slideThinLid	The lid is too thin for its grooves: with this gap make it at least {thickness} mm thick.	الغطاء رقيق جدًا لمجاريه: مع هذه الفجوة اجعله بسماكة {thickness} مم على الأقل.
+4. Interface: checked, no change (51)	lid.error.slideShallow	The box is too shallow for this lid: its opening must reach at least {depth} mm down from the rim. Take a thinner lid.	الصندوق ضحل جدًا لهذا الغطاء: يجب أن تنزل فتحته {depth} مم على الأقل تحت الحافة. اختر غطاءً أرق.
+4. Interface: checked, no change (51)	lid.error.slideKernel	The grooves could not be cut into the body.	تعذر قطع المجاري في الجسم.
+4. Interface: checked, no change (51)	lid.error.tetherThinWall	The body's wall below the cap is too thin for the bead that holds the tether's ring: it needs at least {wall} mm.	جدار الجسم تحت الغطاء رقيق جدًا للحافة البارزة التي تمسك حلقة الرباط: يحتاج إلى {wall} مم على الأقل.
+4. Interface: checked, no change (51)	lid.error.tetherNoNeck	The tether's ring and the bead that holds it take {length} mm below the cap: the body must reach further down than that, round and as wide as at its top.	تحتاج حلقة الرباط والحافة التي تمسكها إلى {length} مم تحت الغطاء: يجب أن ينزل الجسم أبعد من ذلك، مستديرًا وبعرضه في أعلاه.
+4. Interface: checked, no change (51)	lid.error.tetherCapShort	The cap is too short for the tether's ring and the collar and bead it sits between: its rim must reach at least {depth} mm down. Take more turns or a larger rim depth.	الغطاء قصير جدًا لحلقة الرباط وللطوق والحافة اللذين تجلس بينهما: يجب أن ينزل إطاره {depth} مم على الأقل. خذ لفّات أكثر أو عمق إطار أكبر.
+4. Interface: checked, no change (51)	lid.error.flipTopThin	The lid is too thin for a flip-top's flap and hinge: make it at least {thickness} mm thick.	الغطاء رقيق جدًا للسان القلّاب ومفصلته: اجعله بسماكة {thickness} مم على الأقل.
+4. Interface: checked, no change (51)	lid.error.flipTopTooLarge	The opening is too large for this body: with the flap's hinge it has to fit inside the body's opening. At most {opening} mm across fits.	الفتحة كبيرة جدًا على هذا الجسم: يجب أن تتسع مع مفصلة اللسان داخل فتحة الجسم. يتسع قطر {opening} مم على الأكثر.
+4. Interface: checked, no change (51)	lid.error.flipTopNoRoom	The body's opening is too small for a flip-top: not even an opening of {opening} mm with the flap's hinge fits inside it.	فتحة الجسم أصغر من أن تتسع لغطاء قلّاب: لا تتسع فيها حتى فتحة {opening} مم مع مفصلة اللسان.
+4. Interface: checked, no change (51)	status.lidMadeScrewStandard	Screw cap for {standard} made: the body has the neck's thread on the outside of its top ({pitch} mm pitch), and the cap, {diameter} mm across, lies turned over beside it, ready to print.	صُنع الغطاء اللولبي لـ {standard}: للجسم سنّ العنق على السطح الخارجي لأعلاه (خطوة {pitch} مم)، والغطاء بعرض {diameter} مم بجانبه، مقلوبًا، جاهزًا للطباعة.
+4. Interface: checked, no change (51)	status.lidMadeScrewCapOnly	Screw cap for {standard} made: {diameter} mm across, it lies turned over beside the body, ready to print. The body's top is {measured} mm across, not {neck} mm as the neck under the thread, so it stays as it is.	صُنع الغطاء اللولبي لـ {standard}: بعرض {diameter} مم، وهو بجانب الجسم مقلوبًا، جاهزًا للطباعة. عرض أعلى الجسم {measured} مم، لا {neck} مم مثل العنق تحت السن، لذا يبقى كما هو.
+4. Interface: checked, no change (51)	status.lidMadeScrewCapOnlyNotRound	Screw cap for {standard} made: {diameter} mm across, it lies turned over beside the body, ready to print. The body's top is not round, so it stays as it is.	صُنع الغطاء اللولبي لـ {standard}: بعرض {diameter} مم، وهو بجانب الجسم مقلوبًا، جاهزًا للطباعة. أعلى الجسم ليس دائريًا، لذا يبقى كما هو.
+4. Interface: checked, no change (51)	status.lidMadeSlide	Slide-in lid made: grooves {depth} mm deep in three walls of the body, and the fourth cut down for the lid to slide in over it. The lid lies beside the body, turned over, ready to print.	صُنع الغطاء المنزلق: مجارٍ بعمق {depth} مم في ثلاثة من جدران الجسم، والرابع مخفوض لينزلق الغطاء فوقه إلى الداخل. الغطاء بجانب الجسم، مقلوبًا، جاهزًا للطباعة.
+4. Interface: checked, no change (51)	status.lidSlideBump	A bump under the lid clicks it shut.	نتوء تحت الغطاء يُغلقه بطقة.
+4. Interface: checked, no change (51)	status.lidSlideGrip	Grooves across the lid's top give a thumb a grip.	مجارٍ صغيرة بعرض الوجه العلوي للغطاء تمنح الإبهام مسكة.
+4. Interface: checked, no change (51)	status.lidBayonetTurnFitted	A turn of {asked}° does not fit round this body with these lugs: it is {turn}°.	دوران {asked}° لا يتسع حول هذا الجسم بهذه الألسنة: سيكون {turn}°.
+4. Interface: checked, no change (51)	status.lidTether	A tether with a {length} mm strap lies beside the cap: snap its larger ring onto the cap under the collar, the smaller one onto the body below the cap.	بجانب الغطاء رباط بشريط طوله {length} مم: اضغط حلقته الكبرى على الغطاء تحت الطوق، والصغرى على الجسم تحت الغطاء.
+4. Interface: checked, no change (51)	status.lidFlipTop	The cap is a flip-top: an opening {opening} mm across, closed by a flap on a hinge strip.	للغطاء لسان قلّاب: فتحة قطرها {opening} مم يغلقها لسان على شريط مرن يعمل مفصلةً.
+4. Interface: checked, no change (51)	status.lidRimRounded	The rim is rounded or chamfered {depth} mm down: the cap reaches over it to the straight wall below.	الحافة مستديرة أو مشطوفة حتى {depth} مم إلى الأسفل: يمتد الغطاء فوقها إلى الجدار المستقيم تحتها.
