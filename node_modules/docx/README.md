@@ -1,0 +1,283 @@
+<p align="center">
+    <img src="./logo/logo-animate.svg" width="100%" height="300" alt="clippy the assistant">
+</p>
+
+<p align="center">
+    Easily generate and modify .docx files with JS/TS. Works for Node and on the Browser.
+</p>
+
+---
+
+[![NPM version][npm-image]][npm-url]
+[![Downloads per month][downloads-image]][downloads-url]
+[![GitHub Action Workflow Status][github-actions-workflow-image]][github-actions-workflow-url]
+[![Known Vulnerabilities][snky-image]][snky-url]
+[![PRs Welcome][pr-image]][pr-url]
+[![codecov][codecov-image]][codecov-url]
+[![Docx.js Editor][docxjs-editor-image]][docxjs-editor-url]
+
+<p align="center">
+    <img src="https://i.imgur.com/QeL1HuU.png" alt="drawing"/>
+</p>
+
+# Demo
+
+## Browser
+
+With basic `HTML/JS` in a browser, load `docx`'s browser build, which defines a global `docx`:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/docx@9/dist/index.iife.js"></script>
+    </head>
+    <body>
+        <button type="button" onclick="generate()">Download a Word document</button>
+
+        <script>
+            function generate() {
+                const doc = new docx.Document({
+                    sections: [
+                        {
+                            children: [
+                                new docx.Paragraph({
+                                    children: [new docx.TextRun("Hello World"), new docx.TextRun({ text: "Foo Bar", bold: true })],
+                                }),
+                            ],
+                        },
+                    ],
+                });
+
+                docx.Packer.toBlob(doc).then((blob) => {
+                    const link = document.createElement("a");
+                    link.href = URL.createObjectURL(blob);
+                    link.download = "example.docx";
+                    link.click();
+                });
+            }
+        </script>
+    </body>
+</html>
+```
+
+Here are examples of `docx` working in `Angular`:
+
+-   https://stackblitz.com/edit/angular-docx
+-   https://stackblitz.com/edit/angular-wmd6k3
+
+Here are examples of `docx` working in `React`:
+
+-   https://stackblitz.com/edit/react-docx
+-   https://stackblitz.com/edit/react-docx-images (adding images to Word Document)
+
+Here is an example of `docx` working in `Vue.js`:
+
+-   https://stackblitz.com/edit/vuejs-docx
+
+## Node
+
+Press `endpoint` on the `RunKit` website:
+
+![RunKit Instructions](https://user-images.githubusercontent.com/2917613/38582539-f84311b6-3d07-11e8-90db-5885ae02c3c4.png)
+
+-   https://runkit.com/dolanmiu/docx-demo1 - Simple paragraph and text
+-   https://runkit.com/dolanmiu/docx-demo2 - Advanced Paragraphs and text
+-   https://runkit.com/dolanmiu/docx-demo3 - Bullet points
+-   https://runkit.com/dolanmiu/docx-demo4 - Simple table
+-   https://runkit.com/dolanmiu/docx-demo5 - Images
+-   https://runkit.com/dolanmiu/docx-demo6 - Margins
+-   https://runkit.com/dolanmiu/docx-demo7 - Landscape
+-   https://runkit.com/dolanmiu/docx-demo8 - Header and Footer
+-   https://runkit.com/dolanmiu/docx-demo10 - **My CV generated with docx**
+
+More [here](https://github.com/dolanmiu/docx/tree/master/demo)
+
+# How to use & Documentation
+
+Please refer to the [documentation at https://docx.js.org/](https://docx.js.org/) for details on how to use this library, examples and much more!
+
+# Shapes, watermarks and charts
+
+Shapes, groups of shapes and diagrams with connectors come with `docx`, from `docx/shapes`, watermarks from `docx/watermarks`, and native Word charts from `docx/charts`. They are left out of `docx` itself, so documents that don't use them don't carry their code:
+
+```ts
+import { Document, Header, Paragraph } from "docx";
+import { ChartRun } from "docx/charts";
+import { ShapeRun } from "docx/shapes";
+import { TextWatermark } from "docx/watermarks";
+
+const doc = new Document({
+    sections: [
+        {
+            headers: { default: new Header({ children: [new Paragraph({ children: [new TextWatermark({ text: "DRAFT" })] })] }) },
+            children: [
+                new Paragraph({ children: [new ShapeRun({ type: "ellipse", transformation: { width: 100, height: 60 } })] }),
+                new Paragraph({
+                    children: [new ChartRun({ type: "column", categories: ["Q1", "Q2"], series: [{ name: "Sales", values: [10, 20] }] })],
+                }),
+            ],
+        },
+    ],
+});
+```
+
+In a page without a bundler, load `dist/shapes.umd.cjs`, `dist/watermarks.umd.cjs` or `dist/charts.umd.cjs` after `dist/index.umd.cjs`. They add the `docxShapes`, `docxWatermarks` and `docxCharts` globals. See the [shapes](https://docx.js.org/#/usage/shapes), [watermarks](https://docx.js.org/#/usage/watermarks) and [charts](https://docx.js.org/#/usage/charts) documentation.
+
+# HTML
+
+HTML, such as what people write in a rich-text editor, becomes a document's paragraphs, lists, tables, images, links, equations and footnotes with `docx/html`, written in the document's own styles:
+
+```ts
+import { Document } from "docx";
+import { htmlToContent } from "docx/html";
+
+const doc = new Document({
+    sections: [{ children: htmlToContent("<h1>Report</h1><p>Sales were <b>up 12%</b>.</p><ul><li>EMEA</li><li>APAC</li></ul>") }],
+});
+```
+
+In a page without a bundler, load `dist/html.umd.cjs` after `dist/index.umd.cjs` and `dist/math.umd.cjs`. It adds the `docxHtml` global. See the [HTML](https://docx.js.org/#/usage/html) documentation.
+
+# Macros
+
+VBA macros, written from their code, make a document a macro-enabled document (`.docm`), with `docx/macros`:
+
+```ts
+import { Document, Paragraph } from "docx";
+import { createMacros } from "docx/macros";
+
+const doc = new Document({
+    macros: createMacros({
+        modules: [{ name: "Greetings", code: 'Sub SayHello()\n    MsgBox "Hello"\nEnd Sub' }],
+    }),
+    sections: [{ children: [new Paragraph("Run SayHello from View > Macros")] }],
+});
+```
+
+In a page without a bundler, load `dist/macros.umd.cjs` after `dist/index.umd.cjs`. It adds the `docxMacros` global. See the [macros](https://docx.js.org/#/usage/macros) documentation.
+
+# Embedded Files
+
+Workbooks, documents, presentations and any other file, such as a sound, a video or a PDF, are embedded in a document as OLE objects, which open from it, with `docx/embedded-files`:
+
+```ts
+import * as fs from "fs";
+import { Document, Paragraph } from "docx";
+import { EmbeddedFileRun } from "docx/embedded-files";
+
+const doc = new Document({
+    sections: [
+        {
+            children: [
+                new Paragraph({
+                    children: [
+                        new EmbeddedFileRun({
+                            fileName: "budget.xlsx",
+                            data: fs.readFileSync("./budget.xlsx"),
+                            preview: { type: "png", data: fs.readFileSync("./budget.png") },
+                            transformation: { width: 240, height: 120 },
+                        }),
+                    ],
+                }),
+            ],
+        },
+    ],
+});
+```
+
+In a page without a bundler, load `dist/embedded-files.umd.cjs` after `dist/index.umd.cjs`. It adds the `docxEmbeddedFiles` global. See the [embedded files](https://docx.js.org/#/usage/embedded-files) documentation.
+
+# Citations and Bibliography
+
+Sources, citations of them in the text and a bibliography, in one of Word's styles of citation, such as APA, MLA or Chicago, written as Word writes them, with `docx/bibliography`:
+
+```ts
+import { Document, Paragraph, TextRun } from "docx";
+import { Bibliography, Citation, CitationStyle, SourceType, createBibliography } from "docx/bibliography";
+
+const doc = new Document({
+    bibliography: createBibliography({
+        style: CitationStyle.APA,
+        sources: [
+            {
+                tag: "Bak10",
+                type: SourceType.BOOK,
+                authors: [{ lastName: "Baker", firstName: "Anna" }],
+                title: "The Art of Pizza",
+                year: 2010,
+                city: "Naples",
+                publisher: "Oven Press",
+            },
+        ],
+    }),
+    sections: [
+        {
+            children: [
+                new Paragraph({ children: [new TextRun("Pizza has been baked in Naples for centuries "), new Citation("Bak10")] }),
+                new Bibliography({ title: "References" }),
+            ],
+        },
+    ],
+});
+```
+
+In a page without a bundler, load `dist/bibliography.umd.cjs` after `dist/index.umd.cjs`. It adds the `docxBibliography` global. See the [citations and bibliography](https://docx.js.org/#/usage/bibliography) documentation.
+
+# Playground
+
+Experience `docx` in action through [Docx.js Editor][docxjs-editor-url], an interactive playground where you can code and preview the results in real-time.
+
+# Examples
+
+Check the [demo folder](https://github.com/dolanmiu/docx/tree/master/demo) for examples.
+
+# Contributing
+
+Read the contribution guidelines [here](https://docx.js.org/#/contribution-guidelines).
+
+# Used by
+
+[<img src="https://i.imgur.com/zy5qWmI.png" alt="drawing" height="50"/>](https://hfour.com/)
+[<img src="https://i.imgur.com/OYP5tgS.png" alt="drawing" height="50"/>](https://fuzzproductions.com/)
+[<img src="https://i.imgur.com/zUDMfZ3.png" alt="drawing" height="50"/>](https://www.mettzer.com/)
+[<img src="https://i.imgur.com/wtNB1uq.png" alt="drawing" height="50"/>](https://www.wisedoc.net/)
+[<img src="https://i.imgur.com/suiH2zc.png" alt="drawing" height="50"/>](https://www.dabblewriter.com/)
+[<img src="https://i.imgur.com/1LjuK2M.png" alt="drawing" height="50"/>](https://turbopatent.com/)
+[<img src="https://i.imgur.com/dHMg0wF.gif" alt="drawing" height="50"/>](http://www.madisoncres.com/)
+[<img src="https://i.imgur.com/QEZXU5b.png" alt="drawing" height="50"/>](https://www.beekast.com/)
+[<img src="https://i.imgur.com/XVU6aoi.png" alt="drawing" height="50"/>](https://herraizsoto.com/)
+[<img src="https://i.imgur.com/fn1xccG.png" alt="drawing" height="50"/>](http://www.ativer.com.br/)
+[<img src="https://i.imgur.com/cmykN7c.png" alt="drawing"/>](https://www.arity.co/)
+[<img src="https://i.imgur.com/PXo25um.png" alt="drawing" height="50"/>](https://www.circadianrisk.com/)
+[<img src="https://i.imgur.com/AKGhtlh.png" alt="drawing"/>](https://lexense.com/)
+[<img src="https://i.imgur.com/9tqJaHw.png" alt="drawing" height="50"/>](https://novelpad.co/)
+[<img src="https://i.imgur.com/5bLKFeP.png" alt="drawing" height="50"/>](https://proton.me/)
+
+...and many more!
+
+---
+
+[![patreon][patreon-image]][patreon-url]
+[![browserstack][browserstack-image]][browserstack-url]
+
+Made with 💖
+
+[npm-image]: https://badge.fury.io/js/docx.svg
+[npm-url]: https://npmjs.org/package/docx
+[downloads-image]: https://img.shields.io/npm/dm/docx.svg
+[downloads-url]: https://npmjs.org/package/docx
+[github-actions-workflow-image]: https://github.com/dolanmiu/docx/actions/workflows/default.yml/badge.svg?branch=master
+[github-actions-workflow-url]: https://github.com/dolanmiu/docx/actions/workflows/default.yml
+[snky-image]: https://snyk.io/test/github/dolanmiu/docx/badge.svg
+[snky-url]: https://snyk.io/test/github/dolanmiu/docx
+[pr-image]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+[pr-url]: http://makeapullrequest.com
+[codecov-image]: https://codecov.io/gh/dolanmiu/docx/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/dolanmiu/docx
+[patreon-image]: https://user-images.githubusercontent.com/2917613/51251459-4e880480-1991-11e9-92bf-38b96675a9e2.png
+[patreon-url]: https://www.patreon.com/dolanmiu
+[browserstack-image]: https://user-images.githubusercontent.com/2917613/54233552-128e9d00-4505-11e9-88fb-025a4e04007c.png
+[browserstack-url]: https://www.browserstack.com
+[docxjs-editor-image]: https://img.shields.io/badge/Docx.js%20Editor-2b579a.svg?style=flat&amp;logo=javascript&amp;logoColor=white
+[docxjs-editor-url]: https://docxjs-editor.vercel.app/
