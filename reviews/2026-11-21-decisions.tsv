@@ -1,0 +1,4 @@
+key	en	ar
+lid.latchStyle.slider / lid.latchStyle.bolt – interface, release notes	Sliders vs Bolts (two different latch kinds on the Lid tool)\nStefan's Arabic used مزلاج for both, so «عرض المزلاج» could mean either.	منزلقات (منزلق) للـ Sliders، ومزاليج (مزلاج) للـ Bolts\nبدلًا من «مزالج» للاثنين. البديل: «مشابك منزلقة» للـ Sliders.
+shell.stackGrip* – interface	Grip recess (finger recess on a stackable box)\nWas «مقبض», which is already the Lid tool's Handle.	مسكة\nعرض المسكة، عمق المسكة، ارتفاع المسكة، المسكة على. البديل: «تجويف الإمساك».
+layerCheck.* / finding – interface, guide, release notes	Finding (a line in the Print analysis list)\nWas «ملاحظة», which is the Notes tool (note = ملاحظة in the glossary).	نتيجة / نتائج\n«انقر على نتيجة»، «النتيجة التالية»، «لا توجد نتائج». البديل: «مشكلة مكتشفة».
